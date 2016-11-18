@@ -10,4 +10,5 @@
 * [Initializing the CLI](initializing_the_cli.md)
 * [Build your Bot](build_your_bot.md)
    * [Deploy](deploy.md)
+   * Execute
 
