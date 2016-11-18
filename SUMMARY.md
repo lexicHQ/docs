@@ -8,4 +8,5 @@
    * [Windows](windows.md)
 * [Register](register.md)
 * [Initializing the CLI](initializing_the_cli.md)
+* Build your Bot
 
