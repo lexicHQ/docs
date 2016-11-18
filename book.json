@@ -1,22 +1,8 @@
 {
-  "plugins": ["theme-api"],
-
-   "pluginsConfig": {
-      "theme-api": {
-        "languages": [
-          {
-            "lang": "js",          
-            "name": "JavaScript",  
-            "default": true
-          },
-          {
-            "lang": "go",
-            "name": "Go"
+  "gitbook" : ">=3.0.0",
+  "links": {
+      "sidebar": {
+          "Recime": "https://recime.ai"
           }
-        ]
-      }
-  },
-  "links" : {
-      "home": "https://recime.ai"
   }
 }
