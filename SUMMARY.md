@@ -17,7 +17,7 @@
    * [Create the Bot](create_the_bot.md)
        * [Get Flickr API Key](get_flickr_api_key.md)
        * [Install Module](install_module.md)
-       * Bot Code
+       * [Bot Code](bot_code.md)
 * [Summary](summary.md)
 * [Resources](resources.md)
 
