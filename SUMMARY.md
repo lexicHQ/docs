@@ -14,5 +14,5 @@
        * [Command Line](command_line.md)
        * [POSTMAN](postman.md)
 * [Summary](summary.md)
-* Resources
+* [Resources](resources.md)
 
