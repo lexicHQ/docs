@@ -14,6 +14,7 @@
        * [Command Line](command_line.md)
        * [POSTMAN](postman.md)
 * [Facebook Bot](facebook_bot.md)
+   * Register
 * [Summary](summary.md)
 * [Resources](resources.md)
 
