@@ -15,7 +15,7 @@
        * [POSTMAN](postman.md)
 * [Facebook Bot](facebook_bot.md)
    * [Create the Bot](create_the_bot.md)
-       * Get Flickr API Key
+       * [Get Flickr API Key](get_flickr_api_key.md)
 * [Summary](summary.md)
 * [Resources](resources.md)
 
