@@ -4,6 +4,7 @@
 * [Understanding Recime](understanding_recime.md)
 * [Prerequisites](prerequisites.md)
 * [Prepping your system](prepping_your_system.md)
+   * [Windows](windows.md)
    * [macOS](macos.md)
        * [Windows](windows.md)
 * [Register](register.md)
