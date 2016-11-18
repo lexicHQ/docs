@@ -1,7 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
-* [Understanding Recime](understanding_recime.md)
+* [Understanding Recime](understanding_recime.md)1
 * [Prerequisites](prerequisites.md)
 * [Prepping your system](prepping_your_system.md)
     * [macOS](macos.md)
