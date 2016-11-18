@@ -19,7 +19,7 @@
        * [Install Module](install_module.md)
        * [Bot Code](bot_code.md)
    * [Deploy the Bot](deploy_the_bot.md)
-   * Create Facebook Page
+   * [Create Facebook Page](create_facebook_page.md)
 * [Summary](summary.md)
 * [Resources](resources.md)
 
