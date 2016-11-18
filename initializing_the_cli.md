@@ -8,7 +8,6 @@ Once you have created the Recime account, and installed Go and the CLI on your m
 This will prompt you to enter your verified email and password that you used to register at recime.ai with. It is important that once you create the Recime account, you follow the steps in email to verify your account. You will need it to publish and track the usage of your bot.
 
 ![](init-1a.png)
-
 Once the process is complete it will tell you that it was successful.
 
 ![](init-1b.png)
