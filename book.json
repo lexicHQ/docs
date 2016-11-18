@@ -1,4 +1,21 @@
 {
+  "plugins": ["theme-api"],
+
+   "pluginsConfig": {
+      "theme-api": {
+        "languages": [
+          {
+            "lang": "js",          
+            "name": "JavaScript",  
+            "default": true
+          },
+          {
+            "lang": "go",
+            "name": "Go"
+          }
+        ]
+      }
+  },
   "links" : {
       "home": "https://recime.ai"
   }
