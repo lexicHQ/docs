@@ -18,6 +18,7 @@
        * [Get Flickr API Key](get_flickr_api_key.md)
        * [Install Module](install_module.md)
        * [Bot Code](bot_code.md)
+   * Deploy the Bot
 * [Summary](summary.md)
 * [Resources](resources.md)
 
