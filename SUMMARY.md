@@ -16,7 +16,7 @@
 * [Facebook Bot](facebook_bot.md)
    * [Create the Bot](create_the_bot.md)
        * [Get Flickr API Key](get_flickr_api_key.md)
-       * Install Module
+       * [Install Module](install_module.md)
 * [Summary](summary.md)
 * [Resources](resources.md)
 
