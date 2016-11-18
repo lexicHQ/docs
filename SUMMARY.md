@@ -11,4 +11,5 @@
 * [Build your Bot](build_your_bot.md)
    * [Deploy](deploy.md)
    * [Execute](execute.md)
+       * Command Line
 
