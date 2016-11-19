@@ -1,6 +1,7 @@
 # Introduction
 
 First some basics. What does man mean?
+
 Typically building bots requires a developer to spin up their own Node server, wire up the corresponding SDKs, manually integrate NPL, fiddle with API access tokens, and then host it all somewhere by yourself. Recime (/ˈresəˌmē/) is a cloud based bot infrastructure backend and hosting platform for developers (BoTaaS). Recime handles all the plumbing a bot developer runs into and provides with its javascript framework all the required infrastructure necessary to build a rich bot with built-in natural language processing. It will save you hours of development hours.
 
 At Recime you can build bots with different functions, for instance a bot where you send it query text and based on that it gives you suggestions. An example is a transit bot where you can ask it when is the next train and it will return the list of stations, something you could implement on your company website.
