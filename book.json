@@ -1,8 +1,13 @@
 {
   "gitbook" : ">=3.0.0",
+
+  "plugins": ["styles-less"],
+  "styles": {
+        "website": "./styles/website.less"
+  },
   "links": {
       "sidebar": {
           "Recime": "https://recime.ai"
-          }
+      }
   }
 }
