@@ -1,6 +1,6 @@
 # Introduction
 
-After this tutorial you will have built your own working bot. You'll use Recime, a javascript framework and cloud based service, to build cross-platform bots. Recime bots are Node modules therefore it has the similar `npm` structure and it is possible to use existing npmjs.org modules out of the box.
+After this tutorial you will have built your own working bot. You'll use Recime, a javascript framework and cloud based service, to build cross-platform bots. Recime bots are Node modules therefore it has the similar `npm` structure and it is possible to use existing npmjs.org modules out of the box
 
 Typically building bots requires a developer to spin up their own Node server, wire up the corresponding SDKs, manually integrate NPL, fiddle with API access tokens, and then host it all somewhere by yourself. Recime (/ˈresəˌmē/) is a cloud based bot infrastructure backend and hosting platform for developers (BoTaaS). Recime handles all the plumbing a bot developer runs into and provides with its javascript framework all the required infrastructure necessary to build a rich bot with built-in natural language processing. It will save you hours of development hours.
 
