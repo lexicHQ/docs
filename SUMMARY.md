@@ -26,8 +26,8 @@
     * [Facebook App ID](facebook_app_id.md)
         * [Subscribe the bot to the page](subscribe-the-bot-to-the-page.md)
         * [Messenger App Example](messenger-app-example.md)
+* [Quick CalTrain Bot Example](quick-caltrain-bot-example.md)
 * [Prepping your System](prepping_your_system.md)
     * [macOS](macos.md)
     * [Windows](windows.md)
-* [Quick CalTrain Bot Example](quick-caltrain-bot-example.md)
 
