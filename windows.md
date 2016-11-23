@@ -1,4 +1,4 @@
-# Windows - Prepping your System
+# Prepping your System - Windows
 
 The `Recime Command Line Tool` is available for install via [Chocolatey](https://chocolatey.org/). Choco is the package manager for Windows. 
 
