@@ -1,4 +1,4 @@
-# macOS
+# macOS - Prepping your System
 Install [Homebrew](http://brew.sh/)  by pasting the below command at a Terminal prompt:
 
     /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"

@@ -4,8 +4,6 @@
     * [What is Recime](what-is-recime.md)
     * [Prerequisites](prerequisites.md)
     * [Prepping your system](prepping_your_system.md)
-        * [macOS](macos.md)
-        * [Windows](windows.md)
     * [Creating Account](register.md)
     * [Initializing the CLI](initializing_the_cli.md)
     * [Build your Bot](build_your_bot.md)
@@ -28,4 +26,6 @@
     * [Facebook App ID](facebook_app_id.md)
         * [Subscribe the bot to the page](subscribe-the-bot-to-the-page.md)
         * [Messenger App Example](messenger-app-example.md)
+* [macOS - Prepping your System](macos.md)
+* [Windows - Prepping your System](windows.md)
 
