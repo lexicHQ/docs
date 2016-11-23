@@ -32,7 +32,7 @@ The full source code of main.ts (a.k.a Bot Module) you can copy and paste this i
             }
         }
 
-        let url = util.format("https://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=%s&text=%s&page=1&format=json&nojsoncallback=1&sort=relevance", "4ff44e070eb0e76adef4744300a27a80", encodeURIComponent(text));
+        let url = util.format("https://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=%s&text=%s&page=1&format=json&nojsoncallback=1&sort=relevance", "Flickr API Key", encodeURIComponent(text));
 
         request.get(url, (error, response, body)=>{
             let photos = JSON.parse(body).photos;

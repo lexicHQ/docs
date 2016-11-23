@@ -24,7 +24,9 @@
     * [Bot Code](bot_code.md)
     * [Deploy the Bot](deploy_the_bot.md)
     * [Create Facebook Page](create_facebook_page.md)
-    * Bot Files
+    * [Facebook App ID](facebook_app_id.md)
+    * [Subscribe the Bot to the Page](subscribe-the-bot-to-the-page.md)
+    * [Messenger App Example](messenger-app-example.md)
 * [Quick CalTrain Bot Example](quick-caltrain-bot-example.md)
 * [Prepping your System](prepping_your_system.md)
     * [macOS](macos.md)
