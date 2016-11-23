@@ -30,6 +30,5 @@
 * [Quick CalTrain Bot Example](quick-caltrain-bot-example.md)
 * [Prepping your System](prepping_your_system.md)
     * [macOS](macos.md)
-        * [Code Editor](code-editor.md)
     * [Windows](windows.md)
 
