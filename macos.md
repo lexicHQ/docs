@@ -1,10 +1,8 @@
 # Prepping your System - macOS
 
-
-
 We won’t take a view of what code editor you use. Just make sure you have one like [Atom](https://atom.io/), [Visual Studio Code](https://code.visualstudio.com/) or [Sublime Text](https://www.sublimetext.com/3)and configure the editor to your liking
 
-### **Recime package**
+## **Recime package**
 
 Install [Homebrew](http://brew.sh/) by pasting the below command at a Terminal prompt: \(_this can take a few minutes_\) `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
 
