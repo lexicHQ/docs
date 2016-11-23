@@ -27,4 +27,5 @@
     * [Create Facebook Page](create_facebook_page.md)
     * [Facebook App ID](facebook_app_id.md)
         * [Subscribe the bot to the page](subscribe-the-bot-to-the-page.md)
+        * [Messenger App Example](messenger-app-example.md)
 
