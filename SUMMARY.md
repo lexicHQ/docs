@@ -26,6 +26,7 @@
     * [Facebook App ID](facebook_app_id.md)
         * [Subscribe the bot to the page](subscribe-the-bot-to-the-page.md)
         * [Messenger App Example](messenger-app-example.md)
-* [Prepping your System - macOS](macos.md)
-* [Prepping your System - Windows](windows.md)
+* [Prepping your System](prepping_your_system.md)
+    * [macOS](macos.md)
+    * [Windows](windows.md)
 
