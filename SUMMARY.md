@@ -29,4 +29,5 @@
 * [Prepping your System](prepping_your_system.md)
     * [macOS](macos.md)
     * [Windows](windows.md)
+* [Quick CalTrain Bot Example](quick-caltrain-bot-example.md)
 
