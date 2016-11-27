@@ -14,7 +14,7 @@
     * [Summary](sum.md)
     * [Resources](resources.md)
 * [Creating a Facebook Bot](facebook_bot.md)
-    * [Creating Account](register.md)
+    * [Creating Account](register-facebook.md)
     * [Prepping your System](prepping_system_facebook.md)
     * [Getting Started](getting-started.md)
     * [Initializing the CLI](initializing_the_cli.md)
