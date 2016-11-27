@@ -32,18 +32,20 @@
     {% if config.links.sidebar  %}
     {% for linkTitle, link in config.links.sidebar  %}
         {% set _divider = true %}
-        <li>
-
-            <a href="{{ link }}" target="_blank" class="custom-link">
-                <img src="logo.png" alt="logo"/>
-                <span>{{ linkTitle }}</span>
-            </a>
+        <li class="nav-header">
+           <a href="{{ link }}" target="_blank" class="custom-link">
+             <img src="assets/logo.png" alt="logo"/>
+             <span>{{ linkTitle }}</span>
+          </a>
+          <a href="{{link}}/login" target="_blank" class="login">
+            <img src="assets/icon-login.png" alt="login"/>
+          </a>
         </li>
     {% endfor %}
     {% endif %}
 
     {% if _divider %}
-    <li class="divider"></li>
+      <li class="divider"></li>
     {% endif %}
 
     {% for part in summary.parts %}
@@ -58,7 +60,7 @@
     <li class="divider"></li>
 
     <li>
-        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+        <a href="https://recime.ai" target="_blank" class="gitbook-link">
             {{ "GITBOOK_LINK"|t }}
         </a>
     </li>
