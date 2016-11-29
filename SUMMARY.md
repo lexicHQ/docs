@@ -27,5 +27,4 @@
    * [Subscribe the Bot to the Page](subscribe-the-bot-to-the-page.md)
    * [Messenger App Example](messenger-app-example.md)
 * [Natural Language Processing](natural-language-processing.md)
-* [Quick CalTrain Bot Example](quick-caltrain-bot-example.md)
 
