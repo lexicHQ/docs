@@ -29,4 +29,5 @@
 * [Natural Language Processing](natural-language-processing.md)
 * [Caltrain Bot Example](caltrain-bot-example.md)
 * [Prep your Apple System for Recime](prep-your-apple-system-for-recime.md)
+* [Prep your Windows System for Recime](prep-your-windows-system-for-recime.md)
 
