@@ -31,4 +31,5 @@
 * [Prepping your System](prepping_your_system.md)
     * [macOS](macos.md)
     * [Windows](windows.md)
+* [Natural Language Processing](natural-language-processing.md)
 
