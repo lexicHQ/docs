@@ -26,8 +26,8 @@
     * [Facebook App ID](facebook_app_id.md)
     * [Subscribe the Bot to the Page](subscribe-the-bot-to-the-page.md)
     * [Messenger App Example](messenger-app-example.md)
-* [Natural Language Processing](natural-language-processing.md)
+* [Natural Language Processing with Recime](natural-language-processing.md)
 * [Caltrain Bot Example](caltrain-bot-example.md)
-* [Prep your Windows System](prep-your-windows-system-for-recime.md)
-* [Prep your Apple System](prep-your-apple-system-for-recime.md)
+* [Prep your Windows System for Recime](prep-your-windows-system-for-recime.md)
+* [Prep your Apple System for Recime](prep-your-apple-system-for-recime.md)
 
