@@ -13,9 +13,9 @@ The `Recime Command Line Tool`, installed, and configured
 
 If you don’t have these yet, we made OS specific guides:
 
-For Apple OS systems, [Prep your Apple system for Recime](/macos.md)
+For Apple OS systems, [Prep your Apple system for Recime](/prep-your-apple-system-for-recime.md)
 
-For Windows OS systems, [Prep your Windows system for Recime](/windows.md)
+For Windows OS systems, [Prep your Windows system for Recime](/prep-your-windows-system-for-recime.md)
 
 
 
