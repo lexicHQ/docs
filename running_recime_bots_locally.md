@@ -71,7 +71,8 @@ Note, you can also run the bot using the command line by typing into a separate 
 ````
 curl -i -H "Accept: application/json" \
 -H "Content-Type: application/json" \
--X POST -d "{\"text\": \"INPUT TEXT\"}" \ http://localhost:4000/bot/0638989ba2e28fc83d000fdc7e80a92f \
+-X POST -d "{\"text\": \"INPUT TEXT\"}" \
+http://localhost:4000/bot/0638989ba2e28fc83d000fdc7e80a92 \
 -w "\r\n"
 
 ````
