@@ -13,6 +13,7 @@
        * [POSTMAN](postman.md)
    * [Summary](sum.md)
    * [Resources](resources.md)
+* [Running Recime Bots Locally](running_recime_bots_locally.md)
 * [Creating a Facebook Bot](facebook_bot.md)
    * [Creating Account](register-facebook.md)
    * [Prepping your System](prepping_system_facebook.md)
@@ -30,5 +31,4 @@
 * [Caltrain Bot Example](caltrain-bot-example.md)
 * [Prep your Windows System for Recime](prep-your-windows-system-for-recime.md)
 * [Prep your Apple System for Recime](prep-your-apple-system-for-recime.md)
-* [Running Recime Bots Locally](running_recime_bots_locally.md)
 
