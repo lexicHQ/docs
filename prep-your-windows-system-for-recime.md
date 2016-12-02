@@ -17,11 +17,17 @@ To install Chocolatey, please type the following command in PowerShell ISE v3+. 
 
 If it does, copy and paste the following command in the PowerShell ISE
 
-`iwr https://chocolatey.org/install.ps1 -UseBasicParsing | iex`
+```
+iwr https://chocolatey.org/install.ps1 -UseBasicParsing | iex
+
+```
 
 Then
 
-`choco install recime-cli -version 1.0.0`
+```
+choco install recime-cli -version 1.0.1
+
+```
 
 This will install all the dependencies, configure path and install the CLI accessible globally, check if all packages are installed.
 
