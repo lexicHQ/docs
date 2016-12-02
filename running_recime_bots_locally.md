@@ -5,22 +5,9 @@ While developing your bots, you will want to run your bot locally to test and de
 
 `recime-cli` comes with built-in capability for testing and debugging bots locally. In order to run bots locally from your bot folder type the following commands:
 
-
-First save your main.ts file and build the bot:
-
-
-```
-recime-cli build
-
-```
-
-Then run the bot locally:
-
-
 ```
 recime-cli run
 ```
-
 
 This will prepare a local node server, deploy give you a bot url to test:
 
@@ -77,3 +64,10 @@ http://localhost:4000/bot/0638989ba2e28fc83d000fdc7e80a92 \
 
 ````
 
+**File Watching**
+
+It is also possible to set watch flags that will re-compile and update the bot automatically every time you make any changes. You can enable file watch for you bot by typing the  following command:
+
+```
+recime-cli run -w
+```
