@@ -24,21 +24,29 @@ For the above JSON request, it will return “Hello Alan Turing”.
 
 The code to do this is simple. Replace the execute method with the following code in Main.ts which is in the project folder:
 
-    execute(cb:any){
-      let args = this.args;
-      let text:string = args.text;
+```
+  execute(cb:any){
+    let args = this.args;
+    let text:string = args.text;
 
+    if (text){
       if (text.indexOf("name") >= 0){
         cb({
             "text": "Error, please pass in ‘name’ parameter."
-        }); 
+        });
       }
       else{
         cb({
           text : util.format("Hello %s", text)
         });
       }
+    } else {
+      throw "Missing \"text\" property."
     }
+  }
+}
+
+```
 
 Save all of your files and celebrate the creation of your first bot! Now it is time to deploy it to the recime service. When you deploy, recime will also compile the TypeScript document into JavaScript `main.js`.
 
