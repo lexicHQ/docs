@@ -69,7 +69,10 @@ Before you execute, click on the params button to add the parameter (Stephen Cur
 Note, you can also run the bot using the command line by typing into a separate console window:
 
 ````
-curl -i -H "Accept: application/json" -H "Content-Type: application/json" -X POST -d "{\"text\": \"INPUT TEXT\"}" http://localhost:4000/bot/0638989ba2e28fc83d000fdc7e80a92f -w "\r\n"
+curl -i -H "Accept: application/json" \
+-H "Content-Type: application/json" \
+-X POST -d "{\"text\": \"INPUT TEXT\"}" \ http://localhost:4000/bot/0638989ba2e28fc83d000fdc7e80a92f \
+-w "\r\n"
 
 ````
 
