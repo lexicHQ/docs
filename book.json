@@ -13,6 +13,6 @@
         "sidebar": {
             "Recime": "https://recime.ai"
         }
-    },
-    "gitbook": ">=3.0.0"
+    }
+
 }
