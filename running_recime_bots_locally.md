@@ -1,4 +1,4 @@
-#Running Recime Bots Locally
+# Running Recime Bots Locally
 
 
 While developing your bots, you will want to run your bot locally to test and debug before you deploy your bot to the Recime cloud.
@@ -62,6 +62,8 @@ We will use POSTMAN to run our bot locally. Open POSTMAN and put in the local UR
 
 
 Before you execute, click on the params button to add the parameter (Stephen Curry). Click on the `x-www-form-urlencoded` option and add text as the key and “Stephen Curry” as the value. Then click on the Send button to send the request to the bot. The result should look like this:
+
+![](/assets/local-test-form.png)
 
 
 Note, you can also run the bot using the command line by typing into a separate console window:
