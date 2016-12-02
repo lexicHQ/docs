@@ -30,5 +30,5 @@
 * [Caltrain Bot Example](caltrain-bot-example.md)
 * [Prep your Windows System for Recime](prep-your-windows-system-for-recime.md)
 * [Prep your Apple System for Recime](prep-your-apple-system-for-recime.md)
-* Running Recime Bots Locally
+* [Running Recime Bots Locally](running_recime_bots_locally.md)
 
