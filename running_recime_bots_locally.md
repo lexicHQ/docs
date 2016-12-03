@@ -66,7 +66,7 @@ http://localhost:4000/bot/0638989ba2e28fc83d000fdc7e80a92 \
 
 **File Watching**
 
-It is also possible to set watch flags that will re-compile and update the bot automatically every time you make any changes. You can enable file watch for you bot by typing the  following command:
+It is also possible to set watch flags that will re-compile and update the bot automatically every time you make any changes. You can enable file watch for your bot by typing the  following command:
 
 ```
 recime-cli run -w
