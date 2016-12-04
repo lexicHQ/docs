@@ -1,4 +1,4 @@
-# Windows - Prepping your System
+# **Windows - Prepping your System**
 
 We won’t take a view of what code editor you use. Just make sure you have one like [Atom](https://atom.io/), [Visual Studio Code](https://code.visualstudio.com/) or [Sublime Text ](https://www.sublimetext.com/3)and configure the editor to your liking.
 
@@ -12,19 +12,27 @@ To install Chocolatey, please type the following command in PowerShell ISE v3+. 
 
 ![](/assets/image01.png)
 
+
 \(if not, go to “troubleshoot”\)
 
 If it does, copy and paste the following command in the PowerShell ISE
 
-`iwr https://chocolatey.org/install.ps1 -UseBasicParsing | iex`
+```
+iwr https://chocolatey.org/install.ps1 -UseBasicParsing | iex
+
+```
 
 Then
 
-`choco install recime-cli -version 1.0.1`
+```
+choco install recime-cli -version 1.0.1
+
+```
 
 This will install all the dependencies, configure path and install the CLI accessible globally, check if all packages are installed.
 
 ![](/assets/image00.png)
+
 
 Once installation is complete, type `recime-cli` to verify. Please do a `refreshenv` or restart the shell for changes to take effect and dependencies to initialize correctly.
 

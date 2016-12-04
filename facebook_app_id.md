@@ -3,7 +3,7 @@
 Login to your developer account (developers.facebook.com) and create a new Facebook App (click profile picture) of the category: **MESSENGER BOT**. 
 
 
-![](create-new-app.png)
+![](create-new-app.JPG)
 
 
 Scroll down on the App Dashboard to “Setup Webhooks”
@@ -17,15 +17,14 @@ The verify token (bot identifier) is the token you can get from the bot page on 
 
 ![](bot-detail.png)
 
-
-Select the subscription fields required for the bot:
+Select the first five subscription fields:
 
 ![](subscription-field.png)
 
 Click “Verify and Save”
 
 
-On the Facebook developers page you can now generate a token from Facebook to put in the Recime bot on the Recime.ai website as “Access Token” 
+On the Facebook developers page you can now generate a token from Facebook to put in the Recime bot on the [recime.ai](https://recime.ai) website as “Access Token” 
 
 ![](token-generation.png)
 

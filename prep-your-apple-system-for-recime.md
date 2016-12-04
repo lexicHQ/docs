@@ -1,4 +1,4 @@
-# macOS - Prepping your System
+# **macOS - Prepping your System**
 
 We won’t take a view of what code editor you use. Just make sure you have one like [Atom](https://atom.io/), [Visual Studio Code](https://code.visualstudio.com/) or [Sublime Text ](https://www.sublimetext.com/3)and configure the editor to your liking
 
@@ -30,6 +30,7 @@ Use "recime-cli [command] --help" for more information about a command.
 
 For any questions and feedback, please reach us at hello@recime.ai.
 bash-3.2$
+
 
 ```
 

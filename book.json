@@ -1,19 +1,18 @@
 {
-  "gitbook" : ">=3.0.0",
-
-  "plugins": ["styles-less", "custom-favicon"],
-
-  "pluginsConfig" : {
-       "favicon": "./assets/favicon.ico"
-  },
-   
-  "styles": {
+    "plugins": [
+        "styles-less",
+        "custom-favicon"
+    ],
+    "styles": {
         "website": "./styles/website.less"
-  },
+    },
+    "pluginsConfig": {
+        "favicon": "./assets/favicon.ico"
+    },
+    "links": {
+        "sidebar": {
+            "Recime": "https://recime.ai"
+        }
+    }
 
-  "links": {
-      "sidebar": {
-          "Recime": "https://recime.ai"
-      }
-  }
 }
