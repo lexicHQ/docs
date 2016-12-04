@@ -66,4 +66,4 @@ Full source code of the bot, created using [recime-cli](https://docs.recime.ai/p
 
 
 
-Here **Natural Language Processing** is enabled for the “text” property which is passed by user or parent container \(e.g. Facebook\) as JSON body and is being processed by **IBM Watson** \(Default NLP processor\) and then the result is passed in as “args” properties \(keywords and entities\) by Recime. Considering the scope of the post, it is only echoing back the processed as shown in the POSTMAN above.
+Here **Natural Language Processing** is enabled for the “text” property which is passed by user or parent container (e.g. Facebook) as JSON body and is being processed by **IBM Watson** (Default NLP processor) and then the result is passed in as “args” properties (keywords and entities) by Recime. Considering the scope of the post, it is only echoing back the processed as shown in the POSTMAN above.

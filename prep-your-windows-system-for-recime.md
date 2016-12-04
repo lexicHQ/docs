@@ -8,11 +8,11 @@ The Recime Command Line Tool is available for install via Chocolatey. Choco is t
 
 To install Chocolatey, please type the following command in PowerShell ISE v3+. To start Powershell ISE go to the Start Button, find, Type: “Powershell”, Right Click: **Windows PowerShell ISE, “execute as Administrator”**
 
-\(Ensure `**Get-ExecutionPolicy** gives RemoteSigned in return)`
+(Ensure `**Get-ExecutionPolicy** gives RemoteSigned in return)`
 
 ![](/assets/image01.png)
 
-\(if not, go to “troubleshoot”\)
+(if not, go to “troubleshoot”)
 
 If it does, copy and paste the following command in the PowerShell ISE
 
