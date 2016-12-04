@@ -14,7 +14,7 @@ The full source code of main.ts (a.k.a Bot Module) you can copy and paste this i
       }
 
       get extract(){
-        return "text";
+        return "message.text";
       }
 
       execute(cb:any){
@@ -32,7 +32,7 @@ The full source code of main.ts (a.k.a Bot Module) you can copy and paste this i
             }
         }
 
-        let url = util.format("https://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=%s&text=%s&page=1&format=json&nojsoncallback=1&sort=relevance", "Flickr API Key", encodeURIComponent(text));
+        let url = util.format("https://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=%s&text=%s&page=1&format=json&nojsoncallback=1&sort=relevance", "PASTE_YOUR_KEY_HERE", encodeURIComponent(text));
 
         request.get(url, (error, response, body)=>{
             let photos = JSON.parse(body).photos;
@@ -53,7 +53,7 @@ The full source code of main.ts (a.k.a Bot Module) you can copy and paste this i
               cb(result);
             } else {
               cb({
-                  text : util.format("Sorry could not find anything for \"%s\"", args.text)
+                  text : util.format("Sorry could not find anything for \"%s\"", args.message.text)
               });
             }
         });

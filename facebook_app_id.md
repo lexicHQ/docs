@@ -3,7 +3,7 @@
 Login to your developer account (developers.facebook.com) and create a new Facebook App (click profile picture) of the category: **MESSENGER BOT**. 
 
 
-![](create-new-app.png)
+![](create-new-app.JPG)
 
 
 Scroll down on the App Dashboard to “Setup Webhooks”
