@@ -4,10 +4,10 @@ With Recime you can build every bot you want, you only have to focus on the bot 
 
 Your bots that you will build are hosted on the Recime platform and are easy to integrate with Facebook, Slack, WeChat, Skype, etc. At a basic level, bots hosted on Recime platform accept and return JSON.
 
-For example fire up your favorite [command line tool](https://en.wikipedia.org/wiki/Command-line_interface) (or [POSTMAN](https://www.getpostman.com/)) and execute the following to see a sample CalTrain schedule bot:
+For example fire up your favorite [command line tool](https://en.wikipedia.org/wiki/Command-line_interface) \(or [POSTMAN](https://www.getpostman.com/)\) and execute the following to see a sample CalTrain schedule bot:
 
 ```
-curl -i -H "Accept: application/json" -H "Content-Type: application/json" -X POST -d "{\"message\": \"Show meo the schedule for Palo Alto\"}" -w "\r\n" https://recime.ai/bot/caltrain
+curl -i -H "Accept: application/json" -H "Content-Type: application/json" -X POST -d "{\"message\": \"Show meo the schedule for Palo Alto\"}" -w "\r\n" https://recime.io/bot/caltrain
 ```
 
 The results will look like this:
@@ -23,7 +23,7 @@ The return JSON will look like this:
 
 {"direction":"Northbound","schedule":[{"id":"155","type":"Local","arrivalTime":"0:21 min"},{"id":"257","type":"Limited","arrivalTime":"0:44 min"},{"id":"159","type":"Local","arrivalTime":"1:12 min"}]}
 
-]} 
+]}
 ```
 
 This was just a quick example, now go back to the Getting Started Guide to start building your own bot.
