@@ -8,7 +8,7 @@ In order to enable Natural Language Processing for your bot. Go to your bot page
 
 ![](/assets/bot-nlp.png)
 
-Now, go into flickr photo Facebook bot code [example](https://docs.recime.ai/bot_code.html), you will notice the following in the code:
+Now, go into flickr photo Facebook bot code [example](https://docs.recime.io/bot_code.html), you will notice the following in the code:
 
 ```
 get extract(){     
@@ -48,7 +48,7 @@ The extracted entities contain city information which is very important, if you 
 }
 ```
 
-Full source code of the bot, created using [recime-cli](https://docs.recime.ai/prepping_your_system.html):
+Full source code of the bot, created using [recime-cli](https://docs.recime.io/prepping_your_system.html):
 
 ```
 /// <reference path="node.d.ts" />
@@ -75,4 +75,3 @@ export class Bot {
 ```
 
 Here **Natural Language Processing** is enabled for the “text” property which is passed by user or parent container \(e.g. Facebook\) as JSON body and is being processed by **IBM Watson** \(Default NLP processor\) and then the result is passed in as “args” properties \(keywords and entities\) by Recime. Considering the scope of the post, it is only echoing back the processed as shown in the POSTMAN above.
-

@@ -25,7 +25,7 @@ This will build the bot, install any missing dependencies and give you the live 
     => https://recime.io/bot/50d122fd3204e67f3a6452ba28b522da                                  
 
     INFO: Bot publish successful.                                                                                                                                           
-    For any questions and feedback, please reach us at hello@recime.ai.                                                                                            
+    For any questions and feedback, please reach us at hello@recime.io.                                                                                            
     bash-3.2$  
 
 
