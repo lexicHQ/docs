@@ -16,7 +16,7 @@ base-3.2$ recime-cli
 Recime Command Line Interface
 Version 1.0.5
 Copyright 2016 Recime, Inc.
-https://recime.ai
+https://recime.io
 
 Usage:
   recime-cli [command]
@@ -35,4 +35,3 @@ bash-3.2$
 ```
 
 You can now build your bot on Recime!
-

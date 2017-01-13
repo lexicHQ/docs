@@ -24,10 +24,9 @@ Available Commands:
   install     Installs the dependencies
 Use "recime-cli [command] --help" for more information about a command.
 
-For any questions and feedback, please reach us at hello@recime.ai.
+For any questions and feedback, please reach us at hello@recime.io.
 bash-3.2$
 
 ```
 
 You can now build your bot on Recime!
-
