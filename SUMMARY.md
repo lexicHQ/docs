@@ -11,6 +11,7 @@
     * [Execute](execute.md)
         * [Command Line](command_line.md)
         * [POSTMAN](postman.md)
+    * [Configuration & Config Vars](config_vars.md)
     * [Summary](sum.md)
     * [Resources](resources.md)
 * [Running Recime Bots Locally](running_recime_bots_locally.md)
@@ -21,7 +22,7 @@
     * [Bot Files](bot-files.md)
     * [Get Flickr API Key](get_flickr_api_key.md)
     * [Install Request Module](install_module.md)
-    * [Bot Code](bot_code.md)
+    * [Bot Code](flickr_full_code.md)
     * [Deploy the Bot](deploy_the_bot.md)
     * [Create Facebook Page](create_facebook_page.md)
     * [Facebook App ID](facebook_app_id.md)
@@ -31,4 +32,3 @@
 * [Caltrain Bot Example](caltrain-bot-example.md)
 * [Prep your Windows System for Recime](prep-your-windows-system-for-recime.md)
 * [Prep your Apple System for Recime](prep-your-apple-system-for-recime.md)
-

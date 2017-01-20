@@ -2,6 +2,7 @@
 
 The full source code of main.ts (a.k.a Bot Module) you can copy and paste this in MAIN.TS:
 
+```
     /// <reference path="node.d.ts" />
     import util = require('util');
     import request = require('request');
@@ -32,7 +33,7 @@ The full source code of main.ts (a.k.a Bot Module) you can copy and paste this i
             }
         }
 
-        let url = util.format("https://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=%s&text=%s&page=1&format=json&nojsoncallback=1&sort=relevance", "PASTE_YOUR_KEY_HERE", encodeURIComponent(text));
+        let url = util.format("https://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=%s&text=%s&page=1&format=json&nojsoncallback=1&sort=relevance", process.env.API_KEY, encodeURIComponent(text));
 
         request.get(url, (error, response, body)=>{
             let photos = JSON.parse(body).photos;
@@ -60,8 +61,11 @@ The full source code of main.ts (a.k.a Bot Module) you can copy and paste this i
       }
     }
 
+```
 
-Don’t forget to change it to your own **Flickr API key**!
+Set your flickr `API_KEY` that you have copied earlier using CLI's `config:set`.
+
+Please checkout [Configuration and Config Vars](config_vars.md) for instructions.
 
 
 Save your **MAIN.TS**
