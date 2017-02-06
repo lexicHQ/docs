@@ -1,6 +1,6 @@
 # Natural Language Processing with IBM Watson
 
-IBM Watson provides Natural language process via its AlchemyAPI service. This is part of [IBM Bluemix](http://www.ibm.com/watson/alchemy-api.html). You can get a free account from here:
+[IBM Watson](https://www.ibm.com/watson/) provides Natural language process via its **AlchemyAPI** service. This is part of [IBM Bluemix](http://www.ibm.com/watson/alchemy-api.html). You can get a free account from here:
 
 [https://console.ng.bluemix.net/registration/](https://console.ng.bluemix.net/registration/)
 
