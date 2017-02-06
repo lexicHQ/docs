@@ -33,4 +33,5 @@
 * [Caltrain Bot Example](caltrain-bot-example.md)
 * [Prep your Windows System for Recime](prep-your-windows-system-for-recime.md)
 * [Prep your Apple System for Recime](prep-your-apple-system-for-recime.md)
+* [Natural Language Processing with IBM Watson](natural-language-processing-with-ibm-watson.md)
 

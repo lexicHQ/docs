@@ -56,13 +56,6 @@ get extract(){
 This tells Recime to extract entities from the “message.text” property (sent by Facebook). The extracted entities are available under **args.provider_name** (as mentioned in the “choose provider” dialog).  Therefore, in order to search a city in flickr from a given user expression, you need to add the following lines for API.AI specific processing:
 
 ```
-```
-
-Note that we have also included “person” action and a default fallback which can be configured easily in `API.AI` and left as an exercise for the reader.
-
-Happy bot building!
-
-````
 if (args.apiai){
     let result  = args.apiai.result;
 
@@ -80,8 +73,11 @@ if (args.apiai){
     }
 }
 
-````
+```
 
+Note that we have also included “person” action and a default fallback which can be configured easily in `API.AI` and left as an exercise for the reader.
+
+Happy bot building!
 
 
 
