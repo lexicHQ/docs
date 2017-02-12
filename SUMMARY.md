@@ -19,7 +19,7 @@
   * [Creating Account](register-facebook.md)
   * [Getting Started](getting-started.md)
   * [Prepping your System](prepping_system_facebook.md)
-  * [Bot Files](bot-files.md)
+  * [Creating the Bot Project](bot-files.md)
   * [Get Flickr API Key](get_flickr_api_key.md)
   * [Install Request Module](install_module.md)
   * [Bot Code](flickr_full_code.md)
@@ -33,4 +33,3 @@
 * [Caltrain Bot Example](caltrain-bot-example.md)
 * [Prep your Windows System for Recime](prep-your-windows-system-for-recime.md)
 * [Prep your Apple System for Recime](prep-your-apple-system-for-recime.md)
-

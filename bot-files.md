@@ -1,4 +1,4 @@
-# Bot Files
+# Creating the Bot Project
 
 After this we will run you through an interactive wizard that will scaffold the bot for you.
 
@@ -36,4 +36,3 @@ Next, cd to your bot folder and open **MAIN.TS** with your **favorite editor**:
 
 
 Before we continue to edit the MAIN.TS, we first need an API code from Flickr.
-
