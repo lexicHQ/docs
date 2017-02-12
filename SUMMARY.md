@@ -22,7 +22,7 @@
   * [Creating the Bot Project](bot-files.md)
   * [Get Flickr API Key](get_flickr_api_key.md)
   * [Install Request Module](install_module.md)
-  * [Bot Code](flickr_full_code.md)
+  * [Full Source Code](flickr_full_code.md)
   * [Deploy the Bot](deploy_the_bot.md)
   * [Create Facebook Page](create_facebook_page.md)
   * [Facebook App ID](facebook_app_id.md)

@@ -1,6 +1,6 @@
-# Bot Code
+# Full Source Code
 
-The full source code of main.ts (a.k.a Bot Module) you can copy and paste this in MAIN.TS:
+The full source code for the bot to copy/paste in your `main.ts`:
 
 ```
     /// <reference path="node.d.ts" />
