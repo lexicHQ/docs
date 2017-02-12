@@ -1,7 +1,11 @@
 # Build your Bot
 Once everything is setup, using the command line, type the following command to get started and it will automatically bootstrap the default template for you:
 
+```
+
 recime-cli create [folder]
+
+```
 
 This command will create the bot in the folder you’ve specified.  It can be “.” (Current directory) or name of the folder (e.g. HelloWorld) or absolute path “~/Source/Recime/HelloWorld”
 Note that if you leave the folder location blank, the command will create the folder in the folder you are currently in when typing :**recime-cli create**
