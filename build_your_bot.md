@@ -1,14 +1,10 @@
 # Build your Bot
+Once everything is setup, using the command line, type the following command to get started and it will automatically bootstrap the default template for you:
 
-Now it is time to create the bot! Your bot will be simple “echo” bot: it will take a JSON input text parameter and return it back to you. Other tutorials will show you more sophisticated bots using Natural Language Processing and incorporating other platforms such as Facebook, but this one is just to get acquainted with the system and procedures.
+recime-cli create [folder]
 
-We are going to edit the bot using `TypeScript`, which is automatically installed by `Recime Command Line Tool`
-
-`TypeScript` is a first-class citizen in Recime. TypeScript is a typed superset of JavaScript that compiles to plain JavaScript. In addition to the great features you like about JavaScript, TypeScript offers benefits of special interest to developers coming from Strongly Typed, or Object Oriented backgrounds. 
-
-However, it is possible to use other popular languages (e.g.`coffee-script`) which can be configured in `package.json`
-
-To get started, open the newly created folder in your favorite code editor. The folder should be located under users/botname on your machine depending on how you configured Go and where you typed **recime-cli create**. 
+This command will create the bot in the folder you’ve specified.  It can be “.” (Current directory) or name of the folder (e.g. HelloWorld) or absolute path “~/Source/Recime/HelloWorld”
+Note that if you leave the folder location blank, the command will create the folder in the folder you are currently in when typing :**recime-cli create**
 
 Once in, navigate to main.ts file in the newly created bot folder which is the entry-point for your bot. The simplest form of `main.ts` looks like:
 
@@ -20,7 +16,7 @@ Our bot’s input JSON looks like this:
         "text" : "Alan Turing"
     }
 
-For the above JSON request, it will return “Hello Alan Turing”. 
+For the above JSON request, it will return “Hello Alan Turing”.
 
 The code to do this is simple. Replace the execute method with the following code in Main.ts which is in the project folder:
 
@@ -49,6 +45,3 @@ The code to do this is simple. Replace the execute method with the following cod
 ```
 
 Save all of your files and celebrate the creation of your first bot! Now it is time to deploy it to the recime service. When you deploy, recime will also compile the TypeScript document into JavaScript `main.js`.
-
-
-
