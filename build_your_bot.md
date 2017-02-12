@@ -22,7 +22,7 @@ Our bot’s input JSON looks like this:
 
 For the above JSON request, it will return “Hello Alan Turing”.
 
-The code to do this is simple. Replace the execute method with the following code in Main.ts which is in the project folder:
+The code to do this is simple. Replace the `execute` function with the following code in `main.ts` which is in the project folder:
 
 ```
   execute(cb:any){
