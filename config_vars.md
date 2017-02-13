@@ -6,10 +6,10 @@ The traditional approach for handling such config vars is to put them under sour
 
 A better solution is to use environment variables, and keep the keys out of the code. On a traditional host or working locally you can set environment vars in your bashrc file. On Recime, you use config vars.
 
-Use Recime CLI’s  `config:set` to set your config variable for the bot:
+Use Recime CLI’s  `config set` to set your config variable for the bot:
 
 ```
-bash-3.2$ recime-cli config:set PIPEDRIVE_USERNAME=johnsmith
+bash-3.2$ recime-cli config set PIPEDRIVE_USERNAME=johnsmith
 
 INFO: Configuration Saved Successfully.
 
