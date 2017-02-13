@@ -1,4 +1,4 @@
-# Install Module
+# Install Module (Photo Bot Specific)
 
 We are using request module which you can install by typing the following command in terminal or command window:
 
@@ -14,5 +14,3 @@ If you want to know more, please checkout `https://docs.npmjs.com/cli/`install o
 The result metadata contains JSON to format the output. For details please check out the Facebook messenger platform documentation:
 
 https://developers.facebook.com/docs/messenger-platform/product-overview/conversation#send_messages
-
-
