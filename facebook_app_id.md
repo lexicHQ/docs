@@ -14,15 +14,6 @@ Go to your command prompt and from bot folder execute the following command to s
 
 ```
 bash-3.2$ recime-cli platform config facebook
-Page Access Token:
-EAAYJo5Mr248BADvIImuXuYRlZBvkzPuEUfjNmWRrYxufLfvlNckkLaHtGbGr4sJYWy4hGTlHA0NPhrTaXQZCate0
-Wu7JuP8XvRXfPZBHhpeII3jcPZCkU5mwZAb1W0eQTNjDvv1uJ489RdjLPnnBa5OZCLZBs0FzYuNSXuKYPZBMCpIwZDZ
-1
 
-INFO: Platform Configured Successfully.
-Please do "recime-cli deploy" for changes to take effect.
-
-For any questions and feedback, please reach us at hello@recime.io.
-
-bash-3.2$
 ```
+This will start the prompt for entering your `Page Access Token` required by facebook.
