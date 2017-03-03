@@ -1,4 +1,4 @@
-# Creating an Recime Account
+# Creating a Recime Account
 
 To start, you need to register for a Recime account at [http://developer.recime.io/register](http://developer.recime.io/register)
 
