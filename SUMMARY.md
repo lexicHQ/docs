@@ -31,6 +31,6 @@
   * [Messenger App Example](messenger-app-example.md)
 * [Natural Langauge Processing with API.AI on Recime](natural-langauge-processing-with-api.ai-on-recime.md)
 * [Natural Language Processing with IBM Watson](natural-language-processing-with-ibm-watson.md)
-* [Caltrain Bot Example](caltrain-bot-example.md)
+* [Recime Demo Bot](caltrain-bot-example.md)
 * [Prep your Windows System for Recime](prep-your-windows-system-for-recime.md)
 * [Prep your Apple System for Recime](prep-your-apple-system-for-recime.md)
