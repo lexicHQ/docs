@@ -12,7 +12,7 @@ base-3.2$ recime-cli
 Recime Command Line Interface
 Version 1.0.5
 Copyright 2016 Recime, Inc.
-https://recime.io
+https://developer.recime.io
 
 Usage:
   recime-cli [command]

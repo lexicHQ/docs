@@ -7,7 +7,7 @@ Your bots that you will build are hosted on the Recime platform and are easy to 
 Execute the following `curl` in your terminal app:
 
 ```
-curl -i -H "Accept: application/json" -H "Content-Type: application/json" -X POST -d "{\"message\": \"Show me the schedule for Palo Alto\"}" -w "\r\n" https://recime.io/bot/caltrain
+curl -i -H "Accept: application/json" -H "Content-Type: application/json" -X POST -d "{\"message\": \"Show me the schedule for Palo Alto\"}" -w "\r\n" https://developer.recime.io/bot/caltrain
 ```
 
 The results will look like this:

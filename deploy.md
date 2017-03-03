@@ -22,7 +22,7 @@ This will build the bot, install any missing dependencies and give you the live 
     28.18 KB / 28.18 KB [#########################################################] 100.00% 0s
     INFO: Finalizing.                                                                          
     \                                                                                          
-    => https://recime.io/bot/50d122fd3204e67f3a6452ba28b522da                                  
+    => https://developer.recime.io/bot/50d122fd3204e67f3a6452ba28b522da                                  
 
     INFO: Bot publish successful.                                                                                                                                           
     For any questions and feedback, please reach us at hello@recime.io.                                                                                            
