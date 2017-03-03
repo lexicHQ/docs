@@ -20,7 +20,7 @@ If it does, copy and paste the following command in the PowerShell ISE
 
 Then
 
-`choco install recime-cli -version 1.0.5`
+`choco install recime-cli -version 1.0.6`
 
 This will install all the dependencies, configure path and install the CLI accessible globally, check if all packages are installed.
 
