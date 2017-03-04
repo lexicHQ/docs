@@ -63,7 +63,7 @@ For installing chocolatey with Restricted TLS, please install:[https://chocolate
 Next, type the following command into Powershell ISE \(as Administrator\) to install recime-cli:
 
 ```
-choco install recime-cli
+choco install recime-cli 
 ```
 
 This will install all the dependencies, configure path and install the CLI accessible globally. Once installation is complete, type recime-cli to verify. Please do a refreshenv or restart the shell for changes to take effect and dependencies to initialize correctly.
