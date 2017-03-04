@@ -1,6 +1,6 @@
 # Debugging Facebook Bot
 
-Its often hard to push changes to facebook and debug your bot. Recime CLI provides built-in support for facebook debugging.
+Its often hard to push changes to facebook and debug your bot. Recime CLI (1.1.7+)provides built-in support for facebook debugging.
 
 In order to start your debug server while you are in your project folder, type the following command:
 
