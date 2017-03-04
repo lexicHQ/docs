@@ -1,6 +1,6 @@
 # Bot Analytics with Botimize.IO
 
-[botimize.io](https://botimize.io) lets you quickly monitor your bot intents and interactions. In order to get started, sign up with `botimize.io` and copy the API key from your project settings page.
+[botimize.io](http://botimize.io) lets you quickly monitor your bot intents and interactions. In order to get started, sign up with `botimize.io` and copy the API key from your project settings page.
 
 
 ![](botimize-dash.png)
