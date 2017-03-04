@@ -28,6 +28,7 @@
   * [Setup the Webook](setup_webhook.md)
   * [Subscribe the Bot to the Page](subscribe-the-bot-to-the-page.md)
   * [Messenger App Example](messenger-app-example.md)
+  * [Debugging Facebook Bot](debugging-facebook-bot.md)
 * [Natural Langauge Processing with API.AI on Recime](natural-langauge-processing-with-api.ai-on-recime.md)
 * [Natural Language Processing with IBM Watson](natural-language-processing-with-ibm-watson.md)
 * [Bot Analytics - Botimize.IO](bot-analytics-with-botimize.md)
