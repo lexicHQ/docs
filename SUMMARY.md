@@ -13,7 +13,7 @@
     * [POSTMAN](postman.md)
   * [Configuration & Config Vars](config_vars.md)
   * [Summary](sum.md)
-* [Running Recime Bots Locally](running_recime_bots_locally.md)
+* [Debugging](running_recime_bots_locally.md)
 * [Creating a Facebook Bot](facebook_bot.md)
   * [Creating Account](register-facebook.md)
   * [Getting Started](getting-started.md)

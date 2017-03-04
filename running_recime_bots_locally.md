@@ -1,4 +1,4 @@
-# Running Recime Bots Locally
+# Debugging
 
 
 While developing your bots, you will want to run your bot locally to test and debug before you deploy your bot to the Recime cloud.
