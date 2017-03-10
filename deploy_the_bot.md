@@ -20,6 +20,3 @@ INFO: Finalizing.
 INFO: Bot publish successful.                                                                                                                                           
 For any questions and feedback, please reach us at hello@recime.io                                                                                           
 ```
-
-
-

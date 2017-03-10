@@ -4,7 +4,7 @@ After this we will run you through an interactive wizard that will scaffold the 
 
 The `[create]` command will create the bot in the folder you’ve specified. It can be “.” (Current directory) or name of the folder (e.g. bot001) or absolute path “~/Source/Recime/bot001”
 
-Note that if you leave the folder location blank, the command will create the folder in the folder you are currently in when typing the command.It will start the interactive prompt to scaffold the bot asking you to provide:
+Note that if you leave the folder location blank, the command will create the folder in the folder you are currently in when typing the command. It will start the interactive prompt to scaffold the bot asking you to provide:
 
 > Your bot name
 

@@ -1,6 +1,6 @@
 # Full Source Code
 
-The full source code for the bot to copy/paste in your `main.ts`:
+Copy/paste the full source code below into your `main.ts`:
 
 ```
 import util = require('util');
@@ -82,7 +82,7 @@ export class Bot {
 
 ```
 
-Set your flickr `API_KEY` that you have copied earlier using CLI's `recime-cli config set KEY=VALUE`.
+Set your flickr `API_KEY` that you have copied earlier using CLI's `recime-cli config set KEY=AddYourFlickrKeyHere`.
 
 Please checkout [Configuration and Config Vars](config_vars.md) for instructions.
 
