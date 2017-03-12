@@ -11,6 +11,3 @@ The --save flag will have it in package.json under dependencies this will ensure
 
 If you want to know more, please checkout `https://docs.npmjs.com/cli/` on how to install and save modules using node package manager.
 
-The result metadata contains JSON to format the output. For details please check out the Facebook messenger platform documentation:
-
-https://developers.facebook.com/docs/messenger-platform/product-overview/conversation#send_messages
