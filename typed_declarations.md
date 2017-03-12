@@ -24,7 +24,7 @@ The --save flag will add the module reference in `package.json` under `dependenc
 If you want to know more, please checkout `https://docs.npmjs.com/cli/` on how to install and save modules using node package manager.
 
 
-For more on declaration files, please check it out here for further information:
+For more on declaration files, please check it out here:
 
 [https://www.typescriptlang.org/docs/handbook/declaration-files/consumption.html](https://www.typescriptlang.org/docs/handbook/declaration-files/consumption.html)
 
