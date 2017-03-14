@@ -13,7 +13,7 @@ recime-cli plugins add dashbot --apikey PASTE_YOUR_API_KEY_HERE
 
 ```
 
-This will enable the bot for tracking analytics with `dashbot` as users interacts with it.
+This will enable the bot for tracking analytics with `dashbot` as users interact with it.
 
 Once deployed, go to your `Dashbot` dashboard to check things like message count, top messages, sentiments, etc. that can help you optimize the bot for the right audience.
 
