@@ -15,7 +15,7 @@ Last login: Tue Nov  8 11:37:13 on ttys006
 base-3.2$ recime-cli
 Recime Command Line Interface
 Version 1.0.5
-Copyright 2016 Recime, Inc.
+Copyright 2017 Recime, Inc.
 https://developer.recime.io
 
 Usage:
