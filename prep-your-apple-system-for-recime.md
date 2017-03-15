@@ -1,11 +1,9 @@
 # **macOS - Prepping your System**
 
-Install [Homebrew](http://brew.sh/) by typing the following command:
+To install [Homebrew](http://brew.sh/) type the following command:
 
 ```
-
 `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
-
 ```
 
 Once completed, install the CLI from `recime/tools` tap:
@@ -15,7 +13,7 @@ brew tap recime/tools && brew install recime-cli
 
 ```
 
-This can take a few minutes, it will install all the dependencies, configure path and install the CLI accessible globally. Once installation is complete, type `recime-cli` to verify:
+This can take a few minutes, it will install all the dependencies and configure the `PATH`. Once installation is complete, type `recime-cli` to verify:
 
 ```
 Last login: Tue Nov  8 11:37:13 on ttys006
