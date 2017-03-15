@@ -1,12 +1,19 @@
 # **macOS - Prepping your System**
 
-We won’t take a view of what code editor you use. Just make sure you have one like [Atom](https://atom.io/), [Visual Studio Code](https://code.visualstudio.com/) or [Sublime Text ](https://www.sublimetext.com/3)and configure the editor to your liking
+Install [Homebrew](http://brew.sh/) by typing the following command:
 
-## **Recime package**
+```
 
-Install [Homebrew](http://brew.sh/) by pasting the below command at a Terminal prompt: (_this can take a few minutes_) `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
+`/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
 
-To install all the Go and Recime CLI, just run the following command, Homebrew takes care of the rest for you: `brew tap recime/tools && brew install recime-cli`
+```
+
+Once completed, install the CLI from `recime/tools` tap:
+
+```
+brew tap recime/tools && brew install recime-cli
+
+```
 
 This can take a few minutes, it will install all the dependencies, configure path and install the CLI accessible globally. Once installation is complete, type `recime-cli` to verify:
 
@@ -14,7 +21,7 @@ This can take a few minutes, it will install all the dependencies, configure pat
 Last login: Tue Nov  8 11:37:13 on ttys006
 base-3.2$ recime-cli
 Recime Command Line Interface
-Version 1.0.5
+Version 1.1.9
 Copyright 2017 Recime, Inc.
 https://developer.recime.io
 
@@ -34,4 +41,9 @@ bash-3.2$
 
 ```
 
-You can now build your bot on Recime!
+If you already have CLI installed previously, please do `brew upgrade recime-cli` to get the latest version:
+
+```
+brew tap recime/tools && brew upgrade recime-cli
+
+```
