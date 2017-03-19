@@ -12,10 +12,6 @@ That's it your bot is now ready to accept requests. You can add it to your Faceb
 
 ![](/assets/botpage.png)
 
-Please check out [Facebook Messenger Platform](https://developers.facebook.com/docs/messenger-platform) documentation for details on how to setup your app and constructing conversation object.
-
-
-Happy picture calling!!!
 
 
 

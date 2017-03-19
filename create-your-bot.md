@@ -1,4 +1,4 @@
-# Build your Bot
+# Create your Bot
 Once everything is setup, using the command line, type the following command to get started and it will automatically bootstrap the default template for you:
 
 ```
