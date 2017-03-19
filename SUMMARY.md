@@ -15,7 +15,7 @@
   * [TypeScript Declarations](typed_declarations.md)
   * [Debugging](running_recime_bots_locally.md)
   * [Summary](sum.md)
-* [Creating a Facebook Bot](facebook_bot.md)
+* [Creating a Facebook Bot](facebook-bot.md)
   * [Create Facebook Page](create_facebook_page.md)
   * [Setup Messenger Platform](setup-facebook-app.md)
   * [Creating your bot](creating-facebook-bot.md)
