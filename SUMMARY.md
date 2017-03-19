@@ -16,7 +16,7 @@
   * [Debugging](running_recime_bots_locally.md)
   * [Summary](sum.md)
 * [Creating a Facebook Bot](facebook-bot.md)
-  * [Create Facebook Page](create_facebook_page.md)
+  * [Create Facebook Page](create-facebook-page.md)
   * [Setup Facebook App](setup-facebook-app.md)
   * [Creating your bot](creating-facebook-bot.md)
   * [Setup the Webook](setup_webhook.md)
