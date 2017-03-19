@@ -17,7 +17,7 @@
   * [Summary](sum.md)
 * [Creating a Facebook Bot](facebook-bot.md)
   * [Create Facebook Page](create_facebook_page.md)
-  * [Setup Messenger Platform](setup-facebook-app.md)
+  * [Setup Facebook App](setup-facebook-app.md)
   * [Creating your bot](creating-facebook-bot.md)
   * [Setup the Webook](setup_webhook.md)
   * [Subscribe to the Page](subscribe-the-bot-to-the-page.md)  
