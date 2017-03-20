@@ -1,7 +1,6 @@
 #Supported Telegram Methods
 
-
-Recime supports the following telegram method apart from just sending text:
+Recime supports the following telegram methods (i.e. type) apart from just sending text:
 
 * message (https://core.telegram.org/bots/api#message)
 * photo (https://core.telegram.org/bots/api#photo)
@@ -22,11 +21,8 @@ For example this is how you can send photo to your telegram bot:
 {
 	"type": "photo",
 	"payload" : {
-	  "photo" : “photo_url”           
+	  "photo" : "photo_url"
 	}
 }
 
 ```
-
-
-
