@@ -7,7 +7,7 @@ Your bots that you will build are hosted on the Recime platform and are easy to 
 For example fire up your favorite [command line tool](https://en.wikipedia.org/wiki/Command-line_interface) \(or [POSTMAN](https://www.getpostman.com/)\) and execute the following to see a sample CalTrain schedule bot:
 
 ```
-curl -i -H "Accept: application/json" -H "Content-Type: application/json" -X POST -d "{\"text\": \"What is the train schedule for Palo Alto?\"}" -w "\r\n" https://bot.recime.io/bfe91172186fa6992ec0231ea4475d1b/v1
+curl -i -H "Accept: application/json" -H "Content-Type: application/json" -X POST -d "{\"text\": \"What is the train schedule for Palo Alto?\"}" -w "\r\n" https://us-west-1-bot.recime.io/bfe91172186fa6992ec0231ea4475d1b/v1
 ```
 
 This will give you a JSON response similar to this:
