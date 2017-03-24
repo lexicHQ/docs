@@ -1,7 +1,8 @@
 {
     "plugins": [
         "styles-less",
-        "custom-favicon"
+        "custom-favicon",
+        "expandable-chapters"
     ],
     "styles": {
         "website": "./styles/website.less"
