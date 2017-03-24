@@ -7,7 +7,7 @@ For Windows OS systems, [Prep your Windows system for Recime](/windows_install_r
 For MacOS systems, [Prep your Apple system for Recime](/macos_install_recime_cli.md)
 
 
-After this you will have everything to get started:
+After this you will have everything to get started: 
 
 > A Code editor such as [Atom](https://atom.io/) or [Visual Studio Code](http://code.visualstudio.com/)
 >

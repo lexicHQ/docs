@@ -3,7 +3,7 @@
 * [Getting Started with Recime](README.md)
   * [What is Recime](what-is-recime.md)
   * [Prerequisites](prerequisites.md)
-  * [Install Recime-CLI](install_recime_cli.md)
+  * [Install Recime-CLI](install_recime_cli.md) 
     * [Windows - Install Recime-CLI](windows_install_recime_cli.md)
     * [macOS - Install Recime-CLI](macos_install_recime_cli.md)
   * [Creating a Account](register.md)
