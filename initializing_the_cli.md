@@ -1,4 +1,6 @@
-# Login through Recime-CLI
+# Setup
+
+
 
 You can do so by executing the following command in the Terminal window:
 
@@ -18,6 +20,3 @@ For any questions and feedback, please reach us at hello@recime.io.
 
 bash-3.2$
 ```
-
-
-
