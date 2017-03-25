@@ -10,7 +10,7 @@ Recime CLI may also be compiled from source wherever the Go compiler tool chain 
 
 On macOS, if you have [Homebrew](https://brew.sh), installation is even easier: just run `brew tap recime-tools && brew install recime-cli`.
 
-On Windows , if you have [Choco](https://chocolatey.org), just run `choco install recime-cli`.
+On Windows, if you have [Choco](https://chocolatey.org), just run `choco install recime-cli`.
 
 For a more detailed explanation follow the corresponding installation guides:
 
