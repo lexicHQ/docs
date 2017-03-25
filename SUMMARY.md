@@ -36,7 +36,7 @@
   * [Live Debugging](telegram-live-debugging.md)
   * [Resources](telegram-resources.md)
 * [Platform Specific Bot](platform-specific-bot.md)
-* [Plugins](plugins.md)
+* [What are Recime Plugins](plugins.md)
   * [Natural Language Processing](natural_language_processing.md)
     * [API.AI](api-ai-nlp.md)
     * [IBM Watson](ibm-watson-nlp.md)
