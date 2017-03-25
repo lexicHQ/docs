@@ -5,10 +5,12 @@ Recime plugins are `npm` modules. You can use one of many from `npmjs.org` or us
 ## Natural Language Processing
 
 > [api.ai](api-ai-nlp.md)
+
 > [IBM Watson](ibm-watson-nlp.md)
 
 
 ## Analytics
 
 > [Dashbot](dashbot-analytics.md)
+
 > [IBM Watson](bot-analytics-with-botimize.md)
