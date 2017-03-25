@@ -7,7 +7,7 @@
     * [Installation on macOS](macos_install_recime_cli.md)
     * [Installation on Windows](windows_install_recime_cli.md)
   * [Creating a Account](register.md)
-  * [Login through Recime-CLI](initializing_the_cli.md)
+  * [Setup](initializing_the_cli.md)
   * [Create Your Bot Project](create-your-bot.md)
   * [Deploy Your Bot](deploy.md)
   * [Test Your Bot](test.md)
