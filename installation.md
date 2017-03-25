@@ -15,4 +15,5 @@ On Windows , if you have [Choco](https://chocolatey.org), just run `choco instal
 For a more detailed explanation follow the corresponding installation guides:
 
 [Installation on macOS](/macos_install_recime_cli.md)
+
 [Installation on Windows](/windows_install_recime_cli.md)
