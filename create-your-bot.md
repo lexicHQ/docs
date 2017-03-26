@@ -3,13 +3,15 @@
 Once everything is setup, using the command line, type the following command to get started and it will automatically bootstrap the default template for you:
 
 ```
-recime-cli create [folder]
+recime-cli create YOUR_PROJECT_NAME
 ```
 
 This command will create the bot in the folder you’ve specified.  It can be “.” \(Current directory\) or name of the folder \(e.g. HelloWorld\) or absolute path “~/Source/Recime/HelloWorld”  
 Note that if you leave the folder location blank, the command will create the folder in the folder you are currently in when typing :**recime-cli create**
 
-Once in, navigate to main.ts file in the newly created bot folder which is the entry-point for your bot. The simplest form of `main.ts` looks like:
+The cli will then ask you to give your bot project a title, short description, and MIT license.   
+
+Navigate to the main.ts file in the newly created bot folder. This is the entry-point for your bot. The simplest form of `main.ts` looks like:
 
 ![](build-1a.png)
 
@@ -63,4 +65,3 @@ Replace the `main.ts` with the following code snippet:
 ```
 
 Save all of your files and celebrate the creation of your first bot! Deploy it to the recime cloud.
-

@@ -16,7 +16,7 @@ export class Bot {
   constructor(args:Object){
     this.args = args;
   }
- 
+
 
   execute(cb:any){
     let args = this.args;
@@ -52,7 +52,6 @@ export class Bot {
 ```
 
 
-`args.postback` contains the payload data, here in this case it’s the `userID`. To know more on postback and webhook, we would recommend to checkout the following reference from `Facebook Messenger Platform` documentation:
+`args.postback` contains the payload data, here in this case it’s the `userID`. To know more on postback and webhook, we would recommend to checkout the following reference from the `Facebook Messenger Platform` documentation:
 
 https://developers.facebook.com/docs/messenger-platform/send-api-reference/postback-button
-

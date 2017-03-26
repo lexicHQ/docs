@@ -1,14 +1,14 @@
 # Creating your bot
 
 
-Once you have created a bot by following the steps [here](create-your-bot.md);Go to your `main.ts` file and paste the following code:
+Once you have created a bot by following the steps [here](create-your-bot.md). Go to your `main.ts` file and paste the following code:
 
 
 ```
 /// <reference path="node.d.ts" />
 
 import util = require('util');
-  
+
 export class Bot {
 
    private args: any;
@@ -39,7 +39,7 @@ export class Bot {
 
 ```
 
-Cofigure your bot by typing the following commmand:
+Configure your bot by typing the following command:
 
 
 ```
@@ -54,20 +54,18 @@ bash-3.2$ recime-cli platform config facebook
 Page access token:
 PASTE_YOUR_PAGE_ACCESS_TOKEN_HERE
 
-INFO: Platform Configured Successfully. 
+INFO: Platform Configured Successfully.
 Please do "recime-cli deploy" for changes to take effect.
 
 For any questions and feedback, please reach us at hello@recime.io.
 
-bash-3.2$ 
+bash-3.2$
 
 ```
 
 Deploy the bot by typing the following command:
 
 ```
-
-bash-3.2$ recime-cli deploy
+recime-cli deploy
 
 ```
-

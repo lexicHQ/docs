@@ -1,6 +1,6 @@
 # Setup Facebook App
 
-Login to your [facebook developer account](developers.facebook.com). Select “Add a new app” on the top right menu. From the "Create a New App ID" popup add your bot name and email. Under category select **APPS for MESSENGER**. Then click "Create App Id."
+Login to [developers.facebook.com](https://developers.facebook.com). Select “Add a new app” on the top right menu. From the "Create a New App ID" popup add your bot name and email. Under category select **APPS for MESSENGER**. Then click "Create App Id."
 
 ![](create-new-app.JPG)
 

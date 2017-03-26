@@ -1,6 +1,6 @@
 # What are Recime Plugins
 
-Recime plugins are `npm` modules. You can use one of many from `npmjs.org` or use the one verified by us. We support the following plugins out of the box for `Natural Language Processing` and `Analytics`.
+Recime plugins are `npm` modules. You can use one of many from [npmjs.org](npmjs.org) or use plugins verified by us. We currently support the following plugins.
 
 ## Natural Language Processing
 

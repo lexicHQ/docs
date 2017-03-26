@@ -1,6 +1,6 @@
 # Deploy Your Bot
 
-After you have saved your files, type  in the following command \(make sure your terminal/command line session is still in the project folder\): While you are in the project folder. Since recime-cli looks package.json to prepare your bot.
+After you have saved your files, type  in the following command \(make sure your terminal/command line session is still in the project folder\): While you are in the project folder. Since recime-cli looks for package.json to prepare your bot.
 
 ```
 recime-cli deploy
@@ -31,6 +31,4 @@ INFO: Bot publish successful.
 For any questions and feedback, please reach us at hello@recime.io.                                                                                            
 bash-3.2$  
 ```
-
-After you have successfully deployed the bot, it is time to execute it.
-
+Make sure to save your bot URL. After you have successfully deployed the bot, it is time to execute it.
