@@ -1,4 +1,4 @@
-# **macOS - Install Recime-CLI**
+# macOS Installation
 
 To install [Homebrew](http://brew.sh/) type the following command:
 
