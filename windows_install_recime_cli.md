@@ -1,6 +1,6 @@
 # Windows Installation
 
-`Recime Command Line Tool` is available for install via Chocolatey. Choco is the install package manager for Windows.
+`Recime Command Line Tool` is available for install via Chocolatey. `Choco` is the install package manager for Windows.
 
 To install Chocolatey, please type the following command in PowerShell ISE v3+. To start Powershell ISE go to the Start Button, find, Type: “Powershell”, Right Click: **Windows PowerShell ISE, “execute as Administrator”**
 
