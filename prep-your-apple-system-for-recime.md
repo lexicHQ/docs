@@ -1,4 +1,4 @@
-# **macOS - Prepping your System**
+# **macOS Installation**
 
 To install [Homebrew](http://brew.sh/) type the following command:
 
