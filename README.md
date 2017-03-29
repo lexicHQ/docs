@@ -6,8 +6,6 @@
 
 Building bots requires a developer to spin up their own server, wire up the corresponding SDKs, manually integrate NLP, fiddle with API access tokens, and then host it all somewhere, and that's just for one service, imagine you have your bot on multiple platforms. **Recime \(ˈresəˌmē\) is a cloud based bot infrastructure back-end and hosting platform for developers \(Bot-as-a-Service\). **Recime handles all the plumbing a bot developer runs into and provides with its JavaScript framework all the required infrastructure necessary to build a rich bot with built-in natural language processing saving you hundreds of development hours.
 
-If you have special request or questions, feel free to email us at: hello@recime.io
-
 ## What can you do with Recime?
 
 Bots built with Recime are cross-platform, scalable and easily manageable. Recime bots are serverless and future ready for an app-less world.
@@ -47,11 +45,11 @@ The Recime Cloud gives you full advantage of the range of structured and rich me
 
 We have a young, vibrant and engaged community and are here to help. You can find us on our [community slack channel](https://slackpass.io/recimecommunity) and on [twitter](https://twitter.com/GetRecime).
 
-## We’re here to help! {#were-here-to-help}
+## We're Here to Help!
 
 Need help? If you can’t find the answer you’re looking for in this documentation, get in touch with us by [email](mailto:hello@recime.io).
 
-## Improve this article
+## Improve this Article
 
 
 
