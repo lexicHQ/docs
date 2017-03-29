@@ -26,7 +26,7 @@ If you’re a business, you can use Recime to quickly add smart bots to the tool
 * Keep multiple stakeholders in the loop with team and resource monitoring giving you useful information to make key business decisions. 
 * Add bots to your customer success arsenal in order to automate common tasks freeing manpower and shortening time for your customer's business needs. 
 
-## Which messaging channels are supported? {#which-messaging-channels-are-supported}
+## Which Channels are Supported on Recime?
 
 Recime is committed to supporting the most channels on the market. Today, you can use Recime to build bots for:
 
