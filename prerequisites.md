@@ -9,8 +9,8 @@ In order to successfully build and publish bots using `Recime`, you should be co
 > A free Github account \(optional\)
 >
 > A free Recime account
->
-> Previous bot build experience \(recommended\)
+
+
 
 
 
