@@ -1,6 +1,6 @@
 # Prerequisites
 
-In order to successfully build and publish bots using `Recime`, you should be comfortable with the following:
+In order to build and publish bots using `Recime`, you should be comfortable with the following:
 
 > Basic Javascript Skills. Familiarity with NodeJS \(nodejs.org\) and NPM modules \([https://www.npmjs.com/](https://www.npmjs.com/)\) is a plus
 >
@@ -9,8 +9,6 @@ In order to successfully build and publish bots using `Recime`, you should be co
 > A free Github account \(optional\)
 >
 > A free Recime account
-
-
 
 
 
