@@ -1,10 +1,10 @@
-# 
+#
 
 # Welcome to Recime
 
 ## What is the Recime platform?
 
-Building bots requires a developer to spin up their own server, wire up the corresponding SDKs, manually integrate NLP, fiddle with API access tokens, and then host it all somewhere, and that's just for one service, imagine you have your bot on multiple platforms. **Recime \(ˈresəˌmē\) is a cloud based bot infrastructure back-end and hosting platform for developers \(Bot-as-a-Service\). **Recime handles all the plumbing a bot developer runs into and provides with its JavaScript framework all the required infrastructure necessary to build a rich bot with built-in natural language processing saving you hundreds of development hours.
+Building bots requires a developer to spin up their own server, wire up the corresponding SDKs, manually integrate NLP, fiddle with API access tokens, and then host it all somewhere, and that's just for one service, imagine you have your bot on multiple platforms. **Recime** \(ˈresəˌmē\) is a cloud based bot infrastructure back-end and hosting platform for developers \(Bot-as-a-Service\). **Recime** handles all the plumbing a bot developer runs into and provides with its JavaScript framework all the required infrastructure necessary to build a rich bot with built-in natural language processing saving you hundreds of development hours.
 
 ## What can you do with Recime?
 
@@ -16,15 +16,15 @@ If you’re building bot applications, you can use Recime to quickly create, bui
 
 * Bot application can go beyond singular channels without adding extra work. Instantly add support for all popular messaging and interaction channels using one code base.
 * Live debugging speeds up development time and feature introduction allowing you to release more quickly and service your clients more effectively
-* Leverage the most popular language in the world, ES6 \(latest update to JavaScript\) or TypeScript, to create your bot application allowing you to share and collaborate with developers worldwide. 
+* Leverage the most popular language in the world, ES6 \(latest update to JavaScript\) or TypeScript, to create your bot application allowing you to share and collaborate with developers worldwide.
 * Bot developers can focus on building bots without having to worry about managing scaling, servers and setup functionality
 
 If you’re a business, you can use Recime to quickly add smart bots to the tools you’re already using and enhance your customer's experience:
 
-* Engage customers in conversation and support across a variety of messaging channels without spending your team's time learning various intricacies of different platforms. 
+* Engage customers in conversation and support across a variety of messaging channels without spending your team's time learning various intricacies of different platforms.
 * Keep your client and business information safe and secured with AWS KMS \(Key Management Service\) for maximum security and end-to-end encryption providing you with a peace of mind and safety.
-* Keep multiple stakeholders in the loop with team and resource monitoring giving you useful information to make key business decisions. 
-* Add bots to your customer success arsenal in order to automate common tasks freeing manpower and shortening time for your customer's business needs. 
+* Keep multiple stakeholders in the loop with team and resource monitoring giving you useful information to make key business decisions.
+* Add bots to your customer success arsenal in order to automate common tasks freeing manpower and shortening time for your customer's business needs.
 
 ## Which Channels are Supported on Recime?
 
@@ -34,7 +34,7 @@ Recime is committed to supporting the most channels on the market. Today, you ca
 * Facebook Messenger
 * Slack
 * Telegram
-* Twilio 
+* Twilio
 * Twitter
 * WeChat \(coming soon\)
 * More Coming...
@@ -48,8 +48,3 @@ We have a young, vibrant and engaged community and are here to help. You can fin
 ## We're Here to Help!
 
 Need help? If you can’t find the answer you’re looking for in this documentation, get in touch with us by [email](mailto:hello@recime.io).
-
-## Improve this Article
-
-
-
