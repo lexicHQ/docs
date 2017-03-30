@@ -6,14 +6,14 @@ Once everything is setup, using the command line, type the following command to 
 recime-cli create YOUR_PROJECT_NAME --lang=typescript
 ```
 
-This command will create the bot in the folder you’ve specified.  It can be “.” \(Current directory\) or name of the folder \(e.g. HelloWorld\) or absolute path “~/Source/Recime/HelloWorld”  
-Note that if you leave the folder location blank, the command will create the folder in the folder you are currently in when typing :**recime-cli create**
-
 By default the CLI will create the bot using `es6 (the latest update to the Javascript language)`. However, you can choose ether `es6` or `typescript` as language options. The samples in this document are created using `typescript`. Therefore, we have set it as `typescript`
 
-__ES6 template is supported from 1.2.1+__
+__ES6 template is supported from 1.2.1+__   
 
-The cli will then ask you to give your bot project a title, short description, and MIT license.   
+This command will create the bot in the folder you’ve specified.  It can be “.” \(Current directory\) or name of the folder \(e.g. HelloWorld\) or absolute path “~/Source/Recime/HelloWorld”  
+Note that if you leave the folder location blank, the command will create the folder in the folder you are currently in when typing :**recime-cli create** 
+
+The cli will then ask you to give your bot project a title, short description, and MIT license.
 
 Navigate to the main.ts file in the newly created bot folder. This is the entry-point for your bot. The simplest form of `main.ts` looks like:
 
