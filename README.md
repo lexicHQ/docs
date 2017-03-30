@@ -1,5 +1,3 @@
-#
-
 # Welcome to Recime
 
 ## What is the Recime platform?

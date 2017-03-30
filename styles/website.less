@@ -8,21 +8,39 @@ body {
     }
   }
 
+  hr {
+    height: 1px !important;
+  }
+
   .improve-article-link {
     position: relative;
-    background-color: transparent;
+    background: none;
     text-decoration: none !important;
+    color: black;
     border: 5px;
     display: block;
-    max-width: 100%;
+    max-width: 300px;
     padding: 0.62em 1em 0.63em;
     text-align: center;
     -webkit-transition: background 0.2s, color 0.2s;
     transition: background 0.2s, color 0.2s;
     font-size: 20px !important;
     font-weight: 500;
-    font-family: Geomanist, sans-serif;
     line-height: 1.25;
+
+    &::after{
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      border-width: 2px;
+      border-style: solid;
+      border-color: #ddd;
+      -webkit-transition: 0.2s ease;
+      transition: 0.2s ease;
+    }
   }
 
   .book-summary{
