@@ -34,8 +34,8 @@ Recime is committed to supporting the most channels on the market. Today, you ca
 * Telegram
 * Twilio
 * Twitter
-* WeChat \(coming soon\)
-* More Coming...
+* WeChat 
+* Kik & More Coming...
 
 The Recime Cloud gives you full advantage of the range of structured and rich message types these channels have to offer, all via one easy-to-use and consistent API. When new features are released by channels, Recime stays up to date and helps you take advantage of the new functionality with little or no changes to your existing code.
 
@@ -46,3 +46,4 @@ We have a young, vibrant and engaged community and are here to help. You can fin
 ## We're Here to Help!
 
 Need help? If you can’t find the answer you’re looking for in this documentation, get in touch with us by [email](mailto:hello@recime.io).
+
