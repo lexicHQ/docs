@@ -36,10 +36,10 @@ Use "recime-cli [command] --help" for more information about a command.
 For any questions and feedback, please reach us at hello@recime.io.
 bash-3.2$
 
-
 ```
 
 If you already have CLI installed previously, please do `brew upgrade recime-cli` to get the latest version:
+
 
 ```
 brew tap recime/tools && brew upgrade recime-cli

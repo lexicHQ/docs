@@ -6,7 +6,12 @@ We won’t take a view of what code editor you use. Just make sure you have one 
 
 Install [Homebrew](http://brew.sh/) by pasting the below command at a Terminal prompt: \(_this can take a few minutes_\) `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
 
-To install all the Go and Recime CLI, just run the following command, Homebrew takes care of the rest for you: `brew tap recime/tools && brew install recime-cli`
+To install all the Go and Recime CLI, just run the following command, Homebrew takes care of the rest for you:
+
+```
+brew tap recime/tools && brew install recime-cli
+
+```
 
 This can take a few minutes, it will install all the dependencies, configure path and install the CLI accessible globally. Once installation is complete, type `recime-cli` to verify:
 
