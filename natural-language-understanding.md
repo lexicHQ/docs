@@ -14,7 +14,9 @@ We have tested and recommend the following Natural Language providers:
 
 In order to enable natural language processing using API.AI in Recime. Go to your `api.ai` console and copy the client access token:
 
-  ![](api-ai-client-access.png)
+
+  ![](console.png)
+
 
 For more information on how to obtain access token, please checkout the API.AI documentation here:
 
@@ -79,4 +81,4 @@ export class Bot {
 `api.ai` makes it really easy to define your entities and intents using their interactive console. As for example, we have defined the following intent for extracting city for a given user expression.
 
 
-![](/assets/api-ai-console.png)
+![](find_place.png)
