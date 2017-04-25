@@ -6,7 +6,6 @@ We have tested and recommend the following Natural Language providers:
   * [wit.ai](https://github.com/wit-ai/node-wit)
   * [IBM Watson](https://www.npmjs.com/package/watson-developer-cloud)
 
-
 ## Configuring `api.ai` with Recime
 
 [api.ai](https://api.ai/) is a natural language understanding platform that makes it easy for developers \(and non-developers\) to design and integrate intelligent and sophisticated conversational user interfaces into mobile apps, web applications, devices, and bots.
