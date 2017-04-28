@@ -26,7 +26,7 @@ Go to `dashbot.io` and  add a `facebook` bot  and copy the api key:
 Configure the api key as config var by typing the following command while inside your bot folder:
 
 ```
-recime-cli config set DASHBOT_APIKEY=PASTE_YOUR_API_KEY_HERE
+recime-cli config set DASHBOT_APIKEY=PASTE_YOUR_APIKEY_HERE
 
 ```
 
