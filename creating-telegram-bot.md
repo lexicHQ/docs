@@ -4,11 +4,6 @@
 Once you have created a bot by following the steps [here](create-your-bot.html). Go to your `main.ts` file and copy paste the following code:
 
 ```
-
-/// <reference path="node.d.ts" />
-
-import util = require('util')
-
 export class Bot {
 
   private args: any;
@@ -17,19 +12,20 @@ export class Bot {
     this.args = args;
   }
 
-  execute(cb:any){
+  execute(){
+  	let text = this.args.text;
 
-  	let text = this.args.message.text;
-
-  	if (text.match(/^\/start+/i)){
-  		cb({
-  			"text" : "Hi! I am a Recime Bot!"
-  		});
-  	} else {
-    	cb({
-    		"text" : this.args.message.text
-    	});
-	}
+    return new Promise((resolve)=>{
+      if (text.match(/^\/start+/i)){
+        resolve({
+          "text" : "Hi! I am a Recime Bot!"
+        });
+      } else {
+        resolve({
+          "text" : this.text
+        });
+      }
+    });
   }
 }
 

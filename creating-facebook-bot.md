@@ -5,10 +5,6 @@ Once you have created a bot by following the steps [here](create-your-bot.md). G
 
 
 ```
-/// <reference path="node.d.ts" />
-
-import util = require('util');
-
 export class Bot {
 
    private args: any;
@@ -17,24 +13,25 @@ export class Bot {
      this.args = args;
    }
 
-   execute(cb:any){
+   execute(){
      let args = this.args;
-     let text:string = args.message.text;
+     let text: string = args.text;
 
-     if (text){
-       if (text.indexOf("name") >= 0){
-         cb({
-             "text": "Hi! I am Alan Turing Bot."
-         });
+     return new Promise ((resolve)=>{
+       if (text){
+         if (text.indexOf("name") >= 0){
+           resolve({
+               "text": "Hi! I am Alan Turing Bot."
+           });
+         }
+         else{
+           resolve({
+             text : `Hello ${text}`
+           });
+         }
        }
-       else{
-         cb({
-           text : util.format("Hello %s", text)
-         });
-       }
-     }
+     });
    }
-
   }
 
 ```
