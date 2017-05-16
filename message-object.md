@@ -38,7 +38,7 @@ The common definition of a message object regardless of its underlying platform 
 
 **Definition of Properties**:
 
-* sender - Sender unique ID for user details for slack events.
+* sender - Unique sender ID.
 * text - User input text.
 * rawBody - Original payload for the message.
 * attachment - Links or image url.
