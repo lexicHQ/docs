@@ -11,7 +11,7 @@ By default the CLI will create the bot using `es6 (the latest update to the Java
 __ES6 template is supported from 1.2.1+__   
 
 This command will create the bot in the folder you’ve specified.  It can be “.” \(Current directory\) or name of the folder \(e.g. HelloWorld\) or absolute path “~/Source/Recime/HelloWorld”  
-Note that if you leave the folder location blank, the command will create the folder in the folder you are currently in when typing :**recime-cli create** 
+Note that if you leave the folder location blank, the command will create the folder in the folder you are currently in when typing :**recime-cli create**
 
 The cli will then ask you to give your bot project a title, short description, and MIT license.
 
@@ -45,24 +45,26 @@ Replace the `main.ts` with the following code snippet:
      this.args = args;
    }
 
-   execute(cb:any){
+   execute(){
      let args = this.args;
      let text:string = args.text;
 
-     if (text){
-       if (text.indexOf("name") >= 0){
-         cb({
-             "text": "Hi! I am Alan Turing Bot."
-         });
+     return new Promise((resolve, reject)=>{
+       if (text){
+         if (text.indexOf("name") >= 0){
+           resolve({
+               "text": "Hi! I am Alan Turing Bot."
+           });
+         }
+         else{
+           resolve({
+             text : util.format("Hello %s", text)
+           });
+         }
+       } else {
+         reject("Missing \"text\" property.");
        }
-       else{
-         cb({
-           text : util.format("Hello %s", text)
-         });
-       }
-     } else {
-       throw "Missing \"text\" property."
-     }
+     });
    }
 
   }

@@ -32,7 +32,7 @@
   * [Supported Telegram Methods](supported-telegram-methods.md)
   * [Live Debugging](telegram-live-debugging.md)
   * [Resources](telegram-resources.md)
-* [Platform Specific Bot](platform-specific-bot.md)
+* [Platform Flag](platform-flag.md)
 * [Key-value store](key-value-store.md)
 * [Natural Language Understanding](natural-language-understanding.md)
 * [Configuring Bot Analytics](bot-analytics.md)
