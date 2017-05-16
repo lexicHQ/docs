@@ -1,4 +1,4 @@
-# Testing your Bot
+# Test
 
 You can test your bot either running it locally or after deploying it. Please check out [Debugging](running_recime_bots_locally.md) section for information on how test and debug your bot locally.
 

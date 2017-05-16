@@ -1,4 +1,4 @@
-# Deploy Your Bot
+# Deploy
 
 After you have saved your files, type  in the following command \(make sure your terminal/command line session is still in the project folder\): While you are in the project folder. Since recime-cli looks for package.json to prepare your bot.
 
