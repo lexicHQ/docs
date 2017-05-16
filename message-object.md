@@ -28,7 +28,6 @@ An example JSON data for a `facebook` message is:
 From the bot itself, developers can access the message object properties via `args` in the following way:
 
 ```
-
 export class Bot {
     private args: any;
 
@@ -47,7 +46,6 @@ export class Bot {
         });
     }
 }
-
 ```
 
 The common definition of a message object regardless of its underlying platform is:

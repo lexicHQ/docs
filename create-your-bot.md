@@ -32,13 +32,7 @@ For the above POST request, it will return “Hello Alan Turing”.
 Replace the `main.ts` with the following code snippet:
 
 ```
-   /// <reference path="node.d.ts" />
-
-  import util = require('util');
-  import request = require('request');
-
   export class Bot {
-
    private args: any;
 
    constructor(args:Object){
@@ -58,7 +52,7 @@ Replace the `main.ts` with the following code snippet:
          }
          else{
            resolve({
-             text : util.format("Hello %s", text)
+             text : `Hello ${text}`
            });
          }
        } else {
