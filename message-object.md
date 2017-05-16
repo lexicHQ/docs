@@ -1,6 +1,6 @@
 # Message Object
 
-Regardless what platform you are targeting the bot for, the framework gives you a message object with same format (passed as `args` to your bot).
+Regardless what platform you are targeting the bot for, the framework gives you a message object with same format.
 
 An example JSON data for a `facebook` message is:
 
@@ -21,6 +21,31 @@ An example JSON data for a `facebook` message is:
         text: 'who are you?'
       }
   }
+}
+
+```
+
+From the bot itself, developers can access the message object properties via `args` in the following way:
+
+```
+
+export class Bot {
+    private args: any;
+
+    constructor(args){
+        this.args = args;
+    }
+
+    execute(){
+        let text = this.args.text;
+        let sender = this.args.sender;
+
+        return new Promise((resolve)=>{
+            resolve({
+                tex: `I am resolved for ${sender} with ${text}`   
+            });
+        });
+    }
 }
 
 ```
