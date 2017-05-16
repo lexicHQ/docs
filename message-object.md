@@ -1,6 +1,8 @@
 # Message Object
 
-Regardless what platform you are targeting the bot for, the framework provides you a common message object. An example JSON data for a `facebook` message is:
+Regardless what platform you are targeting the bot for, the framework gives you a message object with same format (passed as `args` to your bot).
+
+An example JSON data for a `facebook` message is:
 
 ```
 {
