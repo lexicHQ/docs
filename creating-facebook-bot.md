@@ -6,7 +6,6 @@ Once you have created a bot by following the steps [here](create-your-bot.md). G
 
 ```
 export class Bot {
-
    private args: any;
 
    constructor(args:Object){
