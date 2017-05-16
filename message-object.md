@@ -44,7 +44,7 @@ The common definition of a message object regardless of its underlying platform 
 * attachment - Links or image url.
 
 
-An example of an attachment object:
+An example of an attachment object (`facebook`):
 
 ```
 "attachment": {
