@@ -4,5 +4,5 @@ Once you have deployed the bot. Go to your command / terminal prompt and set up 
 
 ```
 curl -F url=PASTE_YOUR_BOT_URL https://api.telegram.org/botPASTE_YOUR_ACCESS_TOKEN_HERE/setWebhook
-{"ok":true,"result":true,"description":"Webhook was set"}
+
 ```

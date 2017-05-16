@@ -1,4 +1,7 @@
+@import "variables.less";
+
 body {
+  font-family: @font-family-sans;
 
   .markdown-section{
     pre {
@@ -15,14 +18,15 @@ body {
   .markdown-section {
     pre {
       color: darkslategray;
-      font-family: Menlo, Monaco, "Courier New", monospace;
       font-size: 1em !important;
       padding: 0rem;
       background-color: #eaeef3;
       margin-bottom: 1rem;
       padding: 1rem;
-      font-size: 1.8em;
+      font-size: 1.2em!important;
       background-color: #eaeef3;
+      width: 100%;
+      white-space: normal;
       // border-radius: 0px;
       // border: 1px solid #ccc;
     }
@@ -76,10 +80,11 @@ body {
               float: left;
             }
             span {
-              padding-left: 5px;
-              padding-top: 13px;
+              padding-left: 3px;
+              padding-top: 8px;
               float: left;
-              font-size: 17px;
+              font-size: 21px;
+              font-weight: bold;
               // text-transform: uppercase;
              }
             float: left;
@@ -106,11 +111,17 @@ body {
     }
   }
 
-  /* Expandable Chapters - JH */
+  .font-family-1 {
+      font-family: @font-family-sans!important;
+  }
+
+  .book-summary{
+    font-family: @font-family-sans!important;
+    font-size: 15px;
+  }
+    /* Expandable Chapters - JH */
   .book .book-summary .exc-trigger {
       top: 14px !important;
       font-size: .70em !important;
-    }
-
-
+  }
 }

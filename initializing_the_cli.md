@@ -4,9 +4,11 @@ Once you have created the `Recime` account, the next step is to prepare your CLI
 
 ```
 bash-3.2$ recime-cli login
-Email:hello@recime.ai
-Password:\
-INFO: User Verification Successful.
+
+Email:admin@recime.io
+Password:
+
+Logged in as: admin@recime.io
 
 For any questions and feedback, please reach us at hello@recime.io.
 
