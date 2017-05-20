@@ -2,7 +2,7 @@
 
 Bring the natural language provider of choice with Recime as `npm` package. We have tested and recommend the following Natural Language providers:
 
-  * [api.ai](https://api.ai)
+  * [api.ai](https://api.ai) [Recommended]
   * [wit.ai](https://github.com/wit-ai/node-wit)
   * [IBM Watson](https://www.npmjs.com/package/watson-developer-cloud)
 
