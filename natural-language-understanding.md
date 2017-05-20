@@ -1,6 +1,6 @@
 # Natural Language Understanding with Recime
 
-We have tested and recommend the following Natural Language providers:
+Bring the natural language provider of choice with Recime as `npm` package. We have tested and recommend the following Natural Language providers:
 
   * [api.ai](https://api.ai)
   * [wit.ai](https://github.com/wit-ai/node-wit)
@@ -51,12 +51,11 @@ export class Bot {
   }
 
   extract(): Promise<object>{
-      // facebook
-      let text = this.args.message.text;
+      let text = this.args.text;
 
       return new Promise((resolve, reject)=>{
             let options = {
-                  sessionId : this.args.sender.id
+                  sessionId : this.args.sender
             };
 
             let request = this.apiai.textRequest(text, options);
