@@ -6,4 +6,4 @@ Login to your slack account and go to your [apps](https://api.slack.com/apps) pa
 ![](create-slack-app.png)
 
 
-Specify name of the app and the development in the "Create an App" dialog as shown above.
+Specify name of the app and the development team in the "Create an App" dialog as shown above.
