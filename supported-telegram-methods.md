@@ -1,4 +1,4 @@
-#Supported Telegram Methods
+# Supported Methods
 
 Recime supports the following telegram methods (i.e. type) apart from just sending text:
 

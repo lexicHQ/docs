@@ -1,6 +1,6 @@
 #Deploy
 
-Go to "Basic Information". Take a note of the `Client ID` and `Client Secret`.
+Go to "Basic Information". Take a note of the `Client ID` and `Secret`.
 
 
 ![](slack-credentials.png)
@@ -13,7 +13,7 @@ recime-cli configure platform slack
 
 ```
 
-This will bring the interactive prompt for setting app ID and secret key. If you are using older CLI then you can enter those as config variables in the following way:
+This will start the interactive prompt for setting `Client ID` and `Secret`. If you are using older CLI then you can enter those as config variables in the following way:
 
 RECIME_SLACK_CLIENT_ID:
 
@@ -29,7 +29,7 @@ recime-cli config set RECIME_SLACK_CLIENT_SECRET=PASTE_YOUR_CLIENT_SECRET
 
 ```
 
-These are used by `Recime` framework to initiate OAuth flow on behalf of the user.
+These are used by `Recime` framework to initiate the `OAuth` flow on behalf of the user.
 
 
 Deploy the bot by typing the following command:

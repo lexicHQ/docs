@@ -1,6 +1,5 @@
 # Build
 
-
 Once you have created a bot by following the steps [here](create-your-bot.md). Go to your `main.ts` file and paste the following code:
 
 
