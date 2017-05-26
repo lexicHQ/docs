@@ -7,6 +7,8 @@ Key-value is exposed as `db` and can be accessed anywhere from your bot. In orde
 ```
 db.set("userId", {
     id : 1
+}).then((_)=>{
+    // TODO://
 });
 
 ```
