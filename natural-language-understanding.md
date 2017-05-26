@@ -39,18 +39,16 @@ recime-cli config set APIAI_KEY=PASTE_YOUR_ACCESS_TOKEN_HERE
 Once everything is set, you can extract entities from a given `text` input in the following way:
 
 ```
-import {APIAI} from 'apiai';
+import APIAI from 'apiai';
 
 export class Bot {
-  private args: any;
-  private apiai:any;
-
-  constructor(args: object){
+ 
+  constructor(args){
        this.args = args;
        this.apiai = new APIAI(process.env.APIAI_KEY);
   }
 
-  extract(): Promise<object>{
+  extract(){
       let text = this.args.text;
 
       return new Promise((resolve, reject)=>{

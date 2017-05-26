@@ -33,7 +33,7 @@ recime-cli config set DASHBOT_APIKEY=PASTE_YOUR_APIKEY_HERE
 Create `analytics.facebook.js` and paste the following code:
 
 ```
-import dashbot = require('dashbot');
+import dashbot from 'dashbot';
 
 export class Analytics {
     constructor(){

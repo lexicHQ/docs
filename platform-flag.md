@@ -7,7 +7,7 @@ Let’s take the example from flickr-sample-bot which you can clone from here:
 https://github.com/Recime/flickr-sample-bot
 
 
-While we share common logic, inside `main.facebook.ts`, we have the following code:
+While we share common logic, inside `main.facebook.js`, we have the following code:
 
 
 ```
@@ -54,7 +54,7 @@ export default class Bot {
 
 ```
 
-Similarly, inside `main.telegram.ts`, we have the following:
+Similarly, inside `main.telegram.js`, we have the following:
 
 
 ```
@@ -108,4 +108,4 @@ export default class Bot {
 
 Note that only the UI metadata part is different which is specific to underlying platform.
 
-By default, the convention is to fallback to `main.ts`. You can use platform modifier to separate the platform and UI specific logic for a **cleaner** code.
+By default, the convention is to fallback to `main.js`. You can use platform modifier to separate the platform and UI specific logic for a **cleaner** code.

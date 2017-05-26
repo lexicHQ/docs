@@ -1,20 +1,19 @@
 # Build
 
 
-Once you have created a bot by following the steps [here](create-your-bot.md). Go to your `main.ts` file and paste the following code:
+Once you have created a bot by following the steps [here](create-your-bot.md). Go to your `main.js` file and paste the following code:
 
 
 ```
 export class Bot {
-   private args: any;
-
-   constructor(args:Object){
+  
+   constructor(args){
      this.args = args;
    }
 
    execute(){
      let args = this.args;
-     let text: string = args.text;
+     let text = args.text;
 
      return new Promise ((resolve)=>{
        if (text){

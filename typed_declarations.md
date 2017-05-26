@@ -1,8 +1,8 @@
 # TypeScript Declarations
 
-When you are importing external modules like for the [flickr](flickr_full_code.md) example, we are importing `request` module. You will need the proper typescript declarations to build correctly.
+When you are importing external modules in `typescript`. You will need the proper `typescript` declarations to build the bot correctly.
 
-For our `flickr` example, you will have to install following defintions:
+The following installs `node` and `request` module definitations:
 
 **node:**
 

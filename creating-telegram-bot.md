@@ -1,13 +1,11 @@
 # Build
 
 
-Once you have created a bot by following the steps [here](create-your-bot.html). Go to your `main.ts` file and copy paste the following code:
+Once you have created a bot by following the steps [here](create-your-bot.html). Go to your `main.js` file and copy paste the following code:
 
 ```
 export class Bot {
-  private args: any;
-
-  constructor(args:Object){
+  constructor(args){
     this.args = args;
   }
 

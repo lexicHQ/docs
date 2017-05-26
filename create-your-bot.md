@@ -6,9 +6,7 @@ Once everything is setup, using the command line, type the following command to 
 recime-cli create YOUR_PROJECT_NAME --lang=typescript
 ```
 
-By default the CLI will create the bot using `es6 (the latest update to the Javascript language)`. However, you can choose ether `es6` or `typescript` as language options. The samples in this document are created using `typescript`. Therefore, we have set it as `typescript`
-
-__ES6 template is supported from 1.2.1+__   
+By default the CLI will create the bot using `es6 (the latest update to the Javascript language)`. However, you can choose ether `es6` or `typescript` as language options. The examples in this doc are done using **es6**.
 
 This command will create the bot in the folder you’ve specified.  It can be “.” \(Current directory\) or name of the folder \(e.g. HelloWorld\) or absolute path “~/Source/Recime/HelloWorld”  
 Note that if you leave the folder location blank, the command will create the folder in the folder you are currently in when typing :**recime-cli create**
@@ -29,19 +27,18 @@ Our bot’s input JSON looks like this:
 
 For the above POST request, it will return “Hello Alan Turing”.
 
-Replace the `main.ts` with the following code snippet:
+Replace the `main.js` with the following code snippet:
 
 ```
   export class Bot {
-   private args: any;
 
-   constructor(args:Object){
+   constructor(args){
      this.args = args;
    }
 
    execute(){
      let args = this.args;
-     let text:string = args.text;
+     let text = args.text;
 
      return new Promise((resolve, reject)=>{
        if (text){
@@ -60,7 +57,6 @@ Replace the `main.ts` with the following code snippet:
        }
      });
    }
-
   }
 ```
 
