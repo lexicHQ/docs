@@ -9,7 +9,7 @@ Go to "Basic Information". Take a note of the `Client ID` and `Secret`.
 From `recime-cli` type the folloiwng command (1.2.6+):
 
 ```
-recime-cli configure platform slack 
+recime-cli platform config slack 
 
 ```
 
