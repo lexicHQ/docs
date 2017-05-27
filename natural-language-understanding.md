@@ -42,13 +42,13 @@ Once everything is set, you can extract entities from a given `text` input in th
 import APIAI from 'apiai';
 
 export class Bot {
- 
+
   constructor(args){
        this.args = args;
        this.apiai = new APIAI(process.env.APIAI_KEY);
   }
 
-  extract(){
+  execute(){
       let text = this.args.text;
 
       return new Promise((resolve, reject)=>{
