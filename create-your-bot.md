@@ -32,7 +32,7 @@ Replace the `main.js` with the following code snippet:
 ```
   /*jshint esversion: 6 */
   
-  export class Bot {
+  export default class Bot {
 
    constructor(args){
      this.args = args;
