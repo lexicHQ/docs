@@ -5,10 +5,10 @@ You can test your bot either running it locally or after deploying it. Please ch
 Open up your command line terminal, make sure you are in the project folder and then use curl to execute the following command:
 
 ```
-curl -i -H "Accept: application/json" -H "Content-Type: application/json" -X POST -d "{\"text\": \"INPUT TEXT\"}" https://developer.recime.io/bot/TURING -w "\r\n"
+curl -i -H "Accept: application/json" -H "Content-Type: application/json" -X POST -d "{\"text\": \"INPUT TEXT\"}" URL -w "\r\n"
 ```
 
-Please replace the `INPUT TEXT` with `Alan Turing` and `https://developer.recime.io/bot/TURING` with the `UID` of the bot that you deployed.
+Please replace the `INPUT TEXT` with `Alan Turing` and `URL` with the bot endpoint that you have just deployed.
 
 The return JSON will be:
 
