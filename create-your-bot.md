@@ -30,6 +30,8 @@ For the above POST request, it will return “Hello Alan Turing”.
 Replace the `main.js` with the following code snippet:
 
 ```
+  /*jshint esversion: 6 */
+  
   export class Bot {
 
    constructor(args){

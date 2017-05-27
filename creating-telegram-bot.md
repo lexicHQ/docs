@@ -4,6 +4,8 @@
 Once you have created a bot by following the steps [here](create-your-bot.html). Go to your `main.js` file and copy paste the following code:
 
 ```
+/*jshint esversion: 6 */
+
 export class Bot {
   constructor(args){
     this.args = args;
