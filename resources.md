@@ -1,6 +1,7 @@
 # Resources
 
-Please checkout the pipedrive bot for more details on how to build a real-life bot with Recime.
+For more information checkout some these examples build using `Recime`:
+
 
 ### Pipedrive to Slack Connector Bot:
 [https://github.com/Recime/pipedrive-bot](https://github.com/Recime/pipedrive-bot).
