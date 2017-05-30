@@ -35,7 +35,7 @@ Create `analytics.facebook.js` and paste the following code:
 ```
 import dashbot from 'dashbot';
 
-export class Analytics {
+export default class Analytics {
     constructor(){
         this.logger = dashbot(process.env.DASHBOT_APIKEY).facebook;
     }
