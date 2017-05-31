@@ -34,9 +34,6 @@ This will be your input body:
 ```
 
 
-
-**Contribute:**
-
 If you would like to contribute, please fork it from here to get started:
 
 [https://github.com/Recime/caltrain-bot-sample.git](https://github.com/Recime/caltrain-bot-sample.git)
