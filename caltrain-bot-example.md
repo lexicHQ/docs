@@ -1,16 +1,12 @@
 # Recime Demo Bot
 
-With Recime you can build every bot you want, you only have to focus on the bot functionality, we will take care of the plumbing. For instance a simple Caltrain schedule bot to see the next departing Caltrain from a station near you.
-
-Your bots that you will build are hosted on the Recime platform and are easy to integrate with Facebook, Slack, WeChat, Skype, etc. At a basic level, bots hosted on Recime platform accept and return JSON.
-
-For example fire up your favorite [command line tool](https://en.wikipedia.org/wiki/Command-line_interface) \(or [POSTMAN](https://www.getpostman.com/)\) and execute the following to see a sample CalTrain schedule bot:
+The following `caltrain` bot pulls real-time schedule for a given station. Paste the following in your `macOS` terminal to get the latest schedule for `Palo Alto` station.
 
 ```
 curl -i -H "Accept: application/json" -H "Content-Type: application/json" -X POST -d "{\"text\": \"What is the train schedule for Palo Alto?\"}" -w "\r\n" https://us-west-1-bot.recime.io/bfe91172186fa6992ec0231ea4475d1b/v1
 ```
 
-This will give you a JSON response similar to this:
+**Response:**
 
 ```
 {"station":"Palo Alto","trains":[
@@ -21,6 +17,22 @@ This will give you a JSON response similar to this:
 
 ]}
 ```
+
+Alternatively, you can use tools like `POSTMAN` and make `POST` request to the following endpoint:
+
+```
+https://us-west-1-bot.recime.io/bfe91172186fa6992ec0231ea4475d1b/v1
+```
+
+This will be your input body:
+
+```
+{
+  "text" : "What is the train schedule for Palo Alto?"
+}
+
+```
+
 
 If you would like to contribute, please fork it from here to get started:
 

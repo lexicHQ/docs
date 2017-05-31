@@ -7,8 +7,8 @@ Once you have created a bot by following the steps [here](create-your-bot.md). G
 ```
 /*jshint esversion: 6 */
 
-export default class Bot {
-  
+export class Bot {
+
    constructor(args){
      this.args = args;
    }

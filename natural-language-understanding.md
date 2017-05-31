@@ -43,7 +43,7 @@ Once everything is set, you can extract entities from a given `text` input in th
 
 import APIAI from 'apiai';
 
-export default class Bot {
+export class Bot {
 
   constructor(args){
        this.args = args;

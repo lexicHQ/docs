@@ -31,8 +31,8 @@ Replace the `main.js` with the following code snippet:
 
 ```
   /*jshint esversion: 6 */
-  
-  export default class Bot {
+
+  export class Bot {
 
    constructor(args){
      this.args = args;
