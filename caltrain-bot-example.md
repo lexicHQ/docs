@@ -1,6 +1,6 @@
 # Recime Demo Bot
 
-The following `caltrain` bot pulls real-time schedule for a given station. Paste the following in your `macOS` terminal to get the latest schedule for `Palo Alto` station.
+The following `caltrain` bot pulls real-time schedule for a given station. Paste the following in your `macOS` terminal to get the latest schedule for `Palo Alto` station:
 
 ```
 curl -i -H "Accept: application/json" -H "Content-Type: application/json" -X POST -d "{\"text\": \"What is the train schedule for Palo Alto?\"}" -w "\r\n" https://us-west-1-bot.recime.io/bfe91172186fa6992ec0231ea4475d1b/v1
@@ -35,6 +35,7 @@ This will be your input body:
 
 
 
+**Source:**
 
 If you would like to contribute, please fork it from here to get started:
 
