@@ -18,7 +18,7 @@ curl -i -H "Accept: application/json" -H "Content-Type: application/json" -X POS
 ]}
 ```
 
-Alternatively, you can use tools like `POSTMAN` and make `POST` request to the following endpoint:
+Alternatively, you can use tools like [POSTMAN](https://www.getpostman.com/) and make `POST` request to the following endpoint:
 
 ```
 https://us-west-1-bot.recime.io/bfe91172186fa6992ec0231ea4475d1b/v1
@@ -32,6 +32,8 @@ This will be your input body:
 }
 
 ```
+
+
 
 
 If you would like to contribute, please fork it from here to get started:
