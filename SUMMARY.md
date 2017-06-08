@@ -25,6 +25,7 @@
   * [Run your Bot](run-your-facebook-bot.md)
   * [Live Debugging](live-debugging-facebook-bot.md)
   * [Handling Facebook Wehbook](handling-facebook-webhook.md)
+  * [Getting Started Button](facebook-getting-started-button.md)
   * [Resources](facebook-resources.md)
 * [Slack Bot](create-slack-bot.md)
   * [Create Slack App](create-slack-app.md)

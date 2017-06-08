@@ -8,8 +8,6 @@ Put in the bot URL from the command prompt in the Webhook callback URL.
 
 ![](edit-webhook-1.png)
 
-Select five categories (messages, messaging_postbacks, messaging_optins, message_deliveries, message_reads). Then visit your [Recime dashboard](https://developer.recime.io/account), click on your bot and copy/paste the `verify token` from your bot into the Facebook Verify Token.
+Select five categories (messages, messaging_postbacks, messaging_optins, message_deliveries, message_reads). From [Recime dashboard](https://console.recime.io) copy/paste the `identifier` into the **Facebook Verify Token** textbox.
 
-![](dashtoken.png)
-
-Click "Verify and Save"
+![](app-dashboard.png)
