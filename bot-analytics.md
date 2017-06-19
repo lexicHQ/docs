@@ -6,8 +6,6 @@ We have tested the following bot analytics with `recime`.
 
   * [dashbot.io](https://www.dashbot.io/)
   * [BotAnalytics](https://botanalytics.co)
-  * [Botimize](http://www.botimize.io)
-
 
 ## Configuring `dashbot.io` with Recime
 
@@ -26,7 +24,7 @@ Go to `dashbot.io` and  add a `facebook` bot  and copy the api key:
 Configure the api key as config var by typing the following command while inside your bot folder:
 
 ```
-recime-cli config set DASHBOT_APIKEY=PASTE_YOUR_APIKEY_HERE
+recime-cli config set DASHBOT_API_KEY=PASTE_YOUR_APIKEY_HERE
 
 ```
 
@@ -37,7 +35,7 @@ import dashbot from 'dashbot';
 
 export default class Analytics {
     constructor(){
-        this.logger = dashbot(process.env.DASHBOT_APIKEY).facebook;
+        this.logger = dashbot(process.env.DASHBOT_API_KEY).facebook;
     }
 
     incoming(body){
