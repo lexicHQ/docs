@@ -2,7 +2,7 @@
 
 Regardless what platform you are targeting the bot for, the framework gives you a message object with same format.
 
-An example JSON data for a `facebook` message is:
+An example JSON data for a `facebook` message:
 
 ```
 {
@@ -28,7 +28,7 @@ An example JSON data for a `facebook` message is:
 From the bot itself, developers can access the message object properties via `args` in the following way:
 
 ```
-export class Bot {
+export default class Bot {
     private args: any;
 
     constructor(args){
