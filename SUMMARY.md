@@ -26,6 +26,7 @@
   * [Live Debugging](live-debugging-facebook-bot.md)
   * [Handling Facebook Wehbook](handling-facebook-webhook.md)
   * [Getting Started Button](facebook-getting-started-button.md)
+  * [Persistent Menu](facebook-persistent-menu.md)
   * [Resources](facebook-resources.md)
 * [Slack Configuration](create-slack-bot.md)
   * [Create Slack App](create-slack-app.md)
