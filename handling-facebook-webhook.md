@@ -16,11 +16,8 @@ export class Bot {
   }
 
   execute(){
-    let args = this.args;
-    let postback = args.rawBody.postback;
-
     return new Promise((resolve, reject)=>{
-        if (postback){
+        if (this.args.event){
           resolve({
             "text" : "We have received your request."
           });

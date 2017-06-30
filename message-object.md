@@ -55,8 +55,8 @@ The common definition of a message object regardless of its underlying platform 
   timestamp : "number",
   sender : "object"
   text : "string"
-  rawBody : "object"
-  attachment: "object"
+  rawBody : "object",
+  event : "object"
 }
 
 ```
@@ -66,18 +66,30 @@ The common definition of a message object regardless of its underlying platform 
 * sender - Unique sender ID.
 * text - User input text.
 * rawBody - Original payload for the message.
-* attachment - Links or image url.
+* event - Contains user event like button click.
 
 
-An example of an attachment object (`facebook`):
+For the following `facebook` button click:
+
+``
+    ...
+    
+    "buttons":[
+      {
+        "type":"postback",
+        "title":"Bookmark Item",
+        "payload":"menu"
+      }
+    ]
+    
+    ...
 
 ```
-"attachment": {
-   "type": "image",
-   "payload": {
-     "url": "https://petersapparel.parseapp.com/img/shirt.png",
-     "is_reusable": true
-   }
- }
+
+The following will be `true`:
 
 ```
+this.args.event === "menu"
+
+```
+  
