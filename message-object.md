@@ -71,25 +71,25 @@ The common definition of a message object regardless of its underlying platform 
 
 For the following `facebook` button click:
 
-``
-    ...
-    
-    "buttons":[
-      {
-        "type":"postback",
-        "title":"Bookmark Item",
-        "payload":"menu"
-      }
-    ]
-    
-    ...
+```
+...
+
+"buttons":[
+    {
+    "type":"postback",
+    "title":"Bookmark Item",
+    "payload":"menu"
+    }
+]
+
+...
 
 ```
 
 The following will be `true`:
 
 ```
-this.args.event === "menu"
+this.args.event.name === "menu"
 
 ```
   
