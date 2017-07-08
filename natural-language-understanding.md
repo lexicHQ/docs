@@ -32,7 +32,7 @@ Set the client access token (copied earlier) as a config var:
 
 
 ```
-recime-cli config set SYSTEM_RECIME_APIAI_CLIENT_KEY=PASTE_YOUR_ACCESS_TOKEN_HERE
+recime-cli config set APIAI_CLIENT_KEY=PASTE_YOUR_ACCESS_TOKEN_HERE
 
 ```
 
@@ -47,7 +47,7 @@ export default class Bot {
 
   constructor(args){
        this.args = args;
-       this.apiai = new APIAI(process.env.SYSTEM_RECIME_APIAI_CLIENT_KEY);
+       this.apiai = new APIAI(process.env.APIAI_CLIENT_KEY);
   }
 
   execute(){
