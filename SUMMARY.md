@@ -2,10 +2,8 @@
 
 * [Prerequisites](prerequisites.md)
 * [Installation](installation.md)
-  * [macOS Installation](macos_install_recime_cli.md)
-  * [Windows Installation](windows_install_recime_cli.md)
 * [Registration](register.md)
-* [Prepartion](preparation.md)
+* [Preparation](preparation.md)
 * [Build](create-your-bot.md)
 * [Deploy](deploy.md)
 * [Test](test.md)
