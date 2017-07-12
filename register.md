@@ -1,7 +1,7 @@
-# Creating a Recime Account
+# Registration
 
 To start, you need to register for a Recime account at [https://console.recime.io/sign-up](https://console.recime.io/sign-up)
 
-After you completed the sign up process, you will sent a verification email to confirm your account.
+After you have completed the sign up process, you will be sent a verification email to confirm your account or in case your doing social login, it will directly take you to the dashboard for next steps.
 
-![](/assets/register.png)
+![](register.png)
