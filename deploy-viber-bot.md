@@ -3,7 +3,7 @@
 Go to your terminal and type the following command:
 
 ```
-recime-cli config platform viber
+recime-cli platform config viber
 
 ```
 
