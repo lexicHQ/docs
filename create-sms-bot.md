@@ -1,4 +1,4 @@
-# SMS Configuration
+# SMS (Twilio) Bot
 
 This tutorial will walk you through the process of configuring your bot for SMS using [Twilio](https://www.twilio.com/)
 

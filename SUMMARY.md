@@ -1,6 +1,5 @@
 # Summary
 
-* [Prerequisites](prerequisites.md)
 * [Installation](installation.md)
 * [Registration](register.md)
 * [Preparation](preparation.md)

@@ -1,4 +1,4 @@
-# Slack Configuration
+# Slack Bot
 
 This section will walk you through the steps to publish your Recime bot in Slack.
 
