@@ -10,7 +10,7 @@
         "website": "./styles/website.less"
     },
     "pluginsConfig": {
-        "favicon": "./assets/recimefavicon.ico",
+        "favicon": "favicon.ico",
         "ga": {
             "token": "UA-91675632-2"},
         "sitemap": {

@@ -28,3 +28,4 @@ export default class Bot {
 
 ```
 
+In order, return `keyboard` or `button`, please check out [Message Construction](message-construction.md) for further detail.

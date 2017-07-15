@@ -1,15 +1,13 @@
-# Natural Language Understanding with Recime
+# Natural Language Processing
 
-Bring the natural language provider of choice with Recime as `npm` package. We have tested and recommend the following Natural Language providers:
+Natural langauage proessing is the most important part of your AI bot development process. Modern AI providers support defining intents and entites and we recommend and tested the following NLPs to use with your bots.
 
-  * [api.ai](https://api.ai)
-  * [wit.ai](https://github.com/wit-ai/node-wit)
-  * [IBM Watson](https://www.npmjs.com/package/watson-developer-cloud)
+| Provider | Description | npm |
+| -- | -- | -- |-- |
+| `api.ai` | https://api.ai | https://www.npmjs.com/package/apiai
+| `wit.ai` | https://wit.ai | https://github.com/wit-ai/node-wit
 
 ## Configuring `api.ai` with Recime
-
-[api.ai](https://api.ai/) is a natural language understanding platform that makes it easy for developers \(and non-developers\) to design and integrate intelligent and sophisticated conversational user interfaces into mobile apps, web applications, devices, and bots.
-
 
 In order to enable natural language processing using API.AI in Recime. Go to your `api.ai` console and copy the client access token:
 
@@ -80,3 +78,55 @@ export default class Bot {
 
 
 ![](find_place.png)
+
+
+
+## Configuring `wit.ai` with Recime
+
+
+Go to your bot folder and install the `node-wit` module:
+
+```
+npm install --save node-wit
+
+```
+
+Set the client access token by typing the following command :
+
+
+```
+recime-cli config set WIT_CLIENT_TOKEN=PASTE_YOUR_CLIENT_TOKEN_HERE
+
+```
+
+Once you have defined some intents from the `wit` console, you can then use `node-wit` module to extract user input in the following way:
+
+```
+/*jshint esversion: 6 */
+
+import wit from "node-wit";
+
+export default class Bot {
+
+  constructor(args){
+       this.args = args;
+  }
+
+  execute(){
+      let text = this.args.text;
+
+      return new Promise((resolve, reject)=>{
+            let client = new wit.Wit({
+              accessToken : process.env.WIT_CLIENT_TOKEN,
+            });
+
+            client.message(text).then((data)=>{
+               // TODO:
+            });
+      });
+    }
+}
+
+``` 
+
+For information on creating intents and defining entities, please checkout the `wit` [quick-start](https://wit.ai/docs/quickstart) documentation.

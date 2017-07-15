@@ -1,4 +1,4 @@
-# Configuring Bot Analytics
+# Analytics
 
 Bot analytics lets you understand metrics, sentiment, identify problems, and increase engagement for your bot.
 

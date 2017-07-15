@@ -41,7 +41,7 @@ export default class Bot {
 
         return new Promise((resolve)=>{
             resolve({
-                tex: `I am resolved for ${sender} with ${text}`   
+                text: `I am resolved for ${sender} with ${text}`   
             });
         });
     }
