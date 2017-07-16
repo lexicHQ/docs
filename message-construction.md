@@ -71,10 +71,10 @@ export default class Bot {
 ```
 
 
-The extension also provides you some basic operations that are avaiable across channels:
+The extension also provides some basic operations that are avaiable across channels:
 
 ```
-Ext.common.text("hello world");
+Ext.default.text("hello world");
 ```
 
 For information on how to use it, refer to the source `recime-bot-extension` at github:
