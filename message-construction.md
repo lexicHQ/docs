@@ -77,7 +77,7 @@ The extension also provides some basic operations that are avaiable cross-channe
 Ext.default.text("hello world");
 ```
 
-For information on how to use it, please refer to the source `recime-bot-extension` at github:
+For information on how to use it, please fork the source from github:
 
 [https://github.com/Recime/recime-bot-extension](https://github.com/Recime/recime-bot-extension)
 
