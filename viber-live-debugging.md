@@ -1,10 +1,4 @@
-#Live Debugging
-
-Configure `ngrok` as mentioned here:
-
-https://docs.recime.io/live-debugging-facebook-bot.html
-
-
+#Debug
 Run the bot locally by typing the following command `(-w is for watch, for any changes it will automatically restart the debugger)`:
 
 ```
@@ -12,14 +6,19 @@ recime-cli run -w
 
 ```
 
-Configure your `viber` webhook in the following way:
+This will automatically setup the tunnel using `ngrok` and configure `viber` wehbooks for debugging. Once the debug server is up and running you should see debug outputs in the console.
 
 ```
-curl -X POST -H "X-Viber-Auth-Token:PASTE_YOUR_VIBER_APP_KEY" -d '{  
-   "url": "https://0f3e3408.ngrok.io/106ac42c537870651803235daa6f41e7/v1",  
-   "event_types": ["delivered", "seen", "failed", "subscribed", "unsubscribed", "conversation_started"]  
-}' -w "\r\n"  https://chatapi.viber.com/pa/set_webhook
+[INFO] Debugger is started at:
+http://localhost:4000/7005cfdd41cdf388fa1fad35b7057407/v1
+
+Configuring tunnel...
+
+Successfully configured at:
+https://50939c7d.ngrok.io/7005cfdd41cdf388fa1fad35b7057407/v1
+DEBUG: {"success":true}
+POST /7005cfdd41cdf388fa1fad35b7057407/v1?sig=1224 200 113ms - 16b
 
 ```
 
-Now, you will start to see viber responses in your debug console as you chat with the bot.
+Once you are finished, deploy the bot for reconfiguring the wehbook and changes to take effect.

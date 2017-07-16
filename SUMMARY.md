@@ -40,7 +40,7 @@
   * [Build](build-viber-bot.md)
   * [Deploy](deploy-viber-bot.md)
   * [Test your Bot](test-your-viber-bot.md)
-  * [Live Debugging](viber-live-debugging.md)
+  * [Live Debuggging](viber-live-debugging.md)
 * [SMS Bot](create-sms-bot.md)
   * [Setup Twilio](setup-twilio.md)
   * [Run your Bot](run-your-twilio-bot.md)
