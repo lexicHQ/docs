@@ -1,6 +1,6 @@
 # Message Construction
 
-In order to construct message, you can use `recime-bot-extention` npm package. The following is an example of creating a facebook quick reply response:
+In order to construct message, you can use `recime-bot-extention` npm package. The following is an example of creating a facebook button template:
 
 
 ```
@@ -10,26 +10,30 @@ In order to construct message, you can use `recime-bot-extention` npm package. T
 import Ext from "recime-bot-extension";
 
 export default class Bot {
-	constructor(args){
-		this.args = args;
-	}
 
-	execute(){
-        const facebook = Ext.facebook;
+    constructor(args){
+        this.args = args;
+    }
 
-		return new Promise((resolve)=>{
-            resolve(facebook.quickReplyButtonTemplate("Please Choose:", [
-                facebook.quickReplyButton("Menu"),		
-                facebook.quickReplyButton("FAQ"),
-                facebook.quickReplyButton("Help")
-            ]));
-		});
-	}
+    execute(){
+        // facebook quick reply
+        return new Promise((resolve)=>{
+            resolve(Ext.default.buttonTemplate("Would you like to get a coupon? Press \"Yes\"", [
+				Ext.default.postBackButton("Yes", "pressed-yes-event"),
+				Ext.default.postBackButton("No", "pressed-no-event"))
+            ]);   
+        }); 
+    }
+
 }
+
 
 ```
 
-Simlarly, to style a `keyboard` template in `viber`, you can do it easily with the extension:
+Since, viber has similar `postback` support. It will work without a single line of code change in viber.
+
+
+However, it also saves you time in making more platform specific look and feel. Here is an example of styling a `viber` button:
 
 ```
 
@@ -55,15 +59,11 @@ export default class Bot {
 		return new Promise((resolve)=>{
           const viber = Ext.viber;
 
-          if (this.args.event && this.args.event.name === "conversation_started"){
-                    const name = sender.name.split(/[\s]+/ig)[0];
-                    const hello = `Hello ${name}! Welcome to my awesome bot.`;
-                    return resolve(
-                        viber.keyboardTemplate(hello, [
-					        viber.postbackButton(FAQ", "faq", style),
-                            viber.postbackButton("About", "about-product", style),
-                	]));
-                }
+			return resolve(
+				viber.keyboardTemplate(hello, [
+					viber.postbackButton(FAQ", "faq", style),
+					viber.postbackButton("About", "about-product", style),
+			]));
 		});
 	}
 }
@@ -71,13 +71,13 @@ export default class Bot {
 ```
 
 
-The extension also provides some basic operations that are avaiable across channels:
+The extension also provides some basic operations that are avaiable cross-channel:
 
 ```
 Ext.default.text("hello world");
 ```
 
-For information on how to use it, refer to the source `recime-bot-extension` at github:
+For information on how to use it, please refer to the source `recime-bot-extension` at github:
 
 [https://github.com/Recime/recime-bot-extension](https://github.com/Recime/recime-bot-extension)
 
