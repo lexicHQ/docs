@@ -39,7 +39,7 @@ However, it also saves you time in making more platform specific look and feel. 
 
 /*jshint esversion: 6 */
 
-import {Ext, Viber} from "recime-bot-extension";
+import Ext, {Viber} from "recime-bot-extension";
 
 const style = {
 	bgColor : "#333333",
@@ -57,12 +57,12 @@ export default class Bot {
 
 	execute(){
 		return new Promise((resolve)=>{
-          const viber = Ext.viber;
+          const __ = Ext.default;
 
 			return resolve(
-				viber.keyboardTemplate(hello, [
-					viber.postbackButton(FAQ", "faq", style),
-					viber.postbackButton("About", "about-product", style),
+				__.buttonTemplate(hello, [
+					__.postbackButton(FAQ", "faq", style),
+					__.postbackButton("About", "about-product", style),
 			]));
 		});
 	}
