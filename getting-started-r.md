@@ -1,5 +1,3 @@
-title : Getting Started
-
 # Getting Started
 
 ## What is the Recime platform?
