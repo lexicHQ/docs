@@ -1,5 +1,6 @@
 # Summary
 
+* [Getting Started](README.md)
 * [Installation](installation.md)
 * [Registration](register.md)
 * [Preparation](preparation.md)

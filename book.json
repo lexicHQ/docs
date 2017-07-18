@@ -9,9 +9,6 @@
     "styles": {
         "website": "./styles/website.less"
     },
-    "structure": {
-        "readme": "getting-started-r.md"
-    },
     "pluginsConfig": {
         "favicon": "favicon.ico",
         "ga": {
