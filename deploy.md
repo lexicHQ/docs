@@ -1,12 +1,11 @@
 # Deploy
-
-After you have saved your files, type  in the following command \(make sure your terminal/command line session is still in the project folder\): While you are in the project folder. Since recime-cli looks for package.json to prepare your bot.
+In order to deploy the bot, type in the folloiwng command from within your project folder:
 
 ```
 recime-cli deploy
 ```
 
-This will build the bot, install required dependencies, create the container and configure the integrations for you:
+This will build, install required dependencies, create the container and configure the integrations:
 
 ```
 bash-3.2$ recime-cli deploy                                                                
@@ -25,4 +24,4 @@ For any questions and feedback, please reach us at hello@recime.io.
 bash-3.2$  
 ```
 
-Once, completed you should get the `endpoint` to set as `webhook`. For `facebook` or `viber` it will automatically configure and deploy the bot for you.
+Once completed, you should get the link to the `webhook` to set in your channel(e.g. twilio) configuration page. For `facebook` it will automatically configure and deploy the bot for you, please refer to the platform specific sections for more information.
