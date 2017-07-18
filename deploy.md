@@ -24,4 +24,4 @@ For any questions and feedback, please reach us at hello@recime.io.
 bash-3.2$  
 ```
 
-Once completed, you should get the link to the `webhook` to set in your channel(e.g. twilio) configuration page. For `facebook` it will automatically configure and deploy the bot for you, please refer to the platform specific sections for more information.
+Once completed, you should get the link to the `webhook` to set in your channel(e.g. twilio) configuration page. For `facebook` it will automatically configure and deploy the bot. Please refer to the platform specific sections for more information.
