@@ -9,6 +9,9 @@
     "styles": {
         "website": "./styles/website.less"
     },
+    "structure": {
+        "readme": "getting-started-r.md"
+    },
     "pluginsConfig": {
         "favicon": "favicon.ico",
         "ga": {
@@ -19,7 +22,7 @@
     },
     "links": {
         "sidebar": {
-            "Recime": "https://developer.recime.io"
+            "Recime": "https://console.recime.io"
         }
     }
 
