@@ -6,29 +6,23 @@ After you have saved your files, type  in the following command \(make sure your
 recime-cli deploy
 ```
 
-This will build the bot, install any missing dependencies and give you the live url of the bot:
+This will build the bot, install required dependencies, create the container and configure the integrations for you:
 
 ```
 bash-3.2$ recime-cli deploy                                                                
-INFO: Installing dependencies.                                                                                                                                       
-> alan-turing@1.0.1 preinstall /steve/bot/Turing                      
-> npm install -g typescript                                                                                                                                          
-/usr/local/bin/tsc -> /usr/local/lib/node_modules/typescript/bin/tsc                       
-/usr/local/bin/tsserver -> /usr/local/lib/node_modules/typescript/bin/tsserver             
-/usr/local/lib                                                                             
-└── typescript@2.0.8                                                                                                                                                       
-> alan-turing@1.0.1 build /Users/newrecimeuser/Source/Recime/bot/Turing                           
-> tsc                                                                                                                                                                             
-INFO: Preparing.                                                                           
+INFO: Installing dependencies.                                                                                  ...
+...                                                                                                                                                                    
+INFO: Preparing...                                                                          
 INFO: Compressing.                                                                         
 INFO: Preparing to upload.                                                                 
 28.18 KB / 28.18 KB [#########################################################] 100.00% 0s
 INFO: Finalizing.                                                                          
 \                                                                                          
-=> https://developer.recime.io/bot/50d122fd3204e67f3a6452ba28b522da                                  
+=> https://bot.recime.io/bot/50d122fd3204e67f3a6452ba28b522da/v1                                 
 
-INFO: Bot publish successful.                                                                                                                                           
+[INFO] Successs.                                                                                                                                           
 For any questions and feedback, please reach us at hello@recime.io.                                                                                            
 bash-3.2$  
 ```
-Make sure to save your bot URL. After you have successfully deployed the bot, it is time to execute it.
+
+Once, completed you should get the `endpoint` to set as `webhook`. For `facebook` or `viber` it will automatically configure and deploy the bot for you.

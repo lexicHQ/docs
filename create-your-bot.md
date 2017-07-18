@@ -1,6 +1,6 @@
 # Build
 
-From the terminal app, type the following command to scaffold your bot project:
+From the terminal app, type in the following command to scaffold your bot project:
 
 
 ```
