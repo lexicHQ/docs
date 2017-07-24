@@ -1,6 +1,6 @@
 # Resources
 
-For more information checkout some these examples build using `Recime`:
+Here are some links to useful resources that can help you to get started with `Recime`:
 
 
 ### Recime Bot Extension
