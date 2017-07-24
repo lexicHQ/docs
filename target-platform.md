@@ -23,10 +23,11 @@ export default class Bot {
     }
 
     execute(){
-        // facebook quick reply
+        // facebook quick reply it will resolve as **args.event.name**
         return new Promise((resolve)=>{
-            resolve(__.quickReplyButtonTemplate(localizedString.__("welcome-text"),[
-							__.quickReplyButton("📍Location", "payload-location"); // args.event.name
+            resolve(__.quickReplyButtonTemplate("How may I help?,[
+							__.quickReplyButton("Get Ticket", "ticket-get"); 
+							__.quickReplyButton("Refund", "ticket-refund"); 
 						]));
         }); 
     }
@@ -52,7 +53,7 @@ export default class Bot {
     execute(){
         // facebook quick reply
         return new Promise((resolve)=>{
-            resolve(__.text("Please send me your location to know the latest weather information"));
+            resolve(__.text("Please tell me what you want to know?"));
         }); 
     }
 
