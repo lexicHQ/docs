@@ -22,7 +22,7 @@
   * [Deploy](deploy-facebook-bot.md)
   * [Test your Bot](test-your-facebook-bot.md)
   * [Live Debugging](live-debugging-facebook-bot.md)
-  * [Handling Facebook Postback](handling-facebook-webhook.md)
+  * [Handling Facebook Postback](handling-facebook-postback.md)
   * [Getting Started Button](facebook-getting-started-button.md)
   * [Persistent Menu](facebook-persistent-menu.md)
   * [Resources](facebook-resources.md)

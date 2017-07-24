@@ -1,4 +1,4 @@
-#Handling Facebook Webhook
+#Handling Facebook Postback
 
 
 `Facebook Messenger Platform` supports webhook via `Postback` button
@@ -6,7 +6,7 @@
 
 ![](facebook-webhook.png)
 
-Facebook postbacks are passed as `args.event.name`. For the figure above, if someone presses **Bookmark Item**, you can track it in the following way:
+Facebook postback message is passed as `args.event.name`. For the figure above, if someone presses **Bookmark Item**, you can handle it in the following way:
 
 ```
 export class Bot {
@@ -34,4 +34,4 @@ export class Bot {
 
 ```
 
-You can use the `recime-bot-extension` npm module to easily construct postback buttons and generic items. Please check it out [here](resources.md):
+You can use the `recime-bot-extension` npm module to easily construct postback buttons and generic items. Please check it out [here](resources.md).
