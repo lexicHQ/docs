@@ -1,66 +1,31 @@
 # Build
 
+Create the bot by typing the following command in your terminal:
 
-Once you have created a bot by following the steps [here](create-your-bot.html). Go to your `main.js` file and copy paste the following code:
+```
+recime-cli create hello-world
+
+```
+
+This will take you through an interactive wizard and will create the bot project for you. Go to `hello-world\main.js` and you should see the following:
 
 ```
 /*jshint esversion: 6 */
 
+import Ext from "recime-bot-extension";
+
+const __ = Ext.default;
+		
 export default class Bot {
-  constructor(args){
-    this.args = args;
-  }
+    constructor(args){
+        this.args = args;
+    }
 
-  execute(){
-  	let text = this.args.text;
-
-    return new Promise((resolve)=>{
-      if (text.match(/^\/start+/i)){
-        resolve({
-          "text" : "Hi! I am a Recime Bot!"
-        });
-      } else {
-        resolve({
-          "text" : text
-        });
-      }
-    });
-  }
+    execute(){
+	    return new Promise((resolve)=>{
+            resolve(__.text("Hello! I'am a Recime bot. How may I help you?"));
+		});
+    }
 }
-
-```
-
-Configure the bot for Telegram by typing the following command:
-
-
-```
-recime-cli platform config telegram
-
-```
-
-
-This is will prompt you for the `Telegram access token`, paste the access token that copied from the BotFather [Setup your bot](setup-telegram-bot.md) step:
-
-
-
-```
-bash-3.2$ recime-cli platform config telegram
-Telegram access key:
-PASTE_YOUR_KEY_FROM_CLIPBOARD
-
-INFO: Platform Configured Successfully.
-Please do "recime-cli deploy" for changes to take effect.
-
-For any questions and feedback, please reach us at hello@recime.io.
-
-bash-3.2$
-
-```
-
-Deploy the bot by typing the following command:
-
-
-```
-recime-cli deploy
 
 ```

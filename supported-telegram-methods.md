@@ -26,3 +26,5 @@ For example this is how you can send photo to your telegram bot:
 }
 
 ```
+
+We recommend you to use the `recime-bot-extension` npm package in order to construct messages. This is useful when you are targeting cross-channel bot for maximum code reusability and want to avoid human errors. 

@@ -47,7 +47,7 @@
 * [Telegram Bot](create-telegram-bot.md)
   * [Setup your Bot](setup-telegram-bot.md)
   * [Build](creating-telegram-bot.md)
-  * [Configure Webhook](configure-telegram-webhook.md)
+  * [Deploy](deploy-telegram-bot.md)
   * [Test your Bot](test-telegram-bot.md)
   * [Live Debugging](telegram-live-debugging.md)
   * [Supported Methods](supported-telegram-methods.md)
