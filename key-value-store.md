@@ -2,7 +2,20 @@
 
 Key-value is designed to help you store conversational states and quickly store and retrieve data that will enable you to build a more engaging and personalized experience for your users.
 
-Key-value is exposed as `db` and can be accessed anywhere from your bot. In order to store value, please do the following:
+From your bot project, install the `recime-keyvalue-store` npm module by typing the following command:
+
+```
+npm install --save recime-keyvalue-store
+```
+
+Import the module by copy and pasting the folloiwng line in your source file:
+
+```
+import db from "recime-keyvalue-store";
+```
+
+
+Use it to remember conversation flow. `key-value` is for fast read-write. Therefore, use it as a small storage solution to ensure the throughput of your bot.
 
 ```
 db.set("userId", {
@@ -32,3 +45,8 @@ Key-value data is available throughout lifetime of your bot once deployed and su
 
 
 Every bot gets its own managed and secure store. Number of unique keys are subject to plan, please checkout pricing page for more details.
+
+
+We welcome your contribution and you can fork the source from here:
+
+https://github.com/Recime/recime-keyvalue-store
