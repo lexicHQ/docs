@@ -47,6 +47,5 @@ Key-value data is available throughout lifetime of your bot once deployed and su
 Every bot gets its own managed and secure store. Number of unique keys are subject to plan, please checkout pricing page for more details.
 
 
-We welcome your contribution and you can fork the source from here:
+We welcome your contribution and you can fork the source from [here](https://github.com/Recime/recime-keyvalue-store).
 
-https://github.com/Recime/recime-keyvalue-store
