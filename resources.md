@@ -10,11 +10,11 @@ The purpose of this module is to provider developers an easy to way to construct
 [https://github.com/Recime/recime-bot-extension](https://github.com/Recime/recime-bot-extension)
 
 
-### Flickr Bot
+### Snap Bot
 
-![](flickr-bot-example.png)
+![](snap-bot.png)
 
-[http://flickrbot.recime.io/](http://flickrbot.recime.io)
+[http://snapbot.recime.io/](http://snapbot.recime.io)
 
 ### Pipedrive to Slack Connector Bot:
 [https://github.com/Recime/pipedrive-bot](https://github.com/Recime/pipedrive-bot).
