@@ -3,7 +3,7 @@
 Natural langauage proessing is the most important part of your AI bot development process. Once you have created the bot using the following command:
 
 ```
-recime-cli create
+recime-cli create hello-world
 ```
 
 Go to `console.recime.io` and and click on the `NLP` tab to create your first intent.
