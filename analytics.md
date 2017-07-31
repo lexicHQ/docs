@@ -2,11 +2,6 @@
 
 Bot analytics lets you understand metrics, sentiment, identify problems, and increase engagement for your bot.
 
-We have tested the following bot analytics with `recime`.
-
-  * [dashbot.io](https://www.dashbot.io/)
-  * [BotAnalytics](https://botanalytics.co)
-
 ## Configuring `dashbot.io` with Recime
 
 In order to configure `dashbot.io` with `recime`, first install the `dashbot` module by typing the following command while in your bot folder:
