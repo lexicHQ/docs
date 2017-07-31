@@ -26,6 +26,7 @@
   * [Handling Facebook Postback](handling-facebook-postback.md)
   * [Getting Started Button](facebook-getting-started-button.md)
   * [Persistent Menu](facebook-persistent-menu.md)
+  * [Built-In NLP] (facebook-built-in-nlp.md)
   * [Resources](facebook-resources.md)
 * [Slack Bot](create-slack-bot.md)
   * [Create Slack App](create-slack-app.md)
