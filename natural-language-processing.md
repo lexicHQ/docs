@@ -44,9 +44,10 @@ export default class Bot {
 
         return new Promise((resolve, reject)=>{
              nlp.textRequest(this.args.text).then((result)=>{
-                    if (result.entities.person && result.entities.person[0].confidence > 0.8){
+                    if (result.entities.search_query 
+                    && result.entities.search_query[0].confidence > 0.8){
                         // TODO:// meaningful code.
-                        resolve(__.text(`Hey~ ${result.entities.person[0].value}`));
+                        resolve(__.text(`Hey~ ${result.entities.search_query[0].value}`));
                     }
                     else {
                         resolve(__.text("Sorry I didnt understand."));
