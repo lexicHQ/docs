@@ -6,7 +6,7 @@ Natural langauage proessing is the most important part of your AI bot developmen
 recime-cli create hello-world
 ```
 
-Go to `console.recime.io` and and click on the `NLP` tab to create your first intent.
+Go to `console.recime.io` and and click on the `Training` tab to create your first intent.
 
 
 
@@ -44,9 +44,9 @@ export default class Bot {
 
         return new Promise((resolve, reject)=>{
              nlp.textRequest(this.args.text).then((result)=>{
-                    if (result.entities.person){
+                    if (result.entities.person && result.entities.person[0].confidence > 0.8){
                         // TODO:// meaningful code.
-                        resolve(__.text(`Hey~ ${result.entities.person[0].fullname}`));
+                        resolve(__.text(`Hey~ ${result.entities.person[0].value}`));
                     }
                     else {
                         resolve(__.text("Sorry I didnt understand."));
