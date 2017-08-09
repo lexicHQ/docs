@@ -1,13 +1,13 @@
 # Getting Started Button
-In order to enable `Getting Started` button bot's welcome screen, include a `welcome.json` file in the bot project with the following `JSON` body:
+In order to enable `Getting Started` button on bot welcome screen, include a `welcome.json` file in your project  folder with the following `JSON` content:
 
 ```
 {
-    "payload" : "GET_STARTED_PAYLOAD"
+    "payload" : "start"
 }
 ```
 
-This will automatially set the "Getting Started" button as you deploy or debug the bot.
+This will automatially initialize the "Getting Started" button as you deploy or debug the bot.
 
 ### Fields 
 
