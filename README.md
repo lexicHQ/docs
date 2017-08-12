@@ -2,7 +2,7 @@
 
 ## What is the Recime Platform?
 
-Recime Platform is an end-to-end solution for your AI chatbot. It provides you the framework, tools, and infrastructure to build and deploy a chatbot to your favorite channel in few simple steps. Recime is built on top of micro-service, therefore, giving you guaranteed high availability and uptime. Moreover, analytics to help grow your bot and increase user engagement.
+Recime (ˈresəˌmē) Platform is an end-to-end solution for your AI chatbot. It provides you the framework, tools, and infrastructure to build and deploy a chatbot to your favorite channel in few simple steps saving you hundred of development hours. Recime is built on top of micro-service, therefore, giving you guaranteed high availability and uptime. Moreover, analytics to help grow your bot and increase user engagement.
 
 ![](recime-dashboard.png)
 
