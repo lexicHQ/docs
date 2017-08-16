@@ -16,5 +16,5 @@ This will automatially initialize the "Getting Started" button as you deploy or 
 | `payload` | This data will be sent back to your bot as `args.events.name` | String | Y |
 
 
-**limitation:**
+**Limitation:**
 `payload` is limited to 1000 characters.
