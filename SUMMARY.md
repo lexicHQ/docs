@@ -16,6 +16,7 @@
 * [Natural Language Processing](natural-language-processing.md)
 * [Configuring api.ai with Recime](api-ai-with-recime.md)
 * [Analytics](analytics.md)
+* [HeadChat - Beta](headchat.md)
 * [Facebook Bot](facebook-bot.md)
   * [Create Facebook Page](create-facebook-page.md)
   * [Setup Facebook App](setup-facebook-app.md)
