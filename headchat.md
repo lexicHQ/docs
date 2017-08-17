@@ -10,7 +10,7 @@ Paste it to your website in the `head` or at the end of `body` tag. That's it, y
 
 ![](pitchbot.png)
 
-It supports most of the Facebook `metadata` and your Facebook chatbot should work without single a line of code change. If you are using the `recime-bot-extension` module then all of these should be taken care of automatically.
+It supports most of the Facebook `metadata` and your Facebook chatbot should work without a single line of code change. If you are using the `recime-bot-extension` npm package then all of these should be taken care of automatically.
 
 
 
