@@ -12,6 +12,7 @@ brew tap recime/tools && brew install recime-cli
 
 ```
 
+
 In order to install the CLI from source, please fork the it here: 
 
 [https://github.com/Recime/recime-cli](https://github.com/Recime/recime-cli)
