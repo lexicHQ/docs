@@ -6,7 +6,9 @@ Once you have deployed the bot. You can do it by going to your [console.recime.i
 
 ![](headchat.png)
 
-Paste it to your website in the `head` or at the end of `body` tag. That's it, you should now see a familiar chat icon and clicking it will open up the conversation dialog like any other live chat widgets.
+
+To get the messenger to appear on your web page simply paste the snippet before the `</body>` tag. That's it, you should now see the `headchat` icon and clicking on it will open up the conversation dialog.
+
 
 ![](pitchbot.png)
 
