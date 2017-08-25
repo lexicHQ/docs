@@ -12,6 +12,7 @@
 * [Message Construction](message-construction.md)
 * [Target Platform](target-platform.md)
 * [Debugging](running_recime_bots_locally.md)
+* [ngrok - Configuration](ngrok-configuration.md)
 * [Key-value](key-value-store.md)
 * [Natural Language Processing](natural-language-processing.md)
 * [Configuring api.ai with Recime](api-ai-with-recime.md)
