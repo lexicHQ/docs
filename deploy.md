@@ -2,13 +2,13 @@
 In order to deploy the bot, type in the folloiwng command from within your project folder:
 
 ```
-recime-cli deploy
+recime deploy
 ```
 
 This will build, install required dependencies, create the container and configure the integrations:
 
 ```
-bash-3.2$ recime-cli deploy                                                                
+bash-3.2$ recime deploy                                                                
 INFO: Installing dependencies.                                                                                  ...
 ...                                                                                                                                                                    
 INFO: Preparing...                                                                          

@@ -3,7 +3,7 @@
 Create the bot by typing the following command in your terminal:
 
 ```
-recime-cli create hello-world
+recime create hello-world
 
 ```
 

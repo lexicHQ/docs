@@ -4,7 +4,7 @@ Configure the bot for Telegram by typing the following command:
 
 
 ```
-recime-cli platform config telegram
+recime config telegram
 
 ```
 
@@ -13,12 +13,12 @@ This is will prompt you for the `Telegram access token`, paste the access token 
 
 
 ```
-recime-cli platform config telegram
+recime config telegram
 Telegram access key:
 PASTE_YOUR_KEY_FROM_CLIPBOARD
 
 INFO: Platform Configured Successfully.
-Please do "recime-cli deploy" for changes to take effect.
+Please do "recime deploy" for changes to take effect.
 
 For any questions and feedback, please reach us at hello@recime.io.
 
@@ -30,7 +30,7 @@ Deploy the bot by typing the following command:
 
 
 ```
-recime-cli deploy
+recime deploy
 
 ```
 

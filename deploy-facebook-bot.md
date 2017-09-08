@@ -4,14 +4,14 @@ Configure your bot by typing the following command:
 
 
 ```
-recime-cli platform config facebook
+recime config facebook
 
 ```
 Now copy/paste your `APP ID`, `APP Secrect` and `Page Access Token` that you have  copied earlier.
 
 ```
 
-bash-3.2$ recime-cli platform config facebook
+bash-3.2$ recime config facebook
 Please enter your facebook app settings
 App Secret (Press "Enter" to continue):
 
@@ -30,7 +30,7 @@ bash-3.2$
 Deploy the bot by typing the following command:
 
 ```
-recime-cli deploy
+recime deploy
 
 ```
 

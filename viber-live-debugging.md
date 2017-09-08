@@ -2,7 +2,7 @@
 Run the bot locally by typing the following command `(-w is for watch, for any changes it will automatically restart the debugger)`:
 
 ```
-recime-cli run -w 
+recime run -w 
 
 ```
 

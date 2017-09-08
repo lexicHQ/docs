@@ -9,7 +9,7 @@ From your terminal type the following command `recime-cli login`. Once verified,
 
 
 ```
-~ recime-cli login
+~ recime login
 Paste your api key from "console.recime.io/my-account":
 2880e1f07a2149509661d1ad19408d5b
 | 

@@ -3,7 +3,7 @@
 Go to your terminal and type the following command:
 
 ```
-recime-cli platform config viber
+recime config viber
 
 ```
 
@@ -12,7 +12,7 @@ Paste your `viber` auth token (a.k.a. app key) and hit enter.
 Deploy the bot by typing the following command:
 
 ```
-recime-cli deploy
+recime deploy
 
 ```
 

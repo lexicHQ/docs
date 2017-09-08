@@ -1,14 +1,12 @@
 # Build
 
-From the terminal app, type in the following command to scaffold your bot project:
+From the terminal app, type in the following command to create your bot project:
 
 
 ```
-recime-cli create [FolderName] 
+recime create [FolderName] 
 
 ```
-
-By default the Command Line Interface will create the bot using `es6 (the latest update to the Javascript language)` template. However, you can choose ether `es6` or `typescript` as language options `(--lang=typescript)`.
 
 This will walk you through a command line wizard and create the bot under the given folder name.
 
