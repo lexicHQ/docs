@@ -24,7 +24,7 @@ export default class Bot {
     execute(){
         // facebook quick reply it will resolve as **args.event.name**
         return new Promise((resolve)=>{
-            resolve(__.quickReplyButtonTemplate("How may I help?,[
+            resolve(__.quickReplyButtonTemplate("How may I help?",[
                 __.quickReplyButton("Get Ticket", "ticket-get"); 
                 __.quickReplyButton("Refund", "ticket-refund"); 
 			]));

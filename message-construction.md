@@ -17,7 +17,7 @@ export default class Bot {
     execute(){
         // facebook quick reply
         return new Promise((resolve)=>{
-            resolve(Ext.default.buttonTemplate("Is it hot?, [
+            resolve(Ext.default.buttonTemplate("Is it hot?", [
 				Ext.default.postBackButton("Yes", "pressed-yes-event"),
 				Ext.default.postBackButton("No", "pressed-no-event"))
             ]);   
@@ -57,7 +57,7 @@ export default class Bot {
 
 			return resolve(
 				__.buttonTemplate(hello, [
-					__.postbackButton(FAQ", "faq", style),
+					__.postbackButton("FAQ", "faq", style),
 					__.postbackButton("About", "about-product", style),
 			]));
 		});
