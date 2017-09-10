@@ -3,7 +3,7 @@
 Once you have created a bot by following the steps [here](create-your-bot.md). Go to your `main.js` file and paste the following code:
 
 
-```
+```javascript
 /*jshint esversion: 6 */
 
 export default class Bot {

@@ -57,6 +57,5 @@
   * [Live Debugging](telegram-live-debugging.md)
   * [Supported Methods](supported-telegram-methods.md)
   * [Resources](telegram-resources.md)
-* [TypeScript Declarations](typed_declarations.md)
 * [Recime Demo Bot](caltrain-bot-example.md)
 * [Resources](resources.md)

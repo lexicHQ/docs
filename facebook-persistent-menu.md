@@ -3,7 +3,7 @@ The Persistent Menu brings users directly into the top-level features and flows 
 
 In order to enable `Persistent Menu`, add a `menu.json` file in the bot project with the following `JSON`:
 
-```
+```json
 {
     "locale":"default",
     "composer_input_disabled":true,
@@ -23,7 +23,7 @@ In order to enable `Persistent Menu`, add a `menu.json` file in the bot project 
 ```
 This will automatically create the persistent menu as you deploy the bot. In order to create a nested menu, copy & paste the following `JSON`:
 
-```
+```json
 {
       "locale":"default",
       "composer_input_disabled":true,

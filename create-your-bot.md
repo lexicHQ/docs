@@ -3,7 +3,7 @@
 From the terminal app, type in the following command to create your bot project:
 
 
-```
+```bash
 recime create [FolderName] 
 
 ```
@@ -26,7 +26,7 @@ export default class Bot {
 
     execute(){
 	    return new Promise((resolve)=>{
-            resolve(__.text("Hello! I'am a Recime bot. How may I help you?"));
+            resolve(__.text("Hello there!"));
 		});
     }
 }

@@ -10,7 +10,7 @@ recime-cli config set WIT_TOKEN=PASTE_YOUR_TOKEN_HERE
 
 The entites are sent to your bot through an additonal `nlp` property which can you access from your bot in the following way:
 
-```
+```javascript
 /*jshint esversion: 6 */
 import Ext from "recime-bot-extension";
 const __ = Ext.default;

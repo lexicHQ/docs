@@ -26,7 +26,7 @@ Make a text request to it and it will return you the entites you have defined fo
 
 
 
-```
+```javascript
 /*jshint esversion: 6 */
 
 import Ext from "recime-bot-extension";

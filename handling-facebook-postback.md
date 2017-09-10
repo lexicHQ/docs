@@ -8,7 +8,7 @@
 
 Facebook postback message is passed as `args.event.name`. For the figure above, if someone presses **Bookmark Item**, you can handle it in the following way:
 
-```
+```javascript
 export class Bot {
   constructor(args){
     this.args = args;

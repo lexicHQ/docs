@@ -14,7 +14,7 @@ curl -i -H "Accept: application/json"
 
 This will give you the folloiwng output as it is in `main.js`:
 
-```
+```json
 {
     "text":"Hello! I'am a Recime bot. How may I help you?"
 }

@@ -1,6 +1,6 @@
 # Recime Demo Bot
 
-The following `caltrain` bot pulls real-time schedule for a given station. Paste the following in your `macOS` terminal to get the latest schedule for `Palo Alto` station:
+The following `caltrain` bot pulls real-time schedule for a given station. Paste the following in your `macOS` terminal to get the latest schedule for your station:
 
 ```
 curl -i -H "Accept: application/json" -H "Content-Type: application/json" -X POST -d "{\"text\": \"What is the train schedule for Palo Alto?\"}" -w "\r\n" https://us-west-1-bot.recime.io/bfe91172186fa6992ec0231ea4475d1b/v1
@@ -8,7 +8,7 @@ curl -i -H "Accept: application/json" -H "Content-Type: application/json" -X POS
 
 **Response:**
 
-```
+```json
 {"station":"Palo Alto","trains":[
 
 {"direction":"Southbound","schedule":[{"id":"152","type":"Local","arrivalTime":"0:30 min"},{"id":"254","type":"Limited","arrivalTime":"1:02 min"},{"id":"156","type":"Local","arrivalTime":"1:33 min"}]},
@@ -26,7 +26,7 @@ https://us-west-1-bot.recime.io/bfe91172186fa6992ec0231ea4475d1b/v1
 
 This will be your input body:
 
-```
+```json
 {
   "text" : "What is the train schedule for Palo Alto?"
 }
