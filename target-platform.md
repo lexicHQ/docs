@@ -5,7 +5,6 @@ While there are some common messages like `text` that are supported across platf
 
 You can do this by adding platform extension to your `main.js`. For example, I have a bot that supports `viber`, `telegram` and `facebook`. for facebook it is more natural and intuitive to have quick replies. 
 
-
 Instead of having `if-else`, it is possible to separate the UI logic by creating a `main.facebook.js` file that will have the logic for quick reply.
 
 
@@ -26,9 +25,9 @@ export default class Bot {
         // facebook quick reply it will resolve as **args.event.name**
         return new Promise((resolve)=>{
             resolve(__.quickReplyButtonTemplate("How may I help?,[
-							__.quickReplyButton("Get Ticket", "ticket-get"); 
-							__.quickReplyButton("Refund", "ticket-refund"); 
-						]));
+                __.quickReplyButton("Get Ticket", "ticket-get"); 
+                __.quickReplyButton("Refund", "ticket-refund"); 
+			]));
         }); 
     }
 
