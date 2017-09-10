@@ -5,8 +5,8 @@ While developing your bots, you will want to run your bot locally to test and de
 
 In order to run bots locally from your bot project type the following command (`-w is an optional flag to track file changes`):
 
-```
-recime-cli run -w
+```bash
+recime run -w
 
 ```
 

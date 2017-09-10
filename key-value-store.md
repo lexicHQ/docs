@@ -4,20 +4,20 @@ Key-value is designed to help you store conversational states and quickly store 
 
 From your bot project, install the `recime-keyvalue-store` npm module by typing the following command:
 
-```
+```bash
 npm install --save recime-keyvalue-store
 ```
 
 Import the module by copy and pasting the folloiwng line in your source file:
 
-```
+```javascript
 import db from "recime-keyvalue-store";
 ```
 
 
 Use it to remember conversation flow. `key-value` is for fast read-write. Therefore, use it as a small storage solution to ensure the throughput of your bot.
 
-```
+```javascript
 db.set("userId", {
     id : 1
 }).then((_)=>{
@@ -28,12 +28,10 @@ db.set("userId", {
 
 Similarly, use `db.get` to retrieve the value:
 
-```
-
+```javascript
 db.get("userId").then((result)=>{
     console.log(result.id);
 });
-
 ```
 
 Key-value data is available throughout lifetime of your bot once deployed and supports the following javascript data types:

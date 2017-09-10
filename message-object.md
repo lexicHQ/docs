@@ -27,7 +27,7 @@ An example JSON data for a `facebook` message:
 
 From the bot itself, developers can access the message object properties via `args` in the following way:
 
-```
+```javascript
 export default class Bot {
     private args: any;
 

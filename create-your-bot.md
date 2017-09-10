@@ -12,7 +12,7 @@ This will walk you through a command line wizard and create the bot under the gi
 
 Navigate to `main.js` and you should see the following:
 
-```
+```javascript
 /*jshint esversion: 6 */
 
 import Ext from "recime-bot-extension";

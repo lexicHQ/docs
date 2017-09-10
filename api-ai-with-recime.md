@@ -30,7 +30,7 @@ recime-cli config set APIAI_CLIENT_KEY=PASTE_YOUR_ACCESS_TOKEN_HERE
 
 Once everything is set, you can extract entities from a given `text` input in the following way:
 
-```
+```javascript
 /*jshint esversion: 6 */
 
 import APIAI from 'apiai';

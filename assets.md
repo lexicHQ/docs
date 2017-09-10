@@ -20,12 +20,12 @@ execute(){
             switch (this.args.event.name){
                 case "start":
                     resolve([
-                        __.text("Hey! I am just a demo bot and I don't do anything."),
+                        __.text("Hey! There!."),
                         __.image(url("assets/blog-logo.png"))
                 ]);
                 break;
                 default:{
-                    resolve(__.text("Hello! I'am a Recime bot. How may I help you?"));
+                    resolve(__.text("Sorry, I didn't understand."));
                 }
             }
        });
