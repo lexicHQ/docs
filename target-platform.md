@@ -11,7 +11,7 @@ Instead of having `if-else`, it is possible to separate the UI logic by creating
 
 Below is an example of how the code might look like but ideally it can hashed out further by separeting the model code from `main.js` completely. 
 
-```
+```javascript
 import Ext from 'recime-bot-extension';
 
 const __ = Ext.default;
@@ -39,7 +39,7 @@ export default class Bot {
 For other platform, default it back to text. Therefore, in `main.js` it may look something like:
 
 
-```
+```javascript
 import Ext from 'recime-bot-extension';
 
 const __ = Ext.default;

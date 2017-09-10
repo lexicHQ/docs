@@ -3,8 +3,7 @@
 In order to construct message, you can use `recime-bot-extention` npm package. The following is an example of creating a facebook button template:
 
 
-```
-
+```javascript
 /*jshint esversion: 6 */
 
 import Ext from "recime-bot-extension";
@@ -26,8 +25,6 @@ export default class Bot {
     }
 
 }
-
-
 ```
 
 Since, viber has similar `postback` support. It will work without a single line of code change in viber.
@@ -35,8 +32,7 @@ Since, viber has similar `postback` support. It will work without a single line 
 
 However, it also saves you time in making more platform specific look and feel. Here is an example of styling a `viber` button:
 
-```
-
+```javascript
 /*jshint esversion: 6 */
 
 import Ext, {Viber} from "recime-bot-extension";
@@ -67,13 +63,12 @@ export default class Bot {
 		});
 	}
 }
-
 ```
 
 
 The extension also provides some basic operations that are avaiable cross-channel:
 
-```
+```javascript
 Ext.default.text("hello world");
 ```
 

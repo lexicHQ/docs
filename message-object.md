@@ -4,7 +4,7 @@ Regardless what platform you are targeting the bot for, the framework gives you 
 
 An example JSON data for a `facebook` message:
 
-```
+```json
 {
   timestamp: 1494895687121,
   text: 'who are you?',
@@ -50,7 +50,7 @@ export default class Bot {
 
 The common definition of a message object regardless of its underlying platform is:
 
-```
+```json
 {
   timestamp : "number",
   sender : "object"
@@ -71,7 +71,7 @@ The common definition of a message object regardless of its underlying platform 
 
 For the following `facebook` button click:
 
-```
+```json
 ...
 
 "buttons":[
