@@ -15,7 +15,7 @@ export default class Bot {
     constructor(args){
         this.args = args;
     }
-execute(){
+    execute(){
         return new Promise((resolve)=>{
             switch (this.args.event.name){
                 case "start":
