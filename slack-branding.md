@@ -6,7 +6,7 @@ It is possible to customize the look and feel of OAuth dialog to match your prod
 
 Use the following as a baseline template with bot specific metadata to brand your own:
 
-```
+```html
 <html>
     <h1>{{title}}</h1>
     <div>

@@ -4,6 +4,7 @@ In order to construct message, you can use `recime-bot-extention` npm package. T
 
 
 ```javascript
+
 /*jshint esversion: 6 */
 
 import Ext from "recime-bot-extension";
@@ -33,6 +34,7 @@ Since, viber has similar `postback` support. It will work without a single line 
 However, it also saves you time in making more platform specific look and feel. Here is an example of styling a `viber` button:
 
 ```javascript
+
 /*jshint esversion: 6 */
 
 import Ext, {Viber} from "recime-bot-extension";
