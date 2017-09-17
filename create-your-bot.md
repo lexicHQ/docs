@@ -1,14 +1,21 @@
 # Build
 
-From the terminal app, type in the following command to create your bot project:
+From the terminal app, type the following command to create your bot project:
 
 
 ```bash
-recime create [FolderName] 
+recime create awesome-bot 
 
 ```
 
-This will walk you through a command line wizard and create the bot under the given folder name.
+By default it will create the project with the basic template, this is good when you want to do it from scratch. However, if you want to take advantage of `Natural Language Processing` from the dashboard and want to side-by-side configure the flow from UI, then you can do so by typing the following command:
+
+
+```bash
+recime create awesome-bot -t=nlp
+```
+
+This will walk you through a command line wizard and create the bot under `awesome-bot` folder.
 
 Navigate to `main.js` and you should see the following:
 
