@@ -50,9 +50,4 @@ The extension provides common operations that are avaiable across channels:
 Ext.default.text("hello world");
 ```
 
-Here `default` tells the extension the underlying channel the bot is running.
-
-For information on how to use it, please fork the source from github:
-
-[https://github.com/Recime/recime-bot-extension](https://github.com/Recime/recime-bot-extension)
-
+Here `default` tells the extension the underlying channel the bot is running.For information on how to use it, please fork the [source here](https://github.com/Recime/recime-bot-extension):
