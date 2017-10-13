@@ -28,25 +28,16 @@ An example JSON data for a `facebook` message:
 From the bot itself, developers can access the message object properties via `args` in the following way:
 
 ```javascript
+import Ext from 'recime-bot-extension';
+import responder from "recime-message-responder";
 
-export default class Bot {
-    private args: any;
+const __ = Ext.default;
 
-    constructor(args){
-        this.args = args;
-    }
-
-    execute(){
-        let text = this.args.text;
-        let sender = this.args.sender;
-
-        return new Promise((resolve)=>{
-            resolve({
-                text: `I am resolved for ${sender} with ${text}`   
-            });
-        });
-    }
-}
+exports.handler = (args, done)=>{
+     done({
+        text: `I am resolved for ${sender} with ${text}`   
+     });
+};
 ```
 
 The common definition of a message object regardless of its underlying platform is:
