@@ -31,41 +31,26 @@ recime-cli config set APIAI_CLIENT_KEY=PASTE_YOUR_ACCESS_TOKEN_HERE
 Once everything is set, you can extract entities from a given `text` input in the following way:
 
 ```javascript
-/*jshint esversion: 6 */
-
+import Ext from 'recime-bot-extension';
 import APIAI from 'apiai';
 
-export default class Bot {
+const __ = Ext.default;
+const apiai = new APIAI(process.env.APIAI_CLIENT_KEY);
 
-  constructor(args){
-       this.args = args;
-       this.apiai = new APIAI(process.env.APIAI_CLIENT_KEY);
-  }
-
-  execute(){
-      let text = this.args.text;
-
-      return new Promise((resolve, reject)=>{
-            let options = {
-                  sessionId : this.args.sender
-            };
-
-            let request = this.apiai.textRequest(text, options);
-
-            request.on("response", (response)=>{
-                  let result = response.result;
-                  // TODO://
-            });
-
-           request.on('error', (err)=>{
-              reject(err)
-           });
-
-           request.end();
-      });
-    }
-}
-
+exports.handler = (args, done)=>{
+     nlp.textRequest(this.args.text).then((result)=>{
+        if (result.entities.search_query 
+        && result.entities.search_query[0].confidence > 0.8){
+            // TODO:// meaningful code.
+            done(__.text(`Hey~ ${result.entities.search_query[0].value}`));
+        }
+        else {
+            done(__.text("Sorry I didnt understand."));
+        }
+    }, (err)=>{
+        done(__.text(err.message));
+    });
+};
 ```
 
 `api.ai` makes it really easy to define your entities and intents using their interactive console. As for example, we have defined the following intent for extracting city for a given user expression.

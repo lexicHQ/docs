@@ -11,6 +11,6 @@ npm install -g recime
 Once the CLI is installed correctly, type the following to verify:
 
 ```
-recime --version
+rbp --version
 ```
 

@@ -5,11 +5,11 @@ Once you have created the `Recime` account, the next step is to setup your CLI f
 ![](profile.png)
 
 
-From your terminal type the following command `recime-cli login`. Once verified, you will see the following confirmation:
+From your terminal type the following command `rbp login`. Once verified, you will see the following confirmation:
 
 
-```
-~ recime login
+```shell
+~ rbp login
 Paste your api key from "console.recime.io/my-account":
 2880e1f07a2149509661d1ad19408d5b
 | 
@@ -21,5 +21,4 @@ For any questions and feedback, please reach us at hello@recime.io.
 ~ 
 
 ```
-
-You can disable the console anytime by refreshing the token from the developer console.
+Now you are all set!

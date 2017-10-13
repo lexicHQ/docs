@@ -9,7 +9,7 @@ A better solution is to use environment variables, and keep the keys out of the 
 Use Recime CLI’s  `config set` to set your config variable for the bot:
 
 ```
-bash-3.2$ recime config set PIPEDRIVE_USERNAME=johnsmith
+bash-3.2$ rbp config set PIPEDRIVE_USERNAME=johnsmith
 
 INFO: Configuration Saved Successfully.
 

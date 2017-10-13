@@ -12,27 +12,16 @@ Below is an example of how the code might look like but ideally it can hashed ou
 
 ```javascript
 import Ext from 'recime-bot-extension';
+import responder from "recime-message-responder";
 
 const __ = Ext.default;
 
-export default class Bot {
-
-    constructor(args){
-        this.args = args;
-    }
-
-    execute(){
-        // facebook quick reply it will resolve as **args.event.name**
-        return new Promise((resolve)=>{
-            resolve(__.quickReplyButtonTemplate("How may I help?",[
-                __.quickReplyButton("Get Ticket", "ticket-get"); 
-                __.quickReplyButton("Refund", "ticket-refund"); 
-			]));
-        }); 
-    }
-
-}
-
+exports.handler = (args, done)=>{
+    done(__.quickReplyButtonTemplate("How may I help?",[
+        __.quickReplyButton("Get Ticket", "ticket-get"); 
+        __.quickReplyButton("Refund", "ticket-refund"); 
+    ]));
+};
 ```
 
 For other platform, default it back to text. Therefore, in `main.js` it may look something like:
@@ -40,25 +29,13 @@ For other platform, default it back to text. Therefore, in `main.js` it may look
 
 ```javascript
 import Ext from 'recime-bot-extension';
+import responder from "recime-message-responder";
 
 const __ = Ext.default;
 
-export default class Bot {
-
-    constructor(args){
-        this.args = args;
-    }
-
-    execute(){
-        // facebook quick reply
-        return new Promise((resolve)=>{
-            resolve(__.text("Please tell me what you want to know?"));
-        }); 
-    }
-
-}
-
+exports.handler = (args, done)=>{
+    done(__.text("Please tell me what you want to know?"));
+};
 ```
-
 
 By default, the convention is to fallback to `main.js`. You can use platform extension to separate the platform and UI specific logic for a much **cleaner** code.
