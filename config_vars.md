@@ -1,4 +1,4 @@
-# Configuration and Config Vars
+# Configuration & Config Vars
 
 Bot Config variables are local to developers. Developers can use config variables to have separate production keys to that of development or an open source bot may have hundreds and thousands of deployments where different environment is maintained by each developer.
 
