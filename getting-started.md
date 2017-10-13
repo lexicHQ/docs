@@ -1,4 +1,4 @@
-# Getting Started
+# Introduction
 
 You will first build the elements you need to make the Facebook chat bot with Flickr photo’s work, make sure you have prepped your system as mentioned before.
 
