@@ -3,11 +3,10 @@
 Natural langauage proessing is the most important part of your AI bot development process. Once you have created the bot using the following command:
 
 ```
-recime-cli create hello-world
+rbp create hello-world
 ```
 
 Go to `console.recime.io` and and click on the `Training` tab to create your first intent.
-
 
 
 ![](nlp.png)
@@ -21,7 +20,7 @@ Next, save the `recime-nlp-provider` to your project:
 npm install --save recime-nlp-provider
 ```
 
-Make a text request to it and it will return you the entites you have defined for an expression:
+Make a text request to it and it will return you the entites you have defined for an expression. Copy and paste the following code to your `main.js`:
 
 ```javascript
 import Ext from 'recime-bot-extension';
