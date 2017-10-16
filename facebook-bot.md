@@ -1,3 +1,3 @@
 # Facebook Bot
 
-This tutorial walks you through the process of running your Recime bot on Facebook Messenger Platform.
+This tutorial walks through the process of creating facebook bot from scratch and configuring it with your own Facebook app.

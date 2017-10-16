@@ -9,29 +9,21 @@
 Facebook postback message is passed as `args.event.name`. For the figure above, if someone presses **Bookmark Item**, you can handle it in the following way:
 
 ```javascript
-export class Bot {
-  constructor(args){
-    this.args = args;
-  }
+import Ext from 'recime-bot-extension';
 
-  execute(){
-    return new Promise((resolve, reject)=>{
-        if (this.args.event){
-            switch(this.args.event.name){
-              case "bookmark":{
-                // TODO://
-                break;
-              }
-              default :{
-                // TODO://
-              }
-            }
-        }
-    });
-  }
-}
+const __ = Ext.default;
 
-
+exports.handler = (args, done)=>{
+    switch(args.event.name){
+      case "bookmark":{
+        done(__.text("TODO://"));
+        break;
+      }
+      default :{
+        done(__.text("TODO://"));
+      }
+    }
+};
 ```
 
 You can use the `recime-bot-extension` npm module to easily construct postback buttons and generic items. Please check it out [here](resources.md).

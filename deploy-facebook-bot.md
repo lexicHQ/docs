@@ -4,7 +4,7 @@ Configure your bot by typing the following command:
 
 
 ```
-recime config facebook
+rbp config facebook
 
 ```
 Now copy/paste your `APP ID`, `APP Secrect` and `Page Access Token` that you have  copied earlier.
@@ -30,7 +30,7 @@ bash-3.2$
 Deploy the bot by typing the following command:
 
 ```
-recime deploy
+rbp deploy
 
 ```
 
