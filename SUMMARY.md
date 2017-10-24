@@ -14,6 +14,7 @@
 * [ngrok - Configuration](ngrok-configuration.md)
 * [Assets](assets.md)
 * [Key-value](key-value-store.md)
+* [Cloud Code](cloud-code.md)
 * [Natural Language Processing](natural-language-processing.md)
 * [Analytics](analytics.md)
 * [HeadChat - Beta](headchat.md)
