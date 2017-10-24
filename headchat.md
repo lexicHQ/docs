@@ -1,4 +1,4 @@
-# HeadChat - Beta
+# HeadChat
 
 Now you can take your chatbot and deploy to it your website in just a few steps. 
 
