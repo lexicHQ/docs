@@ -40,3 +40,4 @@ The following libraries are available in the **Cloud Code** execution enviorment
 * [request](https://github.com/request/request)
 * [recime-bot-extension](https://github.com/Recime/recime-bot-extension)
 * [recime-keyvalue-store](https://github.com/Recime/recime-keyvalue-store)
+* console.log - To output directly into the bot. Used for debugging.
