@@ -1,13 +1,13 @@
 # Summary
 
 * [Introduction](README.md)
-* [Installation](installation.md)
 * [Registration](register.md)
-* [Command Line Interface](cli.md)
+* [Command Line Interface](command-line-interface.md)
 * [Build](build.md)
 * [Debugging](debugging.md)
 * [Deploy](deploy.md)
 * [Cloud Code](cloud-code.md)
+* [HeadChat](headchat.md)
 * [Natural Language Processing](natural-language-processing.md)
 * [Configuration & Config Vars](config_vars.md)
 * [Message Object](message-object.md)
@@ -17,7 +17,6 @@
 * [Assets](assets.md)
 * [Key-Value](key-value-store.md)
 * [Analytics](analytics.md)
-* [HeadChat](headchat.md)
 * [Facebook Bot](facebook-bot.md)
   * [Create Facebook Page](create-facebook-page.md)
   * [Setup Facebook App](setup-facebook-app.md)
