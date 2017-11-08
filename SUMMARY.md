@@ -9,6 +9,7 @@
 * [Cloud Code](cloud-code.md)
 * [HeadChat](headchat.md)
 * [Natural Language Processing](natural-language-processing.md)
+* [Defining Entities](entities.md)
 * [Configuration & Config Vars](config_vars.md)
 * [Message Object](message-object.md)
 * [Message Construction](message-construction.md)
