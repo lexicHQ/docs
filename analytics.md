@@ -19,7 +19,7 @@ Go to `dashbot.io` and  add a `facebook` bot  and copy the api key:
 Configure the api key as config var by typing the following command while inside your bot folder:
 
 ```
-rbp config DASHBOT_API_KEY=PASTE_YOUR_APIKEY_HERE
+rbp config set DASHBOT_API_KEY=PASTE_YOUR_APIKEY_HERE
 
 ```
 
