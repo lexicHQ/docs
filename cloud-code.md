@@ -18,9 +18,6 @@ Here you can set variables which you can use from UI elements in the current con
 
 
 ```javascript
-import Ext from "recime-bot-extension";
-const __ = Ext.default;
-
 exports.handler = (context, done) => {
     context.vars.set("name", "John Doe");
     done();
