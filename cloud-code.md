@@ -12,9 +12,23 @@ Here you can set variables which you can use from UI elements in the current con
 
 | Property Name | Description |
 | -- |
-| `args` | [User arguments](message-object.md)
-| `nlp` | Extracted intents and entites.
-| `vars` | User-defined variables that can be used within the context.
+| `args` | [User input](message-object.md)
+| `nlp` |  Contains extracted entities and intents for an expression.
+| `vars` | Set or get vars to use in the current context.
+
+
+```javascript
+import Ext from "recime-bot-extension";
+const __ = Ext.default;
+
+exports.handler = (context, done) => {
+    context.vars.set("name", "John Doe");
+    done();
+};
+```
+Use it within the conversation builder in the following way using double braces syntax:
+
+![](context-vars.png)
 
 
 It also possible to use [extension module](https://github.com/Recime/recime-bot-extension) directly and return response from within a code block:
