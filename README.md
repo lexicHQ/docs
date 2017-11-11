@@ -3,7 +3,7 @@
 Recime (ˈresəˌmē) is an end-to-end AI chatbot solution to automate customer support and content distribution. It gives you the tools to build omni-channel chatbots quickly and easily and eventually measure growth and user engagement to save cost and increase customer satisfaction.
 
 
-![](platform.png)
+![](platform-dash.png)
 
 ## Supported Channels
 
