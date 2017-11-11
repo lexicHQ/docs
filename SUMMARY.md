@@ -55,5 +55,4 @@
   * [Live Debugging](telegram-live-debugging.md)
   * [Supported Methods](supported-telegram-methods.md)
   * [Resources](telegram-resources.md)
-* [Recime Demo Bot](caltrain-bot-example.md)
 * [Resources](resources.md)
