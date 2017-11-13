@@ -12,8 +12,6 @@
 * [Defining Entities](entities.md)
 * [Configuration & Config Vars](config_vars.md)
 * [Message Object](message-object.md)
-* [Message Construction](message-construction.md)
-* [Assets](assets.md)
 * [Key-Value](key-value-store.md)
 * [Analytics](analytics.md)
 * [Facebook Bot](facebook-bot.md)
