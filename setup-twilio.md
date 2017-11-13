@@ -1,28 +1,24 @@
-#Setup Twilio
+#How to Setup Twilio
 
-The first step is to create a new `Programmable SMS Messaging` Service. Do this by scrolling down on the home dashboard and select Programmable SMS under the Messaging section.
+The first step is to create a new `Programmable SMS Messaging` Service.  Go to Home->Dashboard in your Twilio console.
+
+Select Programmable SMS under the Messaging section:
 
 ![](setup-twilio.png)
 
 
-Next create a messaging service. Name it whatever you want.
+Next create a messaging service by clicking on the "Create a new Messaging Service" button:
 
 ![](message-service.png)
 
 
-The only setting we need to set is the inbound request URL. Simply copy/paste the bot endpoint.
+Once the service is created. The only thing that we need is to set the inbound request URL. Paste the bot endpoint URL from publish tab that you have copied earlier:
 
 ![](twilio-webhook.png)
 
-Save the messaging service using the Save button at the bottom of the screen.
-
-
-Add a phone number for this service by clicking the Numbers menu on the left.
+Save the messaging service using the Save button at the bottom of the screen. Now, add a phone number for the new service by clicking on the "Numbers" link in the menu:
 
 ![](twilio-number.png)
 
 
-If you already have a number you'd like to use, choose that, otherwise create a new one.
-
-
-That's it the bot is now ready for SMS.
+If you already have a number you'd like to use, choose that, otherwise create a new one. At this point, you have successfully configured the SMS service for your bot.
