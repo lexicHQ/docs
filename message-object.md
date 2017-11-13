@@ -1,4 +1,4 @@
-# Message Object
+# Message Format
 
 Every bot has an endpoint which you can use to extend into your existing app or build your own custom solution on top of it. 
 

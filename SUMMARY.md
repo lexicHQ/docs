@@ -11,7 +11,7 @@
 * [Natural Language Processing](natural-language-processing.md)
 * [Defining Entities](entities.md)
 * [Configuration & Config Vars](config_vars.md)
-* [Message Object](message-object.md)
+* [Message Format](message-object.md)
 * [Key-Value](key-value-store.md)
 * [Analytics](analytics.md)
 * [Facebook Bot](facebook-bot.md)
