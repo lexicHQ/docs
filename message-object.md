@@ -1,87 +1,32 @@
 # Message Object
 
-Regardless what platform you are targeting the bot for, the framework gives you a message object with same format.
+Every bot has an endpoint which you can use to extend it to your custom solution or trigger it by sending event notification.
 
-An example JSON data for a `facebook` message:
+The basic structure for sending a notification to the bot looks like:
 
 ```json
 {
-  timestamp: 1494895687121,
-  text: 'who are you?',
-  sender: '1223182967789737',
-  rawBody: {
-      sender: {
-        id: '1223182967789737'
-      },
-      recipient: { id: '769372433211496' },
-      timestamp: 1494892213769,
-      message:{
-        mid: 'mid.$cAAK7vV_yB-5iP8o-CVcDoT1gIade',
-        seq: 11504,
-        text: 'who are you?'
-      }
+  sender : "11-11-111",
+  event : {  
+    name : "start" 
   }
 }
-
 ```
+This will send a `start` event to the bot that will invoke the corresponding intent and return the messsages for it.
 
-From the bot itself, developers can access the message object properties via `args` in the following way:
-
-```javascript
-import Ext from 'recime-bot-extension';
-import responder from "recime-message-responder";
-
-const __ = Ext.default;
-
-exports.handler = (args, done)=>{
-     done({
-        text: `I am resolved for ${sender} with ${text}`   
-     });
-};
-```
-
-The common definition of a message object regardless of its underlying platform is:
-
-```json
-{
-  timestamp : "number",
-  sender : "object"
-  text : "string"
-  rawBody : "object",
-  event : "object"
-}
-
-```
-
-**Definition of Properties**:
-
-* sender - Unique sender ID.
-* text - User input text.
-* rawBody - Original payload for the message.
-* event - Contains user event like button click.
+The message payload has the following properties:
 
 
-For the following `facebook` button click:
+| Property Name | Description | Type | Required |
+| -- | -- | -- |-- |
+| `sender` | Unique sender ID | String | Y |
+| `text` | Input text.(e.g. Where is San Francisco?) | String | N |
+| `event` | Event to trigger an intent. Either text or event is required. | Object | N |
 
-```json
-...
 
-"buttons":[
-    {
-    "type":"postback",
-    "title":"Bookmark Item",
-    "payload":"menu"
-    }
-]
+An event  object has the following properties:
 
-...
-
-```
-
-The following will be `true`:
-
-```
-this.args.event.name === "menu"
-
-```
-  
+| Property Name | Description | Type | Required |
+| -- | -- | -- |-- |
+| `name` | Event name | String | Y |
+| `payload` | event payload | Object | N |

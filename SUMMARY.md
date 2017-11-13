@@ -13,8 +13,6 @@
 * [Configuration & Config Vars](config_vars.md)
 * [Message Object](message-object.md)
 * [Message Construction](message-construction.md)
-* [Target Platform](target-platform.md)
-* [ngrok - Configuration](ngrok-configuration.md)
 * [Assets](assets.md)
 * [Key-Value](key-value-store.md)
 * [Analytics](analytics.md)
