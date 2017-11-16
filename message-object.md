@@ -12,9 +12,10 @@ The message payload has the following properties:
 | `sender` | Unique sender ID | String | Y |
 | `text` | Input text.(e.g. Where is San Francisco?) | String | N |
 | `event` | Event to trigger an intent. Either text or event is required. | Object | N |
+| `meta.user` | User information that is available from the bot as variables (e.g. {{first_name}}) | Object | N | 
 
 
-An event object has the following properties:
+An `event` object has the following properties:
 
 | Property Name | Description | Type | Required |
 | -- | -- | -- |-- |
