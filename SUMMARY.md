@@ -2,6 +2,7 @@
 
 * [Introduction](README.md)
 * [Registration](register.md)
+* [Getting Started](getting-started.md) 
 * [Command Line Interface](command-line-interface.md)
 * [Build](build.md)
 * [Debugging](debugging.md)
