@@ -1,37 +1,23 @@
 # Build
 
-Once you have created a bot by following the steps [here](create-your-bot.md). Go to your `main.js` file and paste the following code:
+Use the Command Line Interface to craete a bot project in the following way:
 
+```shell
+rbp create slack-bot
+```
+
+Go to your `main.js` file and you will find the following:
 
 ```javascript
-/*jshint esversion: 6 */
+import Ext from 'recime-bot-extension';
+import responder from "recime-message-responder";
 
-export default class Bot {
-   private args;
+const __ = Ext.default;
 
-   constructor(args){
-     this.args = args;
-   }
-
-   execute(){
-     let args = this.args;
-     let text = args.text;
-
-     return new Promise ((resolve)=>{
-       if (text){
-         if (text.indexOf("name") >= 0){
-           resolve({
-               "text": "Hi! I am Alan Turing Bot."
-           });
-         }
-         else{
-           resolve({
-             text : `Hello ${text}`
-           });
-         }
-       }
-     });
-   }
-  }
-
+exports.handler = (args, done)=>{
+    done(responder.respond(args));
+};
 ```
+
+This will also create the bot in your dashboard. Use the coversation builder or have addtional logic to handle slack commands `args.command` or totally implement custom flow and then send out responses using `recime-bot-extension` npm module.
+

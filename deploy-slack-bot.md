@@ -6,10 +6,10 @@ Go to "Basic Information". Take a note of the `Client ID` and `Secret`.
 ![](slack-credentials.png)
 
 
-From `recime` type the folloiwng command (1.2.6+):
+From `rbp` type the folloiwng command:
 
 ```
-recime config slack 
+rbp config slack 
 
 ```
 
@@ -19,7 +19,7 @@ This will start the interactive prompt for setting `Client ID` and `Secret`. The
 Deploy the bot by typing the following command:
 
 ```
-recime deploy
+rbp deploy
 
 ```
 
