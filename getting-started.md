@@ -2,7 +2,7 @@
 
 Once the account is created. Next step is to create your first bot. 
 
-Once you are in your dashboard, press the "+ Create a bot" button. This will bring the create bot dialog:
+Once you are in your dashboard, press the "+ Create a bot" button. This will give you the create bot dialog:
 
 ![](create-bot.png)
 
