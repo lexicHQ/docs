@@ -1,0 +1,101 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Message Format &#8212; Recime Documentation 1.0.1 documentation</title>
+    <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '1.0.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true,
+        SOURCELINK_SUFFIX: '.txt'
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head>
+  <body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="message-format">
+<span id="message-format"></span><h1>Message Format<a class="headerlink" href="#message-format" title="Permalink to this headline">¶</a></h1>
+<p>Every bot has an endpoint which you can use to extend into your existing app or build your own custom solution on top of it.</p>
+<p>It is possible to send a notification to the bot using JSON <code class="docutils literal"><span class="pre">POST</span></code> request. The message body can contain user text or an event to trigger an intent. The result will contain an array of messages sent from the bot.</p>
+<p>The message payload has the following properties:</p>
+<p>| Property Name | Description | Type | Required |
+| -- | -- | -- |-- |
+| <code class="docutils literal"><span class="pre">sender</span></code> | Unique sender ID | String | Y |
+| <code class="docutils literal"><span class="pre">text</span></code> | Input text.(e.g. Where is San Francisco?) | String | N |
+| <code class="docutils literal"><span class="pre">event</span></code> | Event to trigger an intent. Either text or event is required. | Object | N |
+| <code class="docutils literal"><span class="pre">meta.user</span></code> | User information that is available from the bot as variables (e.g. {% raw %}{{first_name}}{% endraw %}) | Object | N |</p>
+<p>An <code class="docutils literal"><span class="pre">event</span></code> object has the following properties:</p>
+<p>| Property Name | Description | Type | Required |
+| -- | -- | -- |-- |
+| <code class="docutils literal"><span class="pre">name</span></code> | Name of the event (e.g. start) that corresponds to an intent name | String | Y |
+| <code class="docutils literal"><span class="pre">payload</span></code> | JSON payload | Object | N |</p>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper"><div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="search.html" method="get">
+      <div><input type="text" name="q" /></div>
+      <div><input type="submit" value="Go" /></div>
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2017, Recime Inc..
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.6.5</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.10</a>
+      
+      |
+      <a href="_sources/message-object.md.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

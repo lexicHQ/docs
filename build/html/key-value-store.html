@@ -1,0 +1,118 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Key-value Store &#8212; Recime Documentation 1.0.1 documentation</title>
+    <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '1.0.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true,
+        SOURCELINK_SUFFIX: '.txt'
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head>
+  <body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="key-value-store">
+<span id="key-value-store"></span><h1>Key-value Store<a class="headerlink" href="#key-value-store" title="Permalink to this headline">¶</a></h1>
+<p>Key-value is designed to help you store conversational states and quickly store and retrieve data that will enable you to build a more engaging and personalized experience for your users.</p>
+<p>From your bot project, install the <code class="docutils literal"><span class="pre">recime-keyvalue-store</span></code> npm module by typing the following command:</p>
+<div class="highlight-bash"><div class="highlight"><pre><span></span>npm install --save recime-keyvalue-store
+</pre></div>
+</div>
+<p>Import the module by copy and pasting the folloiwng line in your source file:</p>
+<div class="highlight-javascript"><div class="highlight"><pre><span></span><span class="kr">import</span> <span class="nx">db</span> <span class="nx">from</span> <span class="s2">&quot;recime-keyvalue-store&quot;</span><span class="p">;</span>
+</pre></div>
+</div>
+<p>Use it to remember conversation flow. <code class="docutils literal"><span class="pre">key-value</span></code> is for fast read-write. Therefore, use it as a small storage solution to ensure the throughput of your bot.</p>
+<div class="highlight-javascript"><div class="highlight"><pre><span></span><span class="nx">db</span><span class="p">.</span><span class="nx">set</span><span class="p">(</span><span class="s2">&quot;userId&quot;</span><span class="p">,</span> <span class="p">{</span>
+    <span class="nx">id</span> <span class="o">:</span> <span class="mi">1</span>
+<span class="p">}).</span><span class="nx">then</span><span class="p">((</span><span class="nx">_</span><span class="p">)</span><span class="o">=&gt;</span><span class="p">{</span>
+    <span class="c1">// TODO://</span>
+<span class="p">});</span>
+</pre></div>
+</div>
+<p>Similarly, use <code class="docutils literal"><span class="pre">db.get</span></code> to retrieve the value:</p>
+<div class="highlight-javascript"><div class="highlight"><pre><span></span><span class="nx">db</span><span class="p">.</span><span class="nx">get</span><span class="p">(</span><span class="s2">&quot;userId&quot;</span><span class="p">).</span><span class="nx">then</span><span class="p">((</span><span class="nx">result</span><span class="p">)</span><span class="o">=&gt;</span><span class="p">{</span>
+    <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">result</span><span class="p">.</span><span class="nx">id</span><span class="p">);</span>
+<span class="p">});</span>
+</pre></div>
+</div>
+<p>Key-value data is available throughout lifetime of your bot once deployed and supports the following javascript data types:</p>
+<ul class="simple">
+<li>Number</li>
+<li>String</li>
+<li>Object</li>
+</ul>
+<p>Every bot gets its own managed and secure store. Number of unique keys are subject to plan, please checkout pricing page for more details.</p>
+<p>We welcome your contribution and you can fork the source from <a class="reference external" href="https://github.com/Recime/recime-keyvalue-store">here</a>.</p>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper"><div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="search.html" method="get">
+      <div><input type="text" name="q" /></div>
+      <div><input type="submit" value="Go" /></div>
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2017, Recime Inc..
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.6.5</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.10</a>
+      
+      |
+      <a href="_sources/key-value-store.md.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>
