@@ -20,6 +20,9 @@
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
 
+import sphinx_rtd_theme
+from recommonmark.parser import CommonMarkParser
+
 
 # -- General configuration ------------------------------------------------
 
@@ -30,18 +33,12 @@
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
+
+
 extensions = ['sphinx.ext.doctest']
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
-
-
-from recommonmark.parser import CommonMarkParser
-
-source_parsers = {
-    '.md': CommonMarkParser,
-}
-
 
 # The suffix(es) of source filenames.
 # You can specify multiple suffix as a list of string:
@@ -49,12 +46,16 @@ source_parsers = {
 source_suffix = ['.rst', '.md']
 # source_suffix = '.rst'
 
+source_parsers = {
+    '.md': CommonMarkParser,
+}
+
 # The master toctree document.
 master_doc = 'index'
 
 # General information about the project.
 project = u'Recime Documentation'
-copyright = u'2017, Mehfuz Hossain'
+copyright = u'2017, Recime Inc.'
 author = u'Mehfuz Hossain'
 
 # The version info for the project you're documenting, acts as replacement for
@@ -172,6 +173,6 @@ texinfo_documents = [
      'Miscellaneous'),
 ]
 
-import sphinx_rtd_theme
 html_theme = "sphinx_rtd_theme"
+html_static_path = ['_static']
 html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
