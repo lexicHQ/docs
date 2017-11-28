@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 #
 # Recime Documentation documentation build configuration file, created by
-# sphinx-quickstart on Mon Nov 27 23:20:08 2017.
+# sphinx-quickstart on Tue Nov 28 01:04:29 2017.
 #
 # This file is execfile()d with the current directory set to its
 # containing dir.
@@ -30,38 +30,31 @@
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-extensions = []
+extensions = ['sphinx.ext.doctest']
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
 
-from recommonmark.parser import CommonMarkParser
-
-source_parsers = {
-    '.md': CommonMarkParser,
-}
-
-
 # The suffix(es) of source filenames.
 # You can specify multiple suffix as a list of string:
 #
-source_suffix = ['.rst', '.md']
-# source_suffix = '.rst'
+# source_suffix = ['.rst', '.md']
+source_suffix = '.rst'
 
 # The master toctree document.
 master_doc = 'index'
 
 # General information about the project.
 project = u'Recime Documentation'
-copyright = u'2017, Recime Inc.'
-author = u'Recime Inc.'
+copyright = u'2017, Mehfuz Hossain'
+author = u'Mehfuz Hossain'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
 # built documents.
 #
 # The short X.Y version.
-version = u''
+version = u'1.0.1'
 # The full version, including alpha/beta/rc tags.
 release = u'1.0.1'
 
@@ -75,7 +68,7 @@ language = None
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
 # This patterns also effect to html_static_path and html_extra_path
-exclude_patterns = []
+exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 
 # The name of the Pygments (syntax highlighting) style to use.
 pygments_style = 'sphinx'
@@ -146,7 +139,7 @@ latex_elements = {
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
     (master_doc, 'RecimeDocumentation.tex', u'Recime Documentation Documentation',
-     u'Recime Inc.', 'manual'),
+     u'Mehfuz Hossain', 'manual'),
 ]
 
 
