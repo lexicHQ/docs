@@ -1,12 +1,16 @@
 #JSON API
 
-Use JSON API plugin to create server-side integrations or define your conversation logic based on dynamic content. JSON API plugins support the following methods:
+`JSON API` plugin enables you to create server-side integrations or define your conversation logic based on dynamic content. 
+
+You can make the following HTTP requests:
 
 * GET
 * POST
 * PATCH
 * DELETE
 * PUT
+
+You can pass query string parameters, POST body, and headers to address a various type of custom implementation. 
 
 In addition, You can use context variables as parameters using the double braces syntax to pass user input and NLP response. Here is an example of how to use JSON API in order to get weather information:
 
