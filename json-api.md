@@ -17,7 +17,7 @@ Here, location is defined as an entity from the "Define Expressions" tab:
 
 ![](json-api-define-expressions.png)
 
-The response is saved in \{{result}} varaible which is used from the text element print out the current weather information in the following way:
+The response is saved in \{\{result}} varaible which is used from the text element to print out the current weather information in the following way:
 
 ![](json-reply.png)
 
