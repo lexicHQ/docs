@@ -20,11 +20,13 @@ Intents are the building blocks of your bot. An intent contains conversation blo
 
 Here are the definiation of the basic intents that are the building blocks of your bot.
 
+<!--table-->
 | Intent Name | Description | Required |
 | -- | -- | -- |
 | `start` | Defines the start of the conversation. It is called automatically when the conversation starts | Y |
 | `about` | The intent is callled when some types "about" or any about event triggered by the user.  This contains the default branding information.  | N |
 | `default` | Contains default message shown to a user when the bot does not understand an expression. | Y |
+<!--endtable-->
 
 Test your bot by clicking on the "Test the Bot" button.
 
