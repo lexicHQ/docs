@@ -3,6 +3,7 @@
 * [Registration](register.md)
 * [Getting Started](getting-started.md) 
 * [Defining Entities](entities.md)
+* [JSON API](json-api.md)
 * [Cloud Code](cloud-code.md)
 * [Message Format](message-object.md)
 * [Command Line Interface](command-line-interface.md)
