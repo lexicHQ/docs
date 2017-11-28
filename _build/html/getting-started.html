@@ -1,0 +1,311 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Getting Started &mdash; Recime Documentation 2.0.1 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  
+
+  
+    <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+
+  
+        <link rel="index" title="Index"
+              href="genindex.html"/>
+        <link rel="search" title="Search" href="search.html"/>
+    <link rel="top" title="Recime Documentation 2.0.1 documentation" href="index.html"/>
+        <link rel="next" title="Defining Entities" href="entities.html"/>
+        <link rel="prev" title="Registration" href="register.html"/> 
+
+  
+  <script src="_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="index.html" class="icon icon-home"> Recime Documentation
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                2.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Table of Contents</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="register.html">Registration</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Getting Started</a></li>
+<li class="toctree-l1"><a class="reference internal" href="entities.html">Defining Entities</a></li>
+<li class="toctree-l1"><a class="reference internal" href="json-api.html">JSON API</a></li>
+<li class="toctree-l1"><a class="reference internal" href="cloud-code.html">Cloud Code</a></li>
+<li class="toctree-l1"><a class="reference internal" href="message-format.html">Message Format</a></li>
+<li class="toctree-l1"><a class="reference internal" href="command-line-interface.html">Command Line Interface</a></li>
+<li class="toctree-l1"><a class="reference internal" href="create-slack-bot.html">How to Build a Slack Bot</a></li>
+<li class="toctree-l1"><a class="reference internal" href="setup-twilio.html">How to Setup Twilio</a></li>
+<li class="toctree-l1"><a class="reference internal" href="key-value-store.html">Key-value Store</a></li>
+<li class="toctree-l1"><a class="reference internal" href="resources.html">Resources</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Recime Documentation</a>
+        
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+      <li>Getting Started</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/getting-started.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="getting-started">
+<h1>Getting Started<a class="headerlink" href="#getting-started" title="Permalink to this headline">¶</a></h1>
+<p>Once the account is created. Next step is to create your first bot.</p>
+<p>Once you are in your dashboard, press the “+ Create a bot” button. This
+will give you the create bot dialog:</p>
+<p><img alt="image0" src="_images/create-bot.png" /></p>
+<p>Enter title, description of the of the bot. Upload an icon (256x256) and
+finally choose your language.</p>
+<p>Press “Submit”.</p>
+<p>This will create a blank bot with <code class="docutils literal"><span class="pre">start</span></code>, <code class="docutils literal"><span class="pre">default</span></code> and <code class="docutils literal"><span class="pre">about</span></code>
+intent.</p>
+<p><img alt="image1" src="_images/blank-bot.png" /></p>
+<p>Intents are the building blocks of your bot. An intent contains
+conversation blocks and expressions that can trigger it. You can also
+trigger an intent by an user event like button click.</p>
+<p>Here are the definiation of the basic intents that are the building
+blocks of your bot.</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Intent Name</th>
+<th class="head">Description</th>
+<th class="head">Required</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>start</td>
+<td>Defines the start of
+the conversation. It
+is called
+automatically when
+the conversation
+starts</td>
+<td>Y</td>
+</tr>
+<tr class="row-odd"><td>about</td>
+<td>The intent is callled
+when some types
+“about” or any about
+event triggered by
+the user. This
+contains the default
+branding information.</td>
+<td>N</td>
+</tr>
+<tr class="row-even"><td>default</td>
+<td>Contains default
+message shown to a
+user when the bot
+does not understand
+an expression.</td>
+<td>Y</td>
+</tr>
+</tbody>
+</table>
+<p>Test your bot by clicking on the “Test the Bot” button.</p>
+<p><img alt="image2" src="_images/getting-started-test.png" /></p>
+<p>You can define expressions from “Define Expressions” tab. The default
+template already creates a few for you. In this case, messages in
+<code class="docutils literal"><span class="pre">start</span></code> intent can also be triggered by typing “Hi”, “Hello” or
+“Start”.</p>
+<p><img alt="image3" src="_images/getting-started-expressions.png" /></p>
+</div>
+
+
+           </div>
+           <div class="articleComments">
+            
+           </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="entities.html" class="btn btn-neutral float-right" title="Defining Entities" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="register.html" class="btn btn-neutral" title="Registration" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2017, Recime Inc..
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'./',
+            VERSION:'2.0.1',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true,
+            SOURCELINK_SUFFIX: '.txt'
+        };
+    </script>
+      <script type="text/javascript" src="_static/jquery.js"></script>
+      <script type="text/javascript" src="_static/underscore.js"></script>
+      <script type="text/javascript" src="_static/doctools.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>
