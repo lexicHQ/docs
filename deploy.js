@@ -110,7 +110,7 @@ function upload(files) {
   return Promise.all(tasks);
 }
 
-function invalidate() {
+function invalidate(files) {
   function poll(id, resolve, reject) {
     setTimeout(() => {
       const params = {
@@ -133,13 +133,15 @@ function invalidate() {
   }
 
   return new Promise((resolve, reject) => {
+
+
     const params = {
       DistributionId: CloudfrontDistributionId,
       InvalidationBatch: {
         CallerReference: Date.now().toString(),
         Paths: {
-          Quantity: 1,
-          Items: ['/index.html']
+          Quantity: files.length,
+          Items: files
         }
       }
     };
@@ -165,9 +167,14 @@ function remove(location) {
 function deploy() {
   return build()
     .then(() => getFiles())
-    .then(files => upload(files))
-    .then(() => remove(distDirectory))
-    .then(() => invalidate());
+    .then(files => upload(files).then(()=> files))
+    .then((files) => remove(distDirectory).then(()=> files))
+    .then((files) => {
+      const f = files.map((file)=>{
+          return "/" + path.parse(file).base;
+      });
+      invalidate(f);
+    });
 }
 
 module.exports = deploy;

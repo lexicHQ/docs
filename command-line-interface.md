@@ -83,7 +83,7 @@ Bot created using command line interface is in intermidiate state. This gives yo
 ```shell
 rbp deploy
 ```
-This configure and deploy the bot with your local changes and prepare it for pushing to various channels.
+This will configure and deploy the bot with your local changes and prepare it for pushing to various channels.
 
 
 
