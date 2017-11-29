@@ -78,7 +78,7 @@ language = None
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
 # This patterns also effect to html_static_path and html_extra_path
-exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
+exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store', 'node_modules']
 
 # The name of the Pygments (syntax highlighting) style to use.
 pygments_style = 'sphinx'
@@ -149,7 +149,7 @@ latex_elements = {
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
     (master_doc, 'RecimeDocumentation.tex', u'Recime Documentation Documentation',
-     u'Mehfuz Hossain', 'manual'),
+     u'Recime Inc.', 'manual'),
 ]
 
 
@@ -175,8 +175,18 @@ texinfo_documents = [
 ]
 
 html_theme = "sphinx_rtd_theme"
+html_theme_options = {
+    'display_version': False
+}
+
+# html_theme_options = {
+#     'logo': 'logo.png',
+#     'github_user': 'Recime',
+#     'github_repo': 'docs',
+# }
+
+html_show_sourcelink = False
 # html_static_path = ['_static']
 # html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
-
 def setup(app):
    app.add_stylesheet("custom.css")

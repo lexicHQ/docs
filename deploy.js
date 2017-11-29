@@ -1,7 +1,7 @@
 'use strict';
 
-const S3Bucket = 'docs.recime.io';
-const CloudfrontDistributionId = 'E2NNFA02ST8SHS';
+const S3Bucket = 'man.recime.io';
+const CloudfrontDistributionId = 'E3MZM5W02WVGFZ';
 
 //const S3Bucket = 'stage-console.recime.io';
 //const CloudfrontDistributionId = 'EYLJ8B8R99MTE';

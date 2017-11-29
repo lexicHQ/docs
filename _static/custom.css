@@ -1,6 +1,7 @@
-.wy-table-responsive table {
-   /* width : 100%; */
-}   
+.wy-side-nav-search{
+    /* background-color: #435062; */
+}
+
 .wy-table-responsive table td {
    white-space: pre;
 }   
