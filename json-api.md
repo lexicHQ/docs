@@ -25,7 +25,7 @@ The response is saved in \{\{result}} varaible which is used from the text eleme
 JSON API allows you to implement the following use-cases:
 
 1. Retrieve dynamic content.
-2. Create service-side integrations, where it will send data to an endpoint whenever a conversation reaches a certain point.
+2. Create server-side integrations, where it will send data to an endpoint whenever a conversation reaches a certain point.
 3. Trigger an event.
 
 

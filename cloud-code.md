@@ -11,10 +11,10 @@ Here you can set variables which you can use from UI elements in the current con
 `context` parameter have the following properties:
 
 | Property Name | Description |
-| -- |
-| `args` | [User input](message-object.md)
-| `nlp` |  Contains extracted entities and intents for an expression.
-| `vars` | Set or get vars to use in the current context.
+| -- | -- |
+| args | [User input](message-object.md)
+| nlp |  Contains entities and intents for an expression.
+| vars | Set or get vars to use in the current context.
 
 
 ```javascript

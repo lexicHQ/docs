@@ -57,5 +57,4 @@ You can find us on our `community slack channel <https://slackpass.io/recimecomm
    command-line-interface
    create-slack-bot
    setup-twilio
-   key-value-store
    resources

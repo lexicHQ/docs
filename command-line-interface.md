@@ -78,13 +78,87 @@ For any changes you make in the source, it will automatically restart the proces
 
 ## Deploy
 
-Bot created using command line interface is in intermidiate state. This gives you a way to set responses locally and write your own logic. In order to push changes to live, you will need to deploy it using the following command:
+Bot created using command line interface is in intermidiate state. This gives you a way to test locally and write your own logic. In order to push changes to live, you will need to deploy it using the following command:
 
 ```shell
 rbp deploy
 ```
-This will configure and deploy the bot with your local changes and prepare it for pushing to various channels.
+This will configure and deploy the bot with your custom logic and prepare it for pushing to various channels.
+
+
+## Miscellaneous
+
+### Static Content
+
+In order to serve static content, add an `assets` folder in your project directory.
+
+![](assets.png)
+
+use the `url` extension method in the following way to use it your response:
+
+```javascript
+import Ext from 'recime-bot-extension';
+import responder from "recime-message-responder";
+
+const __ = Ext.default;
+
+exports.handler = (args, done)=>{
+    switch (this.args.event.name){
+        case "start":
+            done([
+                __.text("Hey! There!."),
+                __.image(url("assets/blog-logo.png"))
+        ]);
+        break;
+        default:{
+            done(__.text("Sorry, I didn't understand."));
+        }
+    }
+};
+```
+
+### Using Local Storage
+
+Install the `recime-keyvalue-store` npm module by typing the following command from your project folder:
+
+```bash
+npm install --save recime-keyvalue-store
+```
+
+Import the module by copy and pasting the folloiwng line in your source file:
+
+```javascript
+import db from "recime-keyvalue-store";
+```
+
+`key-value` is for fast read-write. Therefore, use it as a cache store for your bot.
+
+```javascript
+db.set("userId", {
+    id : 1
+}).then((_)=>{
+    // TODO://
+});
+
+```
+
+Similarly, use `db.get` to retrieve the value:
+
+```javascript
+db.get("userId").then((result)=>{
+    console.log(result.id);
+});
+```
+
+Key-value data is available throughout lifetime of your bot once deployed and supports the following javascript data types:
+
+* Number
+* String
+* Object
 
 
 
+Every bot gets its own managed and secure store. Number of unique keys are subject to plan, please checkout pricing page for more details.
 
+
+We welcome your contribution and you can fork the source from [here](https://github.com/Recime/recime-keyvalue-store).
