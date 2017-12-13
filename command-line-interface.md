@@ -94,7 +94,7 @@ In order to serve static content, add an `assets` folder in your project directo
 
 ![](assets.png)
 
-use the `url` extension method in the following way to use it your response:
+Use the `url` extension method in the following way to set it in your response:
 
 ```javascript
 import Ext from 'recime-bot-extension';
