@@ -26,7 +26,7 @@ A pattern is a `regular` expression, here I have ensured using the following pat
 
 In order to set a user action as input, you have to select "User Input" from the drop-down then set the reply as shown below:
 
-![](quick-reply-dialog.png)
+![](user-input-quick-reply-dialog.png)
 
 
 Finally, I've used the result from the user input as a variable in the following way:
