@@ -1,6 +1,6 @@
 # User Input
 
-User Input plugin allows you to capture and validate input from a user. It can be simple text or in the form of action.
+User Input plugin allows you to capture and validate input from a user. It can be simple text or in the form of an action.
 
 It supports the following data types:
 
@@ -29,9 +29,17 @@ In order to set a user action as input, you have to select "User Input" from the
 ![](user-input-quick-reply-dialog.png)
 
 
-Finally, I've used the result from the user input as a variable in the following way:
+Use the result from the plugin in the following:
 
 ![](user-input-confirm.png)
 
+This variable is also available inside `code` script and you can get the value in the following way:
 
-Using action as input parameter makes it much faster and intuitive as it gives the user clue on what to reply rather via validation error in a certain use-case.
+```javascript
+exports.handler = (context, done) => {
+    console.log(context.vars.get("color"));
+    done();
+};
+```
+
+Using action as input parameter makes it intuitive as it drives the user to a correct flow rather I have to figure out via trial and error.

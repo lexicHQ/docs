@@ -35,7 +35,7 @@ The Recimē Cloud gives you full advantage of the range of structured and rich m
 We're Here to Help!
 --------------------
 
-Need help? If you can’t find the answer you’re looking for in this documentation, get in touch with us by mailto:hello@recime.io.
+Need help? If you can’t find the answer you’re looking for in this documentation, get in touch with us by `hello@recime.io <mailto:hello@recime.io>`_
 
 Join the Slack Channel
 ----------------------
