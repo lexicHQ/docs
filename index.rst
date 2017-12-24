@@ -53,8 +53,9 @@ You can find us on our `community slack channel <https://slackpass.io/recimecomm
    entities
    json-api
    user-input
-   cloud-code
+   script-block
    message-format
+   third-party-analytics
    command-line-interface
    create-slack-bot
    setup-twilio
