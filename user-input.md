@@ -1,6 +1,6 @@
 # User Input
 
-User Input plugin allows you to capture and validate input from a user. It can be simple text or in the form of an action.
+The plugin allows you to capture and validate input from a user. It can be simple text or in the form of an action.
 
 It supports the following data types:
 

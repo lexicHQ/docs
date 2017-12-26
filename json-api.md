@@ -1,6 +1,6 @@
 # JSON API
 
-`JSON API` plugin enables you to create server-side integrations or define your conversation logic based on dynamic content. You can make the following HTTP requests:
+The plugin allows you to create server-side integrations or define your conversation logic based on dynamic content. You can make the following HTTP requests:
 
 * GET
 * POST
