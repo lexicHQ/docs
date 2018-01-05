@@ -51,9 +51,7 @@ You can find us on our `community slack channel <https://slackpass.io/recimecomm
    register
    getting-started
    entities
-   user-input
-   json-api
-   go-to-intent
+   core-plugin
    script-block
    message-format
    third-party-analytics

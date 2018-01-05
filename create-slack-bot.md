@@ -1,4 +1,4 @@
-# How to Build a Slack Bot
+# Build a Slack Bot
 
 Use the Command Line Interface to craete a bot project in the following way:
 

@@ -1,8 +1,6 @@
-# Defining Entities
+# Entity Definition
 
 An entity represents a term or object in the user's expression that provides clarification or specific context for a particular intent.
-
-Here in the following example:
 
 ![](entities.png)
 
