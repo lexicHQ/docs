@@ -67,7 +67,7 @@ script to your website or implement the bot in a custom solution.
 .. _WeChat: https://mp.weixin.qq.com/
 .. _BotFater: https://telegram.me/botfather
 
-.. |image0| image:: create-bot.png
+.. |image0| image:: create-new-bot.png
 .. |image1| image:: blank-bot.png
 .. |image2| image:: test-the-bot.png
 .. |image3| image:: publish.png
