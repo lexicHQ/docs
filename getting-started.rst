@@ -19,11 +19,12 @@ intent.
 |image1|
 
 Intents are the building blocks of your bot. An intent contains
-conversation blocks and expressions that can trigger it. You can also
-trigger an intent by an user event like button click.
+expressions and responses. You can also trigger an intent by a user
+event (e.g.button click) or by typing the expression or keyword that you
+have defined in the "Expressions" tab.
 
-Here are the definiation of the basic intents that are the building
-blocks of your bot.
+Here is the definition of the basic intents that are the building blocks
+of your bot.
 
 +-----------------------+-----------------------+-----------------------+
 | Intent Name           | Description           | Required              |
@@ -35,11 +36,9 @@ blocks of your bot.
 |                       | the conversation      |                       |
 |                       | starts                |                       |
 +-----------------------+-----------------------+-----------------------+
-| about                 | The intent is callled | N                     |
-|                       | when some types       |                       |
-|                       | "about" or any about  |                       |
-|                       | event triggered by    |                       |
-|                       | the user. This        |                       |
+| about                 | it is triggered when  | N                     |
+|                       | some types "about" or |                       |
+|                       | by a user event. This |                       |
 |                       | contains the default  |                       |
 |                       | branding information. |                       |
 +-----------------------+-----------------------+-----------------------+
@@ -47,22 +46,28 @@ blocks of your bot.
 |                       | message shown to a    |                       |
 |                       | user when the bot     |                       |
 |                       | does not understand   |                       |
-|                       | an expression.        |                       |
+|                       | an expression. This   |                       |
+|                       | is useful for         |                       |
+|                       | creating an email or  |                       |
+|                       | support flow          |                       |
 +-----------------------+-----------------------+-----------------------+
 
-Test your bot by clicking on the "Test the Bot" button.
+Go to the "Responses" tab, make some changes and click on the "Test the
+Bot" button.
 
 |image2|
 
-You can define expressions from "Define Expressions" tab. The default
-template already creates a few for you. In this case, messages in
-``start`` intent can also be triggered by typing "Hi", "Hello" or
-"Start".
+Go to Publish tab to connect the bot to your Facebook page, `Viber`_ or
+`WeChat`_ public account, Telegram using `BotFater`_ app, copy the
+script to your website or implement the bot in a custom solution.
 
 |image3|
 
+.. _Viber: https://partners.viber.com/account/create-bot-account
+.. _WeChat: https://mp.weixin.qq.com/
+.. _BotFater: https://telegram.me/botfather
+
 .. |image0| image:: create-bot.png
 .. |image1| image:: blank-bot.png
-.. |image2| image:: getting-started-test.png
-.. |image3| image:: getting-started-expressions.png
-
+.. |image2| image:: test-the-bot.png
+.. |image3| image:: publish.png

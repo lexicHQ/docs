@@ -16,26 +16,24 @@ This will create a blank bot with `start`, `default` and `about` intent.
 ![](blank-bot.png)
 
 
-Intents are the building blocks of your bot. An intent contains conversation blocks and expressions that can trigger it. You can also trigger an intent by an user event like button click.
+Intents are the building blocks of your bot. An intent contains expressions and responses. You can also trigger an intent by a user event (e.g.button click) or by typing the expression or keyword that you have defined in the "Expressions" tab.
 
-Here are the definiation of the basic intents that are the building blocks of your bot.
+Here is the definition of the basic intents that are the building blocks of your bot.
 
 | Intent Name | Description | Required |
 | - | --- | - |
 | start | Defines the start of the conversation. It is called automatically when the conversation starts | Y |
-| about | The intent is callled when some types "about" or any about event triggered by the user.  This contains the default branding information.  | N |
-| default | Contains default message shown to a user when the bot does not understand an expression. | Y |
+| about | it is triggered when some types "about" or by a user event.  This contains the default branding information.  | N |
+| default | Contains default message shown to a user when the bot does not understand an expression. This is useful for creating an email or support flow | Y |
 
-Test your bot by clicking on the "Test the Bot" button.
+Go to the "Responses" tab, make some changes and click on the "Test the Bot" button.
 
-![](getting-started-test.png)
-
-
-You can define expressions from "Define Expressions" tab. The default template already creates a few for you. In this case, messages in `start` intent can also be triggered by typing "Hi", "Hello" or "Start". 
-
-![](getting-started-expressions.png)
+![](test-the-bot.png)
 
 
+Go to Publish tab to connect the bot to your Facebook page, [Viber](https://partners.viber.com/account/create-bot-account) or [WeChat](https://mp.weixin.qq.com/) public account, Telegram using [BotFater](https://telegram.me/botfather) app, copy the script to your website or implement the bot in a custom solution.
+
+![](publish.png)
 
 
 
