@@ -15,13 +15,12 @@ Once the CLI is installed correctly, type the following to verify:
 
 ```shell
 rbp --version
-```
 
 ## Setting it Up
 
 Go to [console.recime.io/my-account](https://console.recime.io/my-account) and copy the `Access Token`:
 
-![](profile.png)
+![](profile-new.png)
 
 
 Type the following command from your terminal:

@@ -1,6 +1,6 @@
 # Core Plugins
 
-Implment custom logic, capture and validate input, make API requests and overall extend  for a more rich chatbot experience.
+Implement custom logic, capture and validate input, make API requests and overall extend your bot for a richer experience.
 
 ## Go to Intent
 
