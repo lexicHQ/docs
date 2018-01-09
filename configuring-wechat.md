@@ -1,6 +1,8 @@
 # Configuring WeChat
 
-WeChat is the #1 messaging service in China. It is used by over 700 million users and it is the most important channel in the Chinese market. In order to configure WeChat, you will need an [official account](http://open.wechat.com/cgi-bin/newreadtemplate?t=overseas_open/section_detail&show=office). You can also get a [Sandbox](https://mp.weixin.qq.com/debug/cgi-bin/sandbox?t=sandbox/login) to test your bot.
+WeChat is the #1 messaging service in China. It is used by over 700 million users and it is the most important channel in the Chinese market. 
+
+In order to configure WeChat, you will need an [official account](http://open.wechat.com/cgi-bin/newreadtemplate?t=overseas_open/section_detail&show=office). You can also get a [Sandbox](https://mp.weixin.qq.com/debug/cgi-bin/sandbox?t=sandbox/login) to test your bot.
 
 Once your WeChat account is verified, do the following to connect to your bot:
 
