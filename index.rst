@@ -54,6 +54,7 @@ You can find us on our `community slack channel <https://slackpass.io/recimecomm
    core-plugin
    script-block
    message-format
+   configuring-wechat
    third-party-analytics
    command-line-interface
    create-slack-bot
