@@ -28,4 +28,4 @@ key as you configure dashbot analytics from `home->bot-> monitor` as shown below
 
 .. |image0| image:: dashbot.png
 .. |image1| image:: add-skill.png
-.. |image2| image:: monitor-dashbot.png
+.. |image2| image:: monitor-dashbot-new.png

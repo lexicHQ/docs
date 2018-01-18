@@ -14,4 +14,4 @@ First step is to create a free account in [dashbot](https://www.dashbot.io) and 
 Once the skill is created, it will generate an API key. Paste the API
 key as you configure dashbot analytics from `home->bot-> monitor` as shown below:
 
-![](monitor-dashbot.png)
+![](monitor-dashbot-new.png)
