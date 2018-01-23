@@ -56,7 +56,7 @@ You can find us on our `community slack channel <https://slackpass.io/recimecomm
    script-block
    message-format
    configuring-wechat
-   third-party-analytics
+   dashbot-analytics
    command-line-interface
    create-slack-bot
    setup-twilio

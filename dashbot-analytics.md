@@ -1,6 +1,6 @@
-# Third-Party Analytics
+# Dashbot Analytics
 
-In order to get more insights for your bot, use the third-party analytics powered by [dashbot](https://dashbot.io).
+In order to get more insights for your bot, use the analytics powered by [dashbot](https://dashbot.io).
 
 Dashbot is the leading bot analytics service providing the the most accurate and in-depth insights for your bot conversation. 
 

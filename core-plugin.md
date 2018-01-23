@@ -38,7 +38,7 @@ The plugin allows you to create server-side integrations or define your conversa
 * DELETE
 * PUT
 
-In addition, you can pass query string parameters, POST body, and headers to address a various type of custom implementation. It is possible to use context variables as parameters using the double braces syntax to pass user input and NLP response. Here is an example of how to use JSON API in order to get weather information:
+In addition, you can pass query string parameters, POST body, and headers to address a various type of custom implementation. It is possible to use user variables as parameters using the double braces syntax to pass user input and NLP response. Here is an example of how to use JSON API in order to get weather information:
 
 ![](json-api.png)
 

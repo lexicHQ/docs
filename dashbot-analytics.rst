@@ -1,11 +1,11 @@
-Third-Party Analytics
+Dashbot Analytics
 =====================
 
 .. note ::
     Out of the box, integration is supported for Facebook. Integrations for Alexa and generic platform (e.g. website) are coming soon!
 
 
-In order to get more insights for your bot, use the third-party
+In order to get more insights for your bot, use the
 analytics powered by `dashbot`_.
 
 Dashbot is the leading bot analytics service providing the the most

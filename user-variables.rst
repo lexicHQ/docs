@@ -1,7 +1,7 @@
-Context Variables
+User Variables
 =================
 
-Context variables are assigned by the underlying platform (e.g.
+User variables are assigned by the underlying platform (e.g.
 Facebook) or by the user.
 
 As your bot is connected to ``Facebook``. It will assign the following
@@ -16,12 +16,12 @@ variables:
     * profile_pic
     * timezone
 
-You can access a context variable using the double braces syntax in the
+You can access a user variable using the double braces syntax in the
 following way:
 
 |image0|
 
-It is also possible to set your own context variables that is available
+It is also possible to set your own user variables that is available
 throughout the life-cycle of your bot.
 
 A quick way of doing that is by using the script block. Copy and paste
@@ -35,7 +35,7 @@ the following snippet into your script block to set "color":
         done();
     };
 
-Here is the list of context variables on different platforms:
+Here is the list of user variables on different platforms:
 
 +-----------------------+-----------------------+-----------------------+
 | Platform              | variables             | comments              |
@@ -52,8 +52,8 @@ Here is the list of context variables on different platforms:
 +-----------------------+-----------------------+-----------------------+
 | Viber                 | first_name, last_name | --                    |
 +-----------------------+-----------------------+-----------------------+
-| Website               | first_name, last_name | Set by the user using |
-|                       |                       | from the script.      |
+| Website               | first_name, last_name | Set from the copy     |
+|                       |                       | script.               |
 +-----------------------+-----------------------+-----------------------+
 
 .. |image0| image:: facebook-variable.png
