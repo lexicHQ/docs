@@ -1,5 +1,5 @@
-Script Block
-============
+Script Block (Advanced)
+=======================
 
 Script Block allows you to quickly write custom logic inside the
 conversation builder. Click on ``script`` button in the toolbar as shown
