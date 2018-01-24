@@ -48,9 +48,9 @@ Here is the list of user variables on different platforms:
 | WeChat                | first_name            | ``nickname`` and set  |
 |                       |                       | as first_name         |
 +-----------------------+-----------------------+-----------------------+
-| Telegram              | first_name, last_name | --                    |
-+-----------------------+-----------------------+-----------------------+
 | Viber                 | first_name, last_name | --                    |
++-----------------------+-----------------------+-----------------------+
+| Telegram              | first_name, last_name | --                    |
 +-----------------------+-----------------------+-----------------------+
 | Website               | first_name, last_name | Set from the copy     |
 |                       |                       | script.               |
