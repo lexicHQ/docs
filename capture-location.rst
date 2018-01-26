@@ -1,11 +1,9 @@
-Capture Location Input
+Capture User Location
 ======================
 
-Facebook, Viber, and Telegram allow you to send the location to your
-bot. It is sometimes useful to capture user's location in order to book
-an appointment, order a pizza, etc.
+Facebook, Viber, and Telegram allow the user to send a location to your bot. It is sometimes useful to capture user's location in order to book an appointment, order a pizza, etc.
 
-Location is sent as an input parameter and it can be accessed as an
+User location is sent as an input parameter and it can be accessed as an
 attribute in the following way:
 
 |image0|
@@ -37,7 +35,7 @@ In Telegram, tap on the attachment button and choose Location:
 
 .. _How can I send my current location in Messenger?: https://www.facebook.com/help/messenger-app/1394730427523556
 
-.. |image0| image:: location.png
+.. |image0| image:: location-new.png
 .. |image1| image:: location-messenger.jpeg
 .. |image2| image:: location-viber.jpeg
 .. |image3| image:: share-location-telegram-1.png
