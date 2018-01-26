@@ -33,7 +33,7 @@ In Telegram, tap on the attachment button and choose Location:
 
 |image3|
 
-.. _How can I send my current location in Messenger?: https://www.facebook.com/help/messenger-app/1394730427523556
+.. _How can I send my current location in Messenger: https://www.facebook.com/help/messenger-app/1394730427523556
 
 .. |image0| image:: location-new.png
 .. |image1| image:: location-messenger.jpeg

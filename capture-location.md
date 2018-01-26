@@ -17,7 +17,7 @@ Basically, a location has the following properties regardless of the platform:
 
 Please, check out the following resources on how to send your location:
 
-[How can I send my current location in Messenger?](https://www.facebook.com/help/messenger-app/1394730427523556)
+[How can I send my current location in Messenger](https://www.facebook.com/help/messenger-app/1394730427523556)
 
 
 In Viber, it is available as a toolbar button, clicking on it will bring up the map to pin your location:
