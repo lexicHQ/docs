@@ -78,7 +78,7 @@ For any changes you make in the source, it will automatically restart the proces
 
 ## Deploy
 
-Bot created using command line interface is in intermidiate state. This gives you a way to test locally and write your own logic. In order to push changes to live, you will need to deploy it using the following command:
+In order to push changes to live, you will need to deploy the bot by typing the following command:
 
 ```shell
 rbp deploy
