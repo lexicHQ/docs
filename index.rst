@@ -60,5 +60,5 @@ You can find us on our `community slack channel <https://slackpass.io/recimecomm
    configuring-wechat
    dashbot-analytics
    command-line-interface
-   setup-twilio
+   configure-twilio
    resources
