@@ -55,6 +55,7 @@ You can find us on our `community slack channel <https://slackpass.io/recimecomm
    user-variables
    core-plugin
    script-block
+   capture-location
    message-format
    configuring-wechat
    dashbot-analytics
