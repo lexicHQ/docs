@@ -1,5 +1,5 @@
-Capture User Location
-=====================
+Capturing User Location
+=======================
 
 Facebook, Viber, and Telegram allow the user to send a location to your
 bot. It is sometimes useful to capture user's location in order to book
