@@ -73,10 +73,10 @@ For any changes you make in the source, it will automatically restart the proces
 
 ## Configure Platform Locally
 
-It is possible to connect a channel while testing the bot locally. In order to configure a platform, type the following command:
+It is possible to connect to a supported channel to debug the bot locally. In order to configure a channel, please type the following command:
 
 ```bash
-rbp config facebook|viber|wechat|telegram
+rbp config facebook|viber|telegram
 ```
 It will ask you the credentials for your platform and configure it for local debugging.
 
