@@ -34,7 +34,7 @@ This will prompt for the token you have copied earlier. Paste and hit "enter".
 
 ## Create a Bot
 
-create a folder by typing the following command:
+Create a folder by typing the following command:
 
 ```bash
 mkdir bot-folder
