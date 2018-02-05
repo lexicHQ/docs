@@ -17,7 +17,7 @@ Once the CLI is installed correctly, type the following to verify:
 rbp --version
 ```
 
-## Setting it Up
+## Setup
 
 Go to [console.recime.io/my-account](https://console.recime.io/my-account) and copy the API key as shown:
 
@@ -32,34 +32,30 @@ rbp login
 
 This will prompt for the token you have copied earlier. Paste and hit "enter". 
 
-## Build
+## Create a Bot
 
-From the terminal app, type the following command to create your bot project:
-
+create a folder by typing the following command:
 
 ```bash
-rbp create awesome-bot 
-
+mkdir bot-folder
 ```
 
-This will walk you through a command line wizard and create the bot under `awesome-bot` folder.
+Change the current directory to the newly created folder:
 
-Navigate to `main.js` and you should see the following:
-
-```javascript
-import Ext from 'recime-bot-extension';
-import responder from "recime-message-responder";
-
-const __ = Ext.default;
-
-exports.handler = (args, done)=>{
-    done(responder.respond(args));
-};
+```bash
+cd bot-folder
 ```
 
-This will also create a version in [console.recime.io](https://console.recime.io) with basic intents to help build the conversation flow.
+Create the bot by typing the following command:
 
-## Debugging
+```bash
+rbp create
+```
+
+This will take you through a wizard and the create the bot in your [dashboard](https://console.recime.io).
+
+
+## Debug
 
 
 In order to debug your bot, type the following command:
@@ -76,89 +72,16 @@ The will prepare the bot and star the local server under `http://localhost:4000`
 For any changes you make in the source, it will automatically restart the process and sync the browser.
 
 
-## Deploy
+## Updating the Bot Icon
 
-In order to push changes to live, you will need to deploy the bot by typing the following command:
-
-```shell
-rbp deploy
-```
-This will configure and deploy the bot with your custom logic and prepare it for pushing to various channels.
-
-
-## Miscellaneous
-
-### Static Content
-
-In order to serve static content, add an `assets` folder in your project directory.
-
-![](assets.png)
-
-Use the `url` extension method in the following way to set it in your response:
-
-```javascript
-import Ext from 'recime-bot-extension';
-import responder from "recime-message-responder";
-
-const __ = Ext.default;
-
-exports.handler = (args, done)=>{
-    switch (this.args.event.name){
-        case "start":
-            done([
-                __.text("Hey! There!."),
-                __.image(url("assets/blog-logo.png"))
-        ]);
-        break;
-        default:{
-            done(__.text("Sorry, I didn't understand."));
-        }
-    }
-};
-```
-
-### Using Local Storage
-
-Install the `recime-keyvalue-store` npm module by typing the following command from your project folder:
+Add `icon.png` to your current directory and type following command to push it live:
 
 ```bash
-npm install --save recime-keyvalue-store
+rbp publish
 ```
 
-Import the module by copy and pasting the folloiwng line in your source file:
-
-```javascript
-import db from "recime-keyvalue-store";
-```
-
-`key-value` is for fast read-write. Therefore, use it as a cache store for your bot.
-
-```javascript
-db.set("userId", {
-    id : 1
-}).then((_)=>{
-    // TODO://
-});
-
-```
-
-Similarly, use `db.get` to retrieve the value:
-
-```javascript
-db.get("userId").then((result)=>{
-    console.log(result.id);
-});
-```
-
-Key-value data is available throughout lifetime of your bot once deployed and supports the following javascript data types:
-
-* Number
-* String
-* Object
+The recommended icon size for a bot is 80x80.
 
 
-
-Every bot gets its own managed and secure store. Number of unique keys are subject to plan, please checkout pricing page for more details.
-
-
-We welcome your contribution and you can fork the source from [here](https://github.com/Recime/recime-keyvalue-store).
+## Roadmap
+Publish custom modules using the Command Line Interface.
