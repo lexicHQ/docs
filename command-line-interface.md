@@ -71,6 +71,24 @@ The will prepare the bot and star the local server under `http://localhost:4000`
 
 For any changes you make in the source, it will automatically restart the process and sync the browser.
 
+## Configure Platform Locally
+
+It is possible to connect a channel while testing the bot locally. In order to configure a platform, type the following command:
+
+```bash
+rbp config facebook|viber|wechat|telegram
+```
+It will ask you the credentials for your platform and configure it for local debugging.
+
+Debug the bot by typing the following:
+
+```bash
+rbp run 
+```
+
+Start chatting with your bot (e.g. Facebook) and you will see the logs in the console. 
+
+_Warning: You will have to re-connect your bot using the publish tab once you connect it locally._
 
 ## Updating the Bot Icon
 
