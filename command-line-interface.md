@@ -64,7 +64,7 @@ In order to debug your bot, type the following command:
 rbp serve
 ```
 
-The will prepare the bot and star the local server under `http://localhost:4000`.
+The will prepare the bot and start the local debugger:
 
 ![](debug.png)
 
@@ -98,7 +98,7 @@ Add `icon.png` to your current directory and type following command to push it l
 rbp publish
 ```
 
-The recommended icon size for a bot is 80x80.
+The recommended icon size for a bot icon is 80x80.
 
 
 ## Roadmap

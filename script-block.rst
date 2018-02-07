@@ -57,6 +57,34 @@ and then set it as a context variable for use in the builder:
 | vars          | Set or get vars to use in the current context.   |
 +---------------+--------------------------------------------------+
 
+The ``args`` object contains the following properties:
+
++-----------------------+-----------------------+-----------------------+
+| Property Name         | Description           | Type                  |
++=======================+=======================+=======================+
+| sender                | Unique sender ID      | String                |
++-----------------------+-----------------------+-----------------------+
+| text                  | Input text.(e.g.      | String                |
+|                       | Where is San          |                       |
+|                       | Francisco?)           |                       |
++-----------------------+-----------------------+-----------------------+
+| event                 | Event to trigger an   | Object                |
+|                       | intent. Either text   |                       |
+|                       | or event is required. |                       |
++-----------------------+-----------------------+-----------------------+
+
+``event`` contains the name of the event that is triggered for a user
+action:
+
++-----------------------+-----------------------+-----------------------+
+| Property Name         | Description           | Type                  |
++=======================+=======================+=======================+
+| name                  | Name of the event     | String                |
+|                       | (e.g. start) that     |                       |
+|                       | corresponds to an     |                       |
+|                       | intent name           |                       |
++-----------------------+-----------------------+-----------------------+
+
 You can use variables inside the builder in the following way using the
 double braces syntax:
 
@@ -87,7 +115,7 @@ The following libraries are available in the **Script Block** runtime:
 -  `recime-bot-extension`_
 -  `recime-keyvalue-store`_
 
-In order to debug the script block, use ``console.log(string|object)``.
+Use ``console.log`` to debug script block.
 
 .. _User input: message-object.md
 .. _extension module: https://github.com/Recime/recime-bot-extension

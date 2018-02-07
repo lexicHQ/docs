@@ -23,7 +23,6 @@ Facebook Messenger    .. image:: messenger.png
 WebSite               .. image:: website.png
 Wechat                .. image:: wechat.png
 Viber                 .. image:: viber.png
-Slack                 .. image:: slack.png
 Telegram              .. image:: telegram.png
 SMS (via Twilio)      .. image:: sms.png
 ====================  ==========================
@@ -56,9 +55,8 @@ You can find us on our `community slack channel <https://slackpass.io/recimecomm
    core-plugin
    script-block
    capture-location
-   message-format
    configuring-wechat
    dashbot-analytics
-   command-line-interface
+   command-line-interface  
    configure-twilio
    resources

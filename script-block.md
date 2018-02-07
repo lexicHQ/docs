@@ -51,6 +51,22 @@ exports.handler = (context, done) => {
 | vars | Set or get vars to use in the current context.
 
 
+The `args` object contains the following properties:
+
+| Property Name | Description | Type |
+| -- | -- | -- |
+| sender | Unique sender ID | String |
+| text | Input text.(e.g. Where is San Francisco?) | String |
+| event | Event to trigger an intent. Either text or event is required. | Object |
+
+
+`event` contains the name of the event that is triggered for a user action:
+
+| Property Name | Description | Type |
+| -- | -- | -- |
+| name | Name of the event (e.g. start) that corresponds to an intent name | String |
+
+
 You can use variables inside the builder in the following way using the double braces syntax:
 
 ![](context-vars.png)
@@ -81,5 +97,5 @@ The following libraries are available in the **Script Block** runtime:
 * [recime-bot-extension](https://github.com/Recime/recime-bot-extension)
 * [recime-keyvalue-store](https://github.com/Recime/recime-keyvalue-store)
 
-In order to debug the script block, use `console.log(string|object)`. 
+Use `console.log` to debug script block.
 
