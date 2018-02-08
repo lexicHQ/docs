@@ -59,7 +59,7 @@ Bot" button.
 
 Go to Publish tab to connect the bot to your Facebook page, `Viber`_ or
 `WeChat`_ public account, Telegram using `BotFater`_ app, copy the
-script to your website or implement the bot in a custom solution.
+script to your website.
 
 |image3|
 
@@ -70,4 +70,4 @@ script to your website or implement the bot in a custom solution.
 .. |image0| image:: create-new-bot.png
 .. |image1| image:: blank-bot.png
 .. |image2| image:: test-the-bot.png
-.. |image3| image:: publish.png
+.. |image3| image:: publish-facebook.png
