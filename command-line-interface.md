@@ -34,29 +34,15 @@ This will prompt for the token you have copied earlier. Paste and hit "enter".
 
 ## Create a Bot
 
-Create a folder by typing the following command:
+Create a bot by typing the following command:
 
 ```bash
-mkdir bot-folder
+rbp create my-folder
 ```
 
-Change the current directory to the newly created folder:
-
-```bash
-cd bot-folder
-```
-
-Create the bot by typing the following command:
-
-```bash
-rbp create
-```
-
-This will take you through a wizard and the create the bot in your [dashboard](https://console.recime.io).
-
+This will take you through a small wizard and the create the bot in your [dashboard](https://console.recime.io) and the necessary config files to run the bot locally in the specific folder.
 
 ## Debug
-
 
 In order to debug your bot, type the following command:
 
@@ -90,15 +76,15 @@ Start chatting with your bot (e.g. Facebook) and you will see the logs in the co
 
 _Warning: You will have to re-connect your bot using the publish tab once you connect it locally._
 
-## Updating the Bot Icon
+## Bot Icon
 
-Add `icon.png` to your current directory and type following command to push it live:
+In the working directory there is a default `icon.png`. Update and type the following command to publish your own:
 
 ```bash
 rbp publish
 ```
 
-The recommended icon size for a bot icon is 80x80.
+The recommended icon size for a bot is 80x80.
 
 
 ## Roadmap
