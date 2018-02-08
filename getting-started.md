@@ -31,7 +31,7 @@ Go to the "Responses" tab, make some changes and click on the "Test the Bot" but
 ![](test-the-bot.png)
 
 
-Go to Publish tab to connect the bot to your Facebook page, [Viber](https://partners.viber.com/account/create-bot-account) or [WeChat](https://mp.weixin.qq.com/) public account, Telegram using [BotFater](https://telegram.me/botfather) app, copy the script to your website or implement the bot in a custom solution.
+Go to Publish tab to connect the bot to your Facebook page, [Viber](https://partners.viber.com/account/create-bot-account) or [WeChat](https://mp.weixin.qq.com/) public account, Telegram using [BotFater](https://telegram.me/botfather) app, copy the script to your website.
 
 ![](publish.png)
 

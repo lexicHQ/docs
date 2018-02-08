@@ -40,11 +40,11 @@ Create a bot by typing the following command:
 rbp create my-folder
 ```
 
-This will take you through a small wizard and the create the bot in your [dashboard](https://console.recime.io) and the necessary config files to run the bot locally in the specific folder.
+This will take you through a small wizard and the create the bot in your [dashboard](https://console.recime.io) and the necessary config files to run the bot locally from the specific working directory.
 
 ## Debug
 
-In order to debug your bot, type the following command:
+In order to debug your bot, type the following command from your working directory:
 
 ```shell
 rbp serve
