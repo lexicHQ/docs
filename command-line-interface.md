@@ -78,7 +78,7 @@ _Warning: You will have to re-connect your bot using the publish tab once you co
 
 ## Bot Icon
 
-In the working directory there is a default `icon.png`. Update and type the following command to publish your own:
+In the working directory, there is a default `icon.png`. Update and type the following command to publish your own:
 
 ```bash
 rbp publish
