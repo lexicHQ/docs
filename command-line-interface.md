@@ -44,27 +44,12 @@ This will take you through a small wizard and the create the bot in your [dashbo
 
 ## Debug
 
-In order to debug your bot, type the following command from your working directory:
-
-```shell
-rbp serve
-```
-
-The will prepare the bot and start the local debugger:
-
-![](debug.png)
-
-
-For any changes you make in the source, it will automatically restart the process and sync the browser.
-
-## Configure Platform Locally
-
-It is possible to connect to a supported channel to debug the bot locally. In order to configure a channel, please type the following command:
+Connect to a supported channel to debug the bot locally. In order to configure a channel, please type the following command:
 
 ```bash
 rbp config facebook|viber|telegram
 ```
-It will ask you the credentials for your platform and configure it for local debugging.
+It will ask you the credentials for the platform and configure it for debugging.
 
 Debug the bot by typing the following:
 
@@ -74,7 +59,13 @@ rbp run
 
 Start chatting with your bot (e.g. Facebook) and you will see the logs in the console. 
 
-_Warning: You will have to re-connect your bot using the publish tab once you connect it locally._
+_Warning: You will have to re-connect your bot from the publish tab once you connect it locally._
+
+ It is also possible to test the API from command line with `curl`: 
+
+```bash
+curl -i -H "Accept: application/json" -H "Content-Type: application/json" -XPOST -d "{{'{'}}\"text\": \"Hi\"{{'}'}}" -w "\r\n" 'PASTE_YOUR_URL_HERE_FROM_RUN`
+```
 
 ## Bot Icon
 
@@ -88,4 +79,4 @@ The recommended icon size for a bot is 80x80.
 
 
 ## Roadmap
-Publish custom modules using the Command Line Interface.
+Publish re-usable custom modules using the Command Line Interface.
