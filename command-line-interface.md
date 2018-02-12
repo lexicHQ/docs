@@ -67,7 +67,7 @@ curl -i -H "Accept: application/json" -H "Content-Type: application/json" -XPOST
 
 ## Publish
 
-Publish your bot by using the following command:
+Publish your bot by typing the following command:
 
 
 ```bash
