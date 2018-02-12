@@ -59,21 +59,22 @@ rbp run
 
 Start chatting with your bot (e.g. Facebook) and you will see the logs in the console. 
 
-_Warning: You will have to re-connect your bot from the publish tab once you connect it locally._
-
  It is also possible to test the API from command line with `curl`: 
 
 ```bash
 curl -i -H "Accept: application/json" -H "Content-Type: application/json" -XPOST -d "{{'{'}}\"text\": \"Hi\"{{'}'}}" -w "\r\n" 'PASTE_YOUR_URL_HERE_FROM_RUN`
 ```
 
-## Bot Icon
+## Publish
 
-In the working directory, there is a default `icon.png`. Update and type the following command to publish your own:
+Publish your bot by using the following command:
+
 
 ```bash
 rbp publish
 ```
+
+This will update the bot icon (`icon.png`) and configure supported channels from `config.json`.
 
 The recommended icon size for a bot is 80x80.
 
