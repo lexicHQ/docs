@@ -36,11 +36,10 @@ We're Here to Help!
 
 Need help? If you can’t find the answer you’re looking for in this documentation, get in touch with us by `hello@recime.io <mailto:hello@recime.io>`_
 
-Join the Slack Channel
-----------------------
+Join the Facebook Group
+------------------------
 
-You can find us on our `community slack channel <https://slackpass.io/recimecommunity>`_ and on `twitter <https://twitter.com/GetRecime>`_ for the latest news and we would love your feedback and ideas to improve the platform.
-
+You can find us on our `facebook group <https://www.facebook.com/groups/recime>`_ and on `twitter <https://twitter.com/GetRecime>`_ for the latest news. We love your feedback and ideas to improve the platform!
 
 
 .. toctree::
