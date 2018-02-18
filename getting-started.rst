@@ -1,5 +1,5 @@
-Getting Started
-===============
+Getting Started Tutorial
+========================
 
 Once the account is created. Next step is to create your first bot.
 

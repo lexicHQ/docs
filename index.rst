@@ -49,7 +49,7 @@ You can find us on our `community slack channel <https://slackpass.io/recimecomm
    
    register
    getting-started
-   what-is-an-intent
+   chatbot-concepts
    entities
    user-variables
    core-plugin
