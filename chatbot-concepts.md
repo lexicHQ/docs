@@ -44,6 +44,9 @@ An entity represents a term or object in the user's expression that provides cla
 Here in the above statement, `Location` is an entity. 
 
 
+**Related Topics**
+
+* [Defining Entities](building-a-bot.html#defining-entities)
 
 
 

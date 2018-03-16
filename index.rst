@@ -49,13 +49,9 @@ You can find us on our `facebook group <https://www.facebook.com/groups/recime>`
    register
    getting-started
    chatbot-concepts
-   entities
-   user-variables
-   core-plugin
-   script-block
-   capture-location
-   configuring-wechat
+   building-a-bot
+   developer-features
    dashbot-analytics
-   command-line-interface  
+   configuring-wechat
    configure-twilio
    resources
