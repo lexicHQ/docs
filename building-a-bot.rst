@@ -70,6 +70,7 @@ expereince for your bot:
 -  Video
 -  User Input
 -  Go to Intent
+-  User Variable
 -  JSON API
 
 Using plugins, implement custom logic, capture and validate input, make
@@ -106,6 +107,64 @@ It is possible to use a second "go to" here in order to take the user to
 a dedicated **no flow** intent or send to a default intent to restart
 the conversation.
 
+User Variables
+~~~~~~~~~~~~~~
+
+User variables can be used to identify user profile (e.g. Facebook) or
+set by the user to identify a flow to send out broadcast / push
+notification at a later time.
+
+As your bot is connected to ``Facebook``. It will assign the following
+variables:
+
+::
+
+    * first_name
+    * last_name
+    * gender
+    * locale
+    * profile_pic
+    * timezone
+
+You can access a user variable using the double braces syntax in the
+following way:
+
+|image5|
+
+It is also possible to set your own user variables that is available
+throughout the user context. You can use the user variable plugin to do
+so as shown below:
+
+|image6|
+
+In the above example for ``claimed``, either you can take the user to a
+particular flow using the ``go-to`` plugin:
+
+|image7|
+
+Or send a broadcast to users who have claimed a coupon.
+
+Here is a list of user varaibles native to each platform:
+
++-----------------------+-----------------------+-----------------------+
+| Platform              | variables             | comments              |
++=======================+=======================+=======================+
+| Facebook              | first_name,           | --                    |
+|                       | last_name,            |                       |
+|                       | profile_pic, gender,  |                       |
+|                       | locale, timezone      |                       |
++-----------------------+-----------------------+-----------------------+
+| WeChat                | first_name            | ``nickname`` and set  |
+|                       |                       | as first_name         |
++-----------------------+-----------------------+-----------------------+
+| Viber                 | first_name, last_name | --                    |
++-----------------------+-----------------------+-----------------------+
+| Telegram              | first_name, last_name | --                    |
++-----------------------+-----------------------+-----------------------+
+| Website               | first_name, last_name | Set from the copy     |
+|                       |                       | script.               |
++-----------------------+-----------------------+-----------------------+
+
 User Input
 ~~~~~~~~~~
 
@@ -123,27 +182,27 @@ the conversation flow and set ``{{email}}`` as a variable to store the
 data after successful validation which will be available in the
 conversation scope to use.
 
-|image5|
+|image8|
 
 User input not only works for ``text`` input but also actions (facebook
 or website) where I want to filter out results based on some given
 criteria and at the same time validate the input.
 
-|image6|
+|image9|
 
 A pattern is a ``regular`` expression, here I have ensured using the
 following pattern that it only accepts ``blue``, ``red`` or ``black``.
 
-|image7|
+|image10|
 
 In order to set a user action as input, you have to select "User Input"
 from the drop-down then set the reply as shown below:
 
-|image8|
+|image11|
 
 Use the result from the plugin in the following:
 
-|image9|
+|image12|
 
 This variable is also available inside ``code`` script and you can get
 the value in the following way:
@@ -163,9 +222,12 @@ to a correct flow rather I have to figure out via trial and error.
 .. |image2| image:: go-to-user-input.png
 .. |image3| image:: go-to-flow.png
 .. |image4| image:: no-flow.png
-.. |image5| image:: user-input-email.png
-.. |image6| image:: user-input-quick-reply.png
-.. |image7| image:: user-input-reply.png
-.. |image8| image:: user-input-quick-reply-dialog.png
-.. |image9| image:: user-input-confirm.png
+.. |image5| image:: facebook-variable.png
+.. |image6| image:: user-variable.png
+.. |image7| image:: user-variable-goto.png
+.. |image8| image:: user-input-email.png
+.. |image9| image:: user-input-quick-reply.png
+.. |image10| image:: user-input-reply.png
+.. |image11| image:: user-input-quick-reply-dialog.png
+.. |image12| image:: user-input-confirm.png
 
