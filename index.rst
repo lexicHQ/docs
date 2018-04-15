@@ -20,11 +20,12 @@ Recimē is committed to supporting the most channels on the market. Today, you c
 Channel               
 ====================  ==========================
 Facebook Messenger    .. image:: messenger.png
+Skype                 .. image:: skype.png
+SMS (via Twilio)      .. image:: sms.png
+Telegram              .. image:: telegram.png
+Viber                 .. image:: viber.png
 WebSite               .. image:: website.png
 Wechat                .. image:: wechat.png
-Viber                 .. image:: viber.png
-Telegram              .. image:: telegram.png
-SMS (via Twilio)      .. image:: sms.png
 ====================  ==========================
 
 
