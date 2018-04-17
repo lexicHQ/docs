@@ -89,32 +89,9 @@ It is possible to use a second "go to" here in order to take the user to a dedic
 
 ### User Variables
 
-User variables can be used to identify user profile (e.g. Facebook) or set by the user to identify a flow to send out broadcast / push notification at a later time. 
-
-As your bot is connected to `Facebook`. It will assign the following variables:
-
-    * first_name
-    * last_name
-    * gender
-    * locale
-    * profile_pic
-    * timezone
-
-
-You can access a user variable using the double braces syntax in the following way:
+User variable can be used to identify a flow or user profile in your bot. You can access a user variable using the double braces syntax in the following way:
 
 ![](facebook-variable.png)
-
-
-It is also possible to set your own user variables that is available throughout the user context. You can use the user variable plugin to do so as shown below:
-
-![](user-variable.png)
-
-In the above example for `claimed`, either you can take the user to a particular flow using the `go-to` plugin:
-
-![](user-variable-goto.png)
-
-Or send a broadcast to users who have claimed a coupon.
 
 
 Here is a list of user varaibles native to each platform:
@@ -127,6 +104,17 @@ Here is a list of user varaibles native to each platform:
 | Viber | first_name, last_name | -- |
 | Telegram | first_name, last_name | -- |
 | Website | first_name, last_name | Set from the copy script. |
+
+
+It is also possible to set your own user variables using `User Variable` plugin. 
+
+![](user-variable.png)
+
+In the above example for `claimed`, either you can take the user to a particular flow using the `go-to` plugin:
+
+![](user-variable-goto.png)
+
+Or send a broadcast to users who have claimed a coupon.
 
 
 ### User Input

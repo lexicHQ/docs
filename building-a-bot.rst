@@ -110,39 +110,11 @@ the conversation.
 User Variables
 ~~~~~~~~~~~~~~
 
-User variables can be used to identify user profile (e.g. Facebook) or
-set by the user to identify a flow to send out broadcast / push
-notification at a later time.
-
-As your bot is connected to ``Facebook``. It will assign the following
-variables:
-
-::
-
-    * first_name
-    * last_name
-    * gender
-    * locale
-    * profile_pic
-    * timezone
-
-You can access a user variable using the double braces syntax in the
-following way:
+User variable can be used to identify a flow or user profile in your
+bot. You can access a user variable using the double braces syntax in
+the following way:
 
 |image5|
-
-It is also possible to set your own user variables that is available
-throughout the user context. You can use the user variable plugin to do
-so as shown below:
-
-|image6|
-
-In the above example for ``claimed``, either you can take the user to a
-particular flow using the ``go-to`` plugin:
-
-|image7|
-
-Or send a broadcast to users who have claimed a coupon.
 
 Here is a list of user varaibles native to each platform:
 
@@ -164,6 +136,18 @@ Here is a list of user varaibles native to each platform:
 | Website               | first_name, last_name | Set from the copy     |
 |                       |                       | script.               |
 +-----------------------+-----------------------+-----------------------+
+
+It is also possible to set your own user variables using
+``User Variable`` plugin.
+
+|image6|
+
+In the above example for ``claimed``, either you can take the user to a
+particular flow using the ``go-to`` plugin:
+
+|image7|
+
+Or send a broadcast to users who have claimed a coupon.
 
 User Input
 ~~~~~~~~~~
