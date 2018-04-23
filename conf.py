@@ -56,7 +56,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'Recime Documentation'
-copyright = u'2017, Recime Inc.'
+copyright = u'2018, Recime Inc.'
 author = u'Mehfuz Hossain'
 
 # The version info for the project you're documenting, acts as replacement for
