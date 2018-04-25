@@ -6,9 +6,9 @@
 Welcome to Recimē Documentation!
 ================================================
 
-Recimē is an end-to-end AI chatbot solution to automate customer support and content distribution. It gives you the tools to build omni-channel chatbots quickly and easily and eventually measure growth and user engagement to save cost and increase customer satisfaction.
+Recimē is an end-to-end AI chatbot platform to automate customer support, content distribution and automate marketing flow. It gives you the tools to build omni-channel chatbots quickly and easily,  measure growth, save cost and increase customer satisfaction.
 
-.. image:: Recime-Chatbot-Builder-3-2.jpg
+.. image:: Recime-Chatbot-Builder-3-3.png
 
 Supported Channels
 -------------------
@@ -29,8 +29,7 @@ Wechat                .. image:: wechat.png
 ====================  ==========================
 
 
-The Recimē Cloud gives you full advantage of the range of structured and rich message types these channels have to offer, all via one easy-to-use and consistent API. When new features are released by channels, Recime stays up to date and helps you take advantage of the new functionality with little or no changes to your existing code.
-
+The Recimē SaaS platform gives you full advantage of the range of structured and rich message types these channels have to offer, all via one easy-to-use and consistent interface.
 
 We're Here to Help!
 --------------------

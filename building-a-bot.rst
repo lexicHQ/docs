@@ -1,35 +1,38 @@
 Building a Bot
 ==============
 
-Working with Intents
---------------------
+Working with Blocks
+-------------------
 
-An Intent contains a group of expressions that define the intention of a
-user input. Below is an example of expressions:
+A block contains user-defined messages that are triggered by a user
+input or an event.
+
+User input is defined by expressions. Below is an example of
+expressions:
 
 -  Hi there!
 -  How's the weather in Paris?
 -  I want to travel from San Francisco to Madrid
 
 An expression can be grouped into an intent and each intent has
-responses that will be sent out to the user. An Intent is context driven
-which is different from keyword-based systems where it will not
-recognize an expression or sentence if it is not an exact match.
+responses that will be sent out to the user. Expressions are context
+driven which is different from keyword therefore, it does not have to be
+an exact match.
 
 Here is an example of a context:
 
 Here, I can say "What do you mean by a chatbot?" or "What is a chatbot?"
-and it will still return the correct intent since the context is same or
+and it will still return the correct block since the context is same or
 intead of "Paris", I can ask "How's weather in London?".
 
-*Intents make your bot intelligent!*
+*Expressions make your bot smart!*
 
 An expression can also have entities that can tell the natural language
 processor (AI) to extract a certain part of the sentence that will let
 you write custom logic (advanced).
 
-In short, an Intent is a box full of expression and can have responses
-that are triggered by an user input or action.
+In short, an block is a box full of expressions and can have responses
+that are triggered by an user input or an event.
 
 Defining Entities
 -----------------
@@ -76,12 +79,12 @@ expereince for your bot:
 Using plugins, implement custom logic, capture and validate input, make
 API requests and overall extend your bot for a richer experience
 
-Go to Intent
-~~~~~~~~~~~~
+Go to Block
+~~~~~~~~~~~
 
 The plugin allows you to design conditional conversation flow. This
-helps you implement complex flow in your bot that is triggered due to a
-user input or API response.
+helps you implement complex flow in your bot that is triggered by a user
+input or an event.
 
 Here, in the example, the bot will take the user to a confirm
 transaction flow based on input. First, ask the user what they want to
@@ -89,12 +92,12 @@ do next:
 
 |image1|
 
-Next, use ``user-input`` plugin to capture the input. The following is
-an example of pattern validation with a regular expression:
+Next, use ``user-input`` plugin to capture the input using a pattern
+validation with a regular expression:
 
 |image2|
 
-Finally, send the user to a ``yes-flow`` intent based on if the user
+Finally, send the user to a ``yes-flow`` block based on if the user
 typed/pressed (``facebook`` quick-reply) "yes" in the following way:
 
 |image3|
@@ -104,8 +107,8 @@ Otherwise, continue to no flow:
 |image4|
 
 It is possible to use a second "go to" here in order to take the user to
-a dedicated **no flow** intent or send to a default intent to restart
-the conversation.
+a dedicated **no flow** block or send to a default block to restart the
+conversation.
 
 User Variables
 ~~~~~~~~~~~~~~
