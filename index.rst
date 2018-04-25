@@ -51,7 +51,7 @@ You can find us on our `facebook group <https://www.facebook.com/groups/recime>`
    chatbot-concepts
    building-a-bot
    developer-features
-   dashbot-analytics
+   monitor
    configuring-wechat
    configure-twilio
    resources
