@@ -10,7 +10,7 @@ Gives an overview of the total number of conversation over a period of time. A c
 
 ### User Metrics
 
-A number of unique users in your bot for a given period. A unique user or subscriber is count increased when a user interacts with the bot for the first time. 
+A number of unique users in your bot for a given period. A unique user or subscriber count is increased when a user interacts with the bot for the first time. 
 
 ![](unique-users.png)
 
@@ -24,7 +24,7 @@ Gives an overview of the most popular blocks of your bot. This helps you underst
 
 ### Missed Conversation
 
-Missed conversation if the opposite of top blocks. It gives you an overview the messages that bot didn't recognize and their frequency. Missed conversations calculated the bot hits the `default` block. This means that the given confidence level of an expression does not satisfy the given blocks.
+Missed conversation is the opposite of top blocks. It gives you an overview the messages that bot didn't recognize and their frequency. Missed conversations are calculated as the bot hits the `default` block. This means that the confidence level of a user expression does not satisfy any given blocks.
 
 ![](missed-conversation.png)
  
