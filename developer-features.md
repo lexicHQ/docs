@@ -15,10 +15,6 @@ In addition, you can pass query string parameters, POST body, and headers to add
 ![](json-api.png)
 
 
-Here, location is defined as an entity from the "Define Expressions" tab:
-
-![](json-api-define-expressions.png)
-
 The response is saved in \{\{result}} variable. This can be used inside the text element to print out the result in the following way:
 
 ![](json-reply.png)
