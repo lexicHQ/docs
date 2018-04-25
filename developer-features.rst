@@ -2,7 +2,7 @@ Developer Features
 ==================
 
 JSON API
-~~~~~~~~
+--------
 
 The plugin allows you to create server-side integrations or define your
 conversation logic based on dynamic content. You can make the following
@@ -22,15 +22,10 @@ use JSON API in order to pull data from a third-party API:
 
 |image0|
 
-Here, location is defined as an entity from the "Define Expressions"
-tab:
-
-|image1|
-
 The response is saved in {{result}} variable. This can be used inside
 the text element to print out the result in the following way:
 
-|image2|
+|image1|
 
 JSON API allows you to implement the following use-cases:
 
@@ -46,7 +41,7 @@ Script Block allows you to quickly write custom logic inside the
 conversation builder. Click on ``script`` button in the toolbar as shown
 below to insert a script block:
 
-|image3|
+|image2|
 
 The entire conversation context is available in the script block. This
 will let you write custom logic based on user input, entities and
@@ -129,7 +124,7 @@ action:
 You can use variables inside the builder in the following way using the
 double braces syntax:
 
-|image4|
+|image3|
 
 You can also output in script block using the `extension
 module <https://github.com/Recime/recime-bot-extension>`__ in the
@@ -170,12 +165,12 @@ When user sends a location, it triggers a ``location`` intent or goes to
 the ``default`` intent. Create a location intent by typing "location"
 into search box in the following way:
 
-|image5|
+|image4|
 
 User location is sent as an input parameter and it can be accessed as an
 attribute in the following way:
 
-|image6|
+|image5|
 
 Basically, a location has the following properties regardless of the
 platform:
@@ -196,11 +191,11 @@ Messenger <https://www.facebook.com/help/messenger-app/1394730427523556>`__
 In Viber, it is available as a toolbar button, clicking on it will bring
 up the map to pin your location:
 
-|image7|
+|image6|
 
 In Telegram, tap on the attachment button and choose Location:
 
-|image8|
+|image7|
 
 Reusable Custom Modules (Coming Soon)
 -------------------------------------
@@ -208,12 +203,11 @@ Reusable Custom Modules (Coming Soon)
 Publish re-usable custom modules using the Command Line Interface.
 
 .. |image0| image:: json-api.png
-.. |image1| image:: json-api-define-expressions.png
-.. |image2| image:: json-reply.png
-.. |image3| image:: script-block.png
-.. |image4| image:: context-vars.png
-.. |image5| image:: location-intent.png
-.. |image6| image:: location-new.png
-.. |image7| image:: location-viber.jpeg
-.. |image8| image:: share-location-telegram-1.png
+.. |image1| image:: json-reply.png
+.. |image2| image:: script-block.png
+.. |image3| image:: context-vars.png
+.. |image4| image:: location-intent.png
+.. |image5| image:: location-new.png
+.. |image6| image:: location-viber.jpeg
+.. |image7| image:: share-location-telegram-1.png
 

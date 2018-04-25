@@ -47,7 +47,7 @@ You can find us on our `facebook group <https://www.facebook.com/groups/recime>`
    :caption: Table of Contents
    
    register
-   getting-started-tutorial
+   getting-started
    chatbot-concepts
    building-a-bot
    developer-features
