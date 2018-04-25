@@ -1,6 +1,6 @@
 # Developer Features
 
-### JSON API
+## JSON API
 
 The plugin allows you to create server-side integrations or define your conversation logic based on dynamic content. You can make the following HTTP requests:
 
