@@ -1,6 +1,6 @@
 # Monitoring a Bot
 
-Use analytics data to track conversational data and fine-tune the bot using various key elements over a period of time. Click on the monitor icon from the navigation tab to track the following key metrics:
+Use analytics data to track conversational data and fine-tune the bot using various key elements over a period of time. Click on the monitor icon from the navigation bar to track the following key metrics:
 
 ### Conversational Timeline
 
