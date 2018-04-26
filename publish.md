@@ -42,7 +42,7 @@ You can link a block to the persistent menu using by clicking on "+ Menu Item" a
 
 ![](persistent-menu.png)
 
-## WebSite
+## Website
 Website bot helps you replace your live agent with an automated agent. Website bot gives you similar chat window that you generally see when visiting a website but conversation happens with an intelligent agent instead of a human. This can minimize the cost while being very effective and over time can bring in more leads to your website.
 
 Click on the publish icon, copy and paste the script before the `<body/>` tag.
