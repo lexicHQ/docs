@@ -10,7 +10,7 @@ You can schedule your broadcast at a later time or save it as a draft or send it
 
 You can send text, images, cards in a broadcast. This varies based on the underlying platform. Facebook support the most features whereas, WeChat only supports text and article.
 
-## Create a Broadcast
+## New Broadcast
 
 Once you click on "+ New Broadcast" it will take you to the broadcast builder. 
 

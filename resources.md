@@ -1,8 +1,10 @@
 # Resources
 
-Here are some addtional links that can help you to get started with `Recime`:
+If you have questions and feedbacks then please join our [Facebook commmunity](https://www.facebook.com/groups/recime).
 
-[Build a Facebook & Website Chatbot in Under 5 Minutes](https://blog.recime.io/build-a-facebook-website-chatbot-in-under-5-minutes-c5db3b2487b6)
+Subscribe to our official chatbot for news and updates about the platform by scanning the QR code using your Facebook Messenger app.
 
-[Create your own Viber Chatbot in Minutes](https://chatbotsmagazine.com/create-your-own-viber-chatbot-in-minutes-with-zero-coding-1a622accedcc)
+![](messenger-bot.png)
 
+
+Please also check out our [official product](https://blog.recime.io/) blog for updates. 

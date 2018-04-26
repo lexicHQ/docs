@@ -50,9 +50,8 @@ You can find us on our `facebook group <https://www.facebook.com/groups/recime>`
    getting-started
    chatbot-concepts
    building-a-bot
+   publish
    broadcasting
    monitor
    developer-features
-   configuring-wechat
-   configure-twilio
    resources
