@@ -34,7 +34,7 @@ Greeting text is shown on the welcome screen. You can update the gretting and in
 
 ![](greeting-text.png)
 
-### Configure  Persistent Menu
+### Configure Persistent Menu
 
 The persistent menu allows you to have an always-on user interface element inside Messenger conversations. This is an easy way to help people discover and access the core functionality of your Messenger bot at any point in the conversation.
 

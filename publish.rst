@@ -68,7 +68,7 @@ Item" as shown below:
 
 |image2|
 
-WebSite
+Website
 -------
 
 Website bot helps you replace your live agent with an automated agent.
