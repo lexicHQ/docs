@@ -42,6 +42,22 @@ You can link a block to the persistent menu using by clicking on "+ Menu Item" a
 
 ![](persistent-menu.png)
 
+### Campaign URL Builder
+
+You can easily use campaign parameters in `https://m.me` link and trigger a specific block. The following table gives an overview of various campaign parameters that you take advantage of.
+
+| Type | Description |
+| -- | -- |
+| Campaign Name ``utm_campaign`` | ``Required`` Use utm_campaign to identify a specific promotion.|
+| Campaign Source ``utm_source`` | Use utm_source to identify the link source. Example: facebook|
+| Campaign Medium ``utm_medium`` | Use utm_medium to identify a medium such as ``feed``.|
+| Campaign Term ``utm_term`` | Use utm_term to trigger a block. Example: start|
+| Campaign Content ``utm_content`` | Used for A/B testing and content-targeted ads. Use utm_content to differentiate links.|
+
+Use the campaign link builder form to generate a ``m.me`` link as shown below:
+
+![](campaign-builder.png)
+
 ## Website
 Website bot helps you replace your live agent with an automated agent. Website bot gives you similar chat window that you generally see when visiting a website but conversation happens with an intelligent agent instead of a human. This can minimize the cost while being very effective and over time can bring in more leads to your website.
 

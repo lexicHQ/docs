@@ -68,6 +68,39 @@ Item" as shown below:
 
 |image2|
 
+Campaign URL Builder
+~~~~~~~~~~~~~~~~~~~~
+
+You can easily use campaign parameters in ``https://m.me`` link and
+trigger a specific block. The following table gives an overview of
+various campaign parameters that you take advantage of.
+
++-----------------------------------+-----------------------------------+
+| Type                              | Description                       |
++===================================+===================================+
+| Campaign Name ``utm_campaign``    | ``Required`` Use utm_campaign to  |
+|                                   | identify a specific promotion.    |
++-----------------------------------+-----------------------------------+
+| Campaign Source ``utm_source``    | Use utm_source to identify the    |
+|                                   | link source. Example: facebook    |
++-----------------------------------+-----------------------------------+
+| Campaign Medium ``utm_medium``    | Use utm_medium to identify a      |
+|                                   | medium such as ``feed``.          |
++-----------------------------------+-----------------------------------+
+| Campaign Term ``utm_term``        | Use utm_term to trigger a block.  |
+|                                   | Example: start                    |
++-----------------------------------+-----------------------------------+
+| Campaign Content ``utm_content``  | Used for A/B testing and          |
+|                                   | content-targeted ads. Use         |
+|                                   | utm_content to differentiate      |
+|                                   | links.                            |
++-----------------------------------+-----------------------------------+
+
+Use the campaign link builder form to generate a ``m.me`` link as shown
+below:
+
+|image3|
+
 Website
 -------
 
@@ -80,7 +113,7 @@ effective and over time can bring in more leads to your website.
 Click on the publish icon, copy and paste the script before the
 ``<body/>`` tag.
 
-|image3|
+|image4|
 
 You can customize the look and feel as well as the profile by modifying
 the following properties:
@@ -108,7 +141,7 @@ account <https://partners.viber.com/account/create-bot-account>`__. Once
 you have either bot / public account token. Click on the publish icon,
 copy and paste the token
 
-|image4|
+|image5|
 
 Press "Configure" to set up the webhook.
 
@@ -119,11 +152,11 @@ Use the `Bot Father <https://telegram.me/botfather>`__ app to configure
 your telegram bot. Once you have created the bot, it will give you an
 access token as shown below:
 
-|image5|
+|image6|
 
 Click on the publish icon, copy and paste the token.
 
-|image6|
+|image7|
 
 Press "Configure" to set up the webhook.
 
@@ -150,7 +183,7 @@ your bot:
    WeChat dashboard and create a token that you will use to verify the
    integration.
 
-|image7|
+|image8|
 
 -  Press "Update Configuration".
 
@@ -171,12 +204,12 @@ Service. Go to Home->Dashboard in your Twilio console.
 
 Select Programmable SMS under the Messaging section:
 
-|image8|
+|image9|
 
 Next, create a messaging service by clicking on the "Create a new
 Messaging Service" button:
 
-|image9|
+|image10|
 
 Configure Webhook
 ~~~~~~~~~~~~~~~~~
@@ -184,17 +217,17 @@ Configure Webhook
 Once the service is created. Copy the webhook link from the publish
 dialog :
 
-|image10|
+|image11|
 
 Paste it in the inbound request URL textbox :
 
-|image11|
+|image12|
 
 Save the messaging service by clicking the Save button at the bottom of
 the screen. Now, add a phone number for the newly added service by
 clicking on the "Numbers" link in the menu:
 
-|image12|
+|image13|
 
 If you already have a number you'd like to use, choose that, otherwise
 create a new one.
@@ -203,22 +236,23 @@ Once you got the number and linked it to the messaging service, copy and
 paste your Account SID and Auth token from your `twilio
 dashboard <https://www.twilio.com/console>`__:
 
-|image13|
+|image14|
 
 Click "Update Configuration".
 
 .. |image0| image:: connect-facebook.png
 .. |image1| image:: greeting-text.png
 .. |image2| image:: persistent-menu.png
-.. |image3| image:: website-bot.png
-.. |image4| image:: viber-config.png
-.. |image5| image:: telegram-access-token.png
-.. |image6| image:: configure-telegram.png
-.. |image7| image:: wechat-configuration.png
-.. |image8| image:: setup-twilio.png
-.. |image9| image:: message-service.png
-.. |image10| image:: copy-twilio-webhook.png
-.. |image11| image:: twilio-webhook.png
-.. |image12| image:: twilio-number.png
-.. |image13| image:: configure-twilio.png
+.. |image3| image:: campaign-builder.png
+.. |image4| image:: website-bot.png
+.. |image5| image:: viber-config.png
+.. |image6| image:: telegram-access-token.png
+.. |image7| image:: configure-telegram.png
+.. |image8| image:: wechat-configuration.png
+.. |image9| image:: setup-twilio.png
+.. |image10| image:: message-service.png
+.. |image11| image:: copy-twilio-webhook.png
+.. |image12| image:: twilio-webhook.png
+.. |image13| image:: twilio-number.png
+.. |image14| image:: configure-twilio.png
 
