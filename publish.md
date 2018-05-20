@@ -59,11 +59,14 @@ Use the campaign link builder form to generate a ``m.me`` link as shown below:
 ![](campaign-builder.png)
 
 ## Website
+
 Website bot helps you replace your live agent with an automated agent. Website bot gives you similar chat window that you generally see when visiting a website but conversation happens with an intelligent agent instead of a human. This can minimize the cost while being very effective and over time can bring in more leads to your website.
 
 Click on the publish icon, copy and paste the script before the `<body/>` tag.
 
 ![](website-bot.png)
+
+### Basic Configuration
 
 You can customize the look and feel as well as the profile by modifying the following properties:
 
@@ -75,15 +78,15 @@ You can customize the look and feel as well as the profile by modifying the foll
 
 ### Sending Notification to the Bot (Advanced)
 
-It is possible to send a notification to bot for a user action  that can initiate the bot and take the user to a specific flow:
+It is possible to send a notification to the bot for a user action  that can initiate the bot and take the user to a specific flow:
 
-Let's say you have a `demo` block in your bot and on the website if someone clicks on "Request a Demo", it will trigger the demo flow.
+Let's say you have a `demo` block in your bot and on the website if someone clicks on "Request a Demo" button, it will trigger the demo flow:
 
 ```html 
 <button id="request-a-demo">Requst a Demo</button>
 ```
 
-In addition to the script above copy ana and paste the following script before the `<body/>` tag:
+In addition to the script above, copy and paste the following script before the `<body/>` tag:
 
 ```javascript
 <script>
@@ -97,7 +100,7 @@ In addition to the script above copy ana and paste the following script before t
 </script>
 ```
 
-This will open the website bot and take the user to the demo flow for the document click event.
+This will open the website bot and take the user to the demo flow when a user clicks on "Request a Demo" button.
 
 
 ## Viber 

@@ -115,6 +115,9 @@ Click on the publish icon, copy and paste the script before the
 
 |image4|
 
+Basic Configuration
+~~~~~~~~~~~~~~~~~~~
+
 You can customize the look and feel as well as the profile by modifying
 the following properties:
 
@@ -134,17 +137,18 @@ the following properties:
 Sending Notification to the Bot (Advanced)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-It is possible to send a notification to bot for a user action that can
-initiate the bot and take the user to a specific flow:
+It is possible to send a notification to the bot for a user action that
+can initiate the bot and take the user to a specific flow:
 
 Let's say you have a ``demo`` block in your bot and on the website if
-someone clicks on "Request a Demo", it will trigger the demo flow.
+someone clicks on "Request a Demo" button, it will trigger the demo
+flow:
 
 .. code:: html
 
     <button id="request-a-demo">Requst a Demo</button>
 
-In addition to the script above copy ana and paste the following script
+In addition to the script above, copy and paste the following script
 before the ``<body/>`` tag:
 
 .. code:: javascript
@@ -159,8 +163,8 @@ before the ``<body/>`` tag:
       })(document);
     </script>
 
-This will open the website bot and take the user to the demo flow for
-the document click event.
+This will open the website bot and take the user to the demo flow when a
+user clicks on "Request a Demo" button.
 
 Viber
 -----
