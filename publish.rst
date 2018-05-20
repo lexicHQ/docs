@@ -131,6 +131,37 @@ the following properties:
 |                                   | user                              |
 +-----------------------------------+-----------------------------------+
 
+Sending Notification to the Bot (Advanced)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+It is possible to send a notification to bot for a user action that can
+initiate the bot and take the user to a specific flow:
+
+Let's say you have a ``demo`` block in your bot and on the website if
+someone clicks on "Request a Demo", it will trigger the demo flow.
+
+.. code:: html
+
+    <button id="request-a-demo">Requst a Demo</button>
+
+In addition to the script above copy ana and paste the following script
+before the ``<body/>`` tag:
+
+.. code:: javascript
+
+    <script>
+      (function(d) {
+        d.addEventListener('DOMContentLoaded', function() {
+          d.getElementById('request-a-demo').addEventListener('click', function() {
+            headchat.open('demo');
+          });
+        });
+      })(document);
+    </script>
+
+This will open the website bot and take the user to the demo flow for
+the document click event.
+
 Viber
 -----
 

@@ -73,6 +73,32 @@ You can customize the look and feel as well as the profile by modifying the foll
 | primaryColor | Theme color of the website bot. |
 | meta| User data, in case of logged in user this can be set to track the user|
 
+### Sending Notification to the Bot (Advanced)
+
+It is possible to send a notification to bot for a user action  that can initiate the bot and take the user to a specific flow:
+
+Let's say you have a `demo` block in your bot and on the website if someone clicks on "Request a Demo", it will trigger the demo flow.
+
+```html 
+<button id="request-a-demo">Requst a Demo</button>
+```
+
+In addition to the script above copy ana and paste the following script before the `<body/>` tag:
+
+```javascript
+<script>
+  (function(d) {
+    d.addEventListener('DOMContentLoaded', function() {
+      d.getElementById('request-a-demo').addEventListener('click', function() {
+        headchat.open('demo');
+      });
+    });
+  })(document);
+</script>
+```
+
+This will open the website bot and take the user to the demo flow for the document click event.
+
 
 ## Viber 
 
