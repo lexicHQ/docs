@@ -123,6 +123,14 @@ Click on the publish icon, copy and paste the token.
 
 Press "Configure" to set up the webhook.
 
+## Using the bot in Telegram Group
+
+Using the `botfather` app enable your bot to add to a group by using `/setjoingroups` command:
+
+![](telegram-group-settings.png)
+
+Once the bot is enabled for the group you can add it as a regular user of your group. The bot will be only triggered by a slash command. For example, if you send `/help` it will trigger the help block.
+
 ## WeChat
 
 WeChat is the #1 messaging service in China. It is used by over 700 million users and it is the most important channel in the Chinese market. 

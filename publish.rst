@@ -195,6 +195,18 @@ Click on the publish icon, copy and paste the token.
 
 Press "Configure" to set up the webhook.
 
+Using the bot in Telegram Group
+-------------------------------
+
+Using the ``botfather`` app enable your bot to add to a group by using
+``/setjoingroups`` command:
+
+|image8|
+
+Once the bot is enabled for the group you can add it as a regular user
+of your group. The bot will be only triggered by a slash command. For
+example, if you send ``/help`` it will trigger the help block.
+
 WeChat
 ------
 
@@ -218,7 +230,7 @@ your bot:
    WeChat dashboard and create a token that you will use to verify the
    integration.
 
-|image8|
+|image9|
 
 -  Press "Update Configuration".
 
@@ -239,12 +251,12 @@ Service. Go to Home->Dashboard in your Twilio console.
 
 Select Programmable SMS under the Messaging section:
 
-|image9|
+|image10|
 
 Next, create a messaging service by clicking on the "Create a new
 Messaging Service" button:
 
-|image10|
+|image11|
 
 Configure Webhook
 ~~~~~~~~~~~~~~~~~
@@ -252,17 +264,17 @@ Configure Webhook
 Once the service is created. Copy the webhook link from the publish
 dialog :
 
-|image11|
+|image12|
 
 Paste it in the inbound request URL textbox :
 
-|image12|
+|image13|
 
 Save the messaging service by clicking the Save button at the bottom of
 the screen. Now, add a phone number for the newly added service by
 clicking on the "Numbers" link in the menu:
 
-|image13|
+|image14|
 
 If you already have a number you'd like to use, choose that, otherwise
 create a new one.
@@ -271,7 +283,7 @@ Once you got the number and linked it to the messaging service, copy and
 paste your Account SID and Auth token from your `twilio
 dashboard <https://www.twilio.com/console>`__:
 
-|image14|
+|image15|
 
 Click "Update Configuration".
 
@@ -283,11 +295,12 @@ Click "Update Configuration".
 .. |image5| image:: viber-config.png
 .. |image6| image:: telegram-access-token.png
 .. |image7| image:: configure-telegram.png
-.. |image8| image:: wechat-configuration.png
-.. |image9| image:: setup-twilio.png
-.. |image10| image:: message-service.png
-.. |image11| image:: copy-twilio-webhook.png
-.. |image12| image:: twilio-webhook.png
-.. |image13| image:: twilio-number.png
-.. |image14| image:: configure-twilio.png
+.. |image8| image:: telegram-group-settings.png
+.. |image9| image:: wechat-configuration.png
+.. |image10| image:: setup-twilio.png
+.. |image11| image:: message-service.png
+.. |image12| image:: copy-twilio-webhook.png
+.. |image13| image:: twilio-webhook.png
+.. |image14| image:: twilio-number.png
+.. |image15| image:: configure-twilio.png
 
