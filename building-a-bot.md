@@ -44,6 +44,50 @@ You can use plugins or cards to create responses. Responses can be visual or plu
 Using plugins, implement custom logic, capture and validate input, make API requests and overall extend your bot for a richer experience
 
 
+
+### User Input
+
+The plugin allows you to capture and validate input from a user. It can be simple text or in the form of an action.
+
+It supports the following data types:
+
+* Text
+* Number
+* Date
+
+It is possible to capture an user input and set it as a user variable to use throughout the scope of the session to take the user to various flows.
+
+Here in the example, we are validating an email in the following way:
+
+![](./user-input-email.png)
+
+
+It is possible to capture input not only  for "text" input but also for actions  (e.q, quick replies) as shown below:
+![](./user-input-quick-reply.png)
+
+
+Here, in addition, we have used a regular expression pattern to ensure that it only accepts `blue`, `red` or `black`.
+
+![](./user-input-reply.png)
+
+In order to capture quick replies as input, you will have to select "User Input" from the context drop-down and then set the reply as shown below:
+
+![](./user-input-quick-reply-dialog.png)
+
+
+Captured input is stored as a variable and you can print it inside a text element or use in it a different plugin as an input in the following way:
+
+![](./user-input-confirm.png)
+
+This variable is also available inside `script` block and in this scenario, you can retrieve the value of 'color' in the following way:
+
+```javascript
+exports.handler = (context, done) => {
+    console.log(context.vars.get("color"));
+    done();
+};
+```
+
 ### Go to Block
 
 The plugin allows you to design conditional conversation flow. This helps you implement complex flow in your bot that is triggered by a user input or an event.
@@ -98,53 +142,6 @@ In the above example for `claimed`, either you can take the user to a particular
 ![](./user-variable-goto.png)
 
 Or send a broadcast to users who have claimed a coupon.
-
-
-### User Input
-
-The plugin allows you to capture and validate input from a user. It can be simple text or in the form of an action.
-
-It supports the following data types:
-
-* Text
-* Number
-* Date
-
-
-In order to validate an input (e.g. email), add the user input plugin in the conversation flow and set `{{email}}` as a variable to store the data after successful validation which will be available in the conversation scope to use.
-
-![](user-input-email.png)
-
-
-User input not only works for `text` input but also actions (facebook or website) where I want to filter out results based on some given criteria and at the same time validate the input.
-
-![](user-input-quick-reply.png)
-
-
-A pattern is a `regular` expression, here I have ensured using the following pattern that it only accepts `blue`, `red` or `black`.
-
-![](user-input-reply.png)
-
-
-In order to set a user action as input, you have to select "User Input" from the drop-down then set the reply as shown below:
-
-![](user-input-quick-reply-dialog.png)
-
-
-Use the result from the plugin in the following:
-
-![](user-input-confirm.png)
-
-This variable is also available inside `code` script and you can get the value in the following way:
-
-```javascript
-exports.handler = (context, done) => {
-    console.log(context.vars.get("color"));
-    done();
-};
-```
-
-Using action as input parameter makes it intuitive as it drives the user to a correct flow rather I have to figure out via trial and error.
 
 
 
