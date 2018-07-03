@@ -6,7 +6,8 @@
     "url": "https://github.com/Recime/docs.git"
   },
   "scripts": {
-    "deploy": "node -e \"require('./deploy')().catch(console.error)\""
+    "deploy": "node -e \"require('./deploy')().catch(console.error)\"",
+    "docs:build": "vuepress build"
   },
   "private": true,
   "dependencies": {

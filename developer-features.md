@@ -12,12 +12,12 @@ The plugin allows you to create server-side integrations or define your conversa
 
 In addition, you can pass query string parameters, POST body, and headers to address a various type of custom implementation. It is possible to use user variables as parameters using the double braces syntax to pass user input and NLP response. Here is an example of how to use JSON API in order to pull data from a third-party API:
 
-![](json-api.png)
+![](./json-api.png)
 
 
 The response is saved in \{\{result}} variable. This can be used inside the text element to print out the result in the following way:
 
-![](json-reply.png)
+![](./json-reply.png)
 
 
 JSON API allows you to implement the following use-cases:
@@ -31,7 +31,7 @@ JSON API allows you to implement the following use-cases:
 Script Block allows you to quickly write custom logic inside the conversation builder. Click on `script` button in the toolbar as shown below to insert a script block:
 
 
-![](script-block.png)
+![](./script-block.png)
 
 
 The entire conversation context is available in the script block. This will let you write custom logic based on user input, entities and variables. The example below shows how to pull data from a weather API and then set it as a context variable for use in the builder:
@@ -74,7 +74,7 @@ exports.handler = (context, done) => {
 
 | Property Name | Description |
 | -- | -- |
-| args | [User input](message-object.md)
+| args | [User input]
 | nlp |  Contains entities and intents for an expression.
 | vars | Set or get vars to use in the current context.
 
@@ -97,7 +97,7 @@ The `args` object contains the following properties:
 
 You can use variables inside the builder in the following way using the double braces syntax:
 
-![](context-vars.png)
+![](./context-vars.png)
 
 
 You can also output in script block using the [extension module](https://github.com/Recime/recime-bot-extension) in the following way:
@@ -132,11 +132,11 @@ Facebook, Viber, and Telegram allow the user to send a location to your bot. It 
 
 When user sends a location, it triggers a `location` intent or goes to the `default` intent. Create a location intent by typing "location" into search box in the following way:
 
-![](location-intent.png)
+![](./location-intent.png)
 
 User location is sent as an input parameter and it can be accessed as an attribute in the following way:
 
-![](location-new.png)
+![](./location-new.png)
 
 Basically, a location has the following properties regardless of the platform:
 
@@ -152,11 +152,11 @@ Please, check out the following resources on how to send your location:
 
 In Viber, it is available as a toolbar button, clicking on it will bring up the map to pin your location:
 
-![](location-viber.jpeg)
+![](./location-viber.jpeg)
 
 In Telegram, tap on the attachment button and choose Location:
 
-![](share-location-telegram-1.png)
+![](./share-location-telegram-1.png)
 
 
 ## Reusable Custom Modules (Coming Soon)

@@ -26,13 +26,13 @@ If you are using `Microsoft Bot Framwork` and Skype, it is translated in the fol
 
 Connect your bot to a Facebook page using the Connect / Disconnect capability. If you are not already logged in using Facebook, it will take you through the OAuth flow for the required permissions.
 
-![](connect-facebook.png)
+![](./connect-facebook.png)
 
 ### Update Greeting Text on Welcome Screen
 
 Greeting text is shown on the welcome screen. You can update the gretting and include {{user_first_name}}, {{user_last_name}} and {{user_full_name}} to make it more personalized.
 
-![](greeting-text.png)
+![](./greeting-text.png)
 
 ### Configure Persistent Menu
 
@@ -40,7 +40,7 @@ The persistent menu allows you to have an always-on user interface element insid
 
 You can link a block to the persistent menu using by clicking on "+ Menu Item" as shown below:
 
-![](persistent-menu.png)
+![](./persistent-menu.png)
 
 ### Campaign URL Builder
 
@@ -56,7 +56,7 @@ You can easily use campaign parameters in `https://m.me` link and trigger a spec
 
 Use the campaign link builder form to generate a ``m.me`` link as shown below:
 
-![](campaign-builder.png)
+![](./campaign-builder.png)
 
 ## Website
 
@@ -64,7 +64,7 @@ Website bot helps you replace your live agent with an automated agent. Website b
 
 Click on the publish icon, copy and paste the script before the `<body/>` tag.
 
-![](website-bot.png)
+![](./website-bot.png)
 
 ### Basic Configuration
 
@@ -107,7 +107,7 @@ This will open the website bot and take the user to the demo flow when a user cl
 
 If you do not have a public account create a [Viber Public Account](https://www.viber.com/business/#public-accounts). Public account is subject to approval. It is possible to create a [bot account](https://partners.viber.com/account/create-bot-account). Once you have either bot / public account token. Click on the publish icon, copy and paste the token
 
-![](viber-config.png)
+![](./viber-config.png)
 
 Press "Configure" to set up the webhook.
 
@@ -115,11 +115,11 @@ Press "Configure" to set up the webhook.
 
 Use the [Bot Father](https://telegram.me/botfather) app to configure your telegram bot. Once you have created the bot, it will give you an access token as shown below:
 
-![](telegram-access-token.png)
+![](./telegram-access-token.png)
 
 Click on the publish icon, copy and paste the token. 
 
-![](configure-telegram.png)
+![](./configure-telegram.png)
 
 Press "Configure" to set up the webhook.
 
@@ -127,7 +127,7 @@ Press "Configure" to set up the webhook.
 
 Using the `botfather` app enable your bot to add to a group by using `/setjoingroups` command:
 
-![](telegram-group-settings.png)
+![](./telegram-group-settings.png)
 
 Once the bot is enabled for the group you can add it as a regular user of your group. The bot will be only triggered by a slash command. For example, if you send `/help` it will trigger the help block.
 
@@ -142,7 +142,7 @@ Once your WeChat account is verified, do the following to connect to your bot:
 * Go to [WeChat dashboard](https://mp.weixin.qq.com/) and under "Basic Configuration | 基本配置", copy the IP `52.79.59.62` to the whitelist section.
 * Go to "console->bot->publish", paste the App ID and App Secret from WeChat dashboard and create a token that you will use to verify the integration.
 
-![](wechat-configuration.png)
+![](./wechat-configuration.png)
 
 * Press "Update Configuration".
 
@@ -158,33 +158,33 @@ The first step is to create a new `Programmable SMS Messaging` Service.  Go to H
 
 Select Programmable SMS under the Messaging section:
 
-![](setup-twilio.png)
+![](./setup-twilio.png)
 
 
 Next, create a messaging service by clicking on the "Create a new Messaging Service" button:
 
-![](message-service.png)
+![](./message-service.png)
 
 
 ### Configure Webhook
 
 Once the service is created. Copy the webhook link  from the publish dialog :
 
-![](copy-twilio-webhook.png)
+![](./copy-twilio-webhook.png)
 
 Paste it in the inbound request URL textbox :
 
-![](twilio-webhook.png)
+![](./twilio-webhook.png)
 
 Save the messaging service by clicking the Save button at the bottom of the screen. Now, add a phone number for the newly added service by clicking on the "Numbers" link in the menu:
 
-![](twilio-number.png)
+![](./twilio-number.png)
 
 If you already have a number you'd like to use, choose that, otherwise create a new one.
 
 Once you got the number and linked it to the messaging service, copy and paste your Account SID and Auth token from your [twilio dashboard](https://www.twilio.com/console):
 
-![](configure-twilio.png)
+![](./configure-twilio.png)
 
 
 Click "Update Configuration".

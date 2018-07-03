@@ -24,14 +24,14 @@ aws.config.update({
   }
 });
 
-const distDirectory = path.join(__dirname, '_build', 'html');
+const distDirectory = path.join(__dirname, '.vuepress', 'dist');
 
 const s3 = new aws.S3();
 const cloudfront = new aws.CloudFront();
 
 function build() {
   return new Promise((resolve, reject) => {
-    const ps = spawn('make', ['html'], {
+    const ps = spawn('npm', ['run', 'docs:build'], {
       cwd: __dirname,
       stdio: 'ignore'
     });

@@ -24,24 +24,6 @@ An expression can also have entities that can tell the natural language processo
 
 In short, an block is a box full of expressions and can have responses that are triggered by an user input or an event.
 
-## Defining Entities
-
-You can define an entity by highlighting a word and then clicking on the entities from the list or creating a new one by typing into the filter box.
-
-
-![](define-entity.png)
-
-
-It is set a user variable and can be accessed using the double braces syntax `{{nlp.location}}` or you can reference it from script block in the following way:
-
-```javascript
-exports.handler = (context, done)=>{
-    const location = context.nlp.entities.location;
-    // check confidence and write custom logic
-    done();
-};
-```
-
 ## Creating Responses
 
 You can use plugins or cards to create responses. Responses can be visual or plugins to create flow or trigger other intents. A typical response can combine the following elements to build a rich user expereince for your bot:
@@ -68,21 +50,21 @@ The plugin allows you to design conditional conversation flow. This helps you im
 
 Here, in the example, the bot will take the user to a confirm transaction flow based on input. First, ask the user what they want to do next:
 
-![](go-to-input.png)
+![](./go-to-input.png)
 
 
 Next, use `user-input` plugin to capture the input using a pattern validation with a regular expression:
 
-![](go-to-user-input.png)
+![](./go-to-user-input.png)
 
 Finally, send the user to a `yes-flow` block based on if the user typed/pressed (`facebook` quick-reply) "yes" in the following way:
 
-![](go-to-flow.png)
+![](./go-to-flow.png)
 
 
 Otherwise, continue to no flow:
 
-![](no-flow.png)
+![](./no-flow.png)
 
 
 It is possible to use a second "go to" here in order to take the user to a dedicated __no flow__ block or send to a default block to restart the conversation.
@@ -92,7 +74,7 @@ It is possible to use a second "go to" here in order to take the user to a dedic
 
 User variable can be used to identify a flow or user profile in your bot. You can access a user variable using the double braces syntax in the following way:
 
-![](facebook-variable.png)
+![](./facebook-variable.png)
 
 
 Here is a list of user varaibles native to each platform:
@@ -109,11 +91,11 @@ Here is a list of user varaibles native to each platform:
 
 It is also possible to set your own user variables using `User Variable` plugin. 
 
-![](user-variable.png)
+![](./user-variable.png)
 
 In the above example for `claimed`, either you can take the user to a particular flow using the `go-to` plugin:
 
-![](user-variable-goto.png)
+![](./user-variable-goto.png)
 
 Or send a broadcast to users who have claimed a coupon.
 
