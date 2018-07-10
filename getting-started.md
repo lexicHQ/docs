@@ -1,30 +1,70 @@
-# Getting Started Tutorial
+# Getting Started
 
-Create a free account by following the [registration process](https://console.recime.io).
+In this tutorial, we will create and publish a _Chuck Norris_ Facebook bot. The first step is to create a [free account](https://console.recime.io). You can use [github](https://github.com/),  [Facebook](https://www.facebook.com/) or email to get started.
 
-Once you are on the dashboard page, press the "+ Create a bot" button. 
+Once you are inside the dashboard, press the "+ Create a bot" button. 
 
 ![](./registration.png)
 
-Enter title, description of the of the bot. Upload an icon (256x256), choose your channel and language. 
+Enter the bot title, select a platform. In this case, “Facebook”.  
 
-Press "Submit".
+Click “Submit”.
 
-This will create a bot using the default template with `start`, `default` and `about` block. 
+::: tip What is a block?
+A block contains expressions and responses. You can also trigger a block by a user event (e.g.button click) or by user input 
+:::
 
-Blocks are the building blocks of your bot. A block contains expressions and responses. You can also trigger a block by a user event (e.g.button click) or by user input.
+This will create the bot and take you to the builder once completed.
+
+![](./chuck-norris-builder.png)
+
+Once, you are inside the builder, the next step is to build a flow. First, customize the greetings message followed by a quick reply in the following way:
+
+![](./getting-started-1.png)
+
+We are going to create a flow to take the user to different flows based on user input. To do so first capture the user input using the [JSON](developer-features.html#json-api) plugin:
+
+![](./getting-started-user-input.png)
+
+Next, send the user to a specific block using the [Go to Block](building-a-bot.html#creating-responses) plugin. Create an empty block “jokes” and send the user to it based on the user input as shown below:
+
+![](./getting-started-go-to-block.png)
+
+Inside "jokes", add a JSON Plugin to pull random jokes and store it in a user variable in the following way:
+
+![](./getting-started-json-api.png)
+
+Print the joke using a text block in the following way:
+
+![](./getting-started-json-api-result.png)
 
 
-Go to the "Responses" tab, make some changes and test your bot in real-time.
+Go to the "start" block and add an alternate flow with information on driving your user to the main loop:
+
+![](./getting-started-alternate-main.png)
 
 
-![](./build-bot.png)
+That's it, you have created your first "Chuck Norris" bot.
 
 
-Next, click on the publish icon from the navigation bar, follow the instructions and connect your bot to a channel.
-
-![](./publish.png)
+![](./getting-started-complete.png) 
 
 
-Next, check out [Building a Bot](building-a-bot.html) section for a deep dive on blocks and various chatbot concepts. 
+Go to _publish_ tab by clicking the configure icon from the navigation bar and connect to your page by clicking on the “+ Connect” button. If you are not signed in  with Facebook, it will take you through  the authentication process:
+
+![](./getting-started-publish.png)
+
+
+Now that you have successfully published the bot. Go to your page, click on the “+ Add a Button” and select "Contact us/ Send a Message". In the next step, as where to send the users, choose “Facebook Messenger” to respond.
+
+![](./getting-started-page.png)
+
+Once the button has been added, hover over it and select “Test Button”. this will bring up the bot and click on “Get started” to chat with the bot.
+
+![](./getting-started-fb-test.png)
+
+If you have completed the step then you are have successfully created and published your first Facebook bot. 
+
+
+Next,  check out [Building a Bot](building-a-bot.html) section for a deep dive on blocks and various chatbot concepts. 
 
