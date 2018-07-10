@@ -26,7 +26,12 @@ Once, you are inside the builder, the next step is to build a flow. First, custo
 
 ![](./getting-started-1.png)
 
-We are going to create a flow to take the user to different flows based on user input. To do so first capture the user input using the [JSON](developer-features.html#json-api) plugin:
+
+Click on the quick reply button, this will bring up the context dialog, select "User Input" as type and "yes" as reply:
+
+![](./getting-started-user-input-dialog.png)
+
+Create a flow to navigate the user to different flows based on user input. First capture the user input using the [User Input](http://localhost:8080/building-a-bot.html#creating-responses) plugin in the following way:
 
 ![](./getting-started-user-input.png)
 
