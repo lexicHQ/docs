@@ -114,34 +114,7 @@ Otherwise, continue to no flow:
 It is possible to use a second "go to" here in order to take the user to a dedicated __no flow__ block or send to a default block to restart the conversation.
 
 
-### User Variables
 
-User variable can be used to identify a flow or user profile in your bot. You can access a user variable using the double braces syntax in the following way:
-
-![](./facebook-variable.png)
-
-
-Here is a list of user varaibles native to each platform:
-
-
-| Platform | variables | comments|
-| -- | -- | -- |
-| Facebook | first_name, last_name, profile_pic, gender, locale, timezone | -- |
-| WeChat | first_name | `nickname` and set as first_name |
-| Viber | first_name, last_name | -- |
-| Telegram | first_name, last_name | -- |
-| Website | first_name, last_name | Set from the copy script. |
-
-
-It is also possible to set your own user variables using `User Variable` plugin. 
-
-![](./user-variable.png)
-
-In the above example for `claimed`, either you can take the user to a particular flow using the `go-to` plugin:
-
-![](./user-variable-goto.png)
-
-Or send a broadcast to users who have claimed a coupon.
 
 
 

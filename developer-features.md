@@ -126,26 +126,60 @@ The following libraries are available in the **Script Block** runtime:
 * [recime-keyvalue-store](https://github.com/Recime/recime-keyvalue-store)
 * [moment.js](https://momentjs.com/)
 
+
+
+## Working with Variables
+
+Use variables to specify a check-point in your conversation or identify a user. You can access a variable using the **double braces** syntax in the following way:
+
+![](./facebook-variable.png)
+
+
+Here is a list of varaibles accessible from with the conversation scope by channel:
+
+| Platform | Variable name | comments|
+| -- | -- | -- |
+| Facebook | first_name, last_name, profile_pic, gender, locale, timezone | -- |
+| WeChat | first_name | `nickname` and set as first_name |
+| Viber | first_name, last_name | -- |
+| Telegram | first_name, last_name | -- |
+| Website | first_name, last_name | You can override them from the configure section |
+
+::: tip  How to track an user?
+You can use the `sender` variable to track a user specific to a channel. 
+:::
+
+It is also possible to create your own custom variables using `User Variable` plugin. 
+
+![](./user-variable.png)
+
+Use variables to trigger a conditional flow as shown below:
+
+![](./user-variable-goto.png)
+
+Use variables as filter criteria to send a broadcast (a.k.a. push notifications) to a specific number of subscribers:
+
+![](./variable-broadcast.png)
+
+
 ## Capturing User Location
 
-Facebook, Viber, and Telegram allow the user to send a location to your bot. It is sometimes useful to capture user's location in order to book an appointment, order a pizza, etc.
+In order to offer location-aware content, promotions to your users, your bot can capture location as user input.
 
-When user sends a location, it triggers a `location` intent or goes to the `default` intent. Create a location intent by typing "location" into search box in the following way:
-
-![](./location-intent.png)
-
-User location is sent as an input parameter and it can be accessed as an attribute in the following way:
+In order to capture a user location, create a "location" block. Location is sent as an user input and can be accessed as a variable in the following way:
 
 ![](./location-new.png)
 
-Basically, a location has the following properties regardless of the platform:
+`args.location` contains the following properties:
 
 | Name | Description|
 | -- | -- |
 | lat  | latitude |
 | long | longitude|
 
-Please, check out the following resources on how to send your location:
+::: tip  How to send a location to the bot?
+
+A user can send location in the following way for messenger platform:
 
 [How can I send my current location in Messenger](https://www.facebook.com/help/messenger-app/1394730427523556)
 
@@ -158,6 +192,7 @@ In Telegram, tap on the attachment button and choose Location:
 
 ![](./share-location-telegram-1.png)
 
+:::
 
 ## Reusable Custom Modules (Coming Soon)
 Publish re-usable custom modules using the Command Line Interface.
