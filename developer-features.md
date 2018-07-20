@@ -177,6 +177,9 @@ In order to capture a user location, create a "location" block. Location is sent
 | lat  | latitude |
 | long | longitude|
 
+
+You can use this variable in `JSON API` plugin as POST or query string parameter to offer specific content from your database or capture location as part of qualifying a user.
+
 ::: tip  How to send a location to the bot?
 
 A user can send location in the following way for messenger platform:
