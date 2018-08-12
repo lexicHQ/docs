@@ -1,6 +1,6 @@
 # Introduction
 
-Smartloop is an end-to-end AI chatbot platform to automate customer support, content distribution and automate marketing flow. Create omni-channel chatbots quickly and easily, measure growth, save cost and increase customer satisfaction.
+Smartloop is an end-to-end chatbot platform to automate customer support, content distribution and automate marketing flow. Create omni-channel chatbots quickly and easily, measure growth, save cost and increase customer satisfaction.
 
 ![](./dashboard.png)
 

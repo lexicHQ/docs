@@ -1,6 +1,6 @@
 module.exports = {
     title: 'Smartloop',
-    description: 'Build Smart Chatbots. Elevate Your Brand.',
+    description: 'Create Smart Chatbots.(Re)Engage Your Users.',
     themeConfig: {
         nav: [
           { text: 'Dashboard', link: 'https://console.recime.io' }
@@ -17,6 +17,6 @@ module.exports = {
             '/developer-features',
             '/resources'
           ]
-        //   ,lastUpdated: 'Last Updated', // string | boolean
+          ,lastUpdated: 'Last Updated' // string | boolean
       }
   }

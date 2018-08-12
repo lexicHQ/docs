@@ -60,21 +60,23 @@ Use the campaign link builder form to generate a ``m.me`` link as shown below:
 
 ## Website
 
-Website bot helps you replace your live agent with an automated agent. Website bot gives you similar chat window that you generally see when visiting a website but conversation happens with an intelligent agent instead of a human. This can minimize the cost while being very effective and over time can bring in more leads to your website.
+Website bot helps you replace your live agent with an automated one. Website bot gives you a similar experience to that of a live chat. However, the conversation happens with an automated agent instead of a human. This helps minimize the cost while being very effective and over time can bring in more leads to your website and improve the quality of service.
 
-Click on the publish icon, copy and paste the script before the `<body/>` tag.
+Click on the publish icon, configure the look and feel of your bot as shown below and then follow the instructions to copy and paste it to your website:
 
 ![](./website-bot.png)
 
-### Basic Configuration
 
-You can customize the look and feel as well as the profile by modifying the following properties:
+### Cutomization
 
-| Name | Value|
+You can customize the look and feel by modifying the following properties:
+
+| Configuration | Value|
 | -- | -- |
-| title | Title of your website bot that is shown in the nav bar |
-| primaryColor | Theme color of the website bot. |
-| meta| User data, in case of logged in user this can be set to track the user|
+| Theme Color | This is the overall theme of your bot. This includes icon, text and bar color |
+| Secondary Color | This is the color of the text bubble. |
+| Icon| This specifies the icon that is shown in the start button |
+| Launch the bot automatically | This specifies the initial state of the bot, if set to "open", it will start the bot automatically after the page is loaded successfully.|
 
 ### Sending Notification to the Bot (Advanced)
 
