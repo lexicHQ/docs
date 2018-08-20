@@ -10,13 +10,11 @@ Channel support and capabilities:
 | - | - | - |
 | Alexa | - | - |
 | Facebook Messenger | Y | Y | 
-| Microsoft Bot Framwork | Y | N | 
-| Telegram | Y |  Y | 
-| Twilio | Y | Y |
-| Twitter | - | - | 
-| Web | Y | N |
 | Viber | Y | Y |
+| Web | Y | N |
 | WeChat | Y | Y | 
+| Telegram | Y |  Y | 
+| Microsoft Bot Framwork | Y | N | 
 
 
 The platform offers you full advantage of the range of structured and rich message types these channels have to offer, all via one easy-to-use and consistent interface.

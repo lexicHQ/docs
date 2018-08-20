@@ -67,7 +67,7 @@ Click on the publish icon, configure the look and feel of your bot as shown belo
 ![](./website-bot.png)
 
 
-### Cutomization
+### Customization
 
 You can customize the look and feel by modifying the following properties:
 
