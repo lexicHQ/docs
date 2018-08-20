@@ -51,7 +51,7 @@ exports.handler = (context, done) => {
             lat : context.nlp.entities.location[0].lat,
             lon : context.nlp.entities.location[0].lng,
             appid: appId,
-            units: 'imeprial'
+            units: 'imperial'
         },
         json : true
     }, (err, reponse, body)=>{
