@@ -3,7 +3,7 @@ module.exports = {
     description: 'Create Smart Chatbots.(Re)Engage Your Users.',
     themeConfig: {
         nav: [
-          { text: 'Dashboard', link: 'https://console.recime.io' }
+          { text: 'Dashboard', link: 'https://dashboard.smartloop.ai' }
           , { text: 'Blog', link: 'https://blog.recime.io' }
         ],
         sidebar: [
