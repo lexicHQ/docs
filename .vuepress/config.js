@@ -1,6 +1,6 @@
 module.exports = {
     title: 'Documentation, Tutorials and Help Resources | Smartloop',
-    description: 'Get started and learn how to use Smartloop to build AI chatbots for your brand and publish them to your website, Facebook Messenger, Skype, Viber, WeChat.',
+    description: 'Grow Your Business with AI-Powered Conversations',
     themeConfig: {
         nav: [
           { text: 'Dashboard', link: 'https://dashboard.smartloop.ai' }

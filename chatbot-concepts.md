@@ -26,6 +26,14 @@ Below is an example of expressions:
 * I want to travel from San Francisco to Madrid
 
 
+## Entities
+An entity represents a term or an object in the user's expression that provides clarification or specific context for a intent.
+
+Here in the above statement, Location is an entity.
+
+![](./entities.png)
+
+
 ## Responses
 
 Responses are messages which the bot will send to the user(🤖 à 😎), in a given block. Responses could be:
@@ -35,20 +43,10 @@ Responses are messages which the bot will send to the user(🤖 à 😎), in a g
 Bot responses can contain text, button(s), image(s), video(s), rich-content gallery or responses from custom plugin(s) or script(s).
 
 
-<!-- ## Entities (Advanced)
+***Related topics***
 
-An entity represents a term or object in the user's expression that provides clarification or specific context for a particular intent.
+* [Working with Entities](./working-with-entities.md)
 
-![](./entities.png)
-
-Here in the above statement, `Location` is an entity. 
-
-Entities are used with script/plugin to further process of a user input. -->
-
-<!-- 
-**Related Topics**
-
-* [Defining Entities](./building-a-bot.md) -->
 
 
 
