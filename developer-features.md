@@ -196,6 +196,3 @@ In Telegram, tap on the attachment button and choose Location:
 ![](./share-location-telegram-1.png)
 
 :::
-
-## Reusable Custom Modules (Coming Soon)
-Publish re-usable custom modules using the Command Line Interface.

@@ -45,7 +45,7 @@ Bot responses can contain text, button(s), image(s), video(s), rich-content gall
 
 ***Related topics***
 
-* [Working with Entities](./working-with-entities.md)
+* [Working with Entities](./building-a-bot.md#working-with-entities)
 
 
 
