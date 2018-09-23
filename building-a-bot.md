@@ -116,6 +116,10 @@ It is possible to use a second "go to" here in order to take the user to a dedic
 
 ## Working with Entities
 
+Entities help extract word(s) from an experession, group and label them to classify and define context.
+
+![](./entities-flow.png)
+
 Double tap a word in an expression to associate an entity with it.
 
 ![](./define-entities.png)
