@@ -15,19 +15,19 @@ Expressions are context driven which is different from keyword therefore, it doe
 
 Here is an example of a context:
 
-Here, I can say "What do you mean by a chatbot?" or "What is a chatbot?" and it will still return the correct block since the context is same or intead of "Paris", I can ask "How's weather in London?".
+Here, I can say "What do you mean by a chatbot?" or "What is a chatbot?" and it will still return the correct block since the context is same or instead of "Paris", I can ask "How's weather in London?".
 
 _Expressions make your bot smart!_
 
 An expression can also have entities that can tell the natural language processor (AI) to extract a certain part of the sentence that will let you write custom logic (advanced). 
 
 
-In short, an block is a box full of expressions and can have responses that are triggered by an user input or an event.
+In short, a block is a box full of expressions and can have responses that are triggered by an user input or an event.
 
 
 ## Creating Responses
 
-You can use plugins or cards to create responses. Responses can be visual or plugins to create flow or trigger other intents. A typical response can combine the following elements to build a rich user expereince for your bot:
+You can use plugins or cards to create responses. Responses can be visual or plugins to create flow or trigger other intents. A typical response can combine the following elements to build a rich user experience for your bot:
 
 *  Text
 *  Image
@@ -93,7 +93,7 @@ exports.handler = (context, done) => {
 
 The plugin allows you to design conditional conversation flow. This helps you implement complex flow in your bot that is triggered by a user input or an event.
 
-Here, in the example, the bot will take the user to a confirm transaction flow based on input. First, ask the user what they want to do next:
+Here, in the example, the bot will take the user to a confirm transaction flow based on the input. First, ask the user what they want to do next:
 
 ![](./go-to-input.png)
 
@@ -116,7 +116,7 @@ It is possible to use a second "go to" here in order to take the user to a dedic
 
 ## Working with Entities
 
-Entities help extract word(s) from an experession, group and label them to classify and define context.
+Entities help extract word(s) from an expression, group and label them to classify and define a context.
 
 ![](./entities-flow.png)
 
@@ -124,17 +124,17 @@ Double tap a word in an expression to associate an entity with it.
 
 ![](./define-entities.png)
 
-It possible to link same entity for differnet words. Like in the above example, we have asscociated "food" for "tacos" and "guacamole" 
+It possible to link the same entity for different words. Like in the above example, we have associated "food" for "tacos" and "guacamole" 
 
-Entiteis defined in this way can be used as a user variable in a block, like based on selection, it is possible to send a user to a different block  using a 'go-to' based on an entity value.
+Entities defined in this way can be used as a user variable in a block like based on selection, it is possible to send a user to a different block using a 'go-to' based on an entity value.
 
 ![](./entity-check.png)
 
-An entity object can have various properties. A system entity or ***Star*** entity can have additional properties. For example, "datetime" can have properties to identify an weekend vs weekeday or time of the day when someone says:
+An entity object can have various properties. A system entity or ***Star*** entity can have additional properties. For example, "datetime" can have properties to identify a weekend vs weekday or time of the day when someone says:
 
 > "Hows the weather tomorrow?"
 
-Here "tomrorow" will return an addtional date object to futher understand the intent of the user. In general, an entity can have at least the following properties but not limited to:
+Here "tomorrow" will return an additional date object to further understand the intent of the user. In general, an entity can have at least the following properties but not limited to:
 
 
 | Property | Value |
@@ -143,10 +143,4 @@ Here "tomrorow" will return an addtional date object to futher understand the in
 | confidence | The confidence level sent by the entity extractor |
 | start | start index of the highlighted entity in an expression.|
 | end | end index of the highlighted entity in an expression.
-
-
-
-
-
-
 
