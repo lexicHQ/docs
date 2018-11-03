@@ -14,6 +14,7 @@ module.exports = {
             '/publish',
             '/broadcasting',
             '/monitor',
+            '/working-with-variables',
             '/developer-features',
             '/resources'
           ]
