@@ -4,7 +4,7 @@ If you have questions and feedbacks then please join our [Facebook commmunity](h
 
 Subscribe to our official chatbot for news and updates about the platform by scanning the QR code using your Facebook Messenger app.
 
-![](./messenger-bot.png)
+![](./smartloop-qrcode.png)
 
 
 
