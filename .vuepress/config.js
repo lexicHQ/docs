@@ -3,6 +3,7 @@ module.exports = {
     description: 'Grow Your Business with AI-Powered Conversations',
     themeConfig: {
         nav: [
+          { text: 'Smartloop.ai', link: 'https://smartloop.ai/?utm_source=documentation' },
           { text: 'Dashboard', link: 'https://dashboard.smartloop.ai' }
           , { text: 'Blog', link: 'https://blog.recime.io' }
         ],
