@@ -1,7 +1,6 @@
 # Engage Users with Sequence
 
-Sequence capabilities enable you to engage your users at a later time for typical abandoned cart scenarios. The basic building blocks of a sequence are to nurture and drive the user back to the flow to engage with your product or service.
-
+Sequence capabilities enable you to engage your users at a later time. The basic building blocks of a sequence are to nurture and drive the user back to the flow to engage with your product or service.
 
 Head to the sequence section by clicking on the sequence icon as shown below:
 
@@ -32,3 +31,5 @@ Here, you can subscribe a user to a flow based on conditions and user variables 
 ![](./unsubscribe-from-sequence.png)
 
 When the conversation flow hits this plugin, it will remove the user from the engage flow and will mark the sequence as cancel for the user.
+
+Finally, test your engagement by connecting your bot to a channel. Note that live preview will skip the initialization of sequence. 

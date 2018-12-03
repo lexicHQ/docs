@@ -1,6 +1,6 @@
 module.exports = {
     title: 'Smartloop',
-    description: 'Grow Your Business with AI-Powered Conversations',
+    description: 'An AI-powered Platform to Automate Lead Capture, Conversation and Marketing with a simple Point-and-Click solution',
     themeConfig: {
         nav: [
           { text: 'Smartloop.ai', link: 'https://smartloop.ai/?utm_source=documentation' },
