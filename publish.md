@@ -10,9 +10,7 @@ Below is a table showing differnt types of repsonse supported by each platform:
 | Facebook | Y | Y | Y | Generic Template | Y | Y |
 | Website | Y | Y | Y | Y | Y | Y |
 | Viber | Y | Y | Y | Y | Keyboard Button | -- |
-| Telergram |  Y | Y | -- | -- | Y | Y |
 | WeChat | Y | Y | -- | Article | -- | -- |
-| Twilio | Y | -- | -- | -- | -- | -- |
 
 If you are using `Microsoft Bot Framwork` and Skype, it is translated in the following way:
 
@@ -97,26 +95,6 @@ If you do not have a public account create a [Viber Public Account](https://www.
 ![](./viber-config.png)
 
 Press "Configure" to set up the webhook.
-
-## Telegram
-
-Use the [Bot Father](https://telegram.me/botfather) app to configure your telegram bot. Once you have created the bot, it will give you an access token as shown below:
-
-![](./telegram-access-token.png)
-
-Click on the publish icon, copy and paste the token. 
-
-![](./configure-telegram.png)
-
-Press "Configure" to set up the webhook.
-
-## Using the bot in Telegram Group
-
-Using the `botfather` app enable your bot to add to a group by using `/setjoingroups` command:
-
-![](./telegram-group-settings.png)
-
-Once the bot is enabled for the group you can add it as a regular user of your group. The bot will be only triggered by a slash command. For example, if you send `/help` it will trigger the help block.
 
 ## WeChat
 

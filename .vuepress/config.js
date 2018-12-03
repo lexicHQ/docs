@@ -1,5 +1,5 @@
 module.exports = {
-    title: 'Documentation, Tutorials and Help Resources | Smartloop',
+    title: 'Smartloop',
     description: 'Grow Your Business with AI-Powered Conversations',
     themeConfig: {
         nav: [
@@ -10,11 +10,11 @@ module.exports = {
         sidebar: [
             '/',
             '/getting-started',
-            '/chatbot-concepts',
+            '/basic-concepts',
             '/building-a-bot',
-            '/publish',
             '/broadcasting',
-            '/monitor',
+            '/sequence',
+            '/publish',
             '/working-with-variables',
             '/developer-features',
             '/resources'

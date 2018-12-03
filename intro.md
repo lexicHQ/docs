@@ -1,6 +1,6 @@
 # Introduction
 
-Smartloop is an end-to-end chatbot platform to automate customer support, content distribution and automate marketing flow. Create omni-channel chatbots quickly and easily, measure growth, save cost and increase customer satisfaction.
+Smartloop is an AI-powered user engagement platform to automate tier 1 support, gather valuable insights and re-engage with customers easily with an intuitive point and click based interface. 
 
 ![](./dashboard.png)
 
@@ -8,13 +8,11 @@ Channel support and capabilities:
 
 | Channel | Supported | Broadcast | 
 | - | - | - |
-| Alexa | - | - |
 | Facebook Messenger | Y | Y | 
 | Viber | Y | Y |
 | Web | Y | N |
 | WeChat | Y | Y | 
-| Telegram | Y |  Y | 
-| Microsoft Bot Framwork | Y | N | 
+| Skype | Y | N | 
 
 
 The platform offers you full advantage of the range of structured and rich message types these channels have to offer, all via one easy-to-use and consistent interface.

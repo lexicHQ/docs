@@ -1,6 +1,6 @@
-# Chatbot Concepts
+# Basic Concepts
 
-This section covers the basics of various chatbot concepts.
+This section covers the basics of various concepts to build an effective conversation flow.
 
 
 ## Blocks

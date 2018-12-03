@@ -11,6 +11,7 @@
   },
   "private": true,
   "dependencies": {
+    "vuepress": "^0.14.8"
   },
   "devDependencies": {
     "aws-sdk": "^2.156.0",

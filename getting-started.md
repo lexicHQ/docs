@@ -2,9 +2,9 @@
 
 In this tutorial, we will create and publish a _Chuck Norris_ Facebook bot. The first step is to create a [free account](https://console.recime.io). You can use [github](https://github.com/),  [Facebook](https://www.facebook.com/) or email to get started.
 
-Once you are inside the dashboard, press the "+ Create a bot" thumbnail:
+Once inside the dashboard, press the *"+ Create a bot"* thumbnail to get started:
 
-![](./getting-started-home.png)
+![](./new-bot.png)
 
 This will bring up the dialog to create the bot as shown below:
 
