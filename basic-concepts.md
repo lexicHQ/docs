@@ -43,11 +43,6 @@ Responses are messages which the bot will send to the user(🤖 à 😎), in a g
 Bot responses can contain text, button(s), image(s), video(s), rich-content gallery or responses from custom plugin(s) or script(s).
 
 
-***Related topics***
-
-* [Working with Entities](./building-a-bot.md#working-with-entities)
-
-
 
 
 
