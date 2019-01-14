@@ -35,7 +35,7 @@ The timeline shows the total number of conversations over the selected period. T
 
 This graph shows you the number of unique users who have used your bot for the selected period. Hovering each data point will give you the exact number of users for that day. 
 
-![alt text](.Monitor-metrics.png "Smartloop Insights Screenshot")
+![alt text](./Monitor-metrics.png "Smartloop Insights Screenshot")
 
 #### Total Subscribers
 
