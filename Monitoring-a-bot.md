@@ -4,11 +4,11 @@ The [Smartloop](https://smartloop.ai/?utm_source=smartloop&utm_medium=documenati
 
 In addition, you can integrate a third party bot analytics tool. Here is how they compare:
 
-| Platform | Web chat | Facebook | Viber | WeChat | Skype |
-| -------- |:--------:|:--------:|:--------:|:--------:|:--------:|
-| [Smartloop](#smartloop) | Y | Y | Y | Y | Y |
-| [Botanalytics](#botanalytics) | Y | Y | Y | Y | Y |
-| [Dashbot](#dashbot) | Y | Y | Y | - | - |
+| Platform | Web chat | Facebook | Viber | WeChat | Skype | Others |
+| -------- |:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|
+| [Smartloop](#smartloop) | Y | Y | Y | Y | Y |  |
+| [Botanalytics](#botanalytics) | Y | Y | Y | Y | Y | Y|
+| [Dashbot](#dashbot) | Y | Y | Y | - | - | Y |
 
 
 #### Using another analytics platform?
