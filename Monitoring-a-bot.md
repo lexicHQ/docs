@@ -61,6 +61,8 @@ This is a list of the top 10 messages that the bot was not able to understand fo
 
 ## <a name="botanalytics"></a>Botanalytics
 
+[Botanalytics](https://botanalytics.co/?utm_source=smartloop&utm_medium=documenation) is a conversational analytics tool for voice and text based interfaces. It helps you identify bottlenecks, understand intents and segment conversations with AI & ML technologies.
+
 Follow these steps to integrate Botanalytics with your Smartloop chatbot:
 
 1. Go to [https://botanalytics.co/](https://botanalytics.co/?utm_source=smartloop&utm_medium=documenation) and sign up with your credentials. 
