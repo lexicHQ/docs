@@ -1,62 +1,80 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
-
-<url>
-  <loc>https://docs.recime.io/</loc>
-  <lastmod>2018-08-29T07:02:59+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://docs.recime.io/getting-started.html</loc>
-  <lastmod>2018-08-29T07:02:59+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://docs.recime.io/chatbot-concepts.html</loc>
-  <lastmod>2018-08-29T07:02:59+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://docs.recime.io/building-a-bot.html</loc>
-  <lastmod>2018-08-29T07:03:00+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://docs.recime.io/publish.html</loc>
-  <lastmod>2018-08-29T07:03:00+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://docs.recime.io/broadcasting.html</loc>
-  <lastmod>2018-08-29T07:02:59+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://docs.recime.io/monitor.html</loc>
-  <lastmod>2018-08-29T07:02:59+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://docs.recime.io/developer-features.html</loc>
-  <lastmod>2018-08-29T07:03:03+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://docs.recime.io/resources.html</loc>
-  <lastmod>2018-08-29T07:02:59+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://docs.recime.io/intro.html</loc>
-  <lastmod>2018-08-29T07:02:59+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-
-
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+       <!--       created with Free Online Sitemap Generator www.xml-sitemaps.com        -->
+      <url>
+            <loc>https://docs.recime.io/intro.html</loc>
+            <lastmod>2018-12-26T03:44:34+00:00</lastmod>
+            <priority>1.00</priority>
+      </url>
+      <url>
+            <loc>https://docs.recime.io/</loc>
+            <lastmod>2018-12-26T03:44:34+00:00</lastmod>
+            <priority>0.80</priority>
+      </url>
+      <url>
+            <loc>https://docs.recime.io/getting-started.html</loc>
+            <lastmod>2018-12-26T03:44:35+00:00</lastmod>
+            <priority>0.80</priority>
+      </url>
+      <url>
+            <loc>https://docs.recime.io/basic-concepts.html</loc>
+            <lastmod>2018-12-26T03:44:35+00:00</lastmod>
+            <priority>0.80</priority>
+      </url>
+      <url>
+            <loc>https://docs.recime.io/capturing-user-input.html</loc>
+            <lastmod>2018-12-26T03:44:37+00:00</lastmod>
+            <priority>0.80</priority>
+      </url>
+      <url>
+            <loc>https://docs.recime.io/redirect-using-go-to.html</loc>
+            <lastmod>2018-12-26T03:44:35+00:00</lastmod>
+            <priority>0.80</priority>
+      </url>
+      <url>
+            <loc>https://docs.recime.io/how-to-entities.html</loc>
+            <lastmod>2018-12-26T03:44:35+00:00</lastmod>
+            <priority>0.80</priority>
+      </url>
+      <url>
+            <loc>https://docs.recime.io/broadcasting.html</loc>
+            <lastmod>2018-12-26T03:44:36+00:00</lastmod>
+            <priority>0.80</priority>
+      </url>
+      <url>
+            <loc>https://docs.recime.io/sequence.html</loc>
+            <lastmod>2018-12-26T03:44:34+00:00</lastmod>
+            <priority>0.80</priority>
+      </url>
+      <url>
+            <loc>https://docs.recime.io/publish.html</loc>
+            <lastmod>2018-12-26T03:44:35+00:00</lastmod>
+            <priority>0.80</priority>
+      </url>
+      <url>
+            <loc>https://docs.recime.io/analytics.html</loc>
+            <lastmod>2018-12-26T03:44:35+00:00</lastmod>
+            <priority>0.80</priority>
+      </url>
+      
+      <url>
+            <loc>https://docs.recime.io/working-with-variables.html</loc>
+            <lastmod>2018-12-26T03:44:35+00:00</lastmod>
+            <priority>0.80</priority>
+      </url>
+      <url>
+            <loc>https://docs.recime.io/developer-features.html</loc>
+            <lastmod>2018-12-26T03:44:36+00:00</lastmod>
+            <priority>0.80</priority>
+      </url>
+      <url>
+            <loc>https://docs.recime.io/resources.html</loc>
+            <lastmod>2018-12-26T03:44:35+00:00</lastmod>
+            <priority>0.80</priority>
+      </url>
+      <url>
+            <loc>https://docs.recime.io/building-a-bot.html</loc>
+            <lastmod>2018-12-26T02:39:31+00:00</lastmod>
+            <priority>0.64</priority>
+      </url>
 </urlset>
