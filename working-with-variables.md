@@ -12,7 +12,7 @@ Here is a list of default variable names accessible from within the conversation
 | Facebook | first_name, last_name, profile_pic, gender, locale, timezone | -- |
 | Viber | first_name, last_name, language, country | -- |
 | Telegram | first_name, last_name | -- |
-| Website | first_name, last_name, email, phone | These are placeholder for website bot and updated automatically when a value is set or updated using `website.setUser` |
+| Website | first_name, last_name, email, phone | These are a placeholder for website bot and updated automatically when a value is set or updated using `website.setUser` |
 
 ::: tip  How to identify a user?
 Use `user_id` to identify a user for a channel. It can be accessed within a block, either using a **double braces** syntax or from within the script via `context.args.user.id`
