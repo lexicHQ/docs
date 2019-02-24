@@ -87,6 +87,6 @@ Below is a table with the definition of properties to configure your web chat mo
 | Theme Color | Theme of the bot. It includes icon, text and bar color |
 | Secondary Color | Color of the text bubble. |
 | Greetings text | Shown the first time the page loads.
-| Greeting delay| Delay in seconds before showing the greetings message.  Default = 5 seconds
+| Greetings delay| Delay in seconds before showing the greetings message.  Default = 5 seconds
 | Launcher Icon | Start button icon |
 | Silent Mode | On/Off. Default = off |
