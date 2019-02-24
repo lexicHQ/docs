@@ -1,4 +1,4 @@
-# Working with Variables
+# User Variables
 
 Use variables to store conversation state and identify a user. You can access a variable using the **double braces** syntax in the following way:
 

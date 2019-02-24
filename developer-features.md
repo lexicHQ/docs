@@ -1,34 +1,7 @@
-# Developer Features
 
-## JSON API
+# Writing Custom Script
 
-The plugin allows you to create server-side integrations or define your conversation logic based on dynamic content. You can make the following HTTP requests:
-
-* GET
-* POST
-* PATCH
-* DELETE
-* PUT
-
-In addition, you can pass query string parameters, POST body, and headers to address a various type of custom implementation. It is possible to use user variables as parameters using the double braces syntax to pass user input and NLP response. Here is an example of how to use JSON API in order to pull data from a third-party API:
-
-![](./json-api.png)
-
-
-The response is saved in \{\{result}} variable. This can be used inside the text element to print out the result in the following way:
-
-![](./json-reply.png)
-
-
-JSON API allows you to implement the following use-cases:
-
-1. Retrieve dynamic content.
-2. Create server-side integrations, where it will send data to an endpoint whenever a conversation reaches a certain point.
-3. Trigger an event.
-
-## Script Block
-
-Script Block allows you to quickly write custom logic inside the conversation builder. Click on `script` button in the toolbar as shown below to insert a script block:
+Script Block allows you to quickly write custom logic inside a conversation flow. Click on `script` button in the toolbar as shown below to insert a script block:
 
 
 ![](./script-block.png)
@@ -125,37 +98,3 @@ The following modules are allowed inside **Script Block**:
 * [moment.js](https://momentjs.com/)
 * [Bot Extension](https://github.com/Recime/recime-bot-extension)
 
-## Capturing User Location
-
-In order to offer location-aware content, promotions to your users, your bot can capture location as user input.
-
-In order to capture a user location, create a "location" block. Location is sent as an user input and can be accessed as a variable in the following way:
-
-![](./location-new.png)
-
-`args.location` contains the following properties:
-
-| Name | Description|
-| -- | -- |
-| lat  | latitude |
-| long | longitude|
-
-
-You can use this variable in `JSON API` plugin as POST or query string parameter to offer specific content from your database or capture location as part of qualifying a user.
-
-::: tip  How to send a location to the bot?
-
-A user can send location in the following way for messenger platform:
-
-[How can I send my current location in Messenger](https://www.facebook.com/help/messenger-app/1394730427523556)
-
-
-In Viber, it is available as a toolbar button, clicking on it will bring up the map to pin your location:
-
-![](./location-viber.jpeg)
-
-In Telegram, tap on the attachment button and choose Location:
-
-![](./share-location-telegram-1.png)
-
-:::

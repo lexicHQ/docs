@@ -8,7 +8,7 @@ Once inside the dashboard, press the *"+ Create a bot"* thumbnail to get started
 
 This will bring up the dialog to create the bot as shown below:
 
-![](./registration.png)
+![](./registration-new.png)
 
 Enter the bot title, select a platform. In this case, “Facebook”.  
 
@@ -59,7 +59,7 @@ That's it, you have created your first "Chuck Norris" bot.
 ![](./getting-started-complete.png) 
 
 
-Go to _publish_ tab by clicking the configure icon from the navigation bar and connect to your page by clicking on the “+ Connect” button. If you are not signed in  with Facebook, it will take you through  the authentication process:
+Click on the configure icon from the navigation bar and follow the instructions to connect your bot to a channel.  Here in this particular example connect to a page by clicking on the “+ Connect” button.
 
 ![](./getting-started-publish.png)
 

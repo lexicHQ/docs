@@ -13,12 +13,14 @@ module.exports = {
             '/basic-concepts',
             '/capturing-user-input',
             '/redirect-using-go-to',
+            '/json-api',
             '/how-to-entities',
-            '/broadcasting',
             '/sequence',
-            '/publish',
+            '/broadcasting',
+            '/configure-website-bot',
             '/working-with-variables',
             '/developer-features',
+            '/capabilities',
             '/resources'
           ]
           ,lastUpdated: 'Last Updated' // string | boolean

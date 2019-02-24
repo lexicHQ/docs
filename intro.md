@@ -4,15 +4,14 @@ Smartloop is an AI-powered user engagement platform to automate tier 1 support, 
 
 ![](./dashboard.png)
 
-Channel support and capabilities:
+Supported channels and capabilities:
 
-| Channel | Supported | Broadcast | 
-| - | - | - |
-| Facebook Messenger | Y | Y | 
-| Viber | Y | Y |
-| Web | Y | N |
-| WeChat | Y | Y | 
-| Skype | Y | N | 
+| Channel | Supported | Broadcast | Sequence
+| - | - | - | - |
+| Facebook Messenger | Y | Y | Y | 
+| Viber | Y | Y | Y |
+| Web | Y | N | N |
+| Telegram | Y | Y | Y | 
 
 
 The platform offers you full advantage of the range of structured and rich message types these channels have to offer, all via one easy-to-use and consistent interface.
