@@ -20,20 +20,20 @@ Next, follow the instructions to copy and paste the web chat module to your site
 
 ## Understanding your Website Visitors
 
-Every visitor of your bot gets a unique Id that you can use to track and analyze in various steps of your website flow. 
+Every visitor of your bot gets a unique ID that you can use to track and analyze in various steps of your website flow. 
 
-Below are the `javascript` methods that can be used to get the user identifier token and update the profile:
+Below are the `javascript` API methods that can be used to get the user ID and update the profile:
 
-To get the current session Id of the visitor, use:
+Get the active user ID using `getUserId`
 
 ```javascript
-wechat.getUserId()
+const userId = webchat.getUserId()
 ```
 
-Use `setUser` to collect user information which can be used to target and engage at a later time:
+Use `setUser` to collect user information to target and engage at a later time:
 
 ```javascript
-wechat.setUser({
+webchat.setUser({
   first_name: 'Jim',
   last_name: 'Morrison',
   country : 'US',
@@ -42,7 +42,7 @@ wechat.setUser({
 });
 ```
 
-`window.webchat` is available throughout the scope of the page after the web chat module is set up.
+`window.webchat` is available throughout the scope of the page after the web chat module is initialized.
 
 
 ## Sending Events to the Bot
