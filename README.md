@@ -1,14 +1,13 @@
----
-home: true
-heroImage: /hero.png
-actionText: Get Started →
-actionLink: /intro
-features:
-- title: Design Fascinating Conversations Visually
-  details: The point-and-click builder allows you to create engaging conversation flows quickly and easily.
-- title: Reach Your Users on the Channels They Use
-  details: Smartloop supports the most popular channels to help you interact with your users on Facebook Messenger, Web, Viber & WeChat.
-- title: Improve Conversations
-  details: Train your virtual assistant to better understand your users powered by AI.
-footer: Recime Inc. | Copyright © 2018. All rights reserved.
----
+# Welcome to the Documentation
+
+Learn everything to know about Smartloop platform.
+
+**Smartloop** platform enables you to quickly and easily create AI-powered cross-channel conversational bot with a point and click interface. Measure and understand your users through conversational analytics, segment and re-engage based on user actions and variables in just a few easy steps.
+
+![](./smartloop.png)
+
+The platform offers you full advantage of the range of structured and rich message types these channels have to offer, all via one easy-to-use and consistent interface.
+
+Creating a bot (a.k.a. automated agent) is easy and free. Create an [account](https://dashboard.smartloop.ai) and head to the [Getting Started](/getting-started.md) section to publish your first conversational bot. 
+
+Having trouble finding what you’re looking for? [Tell us](mailto:hello@smartloop.ai) so we can better help you!

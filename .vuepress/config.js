@@ -1,14 +1,14 @@
 module.exports = {
     title: 'Smartloop',
-    description: 'An AI-powered Platform to Automate Lead Capture, Conversation and Marketing with a simple Point-and-Click solution',
+    description: 'A Conversational AI Platform to Automate Marketing',
+    base : '/',
     themeConfig: {
         nav: [
-          { text: 'Smartloop.ai', link: 'https://smartloop.ai/?utm_source=documentation' },
-          { text: 'Dashboard', link: 'https://dashboard.smartloop.ai' }
+          {text: 'Home', link: 'https://smartloop.ai' }
+          , { text: 'Dashboard', link: 'https://dashboard.smartloop.ai' }
           , { text: 'Blog', link: 'https://blog.recime.io' }
         ],
         sidebar: [
-            '/',
             '/getting-started',
             '/basic-concepts',
             '/capturing-user-input',
