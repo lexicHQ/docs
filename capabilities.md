@@ -1,5 +1,5 @@
 
-# Channel
+# Capabilities
 
 Bot connector gives you the richest features available in each channel. Below is a table showing various capabilities supported in each channel:
 

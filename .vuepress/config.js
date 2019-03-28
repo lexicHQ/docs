@@ -19,6 +19,7 @@ module.exports = {
             '/broadcasting',
             '/configure-website-bot',
             '/working-with-variables',
+            '/collecting-user-data',
             '/developer-features',
             '/capabilities',
             '/resources'
