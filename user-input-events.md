@@ -6,14 +6,14 @@ Input events are currently only supported for messenger bots.
 
 :::
 
-It is also possible to link an input event (e.g. an image) to a block. This is channel specific capability which means each channel have its own set of events that can be captured and mapped to a block.
+Link an input event (e.g. user sends an image) to a block. Use this capability to handle and map an user event to a block.
 
 Navigate to `Settings -> Events map` section.  Map an event to an existing block by selecting from the list as shown below:
 
 ![](./user-input-events.png)
 
 
-Events type is available in the block as an argument and can be accessed as: `args.eventType.propertyName`
+The mapping event is available in the block as `args` property and can be accessed via: `args.eventType.property`
 
 Below is a list of common properties for an event type:
 
