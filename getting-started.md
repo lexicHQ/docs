@@ -31,11 +31,11 @@ Click on the quick reply button, this will bring up the context dialog, select "
 
 ![](./getting-started-user-input-dialog.png)
 
-Create a flow to navigate the user to different flows based on user input. First capture the user input using the [User Input](http://localhost:8080/building-a-bot.html#creating-responses) plugin in the following way:
+Create a flow to navigate the user to different flows based on user input. First capture the user input using the [User Input](capturing-user-input.html) plugin in the following way:
 
 ![](./getting-started-user-input.png)
 
-Next, send the user to a specific block using the [Go to Block](building-a-bot.html#creating-responses) plugin. Create an empty block “jokes” and send the user to it based on the user input as shown below:
+Next, send the user to a specific block using the [Go to Block](redirect-using-go-to.html) plugin. Create an empty block “jokes” and send the user to it based on the user input as shown below:
 
 ![](./getting-started-go-to-block.png)
 
@@ -75,5 +75,5 @@ Once the button has been added, hover over it and select “Test Button”. this
 If you have completed the step then you are have successfully created and published your first Facebook bot. 
 
 
-Next,  check out [Building a Bot](building-a-bot.html) section for a deep dive on blocks and various chatbot concepts. 
+Next,  check out [Basic Concepts](basic-concepts.html) section for a deep dive on blocks and various chatbot concepts. 
 

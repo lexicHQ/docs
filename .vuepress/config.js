@@ -12,6 +12,8 @@ module.exports = {
             '/getting-started',
             '/basic-concepts',
             '/capturing-user-input',
+            '/collecting-user-data',
+            '/user-input-events',
             '/redirect-using-go-to',
             '/json-api',
             '/how-to-entities',
@@ -19,7 +21,6 @@ module.exports = {
             '/broadcasting',
             '/configure-website-bot',
             '/working-with-variables',
-            '/collecting-user-data',
             '/developer-features',
             '/capabilities',
             '/resources'

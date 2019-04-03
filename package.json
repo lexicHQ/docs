@@ -7,15 +7,17 @@
   },
   "scripts": {
     "deploy": "node -e \"require('./deploy')().catch(console.error)\"",
-    "docs:build": "vuepress build"
+    "docs:build": "vuepress build",
+    "docs:dev": "vuepress dev"
   },
   "private": true,
   "dependencies": {
-    "vuepress": "^0.14.8"
+    "vuepress": "^0.14.10"
   },
   "devDependencies": {
     "aws-sdk": "^2.156.0",
     "fs-extra": "^4.0.2",
-    "mime-types": "^2.1.17"
+    "mime-types": "^2.1.17",
+    "webpack-dev-middleware": "^3.6.0"
   }
 }

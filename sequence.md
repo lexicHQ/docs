@@ -1,6 +1,6 @@
-# Engage Users with Sequence
+# Re-engaging Users with Sequence
 
-Sequence capabilities enable you to engage your users at a later time. The basic building blocks of a sequence are to nurture and drive the user back to the flow to engage with your product or service.
+Sequence capabilities allow you to engage your users at a later time. The basic building blocks of a sequence are to nurture and drive the user back to the flow to engage with your product or service.
 
 Head to the sequence section by clicking on the sequence icon as shown below:
 

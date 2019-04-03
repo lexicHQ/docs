@@ -1,4 +1,4 @@
-# Broadcasting (Push Notifications)
+# Broadcasting
 
 Broadcasting let you send messages to your customers and giving businesses drive more traffic to the product and engagement with customers in a personal way. Broadcasts can be used to notify users of the update of your product and give them a specific call to action to drive them to a flow in your bot.
 
