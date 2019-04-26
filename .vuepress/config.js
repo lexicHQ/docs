@@ -26,5 +26,10 @@ module.exports = {
             '/resources'
           ]
           ,lastUpdated: 'Last Updated' // string | boolean
+      },
+      plugins: {
+        'sitemap': {
+          hostname: 'https://docs.smartloop.ai'
+        }
       }
   }

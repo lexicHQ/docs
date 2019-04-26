@@ -25,7 +25,7 @@ In addition, you can map the following user events to a block in a **Viber** bot
 
 | Type | Property | Comments |
 | -- | -- | -- |
-| conversation_started | event | when a user follow a Viber bot |
+| conversation_started | event | when a user follows a Viber bot |
 | subscribed | event | Triggered when user sends first message after `conversation_started` | 
 | unsubscribed | event | When a user leaves the bot. Use this to remove user info, data, etc.|
 
