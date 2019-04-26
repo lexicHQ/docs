@@ -1,9 +1,7 @@
 # Handling Input Events
 
-::: warning Facebook only
-
-Input events are currently only supported for messenger bots.
-
+::: warning Facebook and Viber Bots
+Input events are currently supported for messenger and viber bots.
 :::
 
 Link an input event (e.g. user sends an image) to a block. Use this capability to handle and map an user event to a block.
@@ -22,6 +20,15 @@ Below is a list of common properties for an event type:
 | image | url | url of the image |
 | file | url | url of the file | 
 | location | lat, long | latitude and longitude of the location|
+
+In addition, you can map the following user events to a block in a **Viber** bot:
+
+| Type | Property | Comments |
+| -- | -- | -- |
+| conversation_started | event | when a user follow a Viber bot |
+| subscribed | event | Triggered when user sends first message after `conversation_started` | 
+| unsubscribed | event | When a user leaves the bot. Use this to remove user info, data, etc.|
+
 
 For example, if a subscriber sends an image on a facebook bot, it can set as an image place holder in the following way:
 
