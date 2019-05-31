@@ -17,7 +17,7 @@ module.exports = {
             '/redirect-using-go-to',
             '/json-api',
             '/how-to-entities',
-            '/sequence',
+            '/campaign',
             '/broadcasting',
             '/configure-website-bot',
             '/working-with-variables',
