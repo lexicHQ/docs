@@ -19,6 +19,7 @@ module.exports = {
             '/how-to-entities',
             '/campaign',
             '/broadcasting',
+            '/live-chat',
             '/configure-website-bot',
             '/working-with-variables',
             '/developer-features',
