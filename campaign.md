@@ -1,4 +1,4 @@
-# Create Marketing Campaign
+# Campaign
 
 Campaign enables you to engage your users at a future date based on various conversation metrics. 
 
