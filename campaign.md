@@ -1,7 +1,6 @@
 # Campaign
 
-Campaign enables you to engage your users at a future date based on various conversation metrics. 
-
+Create a campaign to engage your users at a future date. It enables you to qualify and nurture your subscribers based on user attributes and conditions.
 
 Here, we will create an on-boarding campaign to re-target those who have not answered the qualifying question for a product or service.
 
