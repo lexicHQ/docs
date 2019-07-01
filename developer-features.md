@@ -1,58 +1,29 @@
 
 # Writing Custom Script
 
-Script Block allows you to quickly write custom logic inside a conversation flow. Click on `script` button in the toolbar as shown below to insert a script block:
-
-
-![](./script-block.png)
-
-
-The entire conversation context is available in the script block. This will let you write custom logic based on user input, entities and variables. The example below shows how to pull data from a weather API and then set it as a context variable for use in the builder:
+Use script block to push data to CRM and or create dynamic content. 
 
 ```javascript
-//script block
-//https://docs.recime.io/script-block.html
-import request from 'request';
-
-// get a free API key from openweathermap.org
-const appId = 'PASTE_YOUR_API_KEY';
+import Ext from 'bot-extension';
+const __ = Ext.default;
 
 exports.handler = (context, done) => {
-    request({
-        url : 'https://api.openweathermap.org/data/2.5/weather',
-        qs : {
-            lat : context.nlp.entities.location[0].lat,
-            lon : context.nlp.entities.location[0].lng,
-            appid: appId,
-            units: 'imperial'
-        },
-        json : true
-    }, (err, reponse, body)=>{
-        if (err){
-            console.log(err);
-        }
-        //debug
-        console.log(body);
-     
-        // save 
-        context.vars.set("weatherData", body);
-        
-        done();
-    });
+    done(__.text("Hello world"));
 };
-
 ```
 
-`context` parameter have the following properties:
+The above is a script block at a bare minimum. Here `handler` is the function that runtime calls to start the execution of a custom code block. The runtime passes the bot context and any input from the user to this handler. 
+
+The parameter `context` has the following properties:
 
 | Property Name | Description |
 | -- | -- |
-| args | [User input]
-| nlp |  Contains entities and intents for an expression.
-| vars | Set or get vars to use in the current context.
+| args | User input and events.
+| nlp |  Provides your natural language understanding like intent, confidence, and entities for an expression. 
+| vars | Set or get context variables.
 
 
-The `args` object contains the following properties:
+User input passed via the `args` property:
 
 | Property Name | Description | Type |
 | -- | -- | -- |
@@ -61,40 +32,72 @@ The `args` object contains the following properties:
 | event | Event to trigger an intent. Either text or event is required. | Object |
 
 
-`event` contains the name of the event that is triggered for a user action:
+An `event` could be triggered by an action (ex. button click):
 
 | Property Name | Description | Type |
 | -- | -- | -- |
-| name | Name of the event (e.g. start) that corresponds to an intent name | String |
+| name | Name of the event (e.g., start) that corresponds to an intent name | String |
 
 
-You can use variables inside the builder in the following way using the double braces syntax:
+You can use variables inside the builder in the following way using the double braces syntax which has been set using `context.vars.set("name", "John")` from a script:
 
 ![](./context-vars.png)
 
 
-You can also output in script block using the [extension module](https://github.com/Recime/recime-bot-extension) in the following way:
+You can use any [nodejs core modules](https://nodejs.org/api/modules.html#modules_core_modules) in the script block, in addition to the following:
 
+## Bot Extension
+Use [bot extension](https://github.com/SmartloopAI/bot-extension) module to print out text or rich media as supported by the underlying platform.
+
+An example showing how to display text dynamically using the extension module:
 
 ```javascript
-import Ext from "recime-bot-extension";
+import Ext from 'bot-extension';
 const __ = Ext.default;
 
 exports.handler = (context, done) => {
-    done(__.text("Hello world"));
+    done(__.text("hello world"));
 };
 ```
 
-Script block can be useful in the following scnearios:
+## Request
+[Request](https://github.com/request/request) is designed to be the simplest way possible to make HTTP calls:
 
-* Retrieving data from your existing API that you want inject in your conversation context.
-* Construct dynamic response based on user input and entities.
+The following example makes a test request to 'httpbin' endpoint.
+
+```javascript
+import request from 'request';
+
+exports.handler = (context, done) => {
+    
+    request({
+        url : 'http://requestbin.fullcontact.com/yyo7f7yy',
+        method :'POST',
+        json: true,
+        body: {
+            "p": 1
+        }
+    }, (err, response, body)=>{
+        console.log("completed");
+        done();     
+    })
+};
+
+```
 
 
-The following modules are allowed inside **Script Block**:
+## Moment
 
-* [node core](https://nodejs.org/api/modules.html#modules_core_modules)
-* [request](https://github.com/request/request)
-* [moment.js](https://momentjs.com/)
-* [Bot Extension](https://github.com/Recime/recime-bot-extension)
+Use [moment](https://momentjs.com/) to parse, validate and manipulate and display dates and times. The following example of generating bot timestamp using `moment`:
 
+```javascript
+import moment from 'moment';
+
+exports.handler = (context, done) => {
+    const timestamp = moment().unix().toString();
+    
+    console.log('Timestamp ' + timestamp);
+    
+    done();
+};
+```
