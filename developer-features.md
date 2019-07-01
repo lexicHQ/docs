@@ -19,15 +19,15 @@ The parameter `context` has the following properties:
 | Property Name | Description |
 | -- | -- |
 | args | User input and events.
-| nlp |  Provides your natural language understanding like intent, confidence, and entities for an expression. 
-| vars | Set or get context variables.
+| nlp |  Provides natural language understanding like intent, confidence, and entities for an expression. 
+| vars | Set or get custom variables in a conversation scope.
 
 
 User input passed via the `args` property:
 
 | Property Name | Description | Type |
 | -- | -- | -- |
-| sender | Unique sender ID | String |
+| sender | Unique userId | String |
 | text | Input text.(e.g. Where is San Francisco?) | String |
 | event | Event to trigger an intent. Either text or event is required. | Object |
 
