@@ -23,6 +23,7 @@ module.exports = {
             '/configure-website-bot',
             '/working-with-variables',
             '/developer-features',
+            '/templates',
             '/capabilities',
             '/resources'
           ]
