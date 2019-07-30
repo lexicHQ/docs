@@ -8,7 +8,7 @@ Similarly, you can reuse a marketing campaign or lead capture bot using template
 
 Go to the bot settings and click on the "Share as a Template," this will prompt a dialog briefly describe your bot, upload icon, and add steps to use your template.
 
-![](./template.png)
+![](./template-new.png)
 
 
 You can put this link on your website or social media, for anyone to take advantage of it. Once someone clicks on "Use Template" button (example below), they will be onboarded automatically and get their copy in their dashboard. They can then connect to Facebook or other channels with the click of a button.
