@@ -1,13 +1,13 @@
-# User Variables
+# User Attributes
 
-Use variables to store conversation state and identify a user. You can access a variable using the **double braces** syntax in the following way:
+Use attributes is used to store conversation state and identify a user. You can access an attribute using the **double braces** syntax in the following way:
 
 ![](./facebook-variable.png)
 
 
-Here is a list of default variable names accessible from within the conversation scope by channel:
+Here is a list of default attributes names accessible from within the conversation scope by channel:
 
-| Platform | Variable name | comments|
+| Platform | Attribute name | comments|
 | -- | -- | -- |
 | Facebook | first_name, last_name, profile_pic, gender, locale, timezone | -- |
 | Viber | first_name, last_name, language, country | -- |
@@ -18,7 +18,7 @@ Here is a list of default variable names accessible from within the conversation
 Use `user_id` to identify a user for a channel. It can be accessed within a block, either using a **double braces** syntax or from within the script via `context.args.user.id`
 :::
 
-It is also possible to define your own custom variables using `User Variable` plugin. 
+It is also possible to define your own custome attributes using `User Attribute` plugin. 
 
 ![](./user-variable.png)
 

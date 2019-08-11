@@ -1,4 +1,4 @@
-# Campaign
+# Creating a Drip Campaign
 
 Create a campaign to engage your users at a future date. It enables you to qualify and nurture your subscribers based on user attributes and conditions.
 
