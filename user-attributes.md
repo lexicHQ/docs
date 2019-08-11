@@ -20,11 +20,11 @@ Use `user_id` to identify a user for a channel. It can be accessed within a bloc
 
 It is also possible to define your own custome attributes using `User Attribute` plugin. 
 
-![](./user-variable.png)
+![](./user-attribute.png)
 
 Use variables to trigger a conditional flow as shown below:
 
-![](./user-variable-goto.png)
+![](./user-attribute-goto.png)
 
 
 Or as a filter criteria to send a broadcast (a.k.a. push notifications) to a specific group of subscribers:

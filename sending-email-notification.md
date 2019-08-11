@@ -12,6 +12,6 @@ Click to drop the _Send Email_ plugin to a block.
 * Specify a Subject, that will let you label the message.
 * Describe the scenario or pass in attributes to track.
 
-You can send various [user attributes](./user-attributes.md) to under the context.
+You can send various [user attributes](./user-attributes.md) to debug and understand a context.
 
 Once everything configured correctly, you should receive an email from `no-reply at smartloop.ai`
