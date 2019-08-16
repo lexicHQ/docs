@@ -1,4 +1,4 @@
-# Collecting User Data
+# Building User Profile for a Website Bot
 
 ::: warning Website Bot Only
 It is only possible to override user profile data for a website bot. 

@@ -13,8 +13,6 @@ module.exports = {
             '/basic-concepts',
             '/how-to-entities',
             '/capturing-user-input',
-            '/collecting-user-data',
-            '/user-input-events',
             '/redirect-using-go-to',
             '/json-api',
             '/sending-email-notification',
@@ -23,7 +21,9 @@ module.exports = {
             '/live-chat',
             '/configure-website-bot',
             '/user-attributes',
+            '/viber-events',
             '/developer-features',
+            '/collecting-user-data',
             '/templates',
             '/capabilities',
             '/resources'
