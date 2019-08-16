@@ -36,7 +36,15 @@ Here in this case, we can use the image property in an image element in the foll
 ![](./captured-image-property.png)
 
 
-Note the syntax here, it is directing the template not to escape the url which is already encoded by the underlying platform (e.g. Facebook, Viber).
+Note the syntax here with triple braces, In this case, the template engine won't encode the url which is already done by the underlying platform (e.g. Facebook, Viber). Otherwise, it will create an invalid url.
+
+It is also possible to upload multiple files or images. Here in the example above, `image.0.url` is the first image at zero index. If you upload two images at the same time, you can access them like `image.0.url`, `image.1.url` and so on. In case, you want to iterate through all the images; you can do so by writing a custom a script or using the template iterator in the following way:
+
+```html
+{{#image}}
+ {{{url}}}
+{{/image}}
+```
 
 ::: tip
 
