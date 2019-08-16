@@ -1,7 +1,9 @@
 
 # Capture and Validate User Input
 
-Use user input plugin to capture data in your bot. The following types are supported for an user input:
+Use user input plugin to capture data in your bot. 
+
+The following types are supported for an user input:
 
 * Text
 * Number
