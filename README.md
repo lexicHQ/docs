@@ -4,7 +4,7 @@ Learn everything to know about Smartloop platform.
 
 **Smartloop** platform enables you to quickly and easily create AI-powered cross-channel conversational bot with a point and click interface. Measure and understand your users through conversational analytics, segment and re-engage based on user actions and variables in just a few easy steps.
 
-![](./smartloop.png)
+![](./smartloop-dash.png)
 
 
 The platform offers you full advantage of the range of structured and rich message types these channels have to offer, all via one easy-to-use and consistent interface.
