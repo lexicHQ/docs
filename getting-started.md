@@ -4,25 +4,40 @@ In this tutorial, we will create and publish a _Chuck Norris_ Facebook bot. The 
 
 Once inside the dashboard, press the *"+ Create a bot"* thumbnail to get started:
 
-![](./new-bot.png)
+![](./dashboard.smartloop.ai_.png)
 
-This will bring up the dialog to create the bot as shown below:
+This will bring up the step by step wizard:
 
-![](./registration-new.png)
+![](./dashboard.smartloop.ai_bots_new.png)
 
 Enter the bot title, select a platform. In this case, “Facebook”.  
 
 Click “Submit”.
 
+On the next step, you will choose a template or start from a new bot. In this case, select "blank bot":
+
+![](./dashboard.smartloop.ai_bots_new_template.png)
+
+
+Click "Next".
+
+Connect your bot to a page; if you are not already logged in using Facebook, it will guide you through the process:
+
+![](./dashboard.smartloop.ai_bots_new_channel.png)
+
+
+Click "Continue".
+
+
 ::: tip What is a block?
 A block contains expressions and responses. You can also trigger a block by a user event (e.g.button click) or by user input 
 :::
 
-This will create the bot and take you to the builder once completed.
+This will create the bot and take you to the conversation builder once completed.
 
-![](./chuck-norris-builder.png)
+![](./conversation-builder.png)
 
-Once, you are inside the builder, the next step is to build a flow. First, customize the greetings message followed by a quick reply in the following way:
+Once, you are inside the builder; the next step is to build a flow. First, customize the greetings message followed by a quick reply in the following way:
 
 ![](./getting-started-1.png)
 
@@ -31,7 +46,7 @@ Click on the quick reply button, this will bring up the context dialog, select "
 
 ![](./getting-started-user-input-dialog.png)
 
-Create a flow to navigate the user to different flows based on user input. First capture the user input using the [User Input](capturing-user-input.html) plugin in the following way:
+Create a flow to navigate the user to different flows based on user input. First, capture the user input using the [User Input](capturing-user-input.html) plugin in the following way:
 
 ![](./getting-started-user-input.png)
 
@@ -56,23 +71,18 @@ Go to the "start" block and add an alternate flow with information on driving yo
 That's it, you have created your first "Chuck Norris" bot.
 
 
-![](./getting-started-complete.png) 
+![](./dash-jokes.png) 
 
 
-Click on the configure icon from the navigation bar and follow the instructions to connect your bot to a channel.  Here in this particular example connect to a page by clicking on the “+ Connect” button.
-
-![](./getting-started-publish.png)
-
-
-Now that you have successfully published the bot. Go to your page, click on the “+ Add a Button” and select "Contact us/ Send a Message". In the next step, as where to send the users, choose “Facebook Messenger” to respond.
+Go to your page, click on the “+ Add a Button” and select "Contact us/ Send a Message". In the next step, as where to send the users, choose “Facebook Messenger” to respond.
 
 ![](./getting-started-page.png)
 
-Once the button has been added, hover over it and select “Test Button”. this will bring up the bot and click on “Get started” to chat with the bot.
+Once the button has been added, hover over it and select “Test Button”. This will bring up the bot and click on “Get started” to chat with the bot.
 
 ![](./getting-started-fb-test.png)
 
-If you have completed the step then you are have successfully created and published your first Facebook bot. 
+If you have completed the step, then you are have successfully created and published your first Facebook bot. 
 
 
 Next,  check out [Basic Concepts](basic-concepts.html) section for a deep dive on blocks and various chatbot concepts. 
