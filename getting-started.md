@@ -1,12 +1,10 @@
 # Getting Started
 
-In this tutorial, you will create your very own facebook messenger bot. The first step is to create a [free account](https://dashboard.smartloop.ai). 
+In this tutorial, you will create your very own facebook messenger bot. 
 
-Use [Facebook](https://www.facebook.com/) or create a new using a valid email.
+Use [Facebook](https://www.facebook.com/) or [create a new account](https://dashboard.smartloop.ai) using a valid email.Once inside the dashboard, press the *"+"* thumbnail to get started:
 
-Once inside the dashboard, press the *"+ Create a bot"* thumbnail to get started:
-
-![](./dashboard.smartloop.ai_.png)
+![](./dashboard.smartloop.ai.png)
 
 This will bring up the step by step wizard:
 
