@@ -1,6 +1,8 @@
 # Getting Started
 
-In this tutorial, we will create and publish a _Chuck Norris_ Facebook bot. The first step is to create a [free account](https://console.recime.io). You can use [github](https://github.com/),  [Facebook](https://www.facebook.com/) or email to get started.
+In this tutorial, you will create your very own facebook messenger bot. The first step is to create a [free account](https://dashboard.smartloop.ai). 
+
+Use [Facebook](https://www.facebook.com/) or create a new using a valid email.
 
 Once inside the dashboard, press the *"+ Create a bot"* thumbnail to get started:
 
