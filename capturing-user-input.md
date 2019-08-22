@@ -20,7 +20,7 @@ The plugin can be used to validate a specific type, for example we are validatin
 ![](./capture-email.png)
 
 
-It is possible to capture input not only as a text but as a composite type (e.g. image), it possible to ask the user to upload an image and then validate and capture it in an attribute. We will have to select the type as an image and specify an attribute to capture the image:
+It is possible to capture input not only as text but as a **composite type** (e.g., image, file, etc.). When a user uploads an image, you can validate and store it in an attribute (as shown below). You will have to select the type as an image and specify the attribute name:
 
 ![](./capture-image.png)
 
