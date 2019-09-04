@@ -1,6 +1,6 @@
 # API Access
 
-Chat API is designed to extend conversation builder capabilities in a custom channel and bi-direction communication.
+Chat API is designed to extend conversation builder capabilities in a custom channel and enable bi-direction communication.
 
 Download the GraphQL playground from the link below:
 
