@@ -23,6 +23,7 @@ module.exports = {
             '/configure-website-bot',
             '/viber-events',
             '/developer-features',
+            '/config-vars',
             '/api-access',
             '/collecting-user-data',
             '/templates',

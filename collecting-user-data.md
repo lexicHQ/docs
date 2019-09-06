@@ -1,7 +1,7 @@
-# Building User Profile for a Website Bot
+# Modifying User Profiles
 
 ::: warning Website Bot Only
-It is only possible to override user profile data for a website bot. 
+It is only possible to modify user profiles for a website bot. In messenger bot it is set by facebook thus readonly.
 :::
 
 
