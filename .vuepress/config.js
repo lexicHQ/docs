@@ -1,6 +1,6 @@
 module.exports = {
     title: 'Smartloop',
-    description: 'A Conversational AI Platform to Automate Marketing',
+    description: 'Supercharge Lead Capture with Conversational AI.',
     base : '/',
     themeConfig: {
         nav: [
