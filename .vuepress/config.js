@@ -21,12 +21,13 @@ module.exports = {
             '/broadcasting',
             '/live-chat',
             '/configure-website-bot',
+            '/templates',
+            '/third-party-integrations',
             '/viber-events',
             '/developer-features',
             '/config-vars',
             '/api-access',
             '/collecting-user-data',
-            '/templates',
             '/capabilities',
             '/resources'
           ]
