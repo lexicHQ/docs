@@ -20,16 +20,13 @@ module.exports = {
             '/campaign',
             '/broadcasting',
             '/live-chat',
-            '/configure-website-bot',
             '/templates',
-            '/third-party-integrations',
-            '/viber-events',
+            '/channel',
             '/developer-features',
-            '/config-vars',
-            '/api-access',
             '/collecting-user-data',
             '/capabilities',
-            '/resources'
+            '/resources',
+            '/third-party-integrations'
           ]
           ,lastUpdated: 'Last Updated' // string | boolean
       },

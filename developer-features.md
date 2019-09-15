@@ -1,5 +1,6 @@
+# Developer Features
 
-# Writing Custom Script
+## Writing Custom Script
 
 Use script block to push data to CRM and or create dynamic content. 
 
@@ -114,11 +115,11 @@ exports.handler = (context, done) => {
 ## Add Bot wide settings
 
 Bot wide settings can be configured at a single location using configuration variables.
-[How to add configruation variables](./config-vars)
+[How to add configruation variables](./config-vars.md)
 
 ## Bot API
 
-[Allows bi-directional conversation using BOT API](./api-access)
+[Allows bi-directional conversation using BOT API](./api-access.md)
 
 ```
 ## Moment
