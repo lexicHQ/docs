@@ -25,8 +25,8 @@ module.exports = {
             '/developer-features',
             '/collecting-user-data',
             '/capabilities',
-            '/resources',
-            '/third-party-integrations'
+            '/third-party-integrations',
+            '/resources'
           ]
           ,lastUpdated: 'Last Updated' // string | boolean
       },

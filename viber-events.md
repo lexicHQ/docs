@@ -1,4 +1,4 @@
-# Handling Viber Events
+# Configuring Viber Events
 
 Link a Viber event to a block.
 
