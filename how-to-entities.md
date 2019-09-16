@@ -1,4 +1,4 @@
-# How to use Entities?
+# How to use Entities
 
 Entities help extract word(s) from an expression, group and label them to classify and define a context.
 
@@ -16,9 +16,11 @@ Entities defined in this way can be used as a user variable in a block like base
 
 An entity object can have various properties. A system entity or ***Star*** entity can have additional properties. For example, "datetime" can have properties to identify a weekend vs weekday or time of the day when someone says:
 
-> "Hows the weather tomorrow?"
+> "How's the weather tomorrow?"
 
-Here "tomorrow" will return an additional date object to further understand the intent of the user. In general, an entity can have at least the following properties but not limited to:
+Here "tomorrow" will return an additional date object to further understand the intent of the user. 
+
+In general, an entity can have at least the following properties but not limited to:
 
 
 | Property | Value |
@@ -27,3 +29,9 @@ Here "tomorrow" will return an additional date object to further understand the 
 | confidence | The confidence level sent by the entity extractor |
 | start | start index of the highlighted entity in an expression.|
 | end | end index of the highlighted entity in an expression.
+
+## Referring entities in a script block
+
+Entities discovered using NLP engine, can be accessed within the script block.
+
+They can be accessed using `context.nlp.entities[0].entity`

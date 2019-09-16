@@ -1,5 +1,6 @@
+# Developer Features
 
-# Writing Custom Script
+## Writing Custom Script
 
 Use script block to push data to CRM and or create dynamic content. 
 
@@ -12,7 +13,9 @@ exports.handler = (context, done) => {
 };
 ```
 
-The above is a script block at a bare minimum. Here `handler` is the function that runtime calls to start the execution of a custom code block. The runtime passes the bot context and any input from the user to this handler. 
+Note: The above script block needs to be included in all script blocks at a bare minimum if the script interacts with the bot. Context is only available when bot-extension is imported. 
+
+Here `handler` is the function that runtime calls to start the execution of a custom code block. The runtime passes the bot context and any input from the user to this handler. 
 
 The parameter `context` has the following properties:
 
@@ -23,6 +26,8 @@ The parameter `context` has the following properties:
 | vars | Set or get custom variables in a conversation scope.
 
 
+## Working with args property
+
 User input passed via the `args` property:
 
 | Property Name | Description | Type |
@@ -31,6 +36,23 @@ User input passed via the `args` property:
 | text | Input text.(e.g. Where is San Francisco?) | String |
 | event | Event to trigger an intent. Either text or event is required. | Object |
 
+## Working with nlp property
+
+| Property Name | Description | Type |
+| -- | -- | -- |
+| sender | Unique userId | String |
+| text | Input text.(e.g. Where is San Francisco?) | String |
+| event | Event to trigger an intent. Either text or event is required. | Object |
+
+## Working with vars property
+
+| Property Name | Description | Type |
+| -- | -- | -- |
+| sender | Unique userId | String |
+| text | Input text.(e.g. Where is San Francisco?) | String |
+| event | Event to trigger an intent. Either text or event is required. | Object |
+
+## Working with events
 
 An `event` could be triggered by an action (ex. button click):
 
@@ -38,10 +60,17 @@ An `event` could be triggered by an action (ex. button click):
 | -- | -- | -- |
 | name | Name of the event (e.g., start) that corresponds to an intent name | String |
 
+## Using variables in script block
 
-You can use variables inside the builder in the following way using the double braces syntax which has been set using `context.vars.set("name", "John")` from a script:
+The variables can be accessed in any script block. The scope of the variables is global by default. 
+To set a variable, use  `context.vars.set("name", "John")`
+To get a variable setup earlier, use `let username = context.vars.get("name")`. This will return the value set for variable 'name' either in the script block or the builder.
+
+You can use variables in text block set using `context.vars.set("name", "John")` in a script block earlier, like this: 
 
 ![](./context-vars.png)
+
+
 
 
 You can use any [nodejs core modules](https://nodejs.org/api/modules.html#modules_core_modules) in the script block, in addition to the following:
@@ -83,9 +112,16 @@ exports.handler = (context, done) => {
     })
 };
 
+## Add Bot wide settings
+
+Bot wide settings can be configured at a single location using configuration variables.
+[How to add configruation variables](./config-vars.md)
+
+## Bot API
+
+[Allows bi-directional conversation using BOT API](./api-access.md)
+
 ```
-
-
 ## Moment
 
 Use [moment](https://momentjs.com/) to parse, validate and manipulate and display dates and times. The following example of generating bot timestamp using `moment`:
