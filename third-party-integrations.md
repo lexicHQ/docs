@@ -1,8 +1,8 @@
-:::tip
+:::tip Note
 
-**NOTE**: The copyright/ trademark of individual third party services mentioned above are owned by their respective companies.
+The copyright/ trademark of individual third party services mentioned above are owned by their respective companies.
 
-If you are a software publisher and would like to integrate your service with Samrtloop bot, then please send us an email at [hello@smartloop.ai](hello@smartloop.ai)
+If you are a software vendor and would like to integrate your service with Samrtloop bot, then please send us an email at [hello@smartloop.ai](hello@smartloop.ai)
 
 :::
 

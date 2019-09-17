@@ -23,6 +23,8 @@ module.exports = {
             '/templates',
             '/channel',
             '/developer-features',
+            '/config-vars',
+            '/api-access',
             '/collecting-user-data',
             '/capabilities',
             '/third-party-integrations',

@@ -5,7 +5,7 @@
 
 ### Connect your bot to a page
 
-Connect your bot to a Facebook page using the Connect / Disconnect capability. If you are not already logged in using Facebook, it will take you through the OAuth flow for the required permissions.
+Connect your bot to a Facebook page using the Connect / Disconnect capability. If you are not already logged in using Facebook, it will take you through a wizard to connect Smartloop app to your page.
 
 ![](./facebook-connect.png)
 
