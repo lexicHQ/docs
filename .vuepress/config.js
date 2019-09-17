@@ -21,11 +21,10 @@ module.exports = {
             '/broadcasting',
             '/live-chat',
             '/templates',
+            '/collecting-user-data',
             '/channel',
             '/developer-features',
-            '/config-vars',
             '/api-access',
-            '/collecting-user-data',
             '/capabilities',
             '/third-party-integrations',
             '/resources'

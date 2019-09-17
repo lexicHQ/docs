@@ -72,10 +72,42 @@ You can use variables in text block set using `context.vars.set("name", "John")`
 
 
 
+## Config `vars `
+
+You can use config vars to persist settings across the bot. It is a good practice to consolidate your configuration (e.g., API key) in one place for maintainability. 
+
+![](./config-vars.png)
+
+Configuration variables added in the settings-> configuration, as shown above, can be accessed using **double braces** from plugins (e.g., JSON API) in the following way:
+
+```
+{{config.API_KEY}}
+```
+
+Similarly, you can access them from code,  in the following way:
+
+```javascript
+exports.handler = (context, done) => {
+ 
+    const token = context.config.API_TOKEN;
+    
+    // TODO:
+
+    done();
+};
+```
+
+### Policies
+ * Config var keys should use only alphanumeric characters and the underscore character (_).
+
+ * Config var keys should not begin with a double underscore (__).
+
+
+## Modules
 
 You can use any [nodejs core modules](https://nodejs.org/api/modules.html#modules_core_modules) in the script block, in addition to the following:
 
-## Bot Extension
+### Bot Extension
 Use [bot extension](https://github.com/SmartloopAI/bot-extension) module to print out text or rich media as supported by the underlying platform.
 
 An example showing how to display text dynamically using the extension module:
@@ -89,7 +121,7 @@ exports.handler = (context, done) => {
 };
 ```
 
-## Request
+### Request
 [Request](https://github.com/request/request) is designed to be the simplest way possible to make HTTP calls:
 
 The following example makes a test request to 'httpbin' endpoint.
@@ -122,7 +154,7 @@ Bot wide settings can be configured at a single location using configuration var
 [Allows bi-directional conversation using BOT API](./api-access.md)
 
 ```
-## Moment
+### Moment
 
 Use [moment](https://momentjs.com/) to parse, validate and manipulate and display dates and times. The following example of generating bot timestamp using `moment`:
 
