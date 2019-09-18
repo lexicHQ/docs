@@ -1,4 +1,4 @@
-# View User Chat History
+# User Chat History
 
 Smartloop enables you to view chat histories with customers. 
 
@@ -8,4 +8,4 @@ Visit the Live Chat section:
 
 Click on the name of the user to view the chat history with the user. 
 
-![](.images/chathistory.png)
+![](./images/chathistory.png)
