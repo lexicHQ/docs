@@ -40,33 +40,37 @@ Scroll up a little and find the **THIRD-PARTY INTEGRATION** section.
 
 ![](./images/third-party-integration.png)
 
-Click on the **Freshdesk** icon. This will open up a modal box as shown.
+Click on the "Connect" button in the **Freshdesk** section. This will open up a modal box as shown.
 
-![](./images/freshdesk-configuration.png)
+![](./images/freshdesk-settings-1.png)
+
+::: tip Note
+If you see "Disconnect" in the **Freshdesk** section, it means that the bot is already connected to a Freshdesk account. Click on Disconnect link to unlink it with the **Freshdesk** account.
+:::
 
 We need to enter relevant values from [Freshdesk](https://freshdesk.com/) here.
 
-`Domain`: This is the URL of your Freshdesk home e.g. smartloophelp.freshdesk.com
+`Domain`: This is the account URL of your Freshdesk home e.g. smartloophelp.freshdesk.com
 
 `API Key`: To get the API key, log into your Freshdesk account. Click on your username and then Profile Settings. The profile page consists the API Key as shown below. Copy and paste this key in *API Key* settings in Smartloop.
 
 ![](./images/freshdeskAPI-value.png)
 
-`CompanyId`: Continuing in Freshdesk, click on the People icon, followed by Companies:
+Then click on "Continue".
 
-![](./images/Freshdesk-Companies.png)
+Select the company you want to configure with the bot from drop down available next: 
 
-Once on the Companies page, click on the name of your company (default is Acme Inc.). This will open up your company profile. Copy the company ID from the URL from the browser address section as shown below:
+![](./images/freshdesk-settings-2.png)
 
-![](./images/freshdesk-companyid.png)
-
-This value will need to be pasted in the *Company Id* text box.
+Click on "Connect".
 
 ::: tip
 Inside of the Freshdesk modal please make a note of the `Freshdesk Webhook` value that we will use in the next step.
 :::
 
 Save the values by clicking on the *Connect* button.
+
+![](./images/freshdesk-configuration.png)
 
 An important value that needs to be copied from this screen is the API key found in the **API Access** section as shown below:
 
