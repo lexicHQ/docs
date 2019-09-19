@@ -6,14 +6,6 @@ To configure settings in the Smartloop bot, click on "Configure" button.
 
 ![](./images/settings-configure.png)
 
-Scroll down and find the **CONFIGURATION** section. 
-
-Make sure that the Key `GRAPHQL_URI` exists with value: `https://freshdesk.smartloop.ai/v1/`
-
-If this key doesn't exist, create a new key value pair with the above settings.
-
-![](./images/freshdeskgql-config.png)
-
 Find the **THIRD-PARTY INTEGRATION** section. 
 
 ![](./images/third-party-integration.png)

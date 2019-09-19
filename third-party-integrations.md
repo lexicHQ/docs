@@ -22,6 +22,12 @@ Smartloop provides a comprehensive integration with Freshdesk. Using the bot, yo
 
 [Create a new Freshdesk bot](./freshdesk-integration.md)
 
+:::tip Note
+
+Freshdesk requires minimally a paid account for the integration to work.
+
+:::
+
 ## Freshchat
 
 Smartloop allows Freshchat to be used as a live chat agent from the bot itself. Using the bot, you can: 
@@ -29,7 +35,13 @@ Smartloop allows Freshchat to be used as a live chat agent from the bot itself. 
 2. Bi-directional communicatino with live agent on Freshchat
 3. Terminate chat wth live agent and return to bot
 
-[Create Freshchat integreation](./freshchat-integration.md)
+[Create Freshchat integration](./freshchat-integration.md)
+
+:::tip Note
+
+Freshchat requires "Estate" edition or higher for the integration to work.
+
+:::
 
 
 ## Dashbot
