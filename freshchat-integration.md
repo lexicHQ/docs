@@ -1,5 +1,7 @@
 # How to use Freshchat as a live agent from Smartloop bot
 
+Freshchat is supported for Facebook, Viber and Web.
+
 ## Making changes in the Smartloop bot
 
 To configure settings in the Smartloop bot, click on "Configure" button.
@@ -26,9 +28,9 @@ You will need to provide values in the box above as follows:
 
 This token value should be copied in the *API Token* text box of Smartloop portal.
 
-`Opening message`: This is the starting message that the agent would see when a user initiate a live chat.
+`Opening message`: This is the message that the agent would see when user initiates the live chat.
 
-`Closing message`: This is the message that user would see when an marks the conversation as resolved.
+`Closing message`: This is the message that user would see when an agent marks the conversation as resolved.
 
 ::: tip
 Please make a note of the `Freshchat Webhook` value that we will use in the next step.
