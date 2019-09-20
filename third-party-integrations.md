@@ -17,8 +17,8 @@ Smartloop provides a comprehensive integration with Freshdesk. Using the bot, yo
 2. View the ticket:
     * All tickets raised by you
     * Details of a specific ticket 
-3. Be notified when the ticket gets updated in Freshdesk
-4. Add a comment to the ticket
+3. Push notification when ticket status or new comment is posted.
+4. Post comment to the ticket
 
 [Create a new Freshdesk bot](./freshdesk-integration.md)
 

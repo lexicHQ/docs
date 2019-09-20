@@ -2,6 +2,8 @@
 
 ## Start from an available template
 
+Freshchat is supported for Facebook, Viber and Web.
+
 You can start with any template available in Smartloop when you start a new bot. Alternatively, this template creates a new Customer Service bot for Facebook: [Use This Template](https://dashboard.smartloop.ai/templates/09f2c650216e4e56ad357058e45f1794)
 
 Freshchat is enabled by configuring the Freshchat settings in the bot configuration as mentioned next.
@@ -32,9 +34,9 @@ You will need to provide values in the box above as follows:
 
 This token value should be copied in the *API Token* text box of Smartloop portal.
 
-`Opening message`: Use the default message included or provide your desired message.
+`Opening message`: This is the message that the agent would see when user initiates the live chat.
 
-`Closing message`: Use the default message included or provide your desired message.
+`Closing message`: This is the message that user would see when an agent marks the conversation as resolved.
 
 ::: tip
 Please make a note of the `Freshchat Webhook` value that we will use in the next step.
