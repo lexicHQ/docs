@@ -1,6 +1,12 @@
 # How to use Freshchat as a live agent from Smartloop bot
 
+## Start from an available template
+
 Freshchat is supported for Facebook, Viber and Web.
+
+You can start with any template available in Smartloop when you start a new bot. Alternatively, this template creates a new Customer Service bot for Facebook: [Use This Template](https://dashboard.smartloop.ai/templates/09f2c650216e4e56ad357058e45f1794)
+
+Freshchat is enabled by configuring the Freshchat settings in the bot configuration as mentioned next.
 
 ## Making changes in the Smartloop bot
 
