@@ -14,11 +14,12 @@ To configure settings in the Smartloop bot, click on "Configure" button.
 
 ![](./images/settings-configure.png)
 
-Find the **THIRD-PARTY INTEGRATION** section. 
+Click on Freshchat link from `Configure -> Integrations` section:
 
-![](./images/third-party-integration.png)
+![](./images/freshchat-integration.png)
 
-Click on the **Freshchat** icon. This will open up a modal box as shown. 
+
+This will bring up the step-by-step wizard to complete the integration
 
 ![](./images/freshchat-config.png)
 

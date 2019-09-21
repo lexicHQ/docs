@@ -7,59 +7,38 @@ If you are a software vendor and would like to integrate your service with Samrt
 :::
 
 # Third Party Integrations
-The Smartloop bot can integrate with the following services. 
-
-## Freshdesk
-
-Smartloop provides a comprehensive integration with Freshdesk. Using the bot, you can: 
-1. Raise a new ticket in Freshdesk
-    * Attach appropriate files in support of the ticket
-2. View the ticket:
-    * All tickets raised by you
-    * Details of a specific ticket 
-3. Push notification when ticket status or new comment is posted.
-4. Post comment to the ticket
-
-[Create a new Freshdesk bot](./freshdesk-integration.md)
-
-:::tip Note
-
-Freshdesk requires minimally a paid account for the integration to work.
-
-:::
-
-## Freshchat
-
-Smartloop allows Freshchat to be used as a live chat agent from the bot itself. Using the bot, you can: 
-1. Initiate a chat with a live agent (person)
-2. Bi-directional communicatino with live agent on Freshchat
-3. Terminate chat wth live agent and return to bot
-
-[Create Freshchat integration](./freshchat-integration.md)
-
-:::tip Note
-
-Freshchat requires "Estate" edition or higher for the integration to work.
-
-:::
-
+Integrate Smarloop with various services to unlock the full potential of your Conversation AI bot.
 
 ## Dashbot
-Follow these steps to configure Dashbot with your Smartloop chatbot:
 
-1. Go to [https://reports.dashbot.io/](https://reports.dashbot.io/) and sign up with your credentials. 
-2. Create a new bot to Dashbot: (If you already have the bot created in Dashbot, click on the gear icon (Settings). You will find the API key there)
-   1. Make sure to select the same target platform (i.e. Viber of Facebook Messenger)   
-   2. We’ll suggest to use the same bot name as the one in Smartloop.  
-   3. Fill out the category. After you save your settings, you'll see your’s API key:
-    ![alt text](./Monitor-Dashbot.png "Dashboard API Key")   
-3. Copy the API key. 
-4. Go to [https://dashboard.smartloop.ai](https://dashboard.smartloop.ai) and log in. 
-5. Select your bot. 
-6. Go to  **Configure** and locate the **Integration** section.  
-7. Select **Dashbot**.  
-8. Paste the API key in the field. 
-9. Click the **+Connect** button and you are set!
+Dashbot provides comprehensive, conversational analytics to understand your subscribers and pin-point pitfalls. 
+
+Below are the steps to configure and integrate Dashbot with Smartloop:
+
+First,  go to [https://reports.dashbot.io/](https://reports.dashbot.io/) and sign up with your credentials.
+
+Follow the instructions to register your bot:
+
+![](./images/dashbot/step1.png)
+
+Click "Register"
+
+Copy the API Key from Step 2 and store it in a safe place to use in the next step.
+
+![](./images/dashbot/step2.png)
+
+
+Go to  **Configure-> Integrations**  Click on the "Dashbot" link:
+
+![](./images/dashbot/config.png)
+
+
+This will bring up the configure modal, paste the API key you have copied eariler into the input box:
+
+![](./images/dashbot/config-modal.png)
+
+Click **Connect** and you are all set!
+
 
 ## BotAnalytics
 
@@ -80,3 +59,40 @@ Follow these steps to integrate BotAnalytics with your Smartloop chatbot:
 7. Select **BotAnalytics**.  
 8. Paste the API key (i.e. the token) in the field. 
 9. Click the **+Connect** button and you are set! 
+
+## Freshdesk
+
+:::warning Note
+
+Freshdesk requires minimally a paid account for the integration to work.
+
+:::
+
+Smartloop provides a comprehensive integration with Freshdesk. Using the bot, you can: 
+1. Raise a new ticket in Freshdesk
+    * Attach appropriate files in support of the ticket
+2. View the ticket:
+    * All tickets raised by you
+    * Details of a specific ticket 
+3. Push notification when ticket status or new comment is posted.
+4. Post comment to the ticket
+
+[How to integrate Freshdesk with a Smartloop bot](./freshdesk-integration.md)
+
+
+## Freshchat
+
+
+:::warning Note
+
+Freshchat requires "Estate" edition or higher for the integration to work.
+
+:::
+
+Smartloop allows Freshchat to be used as a live chat agent from the bot itself. Using the bot, you can: 
+1. Initiate a chat with a live agent (person)
+2. Bi-directional communicatino with live agent on Freshchat
+3. Terminate chat wth live agent and return to bot
+
+[How to use Freshchat as a live agent from Smartloop bot
+#Start from an availab](./freshchat-integration.md)

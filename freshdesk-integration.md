@@ -36,11 +36,11 @@ If this key doesn't exist, create a new key value pair with the above settings.
 These values need to remain as is. No change is required in them.
 :::
 
-Scroll up a little and find the **THIRD-PARTY INTEGRATION** section.
+Click on Freshdesk from Configure -> Integrations section as shown below.
 
 ![](./images/third-party-integration.png)
 
-Click on the "Connect" button in the **Freshdesk** section. This will open up a modal box as shown.
+This will bring up a step-by-step wizard configure the integration:
 
 ![](./images/freshdesk-settings-1.png)
 
@@ -50,7 +50,7 @@ If you see "Disconnect" in the **Freshdesk** section, it means that the bot is a
 
 We need to enter relevant values from [Freshdesk](https://freshdesk.com/) here.
 
-`Domain`: This is the account URL of your Freshdesk home e.g. smartloophelp.freshdesk.com
+`Account URL`: This is the URL of your Freshdesk home e.g. **https://smartloophelp.freshdesk.com**
 
 `API Key`: To get the API key, log into your Freshdesk account. Click on your username and then Profile Settings. The profile page consists the API Key as shown below. Copy and paste this key in *API Key* settings in Smartloop.
 
@@ -64,15 +64,11 @@ Select the company you want to configure with the bot from drop down available n
 
 Click on "Connect".
 
-::: tip
-Inside of the Freshdesk modal please make a note of the `Freshdesk Webhook` value that we will use in the next step.
-:::
+Take a note of the `Freshdesk Webhook` that will use in the next step.
 
-Save the values by clicking on the *Connect* button.
+![](./images/freshdesk-webhook.png)
 
-![](./images/freshdesk-configuration.png)
-
-An important value that needs to be copied from this screen is the API key found in the **API Access** section as shown below:
+Next, copy the API key found in the **API Access** section as shown below to your clipboard and store it in a safe location, you will need it later:
 
 ![](./images/smartloop-apikey.png)
 
@@ -86,7 +82,7 @@ Click on Admin icon in the left sidebar, followed by Automations. On the automat
 
 Click on the New Rule button, then name your rule "Smartloop Notifications"
 
-In the *When an action performed by* section, make sure that Agent is selected as below:
+In the *When an action performed by* section, make sure that **Agent** radio button is selected as shown below:
 
 ![](./images/freshdesk-agentaction.png)
 
@@ -112,4 +108,4 @@ To conclude, you would need to include the following two attributes in the Conte
 
 Click on **Preview and save** to save the settings on Freshdesk page. You will now see a summary modal click on **Save and enable**.
 
-You've now connected your Freshdesk account to your Smartloop bot. Finally, [publish this bot to Facebook](./publish.html#facebook)
+You've now successfully connected your Freshdesk account to your Smartloop bot. Finally, [publish this bot to Facebook](./publish.html#facebook)

@@ -20,7 +20,6 @@ module.exports = {
             '/campaign',
             '/broadcasting',
             '/live-chat',
-            '/chat-history',
             '/templates',
             '/collecting-user-data',
             '/channel',
