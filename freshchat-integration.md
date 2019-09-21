@@ -21,7 +21,7 @@ Click on Freshchat link from `Configure -> Integrations` section:
 
 This will bring up the step-by-step wizard to complete the integration
 
-![](./images/freshchat-config.png)
+![](./images/freshchat/config.png)
 
 You will need to provide values in the box above as follows:
 
