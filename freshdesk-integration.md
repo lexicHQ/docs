@@ -12,7 +12,7 @@ Smartloop provides a comprehensive integration with Freshdesk. The bot can:
 
 ## Getting Started
 
-First, you'll need to start with our [Freshdesk Template](https://dashboard.smartloop.ai/templates/4d07a090cfb011e980d2bbfc29bc501b)
+First, you'll need to start with our [Freshdesk Template](https://templates.smartloop.ai/v1/4d07a090cfb011e980d2bbfc29bc501b)
 
 If you don't have an account on Smartloop yet, you will be asked to create a new account.
 
@@ -24,19 +24,17 @@ To configure settings in the Smartloop bot, click on "Configure" button.
 
 ![](./images/settings-configure.png)
 
-Scroll down and find the **CONFIGURATION** section.
+Scroll down to the **CONFIGURATION** section.
 
-Make sure that the Key `GRAPHQL_URI` exists with value: `https://freshdesk.smartloop.ai/v1/`
-
-If this key doesn't exist, create a new key value pair with the above settings.
+You will find an entry with `GRAPHQL_URI` with value `https://freshdesk.smartloop.ai/v1/`, this is used to send notifications to your bot as the a ticket is updated in Freshdesk
 
 ![](./images/freshdeskgql-config.png)
 
-::: tip
-These values need to remain as is. No change is required in them.
+::: warning 
+Please don't remove or alter this value.
 :::
 
-Click on Freshdesk from Configure -> Integrations section as shown below.
+Click on the Freshdesk link under **Configure -> Integrations** section as shown below.
 
 ![](./images/third-party-integration.png)
 
