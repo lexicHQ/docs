@@ -1,22 +1,22 @@
-# How to integrate Freshdesk with a Smartloop bot
+# Integrate Freshdesk with a Smartloop bot
 
+Please follow the simple steps to integrate Freshdesk with a Smartloop bot. 
 
-Smartloop provides a comprehensive integration with Freshdesk. The bot can:
-1. Create a new ticket in Freshdesk
-    * Attach appropriate files in support of the ticket
-2. View the ticket:
-    * All tickets created by the user
-    * Details of a specific ticket
-3. Be notified when the ticket gets updated in Freshdesk
-4. Add a comment to the ticket
+We will be using a pre-built template to jumpstart a few things, ideally our goal is to do the following:
+
+:::tip Freshdesk Integration
+
+* Create a new ticket in Freshdesk.
+* View the ticket details and status:
+* Be notified when a ticket is updated in Freshdesk
+* Add comments to the ticket directly from a messenger bot.
+* Upload attachments.
+
+:::
 
 ## Getting Started
 
-First, you'll need to start with our [Freshdesk Template](https://templates.smartloop.ai/v1/4d07a090cfb011e980d2bbfc29bc501b)
-
-If you don't have an account on Smartloop yet, you will be asked to create a new account.
-
-A new *Facebook* bot will now be created in your account. We will be working with this bot.
+First, you'll need the [Freshdesk Template](https://templates.smartloop.ai/v1/4d07a090cfb011e980d2bbfc29bc501b). Follow the instructions to install it in your account. We will be using it as a starting point to integrate a messenger bot to Freshdesk.
 
 ## Connect Freshdesk to your Smartloop bot
 
