@@ -72,6 +72,13 @@ Note that **messages** is an array and it can be used to send out the following 
 
 Below is are examples of payload for each type:
 
+
+::: tip Messages
+`messages` is an array and JSON values are represented by ECMA-404
+:::
+
+
+
 **Text:**
 ```json
 {
@@ -109,4 +116,3 @@ Below is are examples of payload for each type:
 	]
 }
 ```
-
