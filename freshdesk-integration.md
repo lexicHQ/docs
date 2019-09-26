@@ -16,7 +16,7 @@ We will be using a pre-built template to jumpstart a few things, ideally our goa
 
 ## Getting Started
 
-First, you'll need the [Freshdesk Template](https://templates.smartloop.ai/v1/4d07a090cfb011e980d2bbfc29bc501b). Follow the instructions to install it in your account. We will be using it as a starting point to integrate a messenger bot to Freshdesk.
+First, you'll need the [Freshdesk Template](https://templates.smartloop.ai/v1/4d07a090cfb011e980d2bbfc29bc501b). Follow the instructions to install it in your account. We will be using it as a starting point to integrate a messenger bot with Freshdesk.
 
 ## Connect Freshdesk to your Smartloop bot
 
