@@ -3,6 +3,8 @@ module.exports = {
     description: 'Supercharge Lead Capture with Conversational AI.',
     base : '/',
     themeConfig: {
+        displayAllHeaders: true,
+        sidebarDepth: 2,
         nav: [
           {text: 'Home', link: 'https://smartloop.ai' }
           , { text: 'Dashboard', link: 'https://dashboard.smartloop.ai' }
