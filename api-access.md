@@ -49,7 +49,12 @@ Next, you will define the variables that are required for the particular operati
 {
   "botId": "667e4ca643834eeaddaba2738689325b",
   "userId":"1975278725842955",
-  "messages":"[{\"type\":\"text\", \"text\":\"Hello\"}]"
+  "messages":[
+	{
+		"type" : "text",
+		"text": "Hello world"
+	}
+  ]
 }
 ```
 
@@ -77,8 +82,6 @@ Below is are examples of payload for each type:
 `messages` is an array and JSON values are represented by ECMA-404
 :::
 
-
-
 **Text:**
 ```json
 {
@@ -100,19 +103,21 @@ Below is are examples of payload for each type:
 ```json
 {
 	"type" : "button-template",
-	"text": "description"
-	"buttons": [
-			{
-				"type": "url",
-				"title": "Test",
-				"url": "https://..."
-			},
-			{
-				"type": "postback",
-				"title": "Test",
-				"postback": "block_id"
-			}
-
-	]
+	"template":{
+		"text": "Button Template",
+		"buttons": [
+			
+				{
+					"type": "url",
+					"title": "Test",
+					"url": "https://smartloop.ai"
+				},
+				{
+					"type": "postback",
+					"title": "Start",
+					"postback": "start"
+				}
+			]
+	}
 }
 ```
