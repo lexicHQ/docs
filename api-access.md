@@ -109,7 +109,7 @@ Below is are examples of payload for each type:
 			
 				{
 					"type": "url",
-					"title": "Test",
+					"title": "Smartloop",
 					"url": "https://smartloop.ai"
 				},
 				{
