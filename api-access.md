@@ -121,3 +121,19 @@ Below is are examples of payload for each type:
 	}
 }
 ```
+
+::: tip How to obtain a block identifer
+
+In order to send postback to the bot, you will need the block identifer, an easy to way to get this is through the share dialog.
+
+Click on the `share` icon next to a block name:
+
+![](./block-copy.png)
+
+This will bring up share dialog, copy the identifier to use it inside the button template:
+
+![](./block-identifier.png)
+
+**Note**: The bot must be connected to a channel to obtain the unique identifer.
+
+:::
