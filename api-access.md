@@ -95,7 +95,7 @@ Below is are examples of payload for each type:
 ```json
 {
 	"type" : "image",
-	"image": "URL"
+	"image": "https://smartloop.ai/assets/img/banner.jpg"
 }
 ```
 **Button Template:**
