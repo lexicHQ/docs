@@ -130,10 +130,10 @@ Click on the `share` icon next to a block name:
 
 ![](./block-copy.png)
 
-This will bring up share dialog, copy the identifier to use it inside the button template:
+This will bring up the share dialog, copy the identifier to use it inside an UI element(e.g. button template):
 
 ![](./block-identifier.png)
 
-**Note**: The bot must be connected to a channel to obtain the unique identifer.
+**Note**: The bot must be connected to a channel in order to obtain the unique identifer.
 
 :::
