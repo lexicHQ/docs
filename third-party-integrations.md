@@ -64,7 +64,7 @@ Follow these steps to integrate BotAnalytics with your Smartloop chatbot:
 
 :::warning Note
 
-Freshdesk requires minimally a paid account for the integration to work.
+Freshdesk requires a paid account for the integration to work.
 
 :::
 
@@ -78,3 +78,18 @@ Smartloop provides a comprehensive integration with Freshdesk. Using the bot, yo
 4. Post comment to the ticket
 
 [How to integrate Freshdesk with a Smartloop bot](./freshdesk-integration.md)
+
+## Freshchat		
+
+:::warning Note		
+
+Freshchat requires "Estate" plan or higher for the integration to work.		
+
+:::		
+
+Smartloop allows Freshchat to be used as a live chat agent from the bot itself. Using the bot, you can: 		
+1. Initiate a chat with a live agent (person)		
+2. Bi-directional communication with live agent on Freshchat		
+3. Terminate chat wth live agent and return to bot		
+
+[How to use Freshchat as a live agent from Smartloop bot](./freshchat-integration.md)

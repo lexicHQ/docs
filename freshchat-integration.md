@@ -1,14 +1,10 @@
 # How to use Freshchat as a live agent from Smartloop bot
 
-## Start from an available template
+## Install Template
 
-Freshchat is supported for Facebook, Viber and Web.
+First, you'll need the [Freshworks Template](https://templates.smartloop.ai/v1/4d07a090cfb011e980d2bbfc29bc501b). Follow the instructions to install it in your account. We will be using it as a starting point to integrate a messenger bot with Freshdesk.
 
-You can start with any template available in Smartloop when you start a new bot. Alternatively, this template creates a new Customer Service bot for Facebook: [Use This Template](https://dashboard.smartloop.ai/templates/09f2c650216e4e56ad357058e45f1794)
-
-Freshchat is enabled by configuring the Freshchat settings in the bot configuration as mentioned next.
-
-## Making changes in the Smartloop bot
+## Customize the Template
 
 To configure settings in the Smartloop bot, click on "Configure" button.
 
@@ -45,8 +41,8 @@ Please make a note of the `Freshchat Webhook` value that we will use in the next
 
 ## Configure Freshchat settings
 
-Login to your Freshchat account, go to Settings -> Webhooks. Use the Freshchat Webhook setting copied in the earlier step and enter it in the Webhook text box:
+Login to your Freshchat account, go to Settings -> Webhooks. Use the Freshchat Webhook copied in the earlier step and enter it in the Webhook text box:
 
 ![](./images/freshchat-webhook.png)
 
-Click on the Save button.
+Click "Save" to continue.
