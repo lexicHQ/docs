@@ -6,7 +6,7 @@ If you are a software vendor and would like to integrate your service with Samrt
 
 :::
 
-# Third Party Integrations
+# Integrations
 Integrate Smarloop with various services to unlock the full potential of your Conversation AI bot.
 
 ## Dashbot

@@ -23,6 +23,56 @@ You can link a block to the persistent menu. Click on "+ Menu Item" button to li
 
 ![](./persistent-menu.png)
 
+### Actions
+
+Suppose that you want to increase your abandon cart revenue. You want to create a campaign that will send a reminder to the user when someone didn't complete the purchase. 
+
+Let's create a block called `purchase` and add the following button:
+
+![](./buy-now.png)
+
+Create another block to receive the notification (e.g. `attempted-purchase`), click on the share link and copy the block ID as shown below:
+
+![](./block-copy-purchase.png)
+
+
+Copy and paste the following script before the `<body/>` tag of your webview:
+
+```javascript
+<script src="https://scripts.smartloop.ai/v1/fb.actions.js"></script>
+<script>
+ window.extAsyncInit = function () {
+ Smartloop.init('ACCESS_TOKEN');
+ Smartloop.executeBlock('BOT_ID', 'BLOCK_ID');
+ };
+ (function (d, s, id) {
+ var js, fjs = d.getElementsByTagName(s)[0];
+ if (d.getElementById(id))
+ return;
+ js = d.createElement(s);
+ js.id = id;
+ js.src = "//connect.facebook.com/en_US/messenger.Extensions.js";
+ fjs.parentNode.insertBefore(js, fjs);
+ }(document, 'script', 'Messenger'));
+</script>
+
+```
+Copy & paste the `ACCESS_TOKEN` from `configure-> api access`.
+
+![](./api-access.png)
+
+Copy & paste the `BOT_ID` from the URL as shown below:
+
+![](./bot_id.png)
+
+Finally, subscribe the user to a campaign to send out a reminder.
+
+![](./complete-purchase.png)
+
+Repeat the process by sending the user to a second attempt flow or mark the subscriber as won/lost.
+
+This process makes it super simple to implement messenger marketing flows in your bot, increase abandon cart revenue, or re-target your subscribers that make the most sense for your use case.
+
 
 ## Website
 
@@ -30,7 +80,7 @@ Website bot gives the user a similar experience to that of a live chat. However,
 
 ### Configure and Install
 
-To install the web chat module, please follow the simple steps below:
+To install the webchat module, please follow the simple steps below:
 
 Click on the configure icon in your dashboard: 
 
@@ -40,7 +90,7 @@ To ensure that it is consistent with your brand, customize the look and feel of 
 ![](./webchat-configure.png)
 
 
-Next, follow the instructions to copy and paste the web chat module to your site:
+Next, follow the instructions to copy and paste the webchat module to your site:
 
 ![](./webchat-installation.png)
 
@@ -60,15 +110,15 @@ Use `setUser` to collect user information to target and engage at a later time:
 
 ```javascript
 webchat.setUser({
-  first_name: 'Jim',
-  last_name: 'Morrison',
-  country : 'US',
-  phone: '+1(---)----,
-  email: 'jim@smartloop.ai'
+ first_name: 'Jim',
+ last_name: 'Morrison',
+ country : 'US',
+ phone: '+1(---)----,
+ email: 'jim@smartloop.ai'
 });
 ```
 
-`window.webchat` is available throughout the scope of the page after the web chat module is initialized.
+`window.webchat` is available throughout the scope of the page after the webchat module is initialized.
 
 
 ### Sending Events to the Bot
@@ -88,13 +138,13 @@ Copy and paste the following script before the `<body/>` tag:
 
 ```javascript
 <script>
-  (function(d) {
-    d.addEventListener('DOMContentLoaded', function() {
-      d.getElementById('request-a-demo').addEventListener('click', function() {
-        webchat.open('block-id');
-      });
-    });
-  })(document);
+ (function(d) {
+ d.addEventListener('DOMContentLoaded', function() {
+ d.getElementById('request-a-demo').addEventListener('click', function() {
+ webchat.open('block-id');
+ });
+ });
+ })(document);
 </script>
 ```
 
@@ -113,7 +163,7 @@ Below is a table with the definition of properties to configure your web chat mo
 | Theme Color | Theme of the bot. It includes icon, text and bar color |
 | Secondary Color | Color of the text bubble. |
 | Greetings text | Shown the first time the page loads.
-| Greetings delay| Delay in seconds before showing the greetings message.  Default = 5 seconds
+| Greetings delay| Delay in seconds before showing the greetings message. Default = 5 seconds
 | Launcher Icon | Start button icon |
 | Silent Mode | On/Off. Default = off |
 
@@ -124,7 +174,7 @@ Below is a table with the definition of properties to configure your web chat mo
 
 Link a Viber event to a block.
 
-Navigate to `Settings -> Events map` section.  Map an event to an existing block as shown below:
+Navigate to `Settings -> Events map` section. Map an event to an existing block, as shown below:
 
 ![](./viber-events.png)
 
@@ -134,5 +184,5 @@ You can map the following events to a block in a **Viber** bot:
 | Type | Property | Comments |
 | -- | -- | -- |
 | conversation_started | event | when a user follows a Viber bot |
-| subscribed | event | Triggered when user sends first message after `conversation_started` | 
+| subscribed | event | Triggered when the user sends the first message after `conversation_started` | 
 | unsubscribed | event | When a user leaves the bot. Use this to remove user info, data, etc.|
