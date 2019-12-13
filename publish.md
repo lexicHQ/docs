@@ -18,7 +18,7 @@ Below is a table showing different types of response supported by each channel:
 
 Connect your bot to a Facebook page using the Connect / Disconnect capability. If you are not already logged in using Facebook, it will take you through the OAuth flow for the required permissions.
 
-![](./facebook-connect.png)
+![](./facebook-connect2.png)
 
 ### Greeting Text
 
