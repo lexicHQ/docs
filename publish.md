@@ -10,7 +10,6 @@ Below is a table showing different types of response supported by each channel:
 | Facebook | Y | Y | Y | Generic Template | Y | Y |
 | Website | Y | Y | Y | Y | Y | Y |
 | Viber | Y | Y | Y | Y | Keyboard Button | -- |
-| Direct Line | Y | Y | Y | Y | Y | Hero Card with Buttons |
 
 ## Facebook
 
