@@ -4,7 +4,7 @@ The copyright/ trademark of individual third-party services mentioned here are o
 
 :::
 
-## Dashbot Integration
+# Dashbot Integration
 
 Dashbot provides comprehensive, conversational analytics to understand your subscribers and pin-point pitfalls. 
 

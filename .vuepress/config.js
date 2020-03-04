@@ -17,6 +17,7 @@ module.exports = {
             '/user-attributes',
             '/capturing-user-input',
             '/redirect-using-go-to',
+            '/capturing-clicks',
             '/json-api',
             '/sending-email-notification',
             '/campaign',
@@ -29,7 +30,7 @@ module.exports = {
             '/api-access',
             '/capabilities',
             '/third-party-integrations',
-            '/resources'
+            '/release-notes'
           ]
           ,lastUpdated: 'Last Updated' // string | boolean
       },
