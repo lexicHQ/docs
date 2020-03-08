@@ -65,7 +65,7 @@ Click on the play button to execute it.
 
 Please check out the documentation to understand the basics of user attributes and get an overview on how to obtain a user Id:
 
-[https://docs.smartloop.ai/user-attributes.html](https://docs.smartloop.ai/user-attributes.html])
+[https://docs.smartloop.ai/user-attributes.html](https://docs.smartloop.ai/user-attributes.html)
 
 ::: tip
 Note that **messages** is an array and it can be used to send out the following types:
