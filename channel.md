@@ -23,6 +23,19 @@ You can link a block to the persistent menu. Click on "+ Menu Item" button to li
 
 ![](./persistent-menu.png)
 
+
+### Customer Chat Plugin
+
+Facebook customer chat plugin allows you to integrate messenger experience into your website. 
+
+Configure your customer chat plugin from `configure -> Customer Chat` as shown below:
+
+![](./customer_chat_plugin.png)
+
+
+Copy and paste the script to your website before the `<body/>` tag.
+
+
 ### Actions
 
 Suppose that you want to increase your abandon cart revenue. You want to create a campaign that will send a reminder to the user when someone didn't complete the purchase. 

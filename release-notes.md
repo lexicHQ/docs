@@ -5,7 +5,7 @@
 
 _February 20, 2020_
 
-New notes plugin. Take notes as you build conversation flow. This improves the readablity of your bot for your teams to uderstand various concepts and design decisions.
+New notes plugin. Take notes as you build conversation flow. It improves the readability of your bot for your teams to understand various concepts and design decisions.
 
 ![](./notes.png)
 
