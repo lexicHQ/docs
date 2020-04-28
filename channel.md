@@ -183,13 +183,11 @@ Below is a table with the definition of properties to configure your web chat mo
 
 ## Viber
 
-### Configuring Viber Events
+### Mapping Bot Events
 
-Link a Viber event to a block.
+Navigate to `Settings -> Map Bot Events` section. Map viber bot events to a block. 
 
-Navigate to `Settings -> Events map` section. Map an event to an existing block, as shown below:
-
-![](./viber-events.png)
+![](./viber-bot-events.png)
 
 
 You can map the following events to a block in a **Viber** bot:
