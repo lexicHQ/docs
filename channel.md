@@ -185,7 +185,7 @@ Below is a table with the definition of properties to configure your web chat mo
 
 ### Mapping Bot Events
 
-Navigate to `Settings -> Map Bot Events` section. Map viber bot events to a block. 
+Navigate to __Settings -> Map Bot Events__ section. Map viber bot events to a block. 
 
 ![](./viber-bot-events.png)
 
