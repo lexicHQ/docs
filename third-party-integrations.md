@@ -1,10 +1,12 @@
+# Integration
+
 :::tip Note
 
 The copyright/ trademark of individual third-party services mentioned here are owned by their respective companies.
 
 :::
 
-# Dashbot Integration
+## Dashbot Integration
 
 Dashbot provides comprehensive, conversational analytics to understand your subscribers and pin-point pitfalls. 
 

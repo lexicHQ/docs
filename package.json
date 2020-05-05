@@ -13,8 +13,9 @@
   },
   "private": true,
   "dependencies": {
-    "vuepress": "^0.14.10",
-    "vuepress-plugin-sitemap": "^2.1.2"
+    "@vuepress/plugin-google-analytics": "^1.4.1",
+    "vuepress": "^1.4.1",
+    "vuepress-plugin-sitemap": "^2.3.1"
   },
   "devDependencies": {
     "aws-sdk": "^2.156.0",

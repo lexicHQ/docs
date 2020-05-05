@@ -194,7 +194,7 @@ When someone messages your bot for the first time or downloads a sticker pack, v
 
 One way to ensure this is to create two different blocks for `conversation_started` and `subscribed` events and apply the design principal, as mentioned above. Map your Viber events as described below to your desired block.
 
-#### Naming Convensions
+#### Naming Conventions
 Make sure your Viber bot name is not too long. Make it short and precise. Viber also has a limitation of 28 characters for a sender name.
 
 ### Mapping Bot Events
