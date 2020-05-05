@@ -1,4 +1,4 @@
-# Create Campaign
+# Creating Campaign
 
 Create a campaign to send messages to the subscribers of your bot at a future date. It will enable you to qualify and nurture your subscribers based on actions and conditions, offer them discounts, and send the new product notifications.
 

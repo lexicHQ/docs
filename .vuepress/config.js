@@ -38,11 +38,6 @@ module.exports = {
   },
   plugins: [
     '@vuepress/google-analytics',
-    { ga: 'UA-91675632-2' },
-    {
-      sitemap: {
-        hostname: 'https://docs.smartloop.ai'
-      }
-    }
+    { ga: 'UA-91675632-2' }
   ]
 }
