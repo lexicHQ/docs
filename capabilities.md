@@ -8,7 +8,6 @@ Bot connector gives you the richest features available in each channel. Below is
 | Facebook | Y | Y | Y | Generic Template | Y | Y |
 | Website | Y | Y | Y | Y | Y | Y |
 | Viber | Y | Y | Y | Y | Keyboard Button | -- |
-| Telegram | Y | Y | N | N |  Keyboard Button | Y | -- |
 
 
 ::: tip Non-UI Elements
