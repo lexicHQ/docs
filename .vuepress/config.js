@@ -34,7 +34,6 @@ module.exports = {
       '/third-party-integrations',
       '/release-notes'
     ]
-    , lastUpdated: 'Last Updated' // string | boolean
   },
   plugins: [
     '@vuepress/google-analytics',

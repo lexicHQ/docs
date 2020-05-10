@@ -30,8 +30,25 @@ In general, an entity can have at least the following properties but not limited
 | start | start index of the highlighted entity in an expression.|
 | end | end index of the highlighted entity in an expression.
 
-## Referring entities in a script block
+## Using entities in a code block
 
-Entities discovered using NLP engine, can be accessed within the script block.
 
-They can be accessed using `context.nlp.entities[0].entity`
+In the above example, we have defined a custom entity `food` to extract a specific word from an utterance. Often, there are cases where we want to wrap that around a custom logic:
+
+Inside a code block, we can reference an entity using `context.nlp.entities.` Below is an example, how to do process entities using code block:
+
+```javascript
+import Ext from 'bot-extension';
+const __ = Ext.default;
+
+exports.handler = (context, done) => {
+    
+    // console.log(context.nlp.entities[0].entity);
+    
+    if (context.nlp.entities[0].value === 'guacamole'){
+        done(__.text("TODO:// logic"))
+    }
+    
+    done();
+};
+```
