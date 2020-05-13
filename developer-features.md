@@ -97,11 +97,10 @@ exports.handler = (context, done) => {
 };
 ```
 
-### Policies
+::: tip
  * Config var keys should use only alphanumeric characters and the underscore character (_).
-
  * Config var keys should not begin with a double underscore (__).
-
+:::
 
 ## Modules
 
@@ -144,16 +143,8 @@ exports.handler = (context, done) => {
     })
 };
 
-## Add Bot wide settings
-
-Bot wide settings can be configured at a single location using configuration variables.
-[How to add configruation variables](./config-vars.md)
-
-## Bot API
-
-[Allows bi-directional conversation using BOT API](./api-access.md)
-
 ```
+
 ### Moment
 
 Use [moment](https://momentjs.com/) to parse, validate and manipulate and display dates and times. The following example of generating bot timestamp using `moment`:

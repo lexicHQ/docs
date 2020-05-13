@@ -35,7 +35,7 @@ In general, an entity can have at least the following properties but not limited
 
 In the above example, we have defined a custom entity `food` to extract a specific word from an utterance. Often, there are cases where we want to wrap that around a custom logic:
 
-Inside a code block, we can reference an entity using `context.nlp.entities.` Below is an example, how to do process entities using code block:
+Inside a code block, we can reference an entity using `context.nlp.entities.` Below is an example, how to process entities using code block:
 
 ```javascript
 import Ext from 'bot-extension';
