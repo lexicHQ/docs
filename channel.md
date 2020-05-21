@@ -111,7 +111,7 @@ Next, follow the instructions to copy and paste the webchat module to your site:
 
 User attributes allows you to track details about your subscribers. You use this data to segment them and send targeted messges to them.
 
-Below is an example, showing how to track basic user profile, as well as custom attributes that could be valuable to quality a lead or provde better support:
+Below is an example, showing how to track basic user profile, as well as custom attributes that could be valuable to qualify a lead or provide better support:
 
 ```javascript
 <script>
@@ -146,7 +146,7 @@ exports.handler = (context, done) => {
 };
 ```
 
-Use the `request` module to save it to a CRM or create addtional attributes based on it.
+Use the `request` module to save it to CRM or create addtional attributes based on it for a more personalized conversational experience.
 
 ### Sending Events to the Bot
 
