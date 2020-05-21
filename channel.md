@@ -107,32 +107,46 @@ Next, follow the instructions to copy and paste the webchat module to your site:
 
 ![](./webchat-installation.png)
 
-### Understanding your Website Visitors
+### Sending User Attributes
 
-Every visitor of your bot gets a unique ID that you can use to track and analyze in various steps of your website flow. 
+User attributes allows you to track details about your subscribers. You use this data to segment them and send targeted messges to them.
 
-Below are the `javascript` API methods that can be used to get the user ID and update the profile:
-
-Get the active user ID using `getUserId`
+Below is an example, showing how to track basic user profile, as well as custom attributes that could be valuable to quality a lead or provde better support:
 
 ```javascript
-const userId = webchat.getUserId()
+<script>
+    window.addEventListener('load', function () {
+        const userId = webchat.getUserId();
+
+        webchat.setUser({
+            first_name: 'John',
+            last_name: 'Doe',
+            country : 'US',
+            email: 'john@smartloop.ai',
+            custom: {
+                external_ip: "172.16.0.1"
+            }
+        });
+    });
+</script>
 ```
 
-Use `setUser` to collect user information to target and engage at a later time:
+In additon to segmenting users, you can capture custom user attributes in the following way from a script block:
 
 ```javascript
-webchat.setUser({
- first_name: 'Jim',
- last_name: 'Morrison',
- country : 'US',
- phone: '+1(---)----,
- email: 'jim@smartloop.ai'
-});
+import Ext from 'bot-extension';
+const __ = Ext.default;
+
+exports.handler = (context, done) => {
+    const externalIP = context.vars.get("external_ip");
+    
+    console.log(externalIP);
+    
+    done();
+};
 ```
 
-`window.webchat` is available throughout the scope of the page after the webchat module is initialized.
-
+Use the `request` module to save it to a CRM or create addtional attributes based on it.
 
 ### Sending Events to the Bot
 
