@@ -27,7 +27,7 @@ You can link a block to the persistent menu. Click on "+ Menu Item" button to li
 ### Call Button
 The call button is used to initiate phone call from you messenger bot. In order to use call button, drop a `Button Template` or `Generic Template` in your block as showng below:
 
-![](./callus.png)
+![](./fbcallbutton.png)
 
 Select "Call" as your option and enter your phone number starting with `+1` followed by country code, area code and number.
 
