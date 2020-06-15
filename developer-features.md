@@ -103,8 +103,7 @@ exports.handler = (context, done) => {
 :::
 
 ## Modules
-
-You can use any [nodejs core modules](https://nodejs.org/api/modules.html#modules_core_modules) in the script block, in addition to the following:
+You can use modules to dynamically render conversation UI elements or make requests to your CRM
 
 ### Bot Extension
 Use [bot extension](https://github.com/SmartloopAI/bot-extension) module to print out text or rich media as supported by the underlying platform.
