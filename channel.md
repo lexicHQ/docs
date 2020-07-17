@@ -23,6 +23,21 @@ You can link a block to the persistent menu. Click on "+ Menu Item" button to li
 
 ![](./persistent-menu.png)
 
+### Ref Links
+
+Ref links can be used to send your subscribers to a specific block.  The format of a ref link is:
+
+```
+https://m.me/<page_id>?ref=<BLOCK_ID>
+```
+
+This can be used to create target flows based on ads preference and implmenting click to messenger capabilities.
+
+You can generate `ref` for a block very easily by clicking on the block action `(share)` link as shown below:
+
+![](./block-actions.png)
+
+
 
 ### Call Button
 The call button is used to initiate phone call from you messenger bot. In order to use call button, drop a `Button Template` or `Generic Template` in your block as showng below:
