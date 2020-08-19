@@ -1,5 +1,17 @@
 # Release Notes
 
+**Smartloop 2020.08.18**
+
+*Viber*
+
+Viber keyboard button updates. This allows you to set additonal attributes for your __keyboard button__ and send it separately after any message.
+
+![](./keyboard-button-update.png)
+
+Note: existing keyboard button will work as it is, in order to take advantage of this new feature, you will need to add/remove your __keyboard button__.
+
+*Web*
+Attachment support, now you can send image in a website bot, this will allow to you capture screenshots using *user-input* plugin from a webiste bot
 
 **Smartloop 2020.02.20**
 
