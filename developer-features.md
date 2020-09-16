@@ -26,39 +26,81 @@ The parameter `context` has the following properties:
 | vars | Set or get custom variables in a conversation scope.
 
 
-## Working with args property
+## Rendering UI Elements dynamically
 
-User input passed via the `args` property:
+You can use script block to render UI elements like , text, image, card, carousel, etc. dynamically.
 
-| Property Name | Description | Type |
-| -- | -- | -- |
-| sender | Unique userId | String |
-| text | Input text.(e.g. Where is San Francisco?) | String |
-| event | Event to trigger an intent. Either text or event is required. | Object |
+### Text response
 
-## Working with nlp property
+```javascript
+import Ext from 'bot-extension';
+const __ = Ext.default;
 
-| Property Name | Description | Type |
-| -- | -- | -- |
-| sender | Unique userId | String |
-| text | Input text.(e.g. Where is San Francisco?) | String |
-| event | Event to trigger an intent. Either text or event is required. | Object |
+exports.handler = (context, done) => {
+    //console.log(context.args);
+    done(__.text("Hello world"));
+};
+```
 
-## Working with vars property
+### Image Response
 
-| Property Name | Description | Type |
-| -- | -- | -- |
-| sender | Unique userId | String |
-| text | Input text.(e.g. Where is San Francisco?) | String |
-| event | Event to trigger an intent. Either text or event is required. | Object |
+```javascript
+import Ext from 'bot-extension';
+const __ = Ext.default;
 
-## Working with events
+exports.handler = (context, done) => {
+    //console.log(context.args);
+    done(__.image("https://docs.smartloop.ai/assets/img/smartloop-dash.d74fc600.png"));
+};
+```
 
-An `event` could be triggered by an action (ex. button click):
+### Button Template
 
-| Property Name | Description | Type |
-| -- | -- | -- |
-| name | Name of the event (e.g., start) that corresponds to an intent name | String |
+```javascript
+import Ext from "bot-extension";
+const __ = Ext.default;
+
+exports.handler = (context, done) => {
+    const button = __.buttonTemplate("Your Summary", [
+            __.postbackButton('Button1', 'about'),
+            __.urlButton('Button2', "https://smartloo.ai")]);
+    done(button);
+};
+```
+
+### Carousel
+
+```javascript
+import Ext from "bot-extension";
+const __ = Ext.default;
+
+exports.handler = (context, done) => {
+  const result = {
+      forecast : [
+          { 
+              id : 1,
+              day : new Date().toISOString(),
+              temp: '60F',
+              icon: 'https://icons.recime.io/1586749644.png'
+          },
+          { 
+              id : 2,
+              day : new Date().toISOString(),
+              temp: '40F',
+              icon: 'https://icons.recime.io/1586749644.png'
+          }
+      ]
+  }
+  const t = __.genericTemplate(result.forecast.map(r => {
+    return __.genericItem(r.day, r.temp, r.icon, 
+        null,[
+            __.postbackButton('Detail', `block_id`)
+        ]);
+  }));
+  
+  done(t);
+};
+```
 
 ## Using variables in script block
 
@@ -69,7 +111,6 @@ To get a variable setup earlier, use `let username = context.vars.get("name")`. 
 You can use variables in text block set using `context.vars.set("name", "John")` in a script block earlier, like this: 
 
 ![](./context-vars.png)
-
 
 
 ## Config `vars `

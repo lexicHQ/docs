@@ -6,7 +6,7 @@
 
 Viber keyboard button updates. This allows you to set additonal attributes for your __keyboard button__ and send it separately after any message.
 
-![](./keyboard-button-update.png)
+![](./keyboard-update.png)
 
 Note: existing keyboard button will work as it is, in order to take advantage of this new feature, you will need to add/remove your __keyboard button__.
 
