@@ -220,18 +220,20 @@ Below is a table with the definition of properties to configure your web chat mo
 
 ## Viber
 
-### Design Consideration
+### Welcome Message
 
-#### Conversation started Event
+:::tip
+ Create two different blocks for `conversation_started` and `subscribed` events and apply the design principal, as mentioned here. Take advantage of viber events and map them to a block.
+:::
 
-When someone messages your bot for the first time or downloads a sticker pack, viber sends out `conversation_started` event. You can only send one message either a simple text or a rich media. Consider `conversation_started` as a welcome block. A good design is to use this block as a segue to engage your subscribers. Give them a way to click on a button (keyboard button) that will start the conversation as users go through the subscription process.
+When someone messages your bot for the first time or downloads a sticker pack, viber sends out `conversation_started` event. You can only send one message either a simple text or a rich media. Consider `conversation_started` as a welcome message. A good design is to use this block as a segue to engage your subscribers. Give them a way to click on a button (keyboard button) to start the conversation.
 
-![](./viber-design-welcome.png)
+Use "Welcome Message" plugin that combines the keyboard and text block for first time users as shown below:
+
+![](./viber-welcome.png)
 
 
-One way to ensure this is to create two different blocks for `conversation_started` and `subscribed` events and apply the design principal, as mentioned above. Map your Viber events as described below to your desired block.
-
-#### Naming Conventions
+### Naming Conventions
 Make sure your Viber bot name is not too long. Make it short and precise. Viber also has a limitation of 28 characters for a sender name.
 
 ### Mapping Bot Events
