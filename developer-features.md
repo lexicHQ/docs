@@ -102,6 +102,18 @@ exports.handler = (context, done) => {
 };
 ```
 
+## Webhook
+Setup webhook to send out conversation data to your application. Click on the settings icon and paste the url where you want the webhook notifcations to be sent:
+
+![](./webhook.png)
+
+Here in the above example, smartloop is going to send notifications for both in/out response to your specific endpoing.
+
+Sample webhook notification:
+
+![](./webhook-sample.png)
+
+
 ## Using variables in script block
 
 The variables can be accessed in any script block. The scope of the variables is global by default. 

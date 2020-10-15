@@ -1,17 +1,18 @@
 # Send Email Notification
 
-Use the "Send Email" plugin to send out a notification when a conversation reaches a certain point. 
+Use the "Send Email" to dynamicaly to send out email notifications to your customers to notify them of an update or send them out any promitional contents.
 
 Click to drop the _Send Email_ plugin to a block.
 
 ![](./send-email.png)
 
+You can use the email plugin to send out notifcations for the following type of use-cases:
+
+* Send email when user does some actions, like order pizza using your bot
+* Send a follow up email using campaign after some events or just to re-target your leads. Very useful for website bot. Make sure to collect email and use it as an attribute to send out notifcations.
+* Nofify yourself when some reaches to a certain point of your bot or requests something (e.g.live-chat). Use the `owner_id` attribute to send email to the owner of account. 
+
 ## Configure
+You can use various [user attributes](./user-attributes.md) to dynamically create your content.
 
-* Enter an email address where you would like to receive a notification. Hit Enter.
-* Specify a Subject, that will let you label the message.
-* Describe the scenario or pass in attributes to track.
-
-You can send various [user attributes](./user-attributes.md) to debug and understand a context.
-
-Once everything configured correctly, you should receive an email from `no-reply at smartloop.ai`
+The email is sent from `no-reply at smartloop.ai`. However, it uses the name of your `bot` as a sender name.
