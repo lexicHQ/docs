@@ -4,13 +4,13 @@ Use the "Send Email" to dynamicaly to send out email notifications to your custo
 
 Click to drop the _Send Email_ plugin to a block.
 
-![](./send-email.png)
+![](./order-confirmation.png)
 
-You can use the email plugin to send out notifcations for the following type of use-cases:
+You can use the email plugin to send out notifcations for the following type of usecases:
 
 * Send email when user does some actions, like order pizza using your bot
-* Send a follow up email using campaign after some events or just to re-target your leads. Very useful for website bot. Make sure to collect email and use it as an attribute to send out notifcations.
-* Nofify yourself when some reaches to a certain point of your bot or requests something (e.g.live-chat). Use the `owner_id` attribute to send email to the owner of account. 
+* Send a follow up email using campaign after some events or just to re-target your leads. Very useful for website bots. Make sure to collect email and use it as an attribute to send out notifcations.
+* Notify yourself when some reaches to a certain point of your bot or requests something (e.g.live-chat). Use the `owner_id` attribute to send email to the owner of account.
 
 ## Configure
 You can use various [user attributes](./user-attributes.md) to dynamically create your content.
