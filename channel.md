@@ -218,6 +218,25 @@ Below is a table with the definition of properties to configure your web chat mo
 | Silent Mode | On/Off. Default = off |
 
 
+### Publish to  Wix
+
+Once you have a custom domain on Wix. Go to Settings of your site's dashboard and click on "Track & Analytics" under advanced:
+
+![](./site-settings.png)
+
+Click on "+ New Tool" from the top right corner of the dialog and then click "Custom":
+
+![](./wix-custom.png)
+
+
+Copy your website bot script from Smartloop "Settings" page and paste it into the textbox as shown here: 
+
+![](./wix-custom-code.png)
+
+Click "Apply" and click on publish from the top right corner of your site's dashboard to make the chat widget live.
+
+![](./wix-publish.png)
+
 ## Viber
 
 ### Welcome Message
