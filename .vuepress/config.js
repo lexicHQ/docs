@@ -18,7 +18,7 @@ module.exports = {
       '/how-to-entities',
       '/user-attributes',
       '/capturing-user-input',
-      '/redirect-using-go-to',
+      '/conditional-flows',
       '/capturing-clicks',
       '/json-api',
       '/sending-email-notification',
