@@ -19,7 +19,7 @@ Next, create a filter on these users from the audience tab as shown below:
 In the above example, we are not only filtering by the platform but ensuring that we have captured the emails. Now, from here on we can create a segment by clicking on the **Save segment as** or do following:
 
 - Use the segment inside a campaign to send out follow up or promotions (Facebook, Viber)
-- Export the list as CSV and combine with existing email tools to build email campaigns mostly which is the case for leads captures from website
+- Export the list as CSV and combine with existing email tools to build email campaigns mostly which is the case for leads captured from website
 - Jump into a direct conversation
 
 
