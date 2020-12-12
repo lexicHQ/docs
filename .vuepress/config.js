@@ -22,6 +22,7 @@ module.exports = {
       '/capturing-clicks',
       '/json-api',
       '/sending-email-notification',
+      '/audience',
       '/campaign',
       '/broadcasting',
       '/live-chat',
