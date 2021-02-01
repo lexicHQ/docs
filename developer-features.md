@@ -1,8 +1,13 @@
 # Developer Features
 
-## Writing Custom Script
+## Custom Script
+
+::: tip 
+Script block is designed to perform smaller tasks in between conversation flows. On free plans, there is a limit of `1000ms` after which the script will terminate. On a paid plan the limit is up to 10s.
+:::
 
 Use script block to push data to CRM and or create dynamic content. 
+
 
 ```javascript
 import Ext from 'bot-extension';
