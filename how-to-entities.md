@@ -13,7 +13,7 @@ It is possible to link the same entity for different words. Like in the above ex
 Entities defined in this way can be used as a user variable in a block like based on selection, it is possible to send a user to a different block using a 'go-to' based on an entity value.
 
 :::tip
-Use the demo template to see it action:
+Use the demo template to see it in action:
 [https://templates.smartloop.ai/v1/b3221d7de73547f085e3a81416db6c91](https://templates.smartloop.ai/v1/b3221d7de73547f085e3a81416db6c91)
 :::
 
