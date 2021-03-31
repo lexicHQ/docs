@@ -29,6 +29,7 @@ module.exports = {
       '/templates',
       '/collecting-user-data',
       '/channel',
+      '/zapier-integration',
       '/developer-features',
       '/api-access',
       '/capabilities',
