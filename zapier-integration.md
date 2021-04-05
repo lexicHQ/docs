@@ -4,14 +4,14 @@ Connect your Smartloop Bot with Zapier to export your subscribers to google shee
 
 There are two ways you can integrate with Zapier:
 
-* Export your subscribers via the "Zapier Event" plugin
+* Export your subscribers via the "Send to Zapier" plugin
 * Send notification to a subscriber for status updates, offer coupon or promotions. 
 
 Here, we will cover a basic flow on how you can export subscribers to a google sheet and then send a confirmation back to demonstrate the integration and setup
 
-The very first step, while in the conversation builder, add the "Zapier Event" plugin to a block in order to trigger the event.
+The very first step, while in the conversation builder, add the "Send to Zapier" plugin to a block in order to trigger the event.
 
-![](./zaiper-event.png)
+![](./send-to-zap.png)
 
 Next, go to [Zaiper](https://zapier.com) and create a new zap as shown here:
 
