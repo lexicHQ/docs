@@ -254,18 +254,3 @@ Use "Welcome Message" plugin that combines the keyboard and text block for first
 
 ### Naming Conventions
 Make sure your Viber bot name is not too long. Make it short and precise. Viber also has a limitation of 28 characters for a sender name.
-
-### Mapping Bot Events
-
-Navigate to __Settings -> Map Bot Events__ section. Map viber bot events to a block. 
-
-![](./viber-bot-events.png)
-
-
-You can map the following events to a block in a **Viber** bot:
-
-| Type | Property | Comments |
-| -- | -- | -- |
-| conversation_started | event | when a user follows a Viber bot |
-| subscribed | event | Triggered when the user sends the first message after `conversation_started` | 
-| unsubscribed | event | When a user leaves the bot. Use this to remove user info, data, etc.|
