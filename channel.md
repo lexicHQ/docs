@@ -245,7 +245,10 @@ Click "Apply" and click on publish from the top right corner of your site's dash
  Create two different blocks for `conversation_started` and `subscribed` events and apply the design principal, as mentioned here. Take advantage of viber events and map them to a block.
 :::
 
-When someone messages your bot for the first time or downloads a sticker pack, viber sends out `conversation_started` event. You can only send one message either a simple text or a rich media. Consider `conversation_started` as a welcome message. A good design is to use this block as a segue to engage your subscribers. Give them a way to click on a button (keyboard button) to start the conversation.
+
+When someone messages your bot for the first time or downloads a sticker pack, viber sends a `conversation_started` event. YYou can only send one message in "conversation_started" block. This is generally a welcome message, greetings or consent for your users. If users are taken to bot after downloading sticker packs then they will immediately be subscribed and taken to the "start" block instead.
+
+Please, consider this design flow while designing new bots. If there is no "conversation_started", it will go to the "default" block.
 
 Use "Welcome Message" plugin that combines the keyboard and text block for first time users as shown below:
 

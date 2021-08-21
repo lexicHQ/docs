@@ -26,13 +26,11 @@ module.exports = {
       '/campaign',
       '/broadcasting',
       '/live-chat',
-      '/templates',
       '/collecting-user-data',
       '/channel',
-      '/zapier-integration',
+      '/sharing',
       '/developer-features',
       '/api-access',
-      '/capabilities',
       '/third-party-integrations',
       '/release-notes'
     ]

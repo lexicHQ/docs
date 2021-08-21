@@ -1,4 +1,4 @@
-# Smartloop Zapier Integration
+## Zapier Integration
 
 Connect your Smartloop Bot with Zapier to export your subscribers to google sheets, mailchimp, or save to CRM and keep your users posted on new updates about your producct or service.
 
