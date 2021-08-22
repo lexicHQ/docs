@@ -24,16 +24,17 @@ If you want to submit your template to our gallery, then please send us an email
 
 ## Collaborators
 
-If you are admin or owner of the bot. You can invite collaborators. There are two types of collaborators:
+If you are an admin or owner of the bot, you can invite collaborators. 
+
+There are two types of collaborators:
 
 * Member
 * Agent
 
 Members have full access to your bot whereas, agents have very limited capabilites. Agents can not modify your bot or converstation flow but they can access live chat and analytics.
 
-Go to settings -> collaborators -> email -> enter to add a new collaborator.
+Go to settings -> collaborators -> type email -> enter to add a new collaborator.
 
 ![](./collaborators.png)
 
-Collaborators will receive an email once invite them. New users will go through the sign up flow after they click on bot link.
-
+Collaborators will receive an email once invited. New users will go through the sign up flow after they click on bot link.
