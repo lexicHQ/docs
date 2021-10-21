@@ -1,5 +1,14 @@
 # Release Notes
 
+**Smartloop 2021.07.31**
+
+Spell check and auto correcation support. When this is enabled, the bot will automatically correct any spelling mistake before applying natural language processing.
+
+You can enable/disable autocorrection from settings as shown here:
+
+![](./spell-check.png)
+
+
 **Smartloop 2020.08.18**
 
 *Viber*
