@@ -206,7 +206,7 @@ To configure the script with a block id, Inside the builder, click on the `</>` 
 
 ### Properties
 
-Below is a table with the definition of properties to configure your web chat module: 
+Below is a table with the definition of properties to configure your widget: 
 
 | Configuration | Value|
 | -- | -- |
@@ -218,24 +218,32 @@ Below is a table with the definition of properties to configure your web chat mo
 | Silent Mode | On/Off. Default = off |
 
 
-### Publish to  Wix
+#### Additional Properties
 
-Once you have a custom domain on Wix. Go to Settings of your site's dashboard and click on "Track & Analytics" under advanced:
+You can further customize the widget by configuring the following properties:
 
-![](./site-settings.png)
+| Name | Value| Default |
+| -- | -- | -- |
+| position | Position the widget to `left` or `right` of screen | `right`|
+| height | Height of the widet (e.g.80%)  | Widget default |
+| attachment | Toggle attachment support `true` or `false`  | `true` |
 
-Click on "+ New Tool" from the top right corner of the dialog and then click "Custom":
+Example:
 
-![](./wix-custom.png)
+```javascript
+<script>
+  (function(d) {
+    window['recime-bot'] = {"id":"##","title":"Smartloop","apiKey":"##","language":"en","primaryColor":"#008eff","secondaryColor":"#eff4fa","avatar":"https://icons.recime.io/13d7bc056350b4f3d56dca1c753ce1e7.png","greetingText":"👋 How can we help you?","greetingDelay":2,"playSound":true, "position": "left", "height": "80%", "attachment": false};
+    var s = d.createElement('script');
+    s.setAttribute('id', 'recime-chatbot-script');
+    s.setAttribute('src', 'https://webchat.smartloop.ai/shim.js');
+    s.setAttribute('async', 'async');
+    d.getElementsByTagName('body')[0].appendChild(s);
+  })(document);
+</script>
 
+```
 
-Copy your website bot script from Smartloop "Settings" page and paste it into the textbox as shown here: 
-
-![](./wix-custom-code.png)
-
-Click "Apply" and click on publish from the top right corner of your site's dashboard to make the chat widget live.
-
-![](./wix-publish.png)
 
 ## Viber
 
