@@ -224,7 +224,7 @@ You can further customize the widget by configuring the following properties:
 
 | Name | Value| Default |
 | -- | -- | -- |
-| position | Position the widget to `left` or `right` of screen | `right`|
+| position | Position the widget to `left` or `right` of the screen | `right`|
 | height | Height of the widet (e.g.80%)  | Widget default |
 | attachment | Toggle attachment support `true` or `false`  | `true` |
 
