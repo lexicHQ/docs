@@ -11,7 +11,7 @@ Here, we will cover a basic flow on how you can export subscribers to a google s
 
 The very first step, while in the conversation builder, add the "Workflows" plugin in the `start` block in order to trigger the event.
 
-![](./workflows.png)
+![](./workflows2.png)
 
 Next, go to [Zaiper](https://zapier.com) and create a new zap as shown here:
 
