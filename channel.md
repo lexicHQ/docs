@@ -1,115 +1,5 @@
 # Channels
 
-
-## Facebook
-
-### Connect your bot to a page
-
-Connect your bot to a Facebook page using the Connect / Disconnect capability. If you are not already logged in using Facebook, it will take you through a wizard to connect Smartloop app to your page.
-
-![](./facebook-connect2.png)
-
-### Greeting Text
-
-Greeting text is shown on the welcome screen. You can update the greeting and include {{user_first_name}}, {{user_last_name}} and {{user_full_name}} to make it more personalized.
-
-![](./greeting-text.png)
-
-### Persistent Menu
-
-The persistent menu allows you to have an always-on user interface element inside Messenger conversations. This is an easy way to help people discover and access the core functionality of your Messenger bot at any point in the conversation.
-
-You can link a block to the persistent menu. Click on "+ Menu Item" button to link blocks as shown below:
-
-![](./persistent-menu.png)
-
-### Ref Links
-
-Ref links can be used to send your subscribers to a specific block.  The format of a ref link is:
-
-```
-https://m.me/<page_id>?ref=<BLOCK_ID>
-```
-
-This can be used to create target flows based on ads preference and implmenting click to messenger capabilities.
-
-You can generate `ref` for a block very easily by clicking on the block action `(share)` link as shown below:
-
-![](./block-actions.png)
-
-
-
-### Call Button
-The call button is used to initiate phone call from you messenger bot. In order to use call button, drop a `Button Template` or `Generic Template` in your block as showng below:
-
-![](./fbcallbutton.png)
-
-Select "Call" as your option and enter your phone number starting with `+1` followed by country code, area code and number.
-
-
-### Customer Chat Plugin
-
-Facebook customer chat plugin allows you to integrate messenger experience into your website. 
-
-Configure your customer chat plugin from `configure -> Customer Chat` as shown below:
-
-![](./customer_chat_plugin.png)
-
-
-Copy and paste the script to your website before the `<body/>` tag.
-
-
-### Actions
-
-Suppose that you want to increase your abandon cart revenue. You want to create a campaign that will send a reminder to the user when someone didn't complete the purchase. 
-
-Let's create a block called `purchase` and add the following button:
-
-![](./buy-now.png)
-
-Create another block to receive the notification (e.g. `attempted-purchase`), click on the share link and copy the block ID as shown below:
-
-![](./block-copy-purchase.png)
-
-
-Copy and paste the following script before the `<body/>` tag of your webview:
-
-```javascript
-<script src="https://scripts.smartloop.ai/v1/fb.actions.js"></script>
-<script>
- window.extAsyncInit = function () {
- Smartloop.init('ACCESS_TOKEN');
- Smartloop.executeBlock('BOT_ID', 'BLOCK_ID');
- };
- (function (d, s, id) {
- var js, fjs = d.getElementsByTagName(s)[0];
- if (d.getElementById(id))
- return;
- js = d.createElement(s);
- js.id = id;
- js.src = "//connect.facebook.com/en_US/messenger.Extensions.js";
- fjs.parentNode.insertBefore(js, fjs);
- }(document, 'script', 'Messenger'));
-</script>
-
-```
-Copy & paste the `ACCESS_TOKEN` from `configure-> api access`.
-
-![](./api-access.png)
-
-Copy & paste the `BOT_ID` from the URL as shown below:
-
-![](./bot_id.png)
-
-Finally, subscribe the user to a campaign to send out a reminder.
-
-![](./complete-purchase.png)
-
-Repeat the process by sending the user to a second attempt flow or mark the subscriber as won/lost.
-
-This process makes it super simple to implement messenger marketing flows in your bot, increase abandon cart revenue, or re-target your subscribers that make the most sense for your use case.
-
-
 ## Website
 
 Website bot gives the user a similar experience to that of a live chat. However, the conversation happens with an automated agent instead of a human. It increases efficiency and improves the quality of service.
@@ -243,6 +133,115 @@ Example:
 </script>
 
 ```
+
+
+## Facebook
+
+### Connect your bot to a page
+
+Connect your bot to a Facebook page using the Connect / Disconnect capability. If you are not already logged in using Facebook, it will take you through a wizard to connect Smartloop app to your page.
+
+![](./facebook-connect2.png)
+
+### Greeting Text
+
+Greeting text is shown on the welcome screen. You can update the greeting and include {{user_first_name}}, {{user_last_name}} and {{user_full_name}} to make it more personalized.
+
+![](./greeting-text.png)
+
+### Persistent Menu
+
+The persistent menu allows you to have an always-on user interface element inside Messenger conversations. This is an easy way to help people discover and access the core functionality of your Messenger bot at any point in the conversation.
+
+You can link a block to the persistent menu. Click on "+ Menu Item" button to link blocks as shown below:
+
+![](./persistent-menu.png)
+
+### Ref Links
+
+Ref links can be used to send your subscribers to a specific block.  The format of a ref link is:
+
+```
+https://m.me/<page_id>?ref=<BLOCK_ID>
+```
+
+This can be used to create target flows based on ads preference and implmenting click to messenger capabilities.
+
+You can generate `ref` for a block very easily by clicking on the block action `(share)` link as shown below:
+
+![](./block-actions.png)
+
+
+
+### Call Button
+The call button is used to initiate phone call from you messenger bot. In order to use call button, drop a `Button Template` or `Generic Template` in your block as showng below:
+
+![](./fbcallbutton.png)
+
+Select "Call" as your option and enter your phone number starting with `+1` followed by country code, area code and number.
+
+
+### Customer Chat Plugin
+
+Facebook customer chat plugin allows you to integrate messenger experience into your website. 
+
+Configure your customer chat plugin from `configure -> Customer Chat` as shown below:
+
+![](./customer_chat_plugin.png)
+
+
+Copy and paste the script to your website before the `<body/>` tag.
+
+
+### Actions
+
+Suppose that you want to increase your abandon cart revenue. You want to create a campaign that will send a reminder to the user when someone didn't complete the purchase. 
+
+Let's create a block called `purchase` and add the following button:
+
+![](./buy-now.png)
+
+Create another block to receive the notification (e.g. `attempted-purchase`), click on the share link and copy the block ID as shown below:
+
+![](./block-copy-purchase.png)
+
+
+Copy and paste the following script before the `<body/>` tag of your webview:
+
+```javascript
+<script src="https://scripts.smartloop.ai/v1/fb.actions.js"></script>
+<script>
+ window.extAsyncInit = function () {
+ Smartloop.init('ACCESS_TOKEN');
+ Smartloop.executeBlock('BOT_ID', 'BLOCK_ID');
+ };
+ (function (d, s, id) {
+ var js, fjs = d.getElementsByTagName(s)[0];
+ if (d.getElementById(id))
+ return;
+ js = d.createElement(s);
+ js.id = id;
+ js.src = "//connect.facebook.com/en_US/messenger.Extensions.js";
+ fjs.parentNode.insertBefore(js, fjs);
+ }(document, 'script', 'Messenger'));
+</script>
+
+```
+Copy & paste the `ACCESS_TOKEN` from `configure-> api access`.
+
+![](./api-access.png)
+
+Copy & paste the `BOT_ID` from the URL as shown below:
+
+![](./bot_id.png)
+
+Finally, subscribe the user to a campaign to send out a reminder.
+
+![](./complete-purchase.png)
+
+Repeat the process by sending the user to a second attempt flow or mark the subscriber as won/lost.
+
+This process makes it super simple to implement messenger marketing flows in your bot, increase abandon cart revenue, or re-target your subscribers that make the most sense for your use case.
 
 
 ## Viber

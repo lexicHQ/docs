@@ -1,17 +1,17 @@
-## Zapier Integration
+# Workflows
 
-Connect your Smartloop Bot with Zapier to export your subscribers to google sheets, mailchimp, or save to CRM and keep your users posted on new updates about your producct or service.
+Create workflows like sending email, raising tickets, when bot reaches to a certain point or triggered by user response or actions.
 
-There are two ways you can integrate with Zapier:
+You can create workflow with `zapier` in the following ways:
 
-* Export your subscribers via the "Send to Zapier" plugin
+* Export your subscribers via the "Workflows" plugin
 * Send notification to a subscriber for status updates, offer coupon or promotions. 
 
 Here, we will cover a basic flow on how you can export subscribers to a google sheet and then send a confirmation back to demonstrate the integration and setup
 
-The very first step, while in the conversation builder, add the "Send to Zapier" plugin to a block in order to trigger the event.
+The very first step, while in the conversation builder, add the "Workflows" plugin in the `start` block in order to trigger the event.
 
-![](./send-to-zap.png)
+![](./workflows.png)
 
 Next, go to [Zaiper](https://zapier.com) and create a new zap as shown here:
 
@@ -27,7 +27,7 @@ For this demo, I will select `Promotions Bot` (created from a default template)
 
 ![](./select-bot.png)
 
-To test your trigger, you will need to reach to the conversation block containtaing the "Zap Event" plugin in your bot to trigger the event and once completed click on "Test Trigger"
+To test your trigger, send a message (e.g. hi) to your to bot.
 
 ![](./success.png)
 
@@ -37,11 +37,11 @@ Create a "Google sheets" step, to create a spreadsheet row, every time a new eve
 
 ![](./sheet1.png)
 
-Map the fields you want to capture, in this demo we are just capturing the *user_id* and *active* attributes from the event:
+Map the fields you want to capture, in this demo we are just capturing the *user_id* and attributes containing user details from the event:
 
 ![](./zap-step2.png)
 
-We can turn on the zap at this step, however, we going to add an additional step that will send a notification to the user as a confirmation
+We can turn on the zap at this step. We are also going to add an additional step that will send a notification to the user as a confirmation.
 
 Select "Send Notification" as an action event:
 
@@ -57,10 +57,11 @@ Test and confirm that you have recevied the test event
 ![](./test-zap.png)
 
 
-Turn on the zap. 
+Turn on the zap.
 
-At this point you have successfully configured your zap using smartloop conversation builder.
+At this point you have successfully configured your zap using smartloop conversation platform.
 
 ---
 
 Please reach out to [support@smartloop.ai](mailto:support@smartloop.ai), if you have questions or can't get through the steps and we will be happy to help you.
+

@@ -21,7 +21,6 @@ module.exports = {
       '/conditional-flows',
       '/capturing-clicks',
       '/json-api',
-      '/sending-email-notification',
       '/audience',
       '/campaign',
       '/broadcasting',
@@ -31,7 +30,7 @@ module.exports = {
       '/sharing',
       '/developer-features',
       '/api-access',
-      '/third-party-integrations',
+      '/workflows',
       '/release-notes'
     ]
   },
