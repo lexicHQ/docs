@@ -20,14 +20,14 @@ Here is a list of default attributes names accessible from within the conversati
 
 It is also possible to define your own custom attributes using `User Attribute` plugin. 
 
-![](./user-attribute.png)
+![](./user-attributes.png)
 
-Use variables to trigger a conditional flow as shown below:
+Use attributes to trigger a conditional flow as shown below:
 
-![](./user-attribute-goto.png)
+![](./conditional.png)
 
 
-Or as a filter criteria to send a broadcast (a.k.a. push notifications) to a specific group of subscribers:
+Or as a filter criteria to send a message to a specific group of subscribers:
 
 ![](./variable-broadcast.png)
 
