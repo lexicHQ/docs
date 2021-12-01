@@ -9,10 +9,9 @@ Here is a list of default attributes names accessible from within the conversati
 
 | Platform | Attribute name | comments|
 | -- | -- | -- |
+| Website | first_name, last_name, email, phone | These are a placeholder for website bot and updated automatically when a value is set or updated using `website.setUser` |
 | Facebook | first_name, last_name, profile_pic, gender, locale, timezone | -- |
 | Viber | first_name, last_name, language, country | -- |
-| Telegram | first_name, last_name | -- |
-| Website | first_name, last_name, email, phone | These are a placeholder for website bot and updated automatically when a value is set or updated using `website.setUser` |
 
 ::: tip  How to obtain a user Id?
  Obtain a user Id, using the  **double braces** syntax as `user_id`. User id for a channel is unique and can be used to track or send a message using `chat-api`
