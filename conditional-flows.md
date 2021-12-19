@@ -7,7 +7,7 @@ Here, in the example, the bot will take the user to confirm transactions on the 
 ![](./go-to-input.png)
 
 
-Next, we are capturing the user input and validating it for a given pattern `?(Yes:No)`:
+Next, we are carepturing the user input and validating it for a given pattern `?(Yes:No)`:
 
 ![](./go-to-user-input.png)
 

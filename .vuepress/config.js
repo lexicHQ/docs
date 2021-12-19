@@ -21,6 +21,7 @@ module.exports = {
       '/conditional-flows',
       '/capturing-clicks',
       '/json-api',
+      '/sending-email-notification',
       '/audience',
       '/campaign',
       '/broadcasting',
