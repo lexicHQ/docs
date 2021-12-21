@@ -1,5 +1,9 @@
 # Workflows
 
+::: warning Not supported in Test mode
+You will need to test `workflows` in the bot itself. It will be skipped in the test bot.
+:::
+
 Create workflows like sending email, raising tickets, when bot reaches to a certain point or triggered by user response or actions.
 
 You can create workflow with `zapier` in the following ways:

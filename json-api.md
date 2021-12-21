@@ -1,6 +1,6 @@
 # Integrations using JSON API
 
-It is possible to integrate with your backend using JSON API plugin. It allows you to take data out of the bot to your CRM or even spreadsheet. You can use it with any REST API endpoint that supports the following methods:
+It is possible to integrate with your backend using JSON API plugin. It allows you to take data out of the bot to your CRM or spreadsheet. You can use it with any REST API endpoint that supports the following methods:
 
 * GET
 * POST
@@ -8,7 +8,7 @@ It is possible to integrate with your backend using JSON API plugin. It allows y
 * DELETE
 
 
-Below is an example of a HTTP request in action using JSON API plugin; this is an example of a bot that captures lead information and sends it over to a CRM to process further:
+Below is an example of a HTTP request in action using JSON API plugin; this is an example of a bot that captures lead information and sends it over to a CRM to process:
 
 ![](./json-api-integration.png)
 
@@ -38,3 +38,13 @@ In a nutshell, JSON API plugin allows you to implement the following use-cases:
 1. Retrieve dynamic content.
 2. Create server-side integrations, where it will send data to an endpoint whenever a conversation reaches a certain point.
 3. Trigger an event.
+
+
+## Additional Attribtues
+
+You can send the following attributes in your request along with `user attributes` that you have defined:
+
+| Attribute | Description |
+| -- | -- |
+| bot_id | Unique ID of the bot
+| user_id |  Bot user Id

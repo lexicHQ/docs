@@ -1,5 +1,9 @@
 # Send Email Notification
 
+::: warning Not supported in Test mode
+You will need to test `send email` in the bot itself. It will be skipped in the test bot.
+:::
+
 Use the "Send Email" to dynamicaly to send out email notifications to your customers to notify them of an update or send them out any promitional contents.
 
 Click to drop the _Send Email_ plugin to a block.
