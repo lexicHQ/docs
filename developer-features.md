@@ -66,9 +66,9 @@ import Ext from "bot-extension";
 const __ = Ext.default;
 
 exports.handler = (context, done) => {
-    const button = __.buttonTemplate("Your Summary", [
-            __.postbackButton('Button1', 'about'),
-            __.urlButton('Button2', "https://smartloo.ai")]);
+    const button = __.buttonTemplate("Hello! Welcome to Cars.\nLive with a style 🥰", [
+            __.postbackButton('I want mine','<block_id>'),
+            __.urlButton('Button2', "https://smartloop.ai")]);
     done(button);
 };
 ```
