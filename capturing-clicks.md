@@ -1,8 +1,8 @@
-# Capturing Clicks
+# Capturing Events
 
-You might have a conversation flow where it asks you to click on an application form or takes you to a purchase page. In order to ensure that your leads are converting correctly, it is essential to track your click events.
+It is possible to capture events (e.g. clicking on a link) using a button template
 
-Below is a sample using a Facebook button template:
+Below is a sample using a button template:
 
 ![](./click-event.png)
 
@@ -13,13 +13,12 @@ Here, as the user clicks on the "Get in Touch" link, it will send the user to th
 
 Click events supported in the following components:
 
-**Facebook + Web**
+**Web**
 * Button Template
 * Card 
-* Gallery
 
 **Viber**
 * Keyboard Button
 * Carousel
 
-Use this capability to track your conversation at every step and measure CTR from the messenger.
+Use this capability to track your conversation at every step and measure CTR for your chatbot.
