@@ -1,5 +1,5 @@
 
-# Capture and Validate User Input
+# User Input
 
 Use user input plugin to capture data in your bot. 
 

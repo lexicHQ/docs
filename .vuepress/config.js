@@ -23,15 +23,12 @@ module.exports = {
       '/json-api',
       '/sending-email-notification',
       '/audience',
-      '/campaign',
-      '/broadcasting',
-      '/live-chat',
       '/collecting-user-data',
       '/channel',
       '/sharing',
       '/developer-features',
       '/api-access',
-      '/workflows',
+      '/integration',
       '/release-notes'
     ]
   },
