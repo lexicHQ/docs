@@ -17,8 +17,4 @@ Click events supported in the following components:
 * Button Template
 * Card 
 
-**Viber**
-* Keyboard Button
-* Carousel
-
 Use this capability to track your conversation at every step and measure CTR for your chatbot.

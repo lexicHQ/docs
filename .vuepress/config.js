@@ -27,7 +27,7 @@ module.exports = {
       '/broadcasting',
       '/live-chat',
       '/collecting-user-data',
-      '/channel',
+      '/configuration',
       '/sharing',
       '/developer-features',
       '/api-access',
