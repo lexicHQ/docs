@@ -8,9 +8,7 @@ Download the GraphQL playground from the link below:
 
 Once configured, in the new workspace dialog paste the following endpoint:
 
-```
-https://chat-api.smartloop.ai/v1/graphql
-```
+[https://chat-api.smartloop.ai/v1/graphql](https://chat-api.smartloop.ai/v1/graphql)
 
 Click “Open”. 
 

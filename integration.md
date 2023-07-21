@@ -1,21 +1,21 @@
-# Workflows
+# Integration
 
 ::: warning Not supported in Test mode
-You will need to test `workflows` in the bot itself. It will be skipped in the test bot.
+You will need to test `Integration` in the bot itself. It will be skipped in the test bot.
 :::
 
-Create workflows like sending email, raising tickets, when bot reaches to a certain point or triggered by user response or actions.
+Create integrations like sending email, raising tickets for a bot event or triggered by a user action.
 
-You can create workflow with `zapier` in the following ways:
+Integration is supported via `zapier` can be effective in the folloiwng scenarios:
 
-* Export your subscribers via the "Workflows" plugin
-* Send notification to a subscriber for status updates, offer coupon or promotions. 
+* Capture your subscriber details via the "Integration" plugin
+* Trigger events like creating support tickets automatically
 
-Here, we will cover a basic flow on how you can export subscribers to a google sheet and then send a confirmation back to demonstrate the integration and setup
+Here, we will cover a basic flow on how you can export subscribers to a google sheet and then send a confirmation back with an email to demonstrate the integration and setup
 
-The very first step, while in the conversation builder, add the "Workflows" plugin in the `start` block in order to trigger the event.
+The very first step, while in the conversation builder, add the "Integration" plugin in the `start` block in order to trigger the event.
 
-![](./workflows2.png)
+![](./integration.png)
 
 Next, go to [Zaiper](https://zapier.com) and create a new zap as shown here:
 

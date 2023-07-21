@@ -1,8 +1,4 @@
-# Modifying User Profiles
-
-::: warning Website Bot Only
-It is only possible to modify user profiles for a website bot. In messenger bot it is set by facebook thus readonly.
-:::
+# Capturing User Profile
 
 
 To qualify a lead, it is essential that we collect user information that will help us re-engage at a later time. There are built-in user attributes that can be set automatically from input to achieve just that.

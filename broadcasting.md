@@ -1,5 +1,9 @@
 # Broadcasting
 
+::: Viber Only
+Broadcasting is only supported in Viber. Rate limiting applies to the Viber platform rules
+:::
+
 Broadcasting let you send messages to your customers and giving businesses drive more traffic to the product and engagement with customers in a personal way. Broadcasts can be used to notify users of the update of your product and give them a specific call to action to drive them to a flow in your bot.
 
 
@@ -48,8 +52,3 @@ Press "Send | Schedule | Save" based on what you want to do next.
 You can clone an already sent broadcast. Click on the icon from the "History" box to clone. You will then be able to modify and send it as mentioned above.
 
 ![](./clone-broadcast.png)
-
-## Rate Limiting
-
-Broadcast has a rate limit and counts towards the message count based on the number of subscribers it is sent to. On top of it, there is platform limitation, for example, WeChat will only allow you to send single broadcast per day.
-

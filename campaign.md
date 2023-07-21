@@ -1,4 +1,8 @@
-# Creating Campaign
+# Create Campaign
+
+::: Viber Only
+Campaign is only supported in Viber. Rate limiting applies to the Viber platform rules
+:::
 
 Create a campaign to send messages to the subscribers of your bot at a future date. It will enable you to qualify and nurture your subscribers based on actions and conditions, offer them discounts, and send the new product notifications.
 
