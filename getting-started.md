@@ -1,89 +1,67 @@
 # Getting Started
 
-In this tutorial, you will create your very own facebook messenger bot. 
+In this tutorial, you will learn how to create and deploy your first website bot. This assumes that you have already created an account in `smartloop` platform.
 
-Use [Facebook](https://www.facebook.com/) or [create a new account](https://dashboard.smartloop.ai) using a valid email. Once inside the dashboard, press the *"+"* thumbnail to get started:
+If you have not yet, you can do it so here:
 
-![](./dashboard.smartloop.ai.png)
+[Registration](https://dashboard.smartloop.ai/sign-up)
 
-This will bring up the step by step wizard:
-
-![](./dashboard.smartloop.ai_bots_new.png)
-
-Enter the bot title, select a platform. In this case, “Facebook”.  
-
-Click “Submit”.
-
-On the next step, you will choose a template or start from a new bot. In this case, select "blank bot":
-
-![](./dashboard.smartloop.ai_bots_new_template.png)
+Once you have created and verfiied your account, you will be presented with a templates page:
 
 
-Click "Next".
-
-Connect your bot to a page; if you are not already logged in using Facebook, it will guide you through the process:
-
-![](./dashboard.smartloop.ai_bots_new_channel.png)
+![](./templates.png)
 
 
-Click "Continue".
+For this example, let's pick `Appointment Booking` template. Once, you click, it will bootstrap the bot and take you to the conversation builder page:
+
+![](./c-builder.png)
 
 
-::: tip What is a block?
-A block contains expressions and responses. You can also trigger a block by a user event (e.g.button click) or by user input 
-:::
+Conversation builder is composed around these three key elements:
 
-This will create the bot and take you to the conversation builder once completed.
+* Blocks
+* Components
+* Training
 
-![](./conversation-builder.png)
-
-Once, you are inside the builder; the next step is to build a flow. First, customize the greetings message followed by a quick reply in the following way:
-
-![](./getting-started-1.png)
+I will recommend to go over the [Basic Concepts](basic-concepts.html) of the documenation to familiarize about the various concept around conversation AI and tweaking your chatbot
 
 
-Click on the quick reply button, this will bring up the context dialog, select "User Input" as type and "yes" as reply:
+Now, lets adds a `learn more` block and some expressions to trigger it:
 
-![](./getting-started-user-input-dialog.png)
-
-Create a flow to navigate the user to different flows based on user input. First, capture the user input using the [User Input](capturing-user-input.html) plugin in the following way:
-
-![](./getting-started-user-input.png)
-
-Next, send the user to a specific block using the [Go to Block](redirect-using-go-to.html) plugin. Create an empty block “jokes” and send the user to it based on the user input as shown below:
-
-![](./getting-started-go-to-block.png)
-
-Inside "jokes", add a JSON Plugin to pull random jokes and store it in a user variable in the following way:
-
-![](./getting-started-json-api.png)
-
-Print the joke using a text block in the following way:
-
-![](./getting-started-json-api-result.png)
+![](./learn-more.png)
 
 
-Go to the "start" block and add an alternate flow with information on driving your user to the main loop:
+Here, I've created a `Appointment -> Learn More` block, add a text component and added the following expressions:
 
-![](./getting-started-alternate-main.png)
-
-
-That's it, you have created your first "Chuck Norris" bot.
+* Learn more 
+* I want to learn more
 
 
-![](./dash-jokes.png) 
+You will notice that the train button is `red`, this means that the bot requires training in order for the expressions to take effect
 
 
-Go to your page, click on the “+ Add a Button” and select "Contact us/ Send a Message". In the next step, as where to send the users, choose “Facebook Messenger” to respond.
-
-![](./getting-started-page.png)
-
-Once the button has been added, hover over it and select “Test Button”. This will bring up the bot and click on “Get started” to chat with the bot.
-
-![](./getting-started-fb-test.png)
-
-If you have completed the step, then you are have successfully created and published your first Facebook bot. 
+Click "Train".
 
 
-Next,  check out [Basic Concepts](basic-concepts.html) section for a deep dive on blocks and various chatbot concepts. 
+In a few seconds, you should receive an email that the training is complete and after you can test the bot from the "test" section:
+
+![](./learn-more-test.png)
+
+
+Here, I have used `can I learn more` which is different from what I used for trained, the chatbot uses deep learning to inference between expressions, in this way, even it is not a 100% match it will still understand the expression
+
+
+Next, lets deploy the bot
+
+In order to deploy the bot, lets go to `settings-> installation`. Here, you can customize the color, icons, etc. to reflect your brand. Once completed just copy an paste the script to your website. 
+
+![](./configure-install.png)
+
+
+You can learn more in the [configuration](configuration.html) section of the documentation on how to modify look and feel, deploy properly and customize various attributes that you can use to tweak your bot.
+
+
+Once completed, you are all set, you just created and deployed your first website bot using `smartloop` platform
+
+If you have questions, please ping us at [Support](mailto:support@smartloop.ai) and we would be more than happy to help you in your journey
 
