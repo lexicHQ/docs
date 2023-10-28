@@ -11,10 +11,12 @@ Create an [account](https://dashboard.smartloop.ai) and head to the [Getting Sta
 
 Here are few things to undersand basic concepts:
 
-* [What is User Attributes](https://docs.smartloop.ai/user-attributes.html)
 * [How to build conditional flows](https://docs.smartloop.ai/conditional-flows.html)
+* [What is user attributes](https://docs.smartloop.ai/user-attributes.html)
 * [How to capture user information](https://docs.smartloop.ai/collecting-user-data.html)
+* [How to send events to external service](https://docs.smartloop.ai/json-api.html)
 * [How to integrate with Zapier](https://docs.smartloop.ai/integration.html)
 
 
-If you need help in getting started, please dont hesitate to contact us at [support@smartlop.ai](mailto:support@smartlop.ai)
+
+If you need help in getting started, please dont hesitate to contact us at [support@smartloop.ai](mailto:support@smartloop.ai)
