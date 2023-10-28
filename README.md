@@ -9,5 +9,12 @@ The platform offers you full advantage of the range of structured and rich messa
 Create an [account](https://dashboard.smartloop.ai) and head to the [Getting Started](/getting-started.md) section to publish your first chatbot. 
 
 
+Here are few things to undersand basic concepts:
 
-[Getting Started](https://docs.smartloop.ai/getting-started.html)
+* [What is User Attributes](https://docs.smartloop.ai/user-attributes.html)
+* [How to build conditional flows](https://docs.smartloop.ai/conditional-flows.html)
+* [How to capture user information](https://docs.smartloop.ai/collecting-user-data.html)
+* [How to integrate with Zapier](https://docs.smartloop.ai/integration.html)
+
+
+If you need help in getting started, please dont hesitate to contact us at [support@smartlop.ai](mailto:support@smartlop.ai)
