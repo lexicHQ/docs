@@ -7,7 +7,7 @@ on:
     branches: ["master"]
   
 env:
-  STORAGE_ACCOUNT: 'docs'
+  STORAGE_ACCOUNT: 'docs17698'
 
 jobs:
   build:
@@ -27,7 +27,7 @@ jobs:
         uses: azure/CLI@v1
         with:
           inlineScript: |
-              az storage blob upload-batch --source ./_site --destination '$web' --account-name ${{ env.STORAGE_ACCOUNT }} --overwrite true 
+              az storage blob upload-batch --source ./.vuepress/dist --destination '$web' --account-name ${{ env.STORAGE_ACCOUNT }} --overwrite true 
       - name: logout
         run: |
               az logout
