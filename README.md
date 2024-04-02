@@ -1,6 +1,6 @@
 # Introduction
 
-::: Important 
+::: warning Notice
 As of April 1st 2024 the public platform has beeen discontinued. We are focusing more on generative AI usecases and creating a new product focusing on document, and RAG.
 :::
 
